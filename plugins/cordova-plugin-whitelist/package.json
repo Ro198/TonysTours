@@ -1,0 +1,177 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-whitelist@1.3.5",
+        "scope": null,
+        "escapedName": "cordova-plugin-whitelist",
+        "name": "cordova-plugin-whitelist",
+        "rawSpec": "1.3.5",
+        "spec": "1.3.5",
+        "type": "version"
+      },
+      "C:\\Users\\Rodrigo\\Documents\\ionic v3\\turismo\\tonystours\\node_modules"
+    ]
+  ],
+  "_from": "cordova-plugin-whitelist@1.3.5",
+  "_hasShrinkwrap": false,
+  "_id": "cordova-plugin-whitelist@1.3.5",
+  "_inCache": true,
+  "_integrity": "",
+  "_location": "/cordova-plugin-whitelist",
+  "_nodeVersion": "10.16.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-whitelist_1.3.5_1625124883900_0.8540294254466916"
+  },
+  "_npmUser": {
+    "name": "pvpoyer",
+    "email": "pieter.vanpoyer@portofantwerp.com"
+  },
+  "_npmVersion": "6.14.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-whitelist@1.3.5",
+    "scope": null,
+    "escapedName": "cordova-plugin-whitelist",
+    "name": "cordova-plugin-whitelist",
+    "rawSpec": "1.3.5",
+    "spec": "1.3.5",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-whitelist/-/cordova-plugin-whitelist-1.3.5.tgz",
+  "_shasum": "13e1a6036f1c972135ad48cedeedd897baadf797",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-whitelist@1.3.5",
+  "_where": "C:\\Users\\Rodrigo\\Documents\\ionic v3\\turismo\\tonystours\\node_modules",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-plugin-whitelist/issues"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova Whitelist Plugin",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-+v/VzCYBdGsIxJTP2m+RWaq7l/NLu7b976w6XGJUFiN2TVOeaGrytaR4jRy0w9akRai8uKFeBmuGHmlS/sOeCA==",
+    "shasum": "13e1a6036f1c972135ad48cedeedd897baadf797",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-whitelist/-/cordova-plugin-whitelist-1.3.5.tgz",
+    "fileCount": 8,
+    "unpackedSize": 35472,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg3XAUCRA9TVsSAnZWagAA0PMQAJNC8/hvPRE0cxUJTQTg\nV2CdaHRcMNwVg3fRq5jAIz+AhsmkuMfw/wsieSho/tVztmU92ioG1WBlRXAb\nW0Gzyu0yg6W8QODFlVGfyXz7Raoi3RyZInju5O983DbIL70+dW81zSulGUJx\nxAERgsStUkyYZW+tTysybU9WrxepXV/UWQjycyBSYDsWLvokBMAajoxyc0lL\nV/3tqRG9+0FEIyQ16/Rz2QDS0SKJJIEwqS3oxRK0neDfA5LdYVUxKtYS/ouE\nASaYfqcquMFRaUCwV/zmYv1QWamCjSF9N3XYQQ7OtKd02Aa+KofiDAieGPHH\n9IbO461V0Fi9/sM5GLbLlNiqUx0evGVhBvV6IjMHcgb20ONl/Pko5A2r6tJF\nHqFxWFbJkTNHn13Lwp6rjhOe1ccirYSzcmhR3xrX2zTuIBf3qcS0wi6IyB41\n32CS/H73r9J8+Xcoovtx5K/cHGuFK5J5YP6PMUDX3L/CSqjNxxKHLkZNeLvK\nS/m5O1aiGBhzhePDIJ/es7Zy5F0PPCu4RjgphQKXx7a227M1Qm2BlYb8VT0c\nlP4zzHeBnYSLLKz870ZDUUGRMSe2bdbN1IsUEZqPN7gO9V8Mnhj7TlW1lHQJ\n6L7r6yDGMd98ejy03VloMp2xifb7y6+eaFsAnKKO+SLtMLJpW/dMDeplhR60\nudqG\r\n=7t/w\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "0.0.0": {
+        "cordova-android": ">=4.0.0"
+      },
+      "1.3.5": {
+        "cordova-android": ">=4.0.0 <10.0.0"
+      }
+    }
+  },
+  "homepage": "https://github.com/apache/cordova-plugin-whitelist#readme",
+  "keywords": [
+    "cordova",
+    "whitelist",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "pvpoyer",
+      "email": "pieter.vanpoyer@portofantwerp.com"
+    },
+    {
+      "name": "normanbreau",
+      "email": "norman@nbsolutions.ca"
+    },
+    {
+      "name": "brodybits",
+      "email": "chris.brody+brodybits@gmail.com"
+    },
+    {
+      "name": "dpogue",
+      "email": "darryl@dpogue.ca"
+    },
+    {
+      "name": "cordovaowner",
+      "email": "apachecordovabot@gmail.com"
+    },
+    {
+      "name": "stevegill",
+      "email": "stevengill97@gmail.com"
+    },
+    {
+      "name": "purplecabbage",
+      "email": "purplecabbage@gmail.com"
+    },
+    {
+      "name": "anis",
+      "email": "anis.kadri@gmail.com"
+    },
+    {
+      "name": "filmaj",
+      "email": "maj.fil@gmail.com"
+    },
+    {
+      "name": "bowserj",
+      "email": "bowserj@apache.org"
+    },
+    {
+      "name": "shazron",
+      "email": "shazron@gmail.com"
+    },
+    {
+      "name": "surajpindoria",
+      "email": "pindoria.suraj@gmail.com"
+    },
+    {
+      "name": "erisu",
+      "email": "erisu.dev@outlook.jp"
+    },
+    {
+      "name": "niklasmerz",
+      "email": "NiklasMerz@gmx.net"
+    },
+    {
+      "name": "janpio",
+      "email": "piotrowski+npm@gmail.com"
+    },
+    {
+      "name": "csantanapr",
+      "email": "csantana23@gmail.com"
+    },
+    {
+      "name": "macdonst",
+      "email": "simon.macdonald@gmail.com"
+    },
+    {
+      "name": "jcesarmobile",
+      "email": "jcesarmobile@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-whitelist",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-whitelist.git"
+  },
+  "scripts": {
+    "test": "echo \"no tests implemented for this plugin\""
+  },
+  "version": "1.3.5"
+}
