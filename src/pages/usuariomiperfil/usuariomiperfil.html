@@ -1,0 +1,34 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Mi perfil</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-item class="center">
+
+    
+
+    <h1 id="Username" color="primary"><ion-icon name="paw"  color="primary"></ion-icon>Nombre de usuario: {{perfil.Username}}</h1>
+    <h2>Correo: </h2>      <p id="Correo">{{perfil.Correo}}</p>
+  
+
+    <div padding></div>
+  
+    <h2>Nombre completo: </h2>    <p id="nombreUsuario">{{perfil.nombreUsuario}}</p> 
+    <h2>Nivel de ususario: </h2>   <p id="nivelUsuario">{{perfil.nivelUsuario}}</p>    
+
+
+    </ion-item>
+
+    <button ion-button color="primary" (click)="enlace_editar_usuario()">
+      <ion-icon name="medkit"></ion-icon>
+      Editar 
+    </button>
+
+</ion-content>

@@ -1,0 +1,86 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Datos del cliente</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-item class="center">
+
+
+  <h2>Datos del cliente</h2>
+  <ion-grid>
+    <ion-row>
+      <h2>Cliente:</h2><p id="nombre"> {{datosR.nombre}}</p>
+    </ion-row>
+    <ion-row>
+      <h2>Cliente:</h2><p id="tipoCliente"> {{datosR.tipoCliente}}</p>
+    </ion-row>
+    <ion-row>
+      <h2>Vehiculo Rentado:</h2><p id="vehiculoRentado"> {{datosR.vehiculoRentado}}</p>
+    </ion-row>
+    <ion-row>
+      <h2>Edad: </h2><p id="edad">{{datosR.edad}}</p> 
+    </ion-row>
+    <ion-row>
+      <h2>Telefono: </h2><p id="telefono">{{datosR.telefono}}</p>
+    </ion-row>
+    <ion-row>
+      <h2>Sexo: </h2><p id="sexo">{{datosR.sexo}}</p>
+    </ion-row>
+    <ion-row>
+      <h2>Direccion: </h2><p id="direccion">{{datosR.direccion}}</p> 
+    </ion-row>
+    <ion-row>
+      <h2>Colonia: </h2><p id="colonia">{{datosR.colonia}}</p> 
+    </ion-row>
+    <ion-row>
+      <h2>Ciudad: </h2><p id="ciudad">{{datosR.ciudad}}</p>
+    </ion-row>
+    <ion-row>
+      <h2>Estado: </h2><p id="estado">{{datosR.estado}}</p>
+    </ion-row>
+    <ion-row>
+      <h2>Licencia: </h2><p id="licencia">{{datosR.licencia}}</p> 
+    </ion-row>
+    <ion-row>
+      <h2>Vigencia de la licencia: </h2><p id="fechaLicencia">{{datosR.fechaLicencia}}</p> 
+    </ion-row>
+    <ion-row>
+      <h2>Observaciones del cliente: </h2><p id="observacionesCliente">{{datosR.observacionesCliente}}</p>
+   </ion-row>
+   <ion-row>
+     <h2>Observaciones del vehiculo: </h2><p id="observacionesVehiculo">{{datosR.observacionesVehiculo}}</p>
+   </ion-row>
+   <ion-row>
+     <h2>Vehiculos Rentados: </h2><p id="vehiculosRentados">{{datosR.vehiculosRentados}}</p>
+   </ion-row>
+   <ion-row>
+     <h2>Vehiculos Dañados: </h2><p id="vehiculosMalEstado">{{datosR.vehiculosMalEstado}}</p>
+   </ion-row>
+   <ion-row>
+     <h2>Notas: </h2><p id="notasC">{{datosR.notasC}}</p>
+   </ion-row>
+   <ion-row>
+     <h2>Cliente Activo: </h2><p id="clienteactivo">{{datosR.clienteactivo}}</p>
+   </ion-row>
+   <ion-row>
+     <h2>Notas del historial: </h2><p id="notashistorial">{{datosR.notashistorial}}</p>
+   </ion-row>   
+   <ion-row>
+     <h2>Fecha de alta del cliente: </h2><p id="fechaAltaCliente">{{datosR.fechaAltaCliente}}</p> 
+   </ion-row> 
+  </ion-grid>
+
+  <h2>Atendido por el ultimo usuario que fue: </h2><p id="nombreUsuario">{{datosR.nombreUsuario}}</p> 
+
+</ion-item>
+
+
+
+</ion-content>

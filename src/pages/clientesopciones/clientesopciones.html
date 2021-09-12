@@ -1,0 +1,28 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Activo y no activo</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  
+<ion-card>
+  <img src="img/clientes.jpg" (click)="clientesActivos()" />
+  <div class="card-title">Clientes Activos</div>
+</ion-card>
+
+<ion-card>
+  <img src="img/clientes.jpg" (click)="clientesNoActivos()" />
+  <div class="card-title">Clientes no activos</div>
+</ion-card>
+
+<ion-card>
+  <img src="img/clientes.jpg" (click)="clientesMes()" />
+  <div class="card-title">Clientes por mes</div>
+</ion-card>
+
+</ion-content>

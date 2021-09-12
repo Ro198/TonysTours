@@ -1,0 +1,38 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Detalles de usuario</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-item class="center">
+
+    
+
+    <h1 id="Username" color="primary"><ion-icon name="paw"  color="primary"></ion-icon>Nombre de usuario: {{datosU.Username}}</h1>
+    <h2>Correo: </h2>      <p id="Correo">{{datosU.Correo}}</p>
+  
+
+    <div padding></div>
+  
+    <h2>Nombre completo: </h2>    <p id="nombreUsuario">{{datosU.nombreUsuario}}</p> 
+    <h2>Nivel de ususario: </h2>   <p id="nivelUsuario">{{datosU.nivelUsuario}}</p>    
+    <h2>Fecha de alta al sistema: </h2>    <p id="fechaCreacion">{{datosU.fechaCreacion}}</p>   
+
+    </ion-item>
+
+    <button ion-button color="primary" (click)="enlace_editar_usuario()">
+      <ion-icon name="medkit"></ion-icon>
+      Editar 
+    </button>
+
+    <form #eliminarForm="ngForm">
+     <button ion-button round block color="danger" type="submit" (click)="eliminar(eliminarForm)" >Eliminar</button>
+    </form>
+
+</ion-content>

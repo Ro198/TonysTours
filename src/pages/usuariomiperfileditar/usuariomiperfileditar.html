@@ -1,0 +1,55 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Editar mi perfil</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <form #editarForm="ngForm"> 
+
+    <ion-list>
+      <ion-item>
+        <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Nombre de usuario:</ion-label>
+        <ion-input type="text" [(ngModel)]="datosBDUsuario.Username" name="Username" #Username="ngModel" disabled
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Correo:</ion-label>
+        <ion-input type="text" [(ngModel)]="datosBDUsuario.Correo" name="Correo" #Correo="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Contraseña:</ion-label>
+        <ion-input type="text" [(ngModel)]="datosBDUsuario.Pass" name="Pass" #Pass="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Nombre completo:</ion-label>
+        <ion-input type="text" [(ngModel)]="datosBDUsuario.nombreUsuario" name="nombreUsuario" #nombreUsuario="ngModel" disabled
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Nivel de usuario</ion-label>
+        <ion-select [(ngModel)]="datosBDUsuario.nivelUsuario" name="nivelUsuario" #nivelUsuario="ngModel" required disabled> 
+        <ion-option value="1">1</ion-option>
+        <ion-option value="2">2</ion-option>
+        </ion-select>
+      </ion-item>
+    
+    </ion-list>
+
+  <button ion-button round block color="secondary" type="submit" (click)="editar(editarForm)">Modificar</button>
+
+</form>
+
+</ion-content>

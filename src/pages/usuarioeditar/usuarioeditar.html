@@ -1,0 +1,55 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Editar usuario</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <form #editarForm="ngForm"> 
+
+    <ion-list>
+      <ion-item>
+        <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Nombre de usuario:</ion-label>
+        <ion-input type="text" [(ngModel)]="datosBDUsuario.Username" name="Username" #Username="ngModel" 
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Correo:</ion-label>
+        <ion-input type="text" [(ngModel)]="datosBDUsuario.Correo" name="Correo" #Correo="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Contraseña:</ion-label>
+        <ion-input type="password" [(ngModel)]="datosBDUsuario.Pass" name="Pass" #Pass="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Nombre completo:</ion-label>
+        <ion-input type="text" [(ngModel)]="datosBDUsuario.nombreUsuario" name="nombreUsuario" #nombreUsuario="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Nivel de usuario</ion-label>
+        <ion-select [(ngModel)]="datosBDUsuario.nivelUsuario" name="nivelUsuario" #nivelUsuario="ngModel" required> 
+        <ion-option value="Administrador">Administrador</ion-option>
+        <ion-option value="Estandar">Estandar</ion-option>
+        </ion-select>
+      </ion-item>
+    
+    </ion-list>
+
+  <button ion-button round block color="secondary" type="submit" (click)="editar(editarForm)">Modificar</button>
+
+</form>
+
+</ion-content>

@@ -1,0 +1,81 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Detalles del vehiculo</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <div class="Foto">
+    <img src="{{datosR?.foto}}" id="Foto">
+  </div>
+  
+  <ion-item class="center">
+
+  <h2>Datos del vehiculo</h2>
+      <ion-grid>
+        <ion-row>
+          <h2>Tipo de vehiculo:</h2><p id="tipoVehiculo"> {{datosR.tipoVehiculo}}</p>
+        </ion-row>
+        <ion-row>
+          <h2>Numero de pasajeros:</h2><p id="numeroPasajeros"> {{datosR.numeroPasajeros}}</p>
+        </ion-row>
+        <ion-row>
+          <h2>Placas:</h2><p id="placas"> {{datosR.placas}}</p>
+        </ion-row>
+        <ion-row>
+          <h2>Año: </h2><p id="modelo">{{datosR.modelo}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>Numero de motor: </h2><p id="numeroMotor">{{datosR.numeroMotor}}</p>
+        </ion-row>
+        <ion-row>
+          <h2>Transmicion: </h2><p id="transmicion">{{datosR.transmicion}}</p>
+        </ion-row>
+        <ion-row>
+          <h2>Numero de serie: </h2><p id="numeroSerie">{{datosR.numeroSerie}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>Color: </h2><p id="color">{{datosR.color}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>Kilometraje: </h2><p id="kilometrajeV">{{datosR.kilometrajeV}}</p>
+        </ion-row>
+        <ion-row>
+          <h2>Cristales: </h2><p id="cristalesV">{{datosR.cristalesV}}</p>
+        </ion-row>
+        <ion-row>
+          <h2>Llantas: </h2><p id="llantasV">{{datosR.llantasV}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>Tapiceria: </h2><p id="tapiceriaV">{{datosR.tapiceriaV}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>Documentacion del vehiculo: </h2><p id="documentacionVehiculoV">{{datosR.documentacionVehiculoV}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>Refaccion: </h2><p id="refaccionV">{{datosR.refaccionV}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>Gato: </h2><p id="gatoV">{{datosR.gatoV}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>Vehiculo en mantenimiento: </h2><p id="vehiculoMantenimiento">{{datosR.vehiculoMantenimiento}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>Vehiculo: </h2><p id="vehiculoRentado">{{datosR.autoRentado}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>notas: </h2><p id="notasV">{{datosR.notasV}}</p> 
+        </ion-row>
+      </ion-grid>
+
+      <h2>Atendido por el ultimo usuario que fue: </h2><p id="nombreUsuario">{{datosR.nombreUsuario}}</p> 
+
+</ion-item>
+
+</ion-content>

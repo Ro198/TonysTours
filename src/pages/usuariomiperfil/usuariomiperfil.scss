@@ -1,0 +1,63 @@
+page-usuariomiperfil {
+    .item-avatar  {
+        width:50px !important;
+        height : 50px !important;
+        max-width: 100px !important;  //any size
+        max-height: 100px !important; //any size
+        text-align: center;
+        }
+        
+         .center{
+             margin-left: auto;
+            margin-right: auto;
+            display: block;
+         text-align: center;
+        
+         }
+        
+         .version{
+           font-size: 1.2em;
+           color:white;
+           //text-decoration: underline;
+         }
+        
+        
+        
+        .Imagen {
+          //padding: 20px 0;
+          //min-height: 200px;
+          text-align: center;
+        }
+        
+         .Imagen img {
+          max-width: 120px;
+             background-repeat: no-repeat;
+            background-position: 50%;
+            border-radius: 50%;
+        }
+        
+        .toolbar-title-ios {
+            font-size: 1.7rem;
+            font-weight: 600;
+            text-align: center;
+            color: #387ef5;
+          }
+          
+          .toolbar-title-md {
+            font-size: 1.7rem;
+            font-weight: 600;
+            text-align: center;
+            color: #387ef5;
+          }
+          
+          .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+            color: #387ef5;
+          }
+        
+          .item-md {
+            color: orangered;
+          }
+          .item-ios {
+            color: orangered;
+          }
+}

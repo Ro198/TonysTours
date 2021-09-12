@@ -1,0 +1,89 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Enviar al taller</ion-title>
+
+    <ion-buttons start>
+      <button ion-button  (click)="dismiss()">
+       <span ion-text showWhen="ios, android">Cancelar</span>
+       <ion-icon name="md-close" showWhen="windows"></ion-icon>
+      </button>
+    </ion-buttons>
+    
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <div style="text-align: center;">
+
+    <h2>¡AVISO!</h2>
+
+    <p>El vehiculo se enviara al taller por causas de mantenimiento o por daños al mismo.
+    </p>
+    <br>
+      <P>¿Quieres enviar este vehiculo al taller?</P>
+   
+    
+  </div>
+  
+<br>  
+
+  <form #editarForm="ngForm">
+    
+    <ion-list>
+      <ion-item>
+        <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>¿Cual es tu motivo?</ion-label>
+        <ion-select [(ngModel)]="enviarVehiculoTaller.motivoTaller" name="motivoTaller" #motivoTaller="ngModel" placeholder="motivo" required> 
+        <ion-option value="Afinacion">Afinacion</ion-option>
+        <ion-option value="Golpe">Golpe</ion-option>
+        <ion-option value="Sistema electrico">Sistema electrico</ion-option>
+        <ion-option value="Motor">Motor</ion-option>
+        <ion-option value="Neumaticos">Neumaticos</ion-option>
+        <ion-option value="Direccion">Direccion</ion-option>
+        <ion-option value="Suspension">Suspension</ion-option>
+        <ion-option value="Frenos">Frenos</ion-option>
+        <ion-option value="Transmicion">Transmicion</ion-option>
+        <ion-option value="Sistema de inyeccion">Sistema de inyeccion</ion-option>
+        <ion-option value="Sistema de refrigeracion">Sistema de refrigeracion</ion-option>
+        <ion-option value="Seguridad">Seguridad</ion-option>
+        <ion-option value="Encendido">Encendido</ion-option>
+        <ion-option value="Sistema de escape">Sistema de escape</ion-option>
+        <ion-option value="Interiores">Interiores</ion-option>
+        </ion-select>
+      </ion-item>
+    <ion-item>
+      <ion-icon name="calendar" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>Fecha de entrada:</ion-label>
+      <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="enviarVehiculoTaller.fechaEntrada" name="fechaEntrada" #fechaEntrada="ngModel"></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="create" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>Observaciones:</ion-label>
+      <ion-textarea type="text-area" [(ngModel)]="enviarVehiculoTaller.notasT" name="notasT" #notasT="ngModel" placeholder="Agregar algo adicional - max. 100 caracteres"
+     required></ion-textarea>
+    </ion-item>
+  </ion-list>
+
+  <br>
+
+    <ion-list>
+      <ion-item>
+        <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Vehiculo en estado de:</ion-label>
+        <ion-select [(ngModel)]="enviarVehiculoTaller.vehiculoMantenimiento" name="vehiculoMantenimiento" #vehiculoMantenimiento="ngModel" placeholder="SIN MANTENIMIENTO" required> 
+        <ion-option value="EN MANTENIMIENTO">EN MANTENIMIENTO</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+  <button ion-button round block color="secondary" type="submit" (click)="editar(editarForm)">ENVIAR</button>
+
+</form>
+
+
+</ion-content>

@@ -1,0 +1,137 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Detalles del vehiculo</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <div class="Foto">
+    <img src="{{datosV?.foto}}" id="Foto">
+    <button ion-button color="primary" (click)="enlace_editar_vehiculoFoto()">
+      <ion-icon name="medkit"></ion-icon>
+      Editar foto
+    </button>
+  </div>
+
+  <ion-item class="center">
+
+    
+
+    <h1 id="nombre" color="primary"><ion-icon name="paw"  color="primary"></ion-icon> {{datosV.marcaVehiculo}}</h1>
+    <br>
+      <ion-grid>
+        <ion-row>
+          <h2>Tipo de vehiculo:</h2><p id="tipoVehiculo"> {{datosV.tipoVehiculo}}</p>
+        </ion-row>
+        <ion-row>
+          <h2>Numero de pasajeros:</h2><p id="numeroPasajeros"> {{datosV.numeroPasajeros}}</p>
+        </ion-row>
+        <ion-row>
+          <h2>Placas:</h2><p id="placas"> {{datosV.placas}}</p>
+        </ion-row>
+      </ion-grid>
+
+      <br>
+      <ion-grid>
+        <ion-row>
+          <h2>Año: </h2><p id="modelo">{{datosV.modelo}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>Numero de motor: </h2><p id="numeroMotor">{{datosV.numeroMotor}}</p>
+        </ion-row>
+        <ion-row>
+          <h2>Transmicion: </h2><p id="transmicion">{{datosV.transmicion}}</p>
+        </ion-row>
+        <ion-row>
+          <h2>Numero de serie: </h2><p id="numeroSerie">{{datosV.numeroSerie}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>Color: </h2><p id="color">{{datosV.color}}</p>  
+        </ion-row>
+        <ion-row>
+          <h2>Kilometraje: </h2><p id="kilometrajeV">{{datosV.kilometrajeV}}</p>
+        </ion-row>
+        <ion-row>
+          <h2>Cristales: </h2><p id="cristalesV">{{datosV.cristalesV}}</p>
+        </ion-row>
+        <ion-row>
+          <h2>Llantas: </h2><p id="llantasV">{{datosV.llantasV}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>Tapiceria: </h2><p id="tapiceriaV">{{datosV.tapiceriaV}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>Documentacion del vehiculo: </h2><p id="documentacionVehiculoV">{{datosV.documentacionVehiculoV}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>Refaccion: </h2><p id="refaccionV">{{datosV.refaccionV}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>Gato: </h2><p id="gatoV">{{datosV.gatoV}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>Vehiculo en mantenimiento: </h2><p id="vehiculoMantenimiento">{{datosV.vehiculoMantenimiento}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>Vehiculo: </h2><p id="vehiculoRentado">{{datosV.autoRentado}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>renta: </h2><p id="renta">{{datosV.renta}}</p> 
+        </ion-row>
+        <ion-row>
+          <h2>notas: </h2><p id="notasV">{{datosV.notasV}}</p> 
+        </ion-row>
+      </ion-grid>
+
+      <h2>Idas al taller</h2>
+
+      <ion-grid>
+        <ion-row>
+          <h2>Motivo:</h2><p id="motivoTaller"> {{datosV.motivoTaller}}</p>
+        </ion-row>
+        <ion-row>
+          <h2>Fecha de entrada:</h2><p id="fechaEntrada"> {{datosV.fechaEntrada}}</p>
+        </ion-row>
+        <ion-row>
+          <h2>Observaciones:</h2><p id="notasT"> {{datosV.notasT}}</p>
+        </ion-row>
+        <ion-row>
+          <h2>Fecha de Salida:</h2><p id="fechaSalidaT"> {{datosV.fechaSalidaT}}</p>
+        </ion-row>
+        <ion-row>
+          <h2>Idas al taller:</h2><p id="idasTaller"> {{datosV.idasTaller}}</p>
+        </ion-row>
+      </ion-grid>
+
+   
+      <h2>Atendido por el ultimo usuario que fue: </h2><p id="fechaAltaCliente">{{datosV.nombreUsuario}}</p> 
+
+    </ion-item>
+
+    <button ion-button color="primary" (click)="enlace_editar_vehiculo()">
+      <ion-icon name="medkit"></ion-icon>
+      Editar datos
+    </button> 
+
+    <button ion-button color="secondary" (click)="enlace_Enservicio()">
+      <ion-icon name="medkit"></ion-icon>
+      Enviar a disponibles
+    </button> 
+
+    <button ion-button color="secondary" (click)="enviar_taller()">
+      <ion-icon name="medkit"></ion-icon>
+      Enviar al Taller
+    </button>
+
+    <form #eliminarForm="ngForm">
+      <button ion-button round block color="danger" type="submit" (click)="eliminar(eliminarForm)" >Eliminar</button>
+     </form>
+
+
+
+</ion-content>

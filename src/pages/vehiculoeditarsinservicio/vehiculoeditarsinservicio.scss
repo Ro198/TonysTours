@@ -1,0 +1,33 @@
+page-vehiculoeditarsinservicio {
+    .toolbar-title-ios {
+        font-size: 1.7rem;
+        font-weight: 600;
+        text-align: center;
+        color: #387ef5;
+      }
+      
+      .toolbar-title-md {
+        font-size: 1.7rem;
+        font-weight: 600;
+        text-align: center;
+        color: #387ef5;
+      } 
+      
+      .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #387ef5;
+      }
+      ///cambiar color de CANCELAR
+      .bar-button-default-md, page-nuevavacuna .bar-button-clear-md-default, page-nuevavacuna .bar-button-md-default {
+        color: #f53d3d;
+      }
+      .bar-button-default-ios, page-nuevavacuna .bar-button-clear-ios-default, page-nuevavacuna .bar-button-ios-default {
+        color: #f53d3d;
+      } 
+      
+      .button-ios-secondary {
+        background-color: limegreen;
+      }
+      .button-md-secondary {
+        background-color: limegreen;
+      }
+}

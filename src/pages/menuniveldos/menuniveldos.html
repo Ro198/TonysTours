@@ -1,0 +1,69 @@
+
+<ion-content padding>
+  <br>
+  <div class="logo" style="text-align: center;">
+    <img src="img/M1.png" style="width:96%;">
+  </div> 
+
+  <ion-grid style="text-align: center;">
+    <ion-row>
+      <ion-col>     
+          <button class="bordered" fill="solid" ion-button icon-only (click)="miperfil()" color="verde-limon">
+            <ion-icon name="person"></ion-icon> 
+          </button>
+          <p style="font-size: 10px;">Mi perfil</p>
+      </ion-col>
+      <ion-col>     
+        <button class="bordered" fill="solid" ion-button icon-only (click)="logout()" color="rojo">
+           <ion-icon name="close-circle"></ion-icon>
+        </button>
+        <p style="font-size: 10px;">Cerrar sesión</p>
+    </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-slides pager>
+    <ion-slide>
+      <h4 class="slide-title" color="primary">Vehiculos</h4>
+      <img src="img/M3.png" class="slide-image" (click)="vehiculos()"
+        style="border-radius: 50px;" />
+        <p>Mis vehiculos</p>
+      </ion-slide>
+    <ion-slide>
+      <h4 class="slide-title" color="primary">Clientes</h4>
+      <img src="img/M4.png" class="slide-image" (click)="clientes()"
+        style="border-radius: 50px;" />
+        <p>Mis clientes</p>
+    </ion-slide>
+    <ion-slide>
+      <h4 class="slide-title" color="primary">Historial</h4>
+      <img src="img/M5.png" class="slide-image" (click)="clientesHistorial()"
+      style="border-radius: 50px;" />
+      <p>Historial de clientes</p>
+    </ion-slide>
+  </ion-slides>
+
+  <div class="redes">
+    <ion-grid style="text-align: center; margin-top: -4%;">
+      <ion-row>
+        <ion-col>
+          <img src="img/facebookk.png"
+            onclick="window.open('https://www.facebook.com/tonystours.lp','_system','location=yes')">
+        </ion-col>
+        <ion-col>
+          <img src="img/twitter.png"
+            onclick="window.open('https://twitter.com/grandpetmx?lang=es','_system','location=yes')">
+        </ion-col>
+        <ion-col>
+          <img src="img/instagram.png"
+            onclick="window.open('https://www.instagram.com/grandpet_oficial/?hl=es-la','_system','location=yes')">
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <ion-footer no-border no-shadow color="primary-contrast">
+      <div style="text-align: center;">
+        <img src="img/M2.png" style="width:100%;">
+      </div> 
+  </ion-footer>

@@ -1,0 +1,167 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Editar vehiculo taller</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <form #editarForm="ngForm">
+
+    <ion-list>
+      <ion-item>
+        <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Marca:</ion-label>
+        <ion-input type="text" [(ngModel)]="datosVehiculo.marcaVehiculo" name="marcaVehiculo" #marcaVehiculo="ngModel"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+       <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+       <ion-label stacked>Tipo:</ion-label>
+       <ion-input type="text" [(ngModel)]="datosVehiculo.tipoVehiculo" name="tipoVehiculo" #tipoVehiculo="ngModel"
+        required></ion-input>
+     </ion-item>
+     <ion-item>
+      <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>Numero de pasajeros:</ion-label>
+      <ion-input type="number" [(ngModel)]="datosVehiculo.numeroPasajeros" name="numeroPasajeros" #numeroPasajeros="ngModel" 
+       required></ion-input>
+    </ion-item>
+     <ion-item>
+       <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+       <ion-label stacked>Placas:</ion-label>
+       <ion-input type="text" [(ngModel)]="datosVehiculo.placas" name="placas" #placas="ngModel" 
+        required></ion-input>
+     </ion-item>
+     <ion-item>
+       <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+       <ion-label stacked>Modelo:</ion-label>
+       <ion-input type="number" [(ngModel)]="datosVehiculo.modelo" name="modelo" #modelo="ngModel" 
+        required></ion-input>
+     </ion-item>
+     <ion-item>
+       <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+       <ion-label stacked>Numero de motor:</ion-label>
+       <ion-input type="text" [(ngModel)]="datosVehiculo.numeroMotor" name="numeroMotor" #numeroMotor="ngModel" 
+        required></ion-input>
+     </ion-item>
+     <ion-item>
+       <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+       <ion-label stacked>Transmicion:</ion-label>
+       <ion-select [(ngModel)]="datosVehiculo.transmicion" name="transmicion" #transmicion="ngModel" required> 
+       <ion-option value="Estandar">Estandar</ion-option>
+       <ion-option value="Automatico">Automatico</ion-option>
+       </ion-select>
+     </ion-item>
+     <ion-item>
+       <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+       <ion-label stacked>Numero de serie:</ion-label>
+       <ion-input type="text" [(ngModel)]="datosVehiculo.numeroSerie" name="numeroSerie" #numeroSerie="ngModel"
+        required></ion-input>
+     </ion-item>
+     <ion-item>
+       <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+       <ion-label stacked>Color:</ion-label>
+       <ion-input type="text" [(ngModel)]="datosVehiculo.color" name="color" #color="ngModel"
+        required></ion-input>
+     </ion-item>
+     <ion-item>
+       <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+       <ion-label stacked>Kilometraje:</ion-label>
+       <ion-input type="number" [(ngModel)]="datosVehiculo.kilometrajeV" name="kilometrajeV" #kilometrajeV="ngModel"
+        required></ion-input>
+     </ion-item>
+     <ion-item>
+       <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+       <ion-label stacked>Cristales:</ion-label>
+       <ion-input type="number" [(ngModel)]="datosVehiculo.cristalesV" name="cristalesV" #cristalesV="ngModel"
+        required></ion-input>
+     </ion-item>
+     <ion-item>
+       <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+       <ion-label stacked>Llantas:</ion-label>
+       <ion-input type="number" [(ngModel)]="datosVehiculo.llantasV" name="llantasV" #llantasV="ngModel"
+        required></ion-input>
+     </ion-item>
+     <ion-item>
+       <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+       <ion-label stacked>Tapiceria:</ion-label>
+       <ion-input type="text" [(ngModel)]="datosVehiculo.tapiceriaV" name="tapiceriaV" #tapiceriaV="ngModel"
+        required></ion-input>
+     </ion-item>
+     <ion-item>
+       <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+       <ion-label stacked>Documentacion del vehiculo:</ion-label>
+       <ion-select [(ngModel)]="datosVehiculo.documentacionVehiculoV" name="documentacionVehiculoV" #documentacionVehiculoV="ngModel" required> 
+       <ion-option value="SI">SI</ion-option>
+       <ion-option value="NO">NO</ion-option>
+       </ion-select>
+     </ion-item>
+     <ion-item>
+       <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+       <ion-label stacked>Refaccion:</ion-label>
+       <ion-select [(ngModel)]="datosVehiculo.refaccionV" name="refaccionV" #refaccionV="ngModel" required> 
+       <ion-option value="SI">SI</ion-option>
+       <ion-option value="NO">NO</ion-option>
+       </ion-select>
+     </ion-item>
+     <ion-item>
+       <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+       <ion-label stacked>Gato:</ion-label>
+       <ion-select [(ngModel)]="datosVehiculo.gatoV" name="gatoV" #gatoV="ngModel" required> 
+       <ion-option value="SI">SI</ion-option>
+       <ion-option value="NO">NO</ion-option>
+       </ion-select> 
+     </ion-item>
+     <ion-item>
+       <ion-icon name="create" subtle large item-left color="primary"></ion-icon>
+       <ion-label stacked>Notas:</ion-label>
+       <ion-textarea type="text-area" [(ngModel)]="datosVehiculo.notasV" name="notasV" #notasV="ngModel"
+      required></ion-textarea>
+     </ion-item>
+  
+     <h2>Taller</h2>
+
+     <ion-item>
+      <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>¿Cual es tu motivo?</ion-label>
+      <ion-select [(ngModel)]="datosVehiculo.motivoTaller" name="motivoTaller" #motivoTaller="ngModel" placeholder="motivo" required> 
+      <ion-option value="Afinacion">Afinacion</ion-option>
+      <ion-option value="Golpe">Golpe</ion-option>
+      <ion-option value="Sistema electrico">Sistema electrico</ion-option>
+      <ion-option value="Motor">Motor</ion-option>
+      <ion-option value="Neumaticos">Neumaticos</ion-option>
+      <ion-option value="Direccion">Direccion</ion-option>
+      <ion-option value="Suspension">Suspension</ion-option>
+      <ion-option value="Frenos">Frenos</ion-option>
+      <ion-option value="Transmicion">Transmicion</ion-option>
+      <ion-option value="Sistema de inyeccion">Sistema de inyeccion</ion-option>
+      <ion-option value="Sistema de refrigeracion">Sistema de refrigeracion</ion-option>
+      <ion-option value="Seguridad">Seguridad</ion-option>
+      <ion-option value="Encendido">Encendido</ion-option>
+      <ion-option value="Sistema de escape">Sistema de escape</ion-option>
+      <ion-option value="Interiores">Interiores</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="calendar" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>Fecha de entrada:</ion-label>
+      <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosVehiculo.fechaEntrada" name="fechaEntrada" #fechaEntrada="ngModel"></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="create" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>Observaciones:</ion-label>
+      <ion-textarea type="text-area" [(ngModel)]="datosVehiculo.notasT" name="notasT" #notasT="ngModel" placeholder="Agregar algo adicional - max. 100 caracteres"
+     required></ion-textarea>
+    </ion-item>
+    </ion-list>
+  </form>
+  
+  <button ion-button round block color="secondary" type="submit" (click)="editar(editarForm)">Modificar</button>
+
+  
+</ion-content>

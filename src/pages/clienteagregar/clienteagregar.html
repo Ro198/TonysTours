@@ -1,0 +1,184 @@
+
+
+<ion-header>
+ 
+  <ion-navbar>
+    <ion-title>Nuevo cliente</ion-title>
+
+    <ion-buttons start>
+      <button ion-button  (click)="dismiss()">
+       <span ion-text showWhen="ios, android">Cancelar</span>
+       <ion-icon name="md-close" showWhen="windows"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <form #guardarForm="ngForm">
+    
+     <ion-list>
+        <ion-item>
+          <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Nombre:</ion-label>
+          <ion-input type="text" [(ngModel)]="datosCliente.nombre" name="nombre" #nombre="ngModel" placeholder="Nombre completo" 
+           required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Sexo</ion-label>
+          <ion-select [(ngModel)]="datosCliente.sexo" name="sexo" #sexo="ngModel" placeholder="Genero"> 
+          <ion-option value="Masculino">Masculino</ion-option>
+          <ion-option value="Femenino">Femenino</ion-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>                    
+      <ion-list>
+        <ion-item>
+          <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Edad:</ion-label>
+          <ion-input type="number" [(ngModel)]="datosCliente.edad" name="edad" #edad="ngModel" placeholder="Edad del cliente"
+           required></ion-input>
+        </ion-item>
+      </ion-list>
+      <ion-list> 
+        <ion-item>
+          <ion-icon name="color-palette" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Direccion:</ion-label>
+          <ion-input type="text" [(ngModel)]="datosCliente.direccion" name="direccion" #direccion="ngModel" placeholder="Dirección completa"
+         required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="color-palette" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Colonia:</ion-label>
+          <ion-input type="text" [(ngModel)]="datosCliente.colonia" name="colonia" #colonia="ngModel" placeholder="Colonia"
+         required></ion-input>
+        </ion-item>
+        <ion-item>
+         <ion-icon name="paw" subtle large item-left color="primary"></ion-icon>
+         <ion-label stacked>Telefono:</ion-label>
+          <ion-input type="number" [(ngModel)]="datosCliente.telefono" name="telefono" #telefono="ngModel" placeholder="Casa o celular"
+          required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="color-palette" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Ciudad:</ion-label>
+          <ion-input type="text" [(ngModel)]="datosCliente.ciudad" name="ciudad" #ciudad="ngModel" placeholder="Su ciudad"
+         required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="color-palette" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Estado:</ion-label>
+          <ion-input type="text" [(ngModel)]="datosCliente.estado" name="estado" #estado="ngModel" placeholder="Su estado"
+         required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Licencia</ion-label>
+          <ion-select [(ngModel)]="datosCliente.licencia" name="licencia" #licencia="ngModel" placeholder="Licencia"> 
+          <ion-option value="Vigente">Vigente</ion-option>
+          <ion-option value="No vigente">No vigente</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="calendar" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Fecha de la licencia</ion-label>
+          <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosCliente.fechaLicencia" name="fechaLicencia" #fechaLicencia="ngModel"></ion-datetime>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="create" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Observaciones del cliente:</ion-label>
+          <ion-textarea type="text-area" [(ngModel)]="datosCliente.observacionesCliente" name="observacionesCliente" #observacionesCliente="ngModel" placeholder="Observaciones del cliente - max. 300 caracteres"
+         required></ion-textarea>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="create" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Observaciones del vehiculo:</ion-label>
+          <ion-textarea type="text-area" [(ngModel)]="datosCliente.observacionesVehiculo" name="observacionesVehiculo" #observacionesVehiculo="ngModel" placeholder="Observaciones del vehiculo - max. 300 caracteres"
+         required></ion-textarea>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Tipo de cliente:</ion-label>
+          <ion-select [(ngModel)]="datosCliente.tipoCliente" name="tipoCliente" #tipoCliente="ngModel" placeholder="Cliente nuevo o recurrido"> 
+          <ion-option value="Cliente nuevo">Cliente Nuevo</ion-option>
+          <ion-option value="Cliente Tonys Tours">Cliente Tonys Tours</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Vehiculo rentado:</ion-label>
+          <ion-select [(ngModel)]="datosCliente.vehiculoRentado" name="vehiculoRentado" #vehiculoRentado="ngModel" placeholder="Si esta con vehiculo o sin vehiculo">
+          <ion-option value="RENTANDO">RENTANDO</ion-option>
+          <ion-option value="SIN VEHICULO">SIN VEHICULO</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="color-palette" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Vehiculos Rentados:</ion-label>
+          <ion-input type="number" [(ngModel)]="datosCliente.vehiculosRentados" name="vehiculosRentados" #vehiculosRentados="ngModel" placeholder="Vehiculos usados hasta la fecha"
+         required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="color-palette" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Vehiculos en mal estado:</ion-label>
+          <ion-input type="number" [(ngModel)]="datosCliente.vehiculosMalEstado" name="vehiculosMalEstado" #vehiculosMalEstado="ngModel" placeholder="Vehiculos dañados"
+         required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="create" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Notas:</ion-label>
+          <ion-textarea type="text-area" [(ngModel)]="datosCliente.notasC" name="notasC" #notasC="ngModel" placeholder="Agregar algo adicional - max. 100 caracteres"
+         required></ion-textarea>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Mes</ion-label>
+          <ion-select [(ngModel)]="datosCliente.mes" name="mes" #mes="ngModel">
+          <ion-option value="Sin mes">Sin mes</ion-option>
+          <ion-option value="Enero">Enero</ion-option>
+          <ion-option value="Febrero">Febrero</ion-option>
+          <ion-option value="Marzo">Marzo</ion-option>
+          <ion-option value="Abril">Abril</ion-option>
+          <ion-option value="Mayo">Mayo</ion-option>
+          <ion-option value="Junio">Junio</ion-option>
+          <ion-option value="Julio">Julio</ion-option>
+          <ion-option value="Agosto">Agosto</ion-option>
+          <ion-option value="Septiembre">Septiembre</ion-option>
+          <ion-option value="Octubre">Octubre</ion-option>
+          <ion-option value="Noviembre">Noviembre</ion-option>
+          <ion-option value="Diciembre">Diciembre</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="color-palette" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Anticipo $:</ion-label>
+          <ion-input type="number" [(ngModel)]="datosCliente.anticipo" name="anticipo" #anticipo="ngModel"
+         required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Cliente activo</ion-label>
+          <ion-select [(ngModel)]="datosCliente.clienteactivo" name="clienteactivo" #clienteactivo="ngModel" placeholder="Cliente activo"> 
+          <ion-option value="ACTIVO">ACTIVO</ion-option>
+          <ion-option value="NO ACTIVO">NO ACTIVO</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="create" subtle large item-left color="primary"></ion-icon>
+          <ion-label stacked>Notas del historial:</ion-label>
+          <ion-textarea type="text-area" [(ngModel)]="datosCliente.notashistorial" name="notashistorial" #notashistorial="ngModel" placeholder="Notas para el historial - max. 300 caracteres"
+         required></ion-textarea>
+        </ion-item>
+      </ion-list>
+  
+    
+    <button ion-button round block color="secondary" type="submit" (click)="guardar(guardarForm)">Guardar</button>
+    
+    </form>
+
+</ion-content>

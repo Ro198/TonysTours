@@ -1,0 +1,51 @@
+<ion-content>
+
+  <img src="img/logo.png" style="width : 70% ; margin-top: 35px;">
+
+  <img src="img/circuloV.png" style="margin-left: -25%; width: 45%;">
+
+  <img src="img/urvan.png" style="margin-left: 30%; margin-top: -45%;">
+
+  <form #loginForm="ngForm" id="form">
+   
+    <ion-item clearInput class="item-md">
+      <ion-icon class="icono" name="person" subtle large item-left></ion-icon>
+      <ion-input required spellcheck="false" type="text" [(ngModel)]="login.username" name="username"
+        #username="ngModel" spellcheck="false" required placeholder="Usuario"
+        oninvalid="setCustomValidity('Por favor ingresa tu nombre de usuario')"
+        onchange="try{setCustomValidity('')}catch(e){}" title="Por favor ingresa tu nombre de usuario" type="usuario"
+        maxlength="60"></ion-input>
+    </ion-item>  
+
+    <p [hidden]="username.valid  || submitted==false " color="danger" padding-left></p>
+
+ <br>
+    <ion-item clearInput class="item-md">
+      <ion-icon class="icono" name="key" subtle large item-left></ion-icon>
+      <ion-input required spellcheck="false" type="password" [(ngModel)]="login.password" name="password" placeholder="Contraseña" required
+        #password="ngModel" spellcheck="false" oninvalid="setCustomValidity('Por favor ingresa tu contraseña')"
+        onchange="try{setCustomValidity('')}catch(e){}"></ion-input>
+    </ion-item>
+
+    <p [hidden]="password.valid  || submitted==false " color="danger" padding-left></p>
+
+    <div padding></div>
+
+    <!--Boton Login-->
+    <div class="continuar">
+      <button ion-button round block shape="round"color="btnlogin" type="submit" (click)="loginUser(loginForm)">
+          Iniciar Sesión
+        <ion-icon name="log-in" subtle large item-left></ion-icon>
+      </button>
+    </div>
+
+  </form>
+
+  <img src="img/circuloA.png" style="margin-left: 86%; width: 32%;">
+
+<br>
+
+  <p style="text-align: center; font-size: 12px; margin-top: -29%;">Versión 1.0.0</p>
+  <p style="text-align: center; font-size: 12px;"><B>Tonys Tours</B> | Inicio de sesión | turismo</p>
+
+</ion-content>

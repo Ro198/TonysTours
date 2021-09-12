@@ -1,0 +1,52 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Enviar vehiculo para renta</ion-title>
+
+    <ion-buttons start>
+      <button ion-button  (click)="dismiss()">
+       <span ion-text showWhen="ios, android">Cancelar</span>
+       <ion-icon name="md-close" showWhen="windows"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+
+  <div style="text-align: center;">
+
+    <h2>¡AVISO!</h2>
+
+    <p>Enviar y prepara este vehiculo para ser rentado
+    </p>
+    <br>
+      <P>¿Quieres enviar este vehiculo para la renta?</P>
+   
+    
+  </div>
+  
+<br> 
+
+  <form #editarForm="ngForm">
+    
+    <ion-list>
+      <ion-item>
+        <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Enviar vehiculo a renta</ion-label>
+        <ion-select [(ngModel)]="editarVehiculoRenta.autoRentado" name="autoRentado" #autoRentado="ngModel" placeholder="DISPONIBLES" required> 
+        <ion-option value="PARA LA RENTA">PARA LA RENTA</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+  <button ion-button round block color="secondary" type="submit" (click)="editar(editarForm)">ENVIAR</button>
+
+</form> 
+</ion-content>
+

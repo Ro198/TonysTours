@@ -1,0 +1,29 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Eliminar la renta</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <div style="text-align: center;">
+
+    <h2>¡AVISO!</h2>
+
+    <p>Para que esta sea una baja completa, ahora elimina esta renta de la lista de vehiculos rentados
+    </p>
+    <br>
+
+  </div>
+  
+<br> 
+
+<form #eliminarForm="ngForm">
+  <button ion-button round block color="danger" type="submit" (click)="eliminar(eliminarForm)" >Eliminar</button>
+ </form>
+
+</ion-content>

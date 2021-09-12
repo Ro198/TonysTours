@@ -1,0 +1,53 @@
+
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
+    <ion-title>Usuarios</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <form #guardarForm="ngForm">
+    
+    <ion-list>
+       <ion-item>
+         <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+         <ion-label stacked>Nombre de usuario:</ion-label>
+         <ion-input type="text" [(ngModel)]="datosBDUsuario.Username" name="Username" #Username="ngModel" placeholder="Nombre de usuario"
+          required></ion-input>
+       </ion-item>
+       <ion-item>
+         <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>
+         <ion-label stacked>Correo:</ion-label>
+         <ion-input type="text" [(ngModel)]="datosBDUsuario.Correo" name="Correo" #Correo="ngModel" placeholder="Correo electronico"
+          required></ion-input>
+       </ion-item>
+       <ion-item>
+        <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Contraseña:</ion-label>
+        <ion-input type="password" [(ngModel)]="datosBDUsuario.Pass" name="Pass" #Pass="ngModel" placeholder="Contraseña"
+         required></ion-input>
+      </ion-item> 
+      <ion-item>
+        <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Nombre completo:</ion-label>
+        <ion-input type="text" [(ngModel)]="datosBDUsuario.nombreUsuario" name="nombreUsuario" #nombreUsuario="ngModel" placeholder="Nombre completo del usuario"
+         required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Nivel de usuario</ion-label>
+        <ion-select [(ngModel)]="datosBDUsuario.nivelUsuario" name="nivelUsuario" #nivelUsuario="ngModel" placeholder="Nivel" required> 
+        <ion-option value="Administrador">Administrador</ion-option>
+        <ion-option value="Estandar">Estandar</ion-option>
+        </ion-select>
+      </ion-item>
+
+     </ion-list>                    
+   
+   <button ion-button round block color="secondary" type="submit" (click)="guardar(guardarForm)">Guardar</button>
+   
+   </form>
+
+</ion-content>

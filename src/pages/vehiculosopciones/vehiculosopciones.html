@@ -1,0 +1,29 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Vehiculos opciones</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-card>
+    <img src="img/clientes.jpg" (click)="vehiculosSinServicio()" />
+    <div class="card-title">Vehiculos fuera de servicio</div>
+  </ion-card>
+  
+<ion-card>
+  <img src="img/clientes.jpg" (click)="vehiculosLibres()" />
+  <div class="card-title">Vehiculos disponibles</div>
+</ion-card>
+
+<ion-card>
+  <img src="img/clientes.jpg" (click)="vehiculosOcupados()" />
+  <div class="card-title">Vehiculos para la renta</div>
+</ion-card>
+
+
+</ion-content>

@@ -34,11 +34,83 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #488aff,
-  secondary:  #32db64,
-  danger:     #f53d3d,
-  light:      #f4f4f4,
-  dark:       #222
+  
+titulo: #10CF50,
+boton: #1BC7AF,
+txtuno: #4A6D68,
+txtdos: #505A53,
+relleno: #F8FFFE,
+txteditar: #749E2A,
+txteliminar: #C10000,
+sincolor: #FFFFFF,
+
+botones: #E3EFFE,
+btnlogin: #54BED8,
+verde-limon: #00BF00,
+rojo: #FF0000,
+/** primary **/
+primary: #43cebb,
+primary-rgb: rgb(67, 206, 187),
+primary-contrast: #ffffff,
+primary-contrast-rgb: rgb(255, 255, 255),
+primary-shade: #3bb5a5,
+primary-tint: #56d3c2,
+
+/** secondary **/
+secondary: #3dc2ff,
+secondary-rgb: rgb(61, 194, 255),
+secondary-contrast: #ffffff,
+secondary-contrast-rgb: rgb(255, 255, 255),
+secondary-shade: #36abe0,
+secondary-tint: #50c8ff,
+
+/** success **/
+success: #2dd36f,
+success-rgb: rgb(45, 211, 111),
+success-contrast: #ffffff,
+success-contrast-rgb: rgb(255, 255, 255),
+success-shade: #28ba62,
+success-tint: #42d77d,
+
+ /** warning **/
+ warning: #ffc409,
+ warning-rgb: rgb(255, 196, 9),
+ warning-contrast: #000000,
+ warning-contrast-rgb: rgb(0, 0, 0),
+ warning-shade: #e0ac08,
+ warning-tint: #ffca22,
+
+  /** danger **/
+  danger: #eb445a,
+  danger-rgb: rgb(235, 68, 90),
+  danger-contrast: #ffffff,
+  danger-contrast-rgb: rgb(255, 255, 255),
+  danger-shade: #cf3c4f,
+  danger-tint: #ed576b,
+
+    /** dark **/
+  dark: #222428,
+  dark-rgb: rgb(34, 36, 40),
+  dark-contrast: #ffffff,
+  dark-contrast-rgb: rgb(255, 255, 255),
+  dark-shade: #1e2023,
+  dark-tint: #383a3e,
+
+   /** medium **/
+  medium: #92949c,
+  medium-rgb: rgb(146, 148, 156),
+  medium-contrast: #ffffff,
+  medium-contrast-rgb: rgb(255, 255, 255),
+  medium-shade: #808289,
+  medium-tint: #9d9fa6,
+
+   /** light **/
+  light: #f4f5f8,
+  light-rgb: rgb(244, 245, 248),
+  light-contrast: #000000,
+  light-contrast-rgb: rgb(0, 0, 0),
+  light-shade: #d7d8da,
+  light-tint: #f5f6f9,
 );
 
 

@@ -1,0 +1,48 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Vehiculo renta</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <div style="text-align: center;">
+
+    <h2>¡AVISO!</h2>
+
+    <p>Ya seleccionado este vehiculo para ser rentado, no podras escogerlo nuevamente hasta que se halla dado de baja,
+      una vez realizado la operacion, no podras regresar hasta que hallas terminado de insertar todos los datos de renta
+      para este vechiulo.
+    </p>
+    <br>
+      <P>¿Estas seguro que quieres poner este vehiculo en modo de renta?</P>
+   
+    
+  </div>
+  
+<br> 
+
+  <form #editarForm="ngForm">
+    
+    <ion-list>
+      <ion-item>
+        <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Estado de renta</ion-label>
+        <ion-select [(ngModel)]="editarVehiculoRenta.renta" name="renta" #renta="ngModel" placeholder="modo de renta" required> 
+        <ion-option value="EN RENTA">EN RENTA</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+  <button ion-button round block color="secondary" type="submit" (click)="editar(editarForm)">ACEPTAR</button>
+
+</form>
+
+
+
+
+</ion-content>

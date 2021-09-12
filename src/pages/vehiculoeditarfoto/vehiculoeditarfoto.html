@@ -1,0 +1,37 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Editar foto</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <div class="Foto">
+    <img src="{{datosV?.foto}}" id="Foto">
+  </div>
+
+  <form #editarForm="ngForm">
+
+    <div class="Imagen">
+      <img  src="{{datosVehiculoFoto?.foto}}" id="Imagen" [src]="captureDataUrl" *ngIf="captureDataUrl">
+    </div>
+  
+    <button ion-button icon-left clear small (click)="upload()" style="margin-left: 78px;" >
+      <div >Agrega una foto</div>
+    </button>
+
+    <button ion-button round block color="secondary" type="submit" (click)="editar(editarForm)">Modificar</button>
+
+</form>
+
+
+
+
+
+
+
+</ion-content>

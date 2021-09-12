@@ -1,0 +1,44 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Renta baja</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding> 
+
+
+  <div style="text-align: center;">
+
+    <h2>¡AVISO!</h2>
+
+    <p>Antes de dar de baja esta renta verifica y registra los ultimos datos del vehiculo y de la renta en el historial del cliente
+    </p>
+    <br>
+      <P>¿Seguro que quieres dar de baja esta renta?</P>
+   
+    
+  </div>
+  
+<br> 
+
+  <form #editarForm="ngForm">
+    
+    <ion-list>
+      <ion-item>
+        <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Vehiculo:</ion-label>
+        <ion-select [(ngModel)]="rentaBaja.renta" name="renta" #renta="ngModel" placeholder="EN RENTA" required> 
+        <ion-option value="SIN RENTAR">SIN RENTAR</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+  <button ion-button round block color="secondary" type="submit" (click)="editar(editarForm)">ACEPTAR</button>
+
+</form> 
+</ion-content>
+

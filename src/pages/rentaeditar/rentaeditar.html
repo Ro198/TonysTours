@@ -1,0 +1,101 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Editar renta</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+
+  <form #editarForm="ngForm">
+
+  <ion-list>
+    <ion-item>
+      <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>Chofer</ion-label>
+      <ion-select [(ngModel)]="datosEditarRenta.chofer" name="chofer" #chofer="ngModel"> 
+      <ion-option value="SI">SI</ion-option>
+      <ion-option value="NO">NO</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>Destino:</ion-label>
+      <ion-input type="text" [(ngModel)]="datosEditarRenta.destino" name="destino" #destino="ngModel"
+       required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="calendar" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>Fecha de Salida:</ion-label>
+      <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosEditarRenta.fechaSalida" name="fechaSalida" #fechaSalida="ngModel"></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="calendar" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>Fecha de llegada:</ion-label>
+      <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosEditarRenta.fechaLlegada" name="fechaLlegada" #fechaLlegada="ngModel"></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>Kilometraje:</ion-label>
+      <ion-input type="number" [(ngModel)]="datosEditarRenta.kilometrajeR" name="kilometrajeR" #kilometrajeR="ngModel" 
+       required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>Cristales:</ion-label>
+      <ion-input type="number" [(ngModel)]="datosEditarRenta.cristalesR" name="cristalesR" #cristalesR="ngModel" 
+       required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>Llantas:</ion-label>
+      <ion-input type="number" [(ngModel)]="datosEditarRenta.llantasR" name="llantasR" #llantasR="ngModel" 
+       required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>Tapiceria:</ion-label>
+      <ion-input type="text" [(ngModel)]="datosEditarRenta.tapiceriaR" name="tapiceriaR" #tapiceriaR="ngModel" 
+       required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>Documentacion del vehiculo:</ion-label>
+      <ion-select [(ngModel)]="datosEditarRenta.documentacionVehiculoR" name="documentacionVehiculoR" #documentacionVehiculoR="ngModel"> 
+      <ion-option value="SI">SI</ion-option>
+      <ion-option value="NO">NO</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>Refaccion:</ion-label>
+      <ion-select [(ngModel)]="datosEditarRenta.refaccionR" name="refaccionR" #refaccionR="ngModel"> 
+      <ion-option value="SI">SI</ion-option>
+      <ion-option value="NO">NO</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>Gato</ion-label>
+      <ion-select [(ngModel)]="datosEditarRenta.gatoR" name="gatoR" #gatoR="ngModel"> 
+      <ion-option value="SI">SI</ion-option>
+      <ion-option value="NO">NO</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="create" subtle large item-left color="primary"></ion-icon>
+      <ion-label stacked>Notas:</ion-label>
+      <ion-textarea type="text-area" [(ngModel)]="datosEditarRenta.notasR" name="notasR" #notasR="ngModel"
+     required></ion-textarea>
+    </ion-item>
+
+   </ion-list>
+
+   <button ion-button round block color="secondary" type="submit" (click)="editar(editarForm)">Modificar</button>
+
+</form>
+</ion-content>

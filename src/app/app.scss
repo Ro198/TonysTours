@@ -14,3 +14,17 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+.platform-android {
+
+    .ion-page {
+   
+      ion-header {
+        padding-top: calc(env(safe-area-inset-top) + 30px) !important;
+        min-height: calc(76px + env(safe-area-inset-top)) !important;
+      }
+    }
+  }
+
+  * ::-webkit-scrollbar {
+    display: none;
+  }

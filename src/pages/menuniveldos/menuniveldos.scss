@@ -1,0 +1,68 @@
+page-menuniveldos {
+
+  .bordered {
+    border-radius: 10px;
+    text-transform: initial;
+    box-shadow: 8px 8px 12px #d1d1d1, -5px -5px 10px #FFFFFF;
+  }
+
+  ion-slides {
+    height: 305px;
+    }
+
+  .redes{
+    img {
+      max-width: 35%; 
+      border: 0;
+      filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    }
+  }
+  .logo{
+    img {
+      filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    }
+  }
+
+   //slide
+ .toolbar-background {
+  background: #fff;
+  border-color: transparent;
+  }
+
+  .slide-zoom {
+  height: 100%;
+  }
+
+  .slide-title {
+  margin-top: 0rem;
+  }
+
+  .slide-image {
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0px 0;
+  }
+
+  b {
+  font-weight: 500;
+  }
+
+  p {
+  padding: 0 20px;
+  font-size: 12px;
+  line-height: 1.0;
+  color: #60646B;
+
+  b {
+    color: #000000;
+  }
+  }
+
+  .element.style {
+  margin-top: -5;
+  margin-top: 15px;
+  top: 5px;
+  }
+
+   
+}

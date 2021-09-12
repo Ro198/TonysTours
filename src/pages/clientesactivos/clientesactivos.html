@@ -1,0 +1,45 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Clientes activos</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+ 
+<ion-content padding>
+
+  
+  <ion-searchbar cancelButtonText  
+  (ionInput)="getItems($event)" placeholder="Buscar por nombre" 
+  style="background-color: rgba(0, 0, 0, 0.3); border-radius: 30px;">
+</ion-searchbar>
+
+<ion-refresher (ionRefresh)="Refrescar($event)">
+   <ion-refresher-content 
+   refreshingSpinner="circles"
+   refreshingText="Actualizando...">
+   </ion-refresher-content>
+</ion-refresher>
+
+
+<ion-list *ngFor="let item of clientes; let i=index;">
+<ion-item-sliding >
+<ion-item>
+
+ <button translate ion-button icon-left clear small (click)="detalles($event,item)">
+         <ion-icon name="paw" style="color: orangered;"></ion-icon>
+         <h2 color="primary"> {{item.nombre}}</h2>
+             
+ </button>
+ <h2> {{item.tipoCliente}}</h2>
+ <h2> {{item.vehiculoRentado}}</h2>
+ <h2 >Atendido por: {{item.nombreUsuario}} </h2> 
+
+</ion-item>
+
+</ion-item-sliding>
+</ion-list>
+
+</ion-content>

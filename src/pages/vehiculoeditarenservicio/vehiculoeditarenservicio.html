@@ -1,0 +1,53 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Enviar a servicio activo</ion-title>
+
+    <ion-buttons start>
+      <button ion-button  (click)="dismiss()">
+       <span ion-text showWhen="ios, android">Cancelar</span>
+       <ion-icon name="md-close" showWhen="windows"></ion-icon>
+      </button>
+    </ion-buttons>
+    
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+
+  <div style="text-align: center;">
+
+    <h2>¡AVISO!</h2>
+
+    <p>El servicio activo es aquel donde el vehiculo esta en perfectas condiciones listo para rodar en las calles
+    </p>
+    <br>
+      <P>¿Quieres enviar este vehiculo a disponibles?</P>
+   
+    
+  </div>
+  
+<br> 
+
+  <form #editarForm="ngForm">
+    
+    <ion-list>
+      <ion-item>
+        <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
+        <ion-label stacked>Enviar a vehiculos disponibles</ion-label>
+        <ion-select [(ngModel)]="editarVehiculoEnServicio.autoRentado" name="autoRentado" #autoRentado="ngModel" placeholder="SIN SERVICIO" required> 
+        <ion-option value="EN SERVICIO">DISPONIBLES</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+  <button ion-button round block color="secondary" type="submit" (click)="editar(editarForm)">ENVIAR</button>
+
+</form>
+
+
+</ion-content>
