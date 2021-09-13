@@ -718,9 +718,9 @@ var VehiculoService = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return url; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return url2; });
-var url = "http://192.168.0.3/TonyToursBD/API/?";
+var url = "http://192.168.0.2/TonyToursBD/API/?";
 //export var url = "http://34.229.103.166/TonyToursBD/API/?";
-var url2 = "http://192.168.0.3/TonyToursBD/API/foto.php";
+var url2 = "http://192.168.0.2/TonyToursBD/API/foto.php";
 //# sourceMappingURL=URL.js.map
 
 /***/ }),
@@ -2195,11 +2195,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 var UsuariosPage = (function () {
-    function UsuariosPage(navCtrl, navParams, UsuarioService, loadingCtrl, modalCtrl) {
+    function UsuariosPage(navCtrl, navParams, UsuarioService, loadingCtrl) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.loadingCtrl = loadingCtrl;
-        this.modalCtrl = modalCtrl;
         this.usuarios = [];
         this.usuariosLista = [];
         this.UsuarioService = UsuarioService;
@@ -2256,8 +2255,7 @@ var UsuariosPage = (function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["S" /* UsuariomostrarPage */]);
     };
     UsuariosPage.prototype.enlace_agregar_usuario = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["O" /* UsuarioagregarPage */]);
-        modal.present();
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["O" /* UsuarioagregarPage */]);
     };
     UsuariosPage.prototype.regresar = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -2269,13 +2267,12 @@ var UsuariosPage = (function () {
     };
     UsuariosPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-usuarios',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuarios\usuarios.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Usuarios</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n        refreshingSpinner="circles"\n        refreshingText="Actualizando...">\n    </ion-refresher-content>\n  </ion-refresher>\n\n  <ion-grid style="text-align: center;">\n    <ion-row> \n      <ion-col>\n          <img style="width: 22%;" (click)="regresar()" src="img/left-arrow.png"/>\n          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n      </ion-col>\n      <ion-col>     \n          <img style="width: 22%;" (click)="enlace_agregar_usuario()" src="img/add-user.png"/>\n          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Agregar nuevo usuario</p>\n      </ion-col>\n    </ion-row>\n  </ion-grid> \n\n<ion-searchbar cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por nombre">\n</ion-searchbar>\n\n<br>\n\n  <ion-list *ngFor="let item of usuarios; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/user.png"/>      \n        </ion-avatar>\n        <h2 style="color: #4A6D68;"><strong>{{item.nombreUsuario}}</strong></h2> \n        <h3 style="color: #505A53;">{{item.Correo}}</h3>\n        <h4 style="opacity: 50%;">Tipo de cuenta: {{item.nivelUsuario}}</h4>\n      </ion-item>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuarios\usuarios.html"*/,
+            selector: 'page-usuarios',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuarios\usuarios.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Usuarios</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n        refreshingSpinner="circles"\n        refreshingText="Actualizando...">\n    </ion-refresher-content>\n  </ion-refresher>\n\n  <ion-grid style="text-align: center;">\n    <ion-row> \n      <ion-col>\n          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n      </ion-col>\n      <ion-col>     \n          <img style="width: 22%;" (click)="enlace_agregar_usuario()" src="img/icon/add-user.png"/>\n          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Agregar nuevo usuario</p>\n      </ion-col>\n    </ion-row>\n  </ion-grid> \n\n<ion-searchbar cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por nombre">\n</ion-searchbar>\n\n<br>\n\n  <ion-list *ngFor="let item of usuarios; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/user.png"/>      \n        </ion-avatar>\n        <h2 style="color: #4A6D68;"><strong>{{item.nombreUsuario}}</strong></h2> \n        <h3 style="color: #505A53;">{{item.Correo}}</h3>\n        <h4 style="opacity: 50%;">Tipo de cuenta: {{item.nivelUsuario}}</h4>\n      </ion-item>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuarios\usuarios.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_2__servicios_UsuarioServices__["a" /* UsuarioService */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */]])
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
     ], UsuariosPage);
     return UsuariosPage;
 }());
@@ -2291,6 +2288,7 @@ var UsuariosPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_UsuarioServices__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(4);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2300,6 +2298,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -2318,6 +2317,14 @@ var UsuarioagregarPage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    UsuarioagregarPage.prototype.regresar = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["T" /* UsuariosPage */]);
+        }
+    };
+    UsuarioagregarPage.prototype.menu = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["y" /* MenunivelunoPage */]);
+    };
     //GUARDAR USUARIO
     UsuarioagregarPage.prototype.guardar = function (form) {
         var _this = this;
@@ -2380,7 +2387,7 @@ var UsuarioagregarPage = (function () {
     };
     UsuarioagregarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-usuarioagregar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuarioagregar\usuarioagregar.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Usuarios</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n  <form #guardarForm="ngForm">\n    \n    <ion-list>\n       <ion-item>\n         <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>\n         <ion-label stacked>Nombre de usuario:</ion-label>\n         <ion-input type="text" [(ngModel)]="datosBDUsuario.Username" name="Username" #Username="ngModel" placeholder="Nombre de usuario"\n          required></ion-input>\n       </ion-item>\n       <ion-item>\n         <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>\n         <ion-label stacked>Correo:</ion-label>\n         <ion-input type="text" [(ngModel)]="datosBDUsuario.Correo" name="Correo" #Correo="ngModel" placeholder="Correo electronico"\n          required></ion-input>\n       </ion-item>\n       <ion-item>\n        <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>\n        <ion-label stacked>Contraseña:</ion-label>\n        <ion-input type="password" [(ngModel)]="datosBDUsuario.Pass" name="Pass" #Pass="ngModel" placeholder="Contraseña"\n         required></ion-input>\n      </ion-item> \n      <ion-item>\n        <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>\n        <ion-label stacked>Nombre completo:</ion-label>\n        <ion-input type="text" [(ngModel)]="datosBDUsuario.nombreUsuario" name="nombreUsuario" #nombreUsuario="ngModel" placeholder="Nombre completo del usuario"\n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>\n        <ion-label stacked>Nivel de usuario</ion-label>\n        <ion-select [(ngModel)]="datosBDUsuario.nivelUsuario" name="nivelUsuario" #nivelUsuario="ngModel" placeholder="Nivel" required> \n        <ion-option value="Administrador">Administrador</ion-option>\n        <ion-option value="Estandar">Estandar</ion-option>\n        </ion-select>\n      </ion-item>\n\n     </ion-list>                    \n   \n   <button ion-button round block color="secondary" type="submit" (click)="guardar(guardarForm)">Guardar</button>\n   \n   </form>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuarioagregar\usuarioagregar.html"*/,
+            selector: 'page-usuarioagregar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuarioagregar\usuarioagregar.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Agregar nuevo usuario</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-grid style="text-align: center;">\n    <ion-row> \n      <ion-col>\n          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n      </ion-col>\n      <ion-col>     \n          <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n      </ion-col>\n    </ion-row>\n  </ion-grid> \n\n  <br>\n\n  <form #guardarForm="ngForm">\n    \n    <ion-list>\n       <ion-item>\n         <ion-avatar item-left>\n          <img src="img/icon/usuario.png"/>      \n         </ion-avatar>\n         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Nombre de usuario:</ion-label>\n         <ion-input type="text" [(ngModel)]="datosBDUsuario.Username" name="Username" #Username="ngModel" placeholder="Rod1989"\n          required></ion-input>\n       </ion-item>\n       <br>\n       <ion-item> \n         <ion-avatar item-left>\n          <img src="img/icon/email.png"/>      \n         </ion-avatar>\n         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Correo:</ion-label>\n         <ion-input type="text" [(ngModel)]="datosBDUsuario.Correo" name="Correo" #Correo="ngModel" placeholder="ejemplo@gmail.com"\n          required></ion-input>\n       </ion-item>\n       <br>\n       <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/pass.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Contraseña:</ion-label>\n        <ion-input type="password" [(ngModel)]="datosBDUsuario.Pass" name="Pass" #Pass="ngModel" placeholder="**********"\n         required></ion-input>\n      </ion-item> \n      <br>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/name.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Nombre completo:</ion-label>\n        <ion-input type="text" [(ngModel)]="datosBDUsuario.nombreUsuario" name="nombreUsuario" #nombreUsuario="ngModel" placeholder="Rodrigo Ortiz"\n         required></ion-input>\n      </ion-item>\n      <br>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/admin.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo de cuenta:</ion-label>\n        <ion-select [(ngModel)]="datosBDUsuario.nivelUsuario" name="nivelUsuario" #nivelUsuario="ngModel" placeholder="Administrador o estandar" required> \n        <ion-option value="Administrador">Administrador</ion-option>\n        <ion-option value="Estandar">Estandar</ion-option>\n        </ion-select>\n      </ion-item>\n      <br>\n     </ion-list>                    \n   \n   <button ion-button round block color="boton" type="submit" (click)="guardar(guardarForm)">Guardar</button>\n   \n   </form>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuarioagregar\usuarioagregar.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -2555,8 +2562,16 @@ var UsuariomostrarPage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
-    UsuariomostrarPage.prototype.dismiss = function () {
-        this.viewCtrl.dismiss();
+    UsuariomostrarPage.prototype.regresar = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["T" /* UsuariosPage */]);
+        }
+    };
+    UsuariomostrarPage.prototype.menu = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["y" /* MenunivelunoPage */]);
+    };
+    UsuariomostrarPage.prototype.enlace_editar_usuario = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["P" /* UsuarioeditarPage */]);
     };
     //ELIMINAR USUARIO
     UsuariomostrarPage.prototype.eliminar = function (form) {
@@ -2608,15 +2623,15 @@ var UsuariomostrarPage = (function () {
             });
         }
     };
-    UsuariomostrarPage.prototype.enlace_editar_usuario = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["P" /* UsuarioeditarPage */]);
+    UsuariomostrarPage.prototype.dismiss = function () {
+        this.viewCtrl.dismiss();
     };
     UsuariomostrarPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad UsuariomostrarPage');
     };
     UsuariomostrarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-usuariomostrar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuariomostrar\usuariomostrar.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Detalles de usuario</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-item class="center">\n\n    \n\n    <h1 id="Username" color="primary"><ion-icon name="paw"  color="primary"></ion-icon>Nombre de usuario: {{datosU.Username}}</h1>\n    <h2>Correo: </h2>      <p id="Correo">{{datosU.Correo}}</p>\n  \n\n    <div padding></div>\n  \n    <h2>Nombre completo: </h2>    <p id="nombreUsuario">{{datosU.nombreUsuario}}</p> \n    <h2>Nivel de ususario: </h2>   <p id="nivelUsuario">{{datosU.nivelUsuario}}</p>    \n    <h2>Fecha de alta al sistema: </h2>    <p id="fechaCreacion">{{datosU.fechaCreacion}}</p>   \n\n    </ion-item>\n\n    <button ion-button color="primary" (click)="enlace_editar_usuario()">\n      <ion-icon name="medkit"></ion-icon>\n      Editar \n    </button>\n\n    <form #eliminarForm="ngForm">\n     <button ion-button round block color="danger" type="submit" (click)="eliminar(eliminarForm)" >Eliminar</button>\n    </form>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuariomostrar\usuariomostrar.html"*/,
+            selector: 'page-usuariomostrar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuariomostrar\usuariomostrar.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Información del usuario</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-grid style="text-align: center;">\n    <ion-row> \n      <ion-col>\n        <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n        <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n      </ion-col>\n      <ion-col>     \n        <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n        <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n      </ion-col>\n    </ion-row>\n  </ion-grid> \n\n  <ion-grid style="text-align: center;">\n    <ion-row> \n      <ion-col>     \n        <img style="width: 22%;" (click)="enlace_editar_usuario()" src="img/icon/editar.png"/>\n        <p style="font-size: 14px; color: #749E2A; margin-top: 0%;">Editar</p>\n      </ion-col>\n      <ion-col>\n        <form #eliminarForm="ngForm">    \n          <img style="width: 22%;" (click)="eliminar(eliminarForm)" src="img/icon/eliminar.png"/>\n          <p style="font-size: 14px; color: #C10000; margin-top: 0%;">Eliminar</p>\n        </form> \n      </ion-col>\n    </ion-row>\n  </ion-grid> \n\n  <ion-card class="tarjeta">\n    <ion-item>\n      <div style="text-align: -webkit-center;">\n        <img style="width: 22%;" src="img/icon/user.png"/>     \n        <h2>Correo: </h2>      <p id="Correo">{{datosU.Username}}</p>\n        <h2>Correo: </h2>      <p id="Correo">{{datosU.Correo}}</p>\n        <h2>Nombre completo: </h2>    <p id="nombreUsuario">{{datosU.nombreUsuario}}</p> \n        <h2>Nivel de ususario: </h2>   <p id="nivelUsuario">{{datosU.nivelUsuario}}</p>    \n        <h2>Fecha de alta al sistema: </h2>    <p id="fechaCreacion">{{datosU.fechaCreacion}}</p> \n      </div> \n    </ion-item>\n  </ion-card>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuariomostrar\usuariomostrar.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],

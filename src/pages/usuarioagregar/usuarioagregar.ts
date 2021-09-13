@@ -2,6 +2,10 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, ViewController, LoadingController, AlertController } from 'ionic-angular';
 import { UsuarioService } from '../servicios/UsuarioServices';
 
+import { 
+     MenunivelunoPage,
+     UsuariosPage
+} from "../index.paginas";
 
 @Component({
   selector: 'page-usuarioagregar',
@@ -19,11 +23,8 @@ export class UsuarioagregarPage {
 
   datosUsuario;
   perfil;
-
   UsuarioService;
   userData;
-
-  
   submitted = false;
   disableSubmit = false;
 
@@ -34,17 +35,21 @@ export class UsuarioagregarPage {
               UsuarioService: UsuarioService,
               public alertCtrl: AlertController) 
   {
-
     this.UsuarioService=UsuarioService;
-
-
     this.datosUsuario  = window.localStorage.getItem('dataUser')
     this.perfil = JSON.parse(this.datosUsuario )
     console.log(this.perfil);
-
-
-
   }
+
+regresar(){
+  if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(UsuariosPage);
+  }
+}
+
+menu(){
+  this.navCtrl.setRoot(MenunivelunoPage);
+}
 
   //GUARDAR USUARIO
 
@@ -90,9 +95,7 @@ export class UsuarioagregarPage {
                     }]
                     });
                       alert.present();
-   
    }
-   
              if(this.userData.estatus === "ERROR"){
    
               let alert = this.alertCtrl.create({
@@ -103,8 +106,6 @@ export class UsuarioagregarPage {
    
                alert.present();
              }
-   
-   
                    },
              err =>{
                  //console.log(err);
@@ -116,11 +117,8 @@ export class UsuarioagregarPage {
                });
                 alert.present();
              }
-   
             );
-   
            }
-   
    }
 
   dismiss() {

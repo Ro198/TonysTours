@@ -2,7 +2,9 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, LoadingController, AlertController, ViewController } from 'ionic-angular';
 import { UsuarioService } from '../servicios/UsuarioServices';
 
-import { UsuarioeditarPage
+import { UsuarioeditarPage,
+  UsuariosPage,
+  MenunivelunoPage
 } from "../index.paginas";
 
 @Component({
@@ -39,11 +41,19 @@ export class UsuariomostrarPage {
 
   }
 
-
-  dismiss() {
-    this.viewCtrl.dismiss();
+  regresar(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+        this.navCtrl.push(UsuariosPage);
+    }
   }
-
+  menu(){
+    this.navCtrl.setRoot(MenunivelunoPage);
+  }
+  enlace_editar_usuario()
+  {
+    this.navCtrl.push(UsuarioeditarPage)
+  }
+  
 //ELIMINAR USUARIO
 
   eliminar(form){
@@ -105,13 +115,10 @@ export class UsuariomostrarPage {
           }
   }
 
-
-  enlace_editar_usuario()
-  {
-
-        this.navCtrl.push(UsuarioeditarPage)
-  
+  dismiss() {
+    this.viewCtrl.dismiss();
   }
+ 
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad UsuariomostrarPage');

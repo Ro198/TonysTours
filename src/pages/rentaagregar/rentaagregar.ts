@@ -130,7 +130,7 @@ export class RentaagregarPage {
                     {
                       text: 'Aceptar',
                       handler: () => {
-                        this.navCtrl.setRoot(VehiculosPage)
+                        this.navCtrl.setRoot(VehiculosPage);
                       //this.dismiss()
                       }
                     }]

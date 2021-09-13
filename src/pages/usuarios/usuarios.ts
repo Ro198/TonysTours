@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams, LoadingController, ModalController } from 'ionic-angular';
+import { NavController, NavParams, LoadingController } from 'ionic-angular';
 import { UsuarioService } from '../servicios/UsuarioServices';
 
 import { UsuarioagregarPage,
@@ -23,8 +23,7 @@ export class UsuariosPage {
   constructor(public navCtrl: NavController, 
               public navParams: NavParams,
               UsuarioService: UsuarioService,
-              public loadingCtrl: LoadingController,
-              public modalCtrl: ModalController) 
+              public loadingCtrl: LoadingController) 
   {
 
     this.UsuarioService=UsuarioService;
@@ -104,8 +103,7 @@ getItems(ev: any) {
 
   enlace_agregar_usuario(){
     
-    let modal = this.modalCtrl.create(UsuarioagregarPage);
-    modal.present();
+    this.navCtrl.push(UsuarioagregarPage)
 
   }
 

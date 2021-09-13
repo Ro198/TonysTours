@@ -18,11 +18,11 @@
   <ion-grid style="text-align: center;">
     <ion-row> 
       <ion-col>
-          <img style="width: 22%;" (click)="regresar()" src="img/left-arrow.png"/>
+          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
           <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
       </ion-col>
       <ion-col>     
-          <img style="width: 22%;" (click)="enlace_agregar_usuario()" src="img/add-user.png"/>
+          <img style="width: 22%;" (click)="enlace_agregar_usuario()" src="img/icon/add-user.png"/>
           <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Agregar nuevo usuario</p>
       </ion-col>
     </ion-row>
@@ -37,7 +37,7 @@
     <ion-card class="lista" (click)="detalles($event,item)">
       <ion-item>
         <ion-avatar item-left>
-          <img src="img/user.png"/>      
+          <img src="img/icon/user.png"/>      
         </ion-avatar>
         <h2 style="color: #4A6D68;"><strong>{{item.nombreUsuario}}</strong></h2> 
         <h3 style="color: #505A53;">{{item.Correo}}</h3>

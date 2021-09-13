@@ -1,52 +1,81 @@
 
 <ion-header translucent="true" no-border>
   <ion-toolbar color="sincolor" style="text-align: center;">
-    <ion-title>Usuarios</ion-title>
+    <ion-title>Agregar nuevo usuario</ion-title>
   </ion-toolbar>
 </ion-header>
 
 
 <ion-content padding>
 
+  <ion-grid style="text-align: center;">
+    <ion-row> 
+      <ion-col>
+          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+      </ion-col>
+      <ion-col>     
+          <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>
+          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid> 
+
+  <br>
+
   <form #guardarForm="ngForm">
     
     <ion-list>
        <ion-item>
-         <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
-         <ion-label stacked>Nombre de usuario:</ion-label>
-         <ion-input type="text" [(ngModel)]="datosBDUsuario.Username" name="Username" #Username="ngModel" placeholder="Nombre de usuario"
+         <ion-avatar item-left>
+          <img src="img/icon/usuario.png"/>      
+         </ion-avatar>
+         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Nombre de usuario:</ion-label>
+         <ion-input type="text" [(ngModel)]="datosBDUsuario.Username" name="Username" #Username="ngModel" placeholder="Rod1989"
           required></ion-input>
        </ion-item>
-       <ion-item>
-         <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>
-         <ion-label stacked>Correo:</ion-label>
-         <ion-input type="text" [(ngModel)]="datosBDUsuario.Correo" name="Correo" #Correo="ngModel" placeholder="Correo electronico"
+       <br>
+       <ion-item> 
+         <ion-avatar item-left>
+          <img src="img/icon/email.png"/>      
+         </ion-avatar>
+         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Correo:</ion-label>
+         <ion-input type="text" [(ngModel)]="datosBDUsuario.Correo" name="Correo" #Correo="ngModel" placeholder="ejemplo@gmail.com"
           required></ion-input>
        </ion-item>
+       <br>
        <ion-item>
-        <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>
-        <ion-label stacked>Contraseña:</ion-label>
-        <ion-input type="password" [(ngModel)]="datosBDUsuario.Pass" name="Pass" #Pass="ngModel" placeholder="Contraseña"
+        <ion-avatar item-left>
+          <img src="img/icon/pass.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Contraseña:</ion-label>
+        <ion-input type="password" [(ngModel)]="datosBDUsuario.Pass" name="Pass" #Pass="ngModel" placeholder="**********"
          required></ion-input>
       </ion-item> 
+      <br>
       <ion-item>
-        <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>
-        <ion-label stacked>Nombre completo:</ion-label>
-        <ion-input type="text" [(ngModel)]="datosBDUsuario.nombreUsuario" name="nombreUsuario" #nombreUsuario="ngModel" placeholder="Nombre completo del usuario"
+        <ion-avatar item-left>
+          <img src="img/icon/name.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Nombre completo:</ion-label>
+        <ion-input type="text" [(ngModel)]="datosBDUsuario.nombreUsuario" name="nombreUsuario" #nombreUsuario="ngModel" placeholder="Rodrigo Ortiz"
          required></ion-input>
       </ion-item>
+      <br>
       <ion-item>
-        <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
-        <ion-label stacked>Nivel de usuario</ion-label>
-        <ion-select [(ngModel)]="datosBDUsuario.nivelUsuario" name="nivelUsuario" #nivelUsuario="ngModel" placeholder="Nivel" required> 
+        <ion-avatar item-left>
+          <img src="img/icon/admin.png"/>      
+        </ion-avatar>
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo de cuenta:</ion-label>
+        <ion-select [(ngModel)]="datosBDUsuario.nivelUsuario" name="nivelUsuario" #nivelUsuario="ngModel" placeholder="Administrador o estandar" required> 
         <ion-option value="Administrador">Administrador</ion-option>
         <ion-option value="Estandar">Estandar</ion-option>
         </ion-select>
       </ion-item>
-
+      <br>
      </ion-list>                    
    
-   <button ion-button round block color="secondary" type="submit" (click)="guardar(guardarForm)">Guardar</button>
+   <button ion-button round block color="boton" type="submit" (click)="guardar(guardarForm)">Guardar</button>
    
    </form>
 
