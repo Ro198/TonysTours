@@ -3,6 +3,23 @@
 <ion-header translucent="true" no-border>
   <ion-toolbar color="sincolor" style="text-align: center;">
     <ion-title>Usuarios</ion-title>
+      <br>
+    <ion-grid style="text-align: center;">
+      <ion-row> 
+        <ion-col>
+            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+        </ion-col>
+        <ion-col>     
+            <img style="width: 22%;" (click)="enlace_agregar_usuario()" src="img/icon/add-user.png"/>
+            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Agregar nuevo usuario</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  
+  <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por nombre">
+  </ion-searchbar>
+  
   </ion-toolbar>
 </ion-header>
 
@@ -11,27 +28,9 @@
   <ion-refresher (ionRefresh)="Refrescar($event)">
     <ion-refresher-content 
         refreshingSpinner="circles"
-        refreshingText="Actualizando...">
+        refreshingText="Actualizando lista...">
     </ion-refresher-content>
   </ion-refresher>
-
-  <ion-grid style="text-align: center;">
-    <ion-row> 
-      <ion-col>
-          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
-          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
-      </ion-col>
-      <ion-col>     
-          <img style="width: 22%;" (click)="enlace_agregar_usuario()" src="img/icon/add-user.png"/>
-          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Agregar nuevo usuario</p>
-      </ion-col>
-    </ion-row>
-  </ion-grid> 
-
-<ion-searchbar cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por nombre">
-</ion-searchbar>
-
-<br>
 
   <ion-list *ngFor="let item of usuarios; let i=index;">
     <ion-card class="lista" (click)="detalles($event,item)">
@@ -40,8 +39,8 @@
           <img src="img/icon/user.png"/>      
         </ion-avatar>
         <h2 style="color: #4A6D68;"><strong>{{item.nombreUsuario}}</strong></h2> 
-        <h3 style="color: #505A53;">{{item.Correo}}</h3>
-        <h4 style="opacity: 50%;">Tipo de cuenta: {{item.nivelUsuario}}</h4>
+        <h3 style="color: #505A53;">Tipo de cuenta: {{item.nivelUsuario}}</h3>
+        <h4 style="opacity: 50%;">{{item.Correo}}</h4>
       </ion-item>
     </ion-card>
   </ion-list>

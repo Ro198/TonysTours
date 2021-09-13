@@ -1,6 +1,12 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams, LoadingController, AlertController, ViewController } from 'ionic-angular';
+import { NavController, NavParams, LoadingController, AlertController } from 'ionic-angular';
 import { UsuarioService } from '../servicios/UsuarioServices';
+
+import { 
+  MenunivelunoPage,
+  UsuariomostrarPage,
+  UsuariosPage
+} from "../index.paginas";
 
 @Component({
   selector: 'page-usuarioeditar',
@@ -30,8 +36,7 @@ export class UsuarioeditarPage {
               public navParams: NavParams,
               UsuarioService: UsuarioService,
               public loadingCtrl: LoadingController,
-              public alertCtrl: AlertController,
-              private viewCtrl: ViewController) 
+              public alertCtrl: AlertController) 
   {
 
     this.UsuarioService=UsuarioService;
@@ -50,11 +55,15 @@ export class UsuarioeditarPage {
     this.datosBDUsuario.nombreUsuario = this.datosU.nombreUsuario; 
     this.datosBDUsuario.nivelUsuario = this.datosU.nivelUsuario; 
 
-
   }
 
-  dismiss() {
-    this.viewCtrl.dismiss();
+  regresar(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+        this.navCtrl.push(UsuariomostrarPage);
+    }
+  }
+  menu(){
+    this.navCtrl.setRoot(MenunivelunoPage);
   }
 
   //EDITAR CLIENTE
@@ -98,8 +107,7 @@ export class UsuarioeditarPage {
                     {
                       text: 'Aceptar',
                       handler: () => {
-                        //this.navCtrl.setRoot(MenuPage)
-                        this.dismiss()
+                        this.navCtrl.setRoot(UsuariosPage)
                       }
                     }]
                });
@@ -131,7 +139,6 @@ export class UsuarioeditarPage {
             );
           }
 }
-
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad UsuarioeditarPage');

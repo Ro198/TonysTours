@@ -40,12 +40,17 @@
   <ion-card class="tarjeta">
     <ion-item>
       <div style="text-align: -webkit-center;">
-        <img style="width: 22%;" src="img/icon/user.png"/>     
-        <h2>Correo: </h2>      <p id="Correo">{{datosU.Username}}</p>
-        <h2>Correo: </h2>      <p id="Correo">{{datosU.Correo}}</p>
-        <h2>Nombre completo: </h2>    <p id="nombreUsuario">{{datosU.nombreUsuario}}</p> 
-        <h2>Nivel de ususario: </h2>   <p id="nivelUsuario">{{datosU.nivelUsuario}}</p>    
-        <h2>Fecha de alta al sistema: </h2>    <p id="fechaCreacion">{{datosU.fechaCreacion}}</p> 
+        <img style="width: 15%;" src="img/icon/user.png"/>
+        <h1 style="color: #4A6D68;"><strong>{{datosU.nombreUsuario}}</strong></h1>
+        <br>
+        <h2 style="color: #505A53;"><strong>Correo:</strong> {{datosU.Correo}}</h2>
+        <br>
+        <h2 style="color: #505A53;"><strong>Nombre de usuario:</strong> {{datosU.Username}}</h2>
+        <br>
+        <h2 style="color: #505A53;"><strong>Tipo de cuenta:</strong> {{datosU.nivelUsuario}}</h2> 
+        <br>
+        <h2 style="color: #505A53;"><strong>Fecha de alta al sistema:</strong></h2>
+        <h2 style="color: #505A53;">{{datosU.fechaCreacion}}</h2>
       </div> 
     </ion-item>
   </ion-card>
