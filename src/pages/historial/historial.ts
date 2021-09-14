@@ -4,7 +4,9 @@ import { HistorialService } from '../servicios/HistorialServices';
 
 
 import { ClientemostrarhistorialPage,
-         ClienteagregarPage
+         ClienteagregarPage,
+         MenunivelunoPage,
+         MenuniveldosPage
 } from "../index.paginas";
 
 @Component({
@@ -42,9 +44,29 @@ export class HistorialPage {
 
   }
 
-  dismiss() {
-    this.viewCtrl.dismiss();
+  regresar(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+        this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
   }
+  }
+
+  enlace_agregar_cliente(){
+    
+    let modal = this.modalCtrl.create(ClienteagregarPage);
+    modal.present();
+
+  }
+
+  detalles(event,item) 
+  {                
+      window.localStorage.setItem('datosCliente', JSON.stringify(item));
+      this.navCtrl.push(ClientemostrarhistorialPage)
+ 
+  }
+
+
 
   listar_clientes()
   {
@@ -83,20 +105,10 @@ export class HistorialPage {
           });
   }
 
-  detalles(event,item) 
-  {                
-      window.localStorage.setItem('datosCliente', JSON.stringify(item));
-      this.navCtrl.push(ClientemostrarhistorialPage)
- 
+  dismiss() {
+    this.viewCtrl.dismiss();
   }
 
-
-  enlace_agregar_cliente(){
-    
-    let modal = this.modalCtrl.create(ClienteagregarPage);
-    modal.present();
-
-  }
 
 // PARA ACTUALIZAR LOS DATOS
 
