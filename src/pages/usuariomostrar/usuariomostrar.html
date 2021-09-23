@@ -12,30 +12,23 @@
   <ion-grid style="text-align: center;">
     <ion-row> 
       <ion-col>
-        <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+        <img style="width: 32%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
         <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
       </ion-col>
       <ion-col>     
-        <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>
-        <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>
-      </ion-col>
-    </ion-row>
-  </ion-grid> 
-
-  <ion-grid style="text-align: center;">
-    <ion-row> 
-      <ion-col>     
-        <img style="width: 22%;" (click)="enlace_editar_usuario()" src="img/icon/editar.png"/>
+        <img style="width: 32%;" (click)="enlace_editar_usuario()" src="img/icon/editar.png"/>
         <p style="font-size: 14px; color: #749E2A; margin-top: 0%;">Editar</p>
       </ion-col>
       <ion-col>
         <form #eliminarForm="ngForm">    
-          <img style="width: 22%;" (click)="eliminar(eliminarForm)" src="img/icon/eliminar.png"/>
+          <img style="width: 32%;" (click)="eliminar(eliminarForm)" src="img/icon/eliminar.png"/>
           <p style="font-size: 14px; color: #C10000; margin-top: 0%;">Eliminar</p>
         </form> 
       </ion-col>
     </ion-row>
   </ion-grid> 
+
+  <br>
 
   <ion-card class="tarjeta">
     <ion-item>

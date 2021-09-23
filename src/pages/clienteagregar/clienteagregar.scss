@@ -1,34 +1,24 @@
 page-clienteagregar {
-    .toolbar-title-ios {
-        font-size: 1.7rem;
-        font-weight: 600;
-        text-align: center;
-        color: #387ef5;
-    }
-    
+   
     .toolbar-title-md {
-        font-size: 1.7rem;
-        font-weight: 600;
-        text-align: center;
-        color: #387ef5;
+        padding: 0 12px;
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    .toolbar-md-sincolor .bar-button-clear-md, .toolbar-md-sincolor .bar-button-default-md, .toolbar-md-sincolor .bar-button-outline-md, .toolbar-md-sincolor .toolbar-title-md {
+        color: #10CF50;
+    }
+
+    .item-md ion-avatar ion-img, .item-md ion-avatar img{
+        width: 40px;
+        height: 40px;
+        border-radius: 0px;
+    }
+
+    .button-md {
+        height: 5.6rem;
+        font-size: 1.9rem;
     }
     
-    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
-        color: #387ef5;
-    }
-    
-    .button-ios-secondary {
-        background-color: limegreen;
-    }
-    .button-md-secondary {
-        background-color: limegreen;
-    }
-    
-    .bar-button-default-md, page-nuevavacuna .bar-button-clear-md-default, page-nuevavacuna .bar-button-md-default {
-        color: #f53d3d;
-    }
-    
-    .bar-button-default-ios, page-nuevavacuna .bar-button-clear-ios-default, page-nuevavacuna .bar-button-ios-default {
-        color: #f53d3d;
-    }
 }

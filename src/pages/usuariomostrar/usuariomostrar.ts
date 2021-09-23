@@ -3,8 +3,7 @@ import { NavController, NavParams, LoadingController, AlertController, ViewContr
 import { UsuarioService } from '../servicios/UsuarioServices';
 
 import { UsuarioeditarPage,
-  UsuariosPage,
-  MenunivelunoPage
+  UsuariosPage
 } from "../index.paginas";
 
 @Component({
@@ -45,9 +44,6 @@ export class UsuariomostrarPage {
     if(this.perfil.nivelUsuario == "Administrador"){             
         this.navCtrl.push(UsuariosPage);
     }
-  }
-  menu(){
-    this.navCtrl.setRoot(MenunivelunoPage);
   }
   enlace_editar_usuario()
   {

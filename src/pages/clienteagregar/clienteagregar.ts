@@ -2,6 +2,12 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, ViewController, LoadingController, AlertController } from 'ionic-angular';
 import { ClienteService } from '../servicios/ClienteServices';
 
+import { 
+    HistorialPage,
+    MenunivelunoPage,
+    MenuniveldosPage
+} from "../index.paginas";
+
 @Component({
   selector: 'page-clienteagregar',
   templateUrl: 'clienteagregar.html',
@@ -58,8 +64,31 @@ export class ClienteagregarPage {
     this.perfil = JSON.parse(this.datosUsuario )
     console.log(this.perfil);
 
-    
+    this.datosCliente.observacionesCliente = " ";
+    this.datosCliente.notasC = " ";
+    this.datosCliente.notashistorial = " ";
+    this.datosCliente.observacionesVehiculo = " ";
+    this.datosCliente.telefono = " ";
+    this.datosCliente.vehiculoRentado = "SIN VEHICULO";
+    this.datosCliente.vehiculosRentados = "0";
+    this.datosCliente.vehiculosMalEstado = "0";
+    this.datosCliente.mes = "Sin mes";
+    this.datosCliente.anticipo = "0"; 
+    this.datosCliente.clienteactivo = "NO ACTIVO";
 
+  }
+
+  regresar(){             
+        this.navCtrl.push(HistorialPage);
+  }
+  
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.setRoot(MenunivelunoPage);
+    }else if(this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.setRoot(MenuniveldosPage);
+    }
+    
   }
 
 //GUARDAR CLIENTE

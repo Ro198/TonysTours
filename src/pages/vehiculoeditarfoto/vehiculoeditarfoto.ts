@@ -19,7 +19,7 @@ export class VehiculoeditarfotoPage {
 
   uploadFile: any;
   options: Object = {
-      url2: 'http://23.22.86.209/TonyToursBD/API/foto.php'
+      url2: 'http://3.81.47.84/TonyToursBD/API/foto.php'
   };   
 
   captureDataUrl: string;

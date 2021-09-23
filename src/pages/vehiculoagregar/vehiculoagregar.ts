@@ -58,7 +58,7 @@ export class VehiculoagregarPage {
               public navParams: NavParams,
               public loadingCtrl: LoadingController,
               VehiculoFotoService: VehiculoFotoService,
-              public alertCtrl: AlertController,
+              public alertCtrl: AlertController, 
               private viewCtrl: ViewController,
               public actionCtrl: ActionSheetController,
               public platform: Platform,
