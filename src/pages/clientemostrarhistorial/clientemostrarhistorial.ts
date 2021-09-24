@@ -3,7 +3,10 @@ import { NavController, NavParams, LoadingController, AlertController, ViewContr
 import { ClienteService } from '../servicios/ClienteServices';
 
 
-import { ClienteeditarPage
+import { ClienteeditarPage,
+  HistorialPage,
+  MenunivelunoPage,
+  MenuniveldosPage
 } from "../index.paginas";
 
 @Component({
@@ -41,6 +44,18 @@ ClienteService;
 
 
   }
+
+  regresar(){             
+    this.navCtrl.push(HistorialPage);
+}
+
+menu(){
+  if(this.perfil.nivelUsuario == "Administrador"){             
+    this.navCtrl.push(MenunivelunoPage);
+}else if (this.perfil.nivelUsuario == "Estandar"){             
+  this.navCtrl.push(MenuniveldosPage);
+}
+}
 
   dismiss() {
     this.viewCtrl.dismiss();

@@ -1,18 +1,60 @@
 
-<ion-header>
 
-  <ion-navbar>
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
     <ion-title>Detalles del cliente</ion-title>
-  </ion-navbar>
+    <br>
+    <ion-grid style="text-align: center;">
+      <ion-row> 
+        <ion-col>
+          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+        </ion-col>
+        <ion-col>     
+          <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>
+          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </ion-toolbar>
+</ion-header> 
 
-</ion-header>
+
+<ion-content>
+
+  <div class="S1">
+    <ion-item>
+      <div style="text-align: -webkit-center;">
+        <img style="width: 15%;" src="img/icon/user.png"/>
+        <h1 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h1>
+      </div> 
+    </ion-item>
 
 
-<ion-content padding>
+    <ion-grid padding style="text-align: center;">
+      <ion-row> 
+        <ion-col>
+          <ion-card class="tarjeta">
+            <ion-item>
+              <div style="text-align: -webkit-center;">
+                <img style="width: 15%;" src="img/icon/user.png"/>
+              </div> 
+            </ion-item>
+          </ion-card>
+        </ion-col>
+        <ion-col>     
+          <ion-card class="tarjeta">
+            <ion-item>
+              <div style="text-align: -webkit-center;">
+                <img style="width: 15%;" src="img/icon/user.png"/>
+              </div> 
+            </ion-item>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </div>
 
-  <ion-item class="center">
-
-    
 
     <h1 id="nombre" color="primary"><ion-icon name="paw"  color="primary"></ion-icon> {{datosC.nombre}}</h1>
     <br>
@@ -24,6 +66,9 @@
           <h2>Vehiculo Rentado:</h2><p id="vehiculoRentado"> {{datosC.vehiculoRentado}}</p>
         </ion-row>
       </ion-grid>
+
+
+<div class="container">
 
       <br>
       <ion-grid>
@@ -92,15 +137,6 @@
    
       <h2>Atendido por el ultimo usuario que fue: </h2><p id="nombreUsuario">{{datosC.nombreUsuario}}</p> 
 
-    </ion-item>
 
-    <button ion-button color="primary" (click)="enlace_editar_cliente()">
-      <ion-icon name="medkit"></ion-icon>
-      Editar 
-    </button>
-
-    <form #eliminarForm="ngForm">
-     <button ion-button round block color="danger" type="submit" (click)="eliminar(eliminarForm)" >Eliminar</button>
-    </form>
-
+  </div>
 </ion-content>

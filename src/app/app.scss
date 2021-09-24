@@ -19,7 +19,7 @@
     .ion-page {
    
       ion-header {
-        padding-top: calc(env(safe-area-inset-top) + 38px) !important;
+        padding-top: calc(env(safe-area-inset-top) + 30px) !important;
         min-height: calc(76px + env(safe-area-inset-top)) !important;
       }
     }

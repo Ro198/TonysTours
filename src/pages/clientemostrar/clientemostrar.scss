@@ -1,57 +1,24 @@
 page-clientemostrar {
 
-
- .center{
-     margin-left: auto;
-    margin-right: auto;
-    display: block;
- text-align: center;
-
- }
-
- .version{
-   font-size: 1.2em;
-   color:white;
-   //text-decoration: underline;
- }
-
-
-
-.Imagen {
-  //padding: 20px 0;
-  //min-height: 200px;
-  text-align: center;
-}
-
- .Imagen img {
-  max-width: 120px;
-     background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-}
-
-.toolbar-title-ios {
-    font-size: 1.7rem;
-    font-weight: 600;
-    text-align: center;
-    color: #387ef5;
-  }
-  
   .toolbar-title-md {
-    font-size: 1.7rem;
-    font-weight: 600;
-    text-align: center;
-    color: #387ef5;
-  }
-  
-  .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
-    color: #387ef5;
+    padding: 0 12px;
+    font-size: 2.5rem;
+    font-weight: 500;
   }
 
-  .item-md {
-    color: orangered;
+  .toolbar-md-sincolor .bar-button-clear-md, .toolbar-md-sincolor .bar-button-default-md, .toolbar-md-sincolor .bar-button-outline-md, .toolbar-md-sincolor .toolbar-title-md {
+      color: #10CF50;
   }
-  .item-ios {
-    color: orangered;
+
+  .item-md ion-avatar ion-img, .item-md ion-avatar img{
+      width: 40px;
+      height: 40px;
+      border-radius: 0px;
   }
+
+  .button-md {
+      height: 5.6rem;
+      font-size: 1.9rem;
+  }
+
 }
