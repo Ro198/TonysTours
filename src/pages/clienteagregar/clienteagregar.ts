@@ -31,8 +31,8 @@ export class ClienteagregarPage {
     vehiculoRentado?: string,
     vehiculosRentados?: string,
     vehiculosMalEstado?: string,
-    notasC?: string,
     mes?: string,
+    dia?: string,
     anticipo?: string,
     clienteactivo?: string,
     notashistorial?: string
@@ -65,7 +65,6 @@ export class ClienteagregarPage {
     console.log(this.perfil);
 
     this.datosCliente.observacionesCliente = " ";
-    this.datosCliente.notasC = " ";
     this.datosCliente.notashistorial = " ";
     this.datosCliente.observacionesVehiculo = " ";
     this.datosCliente.telefono = " ";
@@ -73,6 +72,7 @@ export class ClienteagregarPage {
     this.datosCliente.vehiculosRentados = "0";
     this.datosCliente.vehiculosMalEstado = "0";
     this.datosCliente.mes = "Sin mes";
+    this.datosCliente.dia = "Sin dia";
     this.datosCliente.anticipo = "0"; 
     this.datosCliente.clienteactivo = "NO ACTIVO";
 
@@ -115,8 +115,8 @@ export class ClienteagregarPage {
              console.log(this.datosCliente.vehiculoRentado);
              console.log(this.datosCliente.vehiculosRentados);
              console.log(this.datosCliente.vehiculosMalEstado);
-             console.log(this.datosCliente.notasC);
              console.log(this.datosCliente.mes);
+             console.log(this.datosCliente.dia);
              console.log(this.datosCliente.anticipo);
              console.log(this.datosCliente.clienteactivo);
              console.log(this.datosCliente.notashistorial);
@@ -144,8 +144,8 @@ export class ClienteagregarPage {
                                                 this.datosCliente.vehiculoRentado,
                                                 this.datosCliente.vehiculosRentados,
                                                 this.datosCliente.vehiculosMalEstado,
-                                                this.datosCliente.notasC,
                                                 this.datosCliente.mes,
+                                                this.datosCliente.dia,
                                                 this.datosCliente.anticipo,
                                                 this.datosCliente.clienteactivo,
                                                 this.datosCliente.notashistorial,

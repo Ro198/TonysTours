@@ -43,7 +43,7 @@ export class ClienteeditarPage {
   datosUsuario;
   perfil;
   userData;
-
+ 
   ClienteService;
 
   constructor(public navCtrl: NavController, 

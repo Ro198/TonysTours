@@ -3,41 +3,50 @@
 <ion-header translucent="true" no-border>
   <ion-toolbar color="sincolor" style="text-align: center;">
     <ion-title>Detalles del cliente</ion-title>
-    <br>
-    <ion-grid style="text-align: center;">
-      <ion-row> 
-        <ion-col>
-          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
-          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
-        </ion-col>
-        <ion-col>     
-          <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>
-          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>
-        </ion-col>
-      </ion-row>
-    </ion-grid> 
   </ion-toolbar>
 </ion-header> 
 
 
-<ion-content>
+<ion-content >
 
-  <div class="S1">
+  <ion-grid style="text-align: center;">
+    <ion-row> 
+      <ion-col>
+        <img style="width: 32%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+        <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+      </ion-col>
+      <ion-col>     
+        <img style="width: 32%;" (click)="enlace_agenda()" src="img/icon/agendar.png"/>
+        <p style="font-size: 14px; color: #4A6D68; margin-top: 0%;">Agendar</p>
+      </ion-col>
+      <ion-col>
+          <img style="width: 32%;" (click)="enlace_activar()" src="img/icon/activo.png"/>
+          <p style="font-size: 14px; color: #4A6D68; margin-top: 0%;">Activar cliente</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid> 
+
+  <ion-card class="c1">
     <ion-item>
-      <div style="text-align: -webkit-center;">
-        <img style="width: 15%;" src="img/icon/user.png"/>
-        <h1 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h1>
-      </div> 
+      <ion-avatar item-left>
+        <img src="img/icon/user.png"/>      
+      </ion-avatar>
+      <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>
+      <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>
+      <h3 style="color: #505A53;">Licencia: <strong>{{datosC.licencia}} - {{datosC.fechaLicencia}}</strong></h3>
+      <h4 style="opacity: 50%;">{{datosC.telefono}}</h4>
     </ion-item>
+  </ion-card>  
 
-
-    <ion-grid padding style="text-align: center;">
+  <div class="c2">
+    <ion-grid style="text-align: center;">
       <ion-row> 
         <ion-col>
           <ion-card class="tarjeta">
             <ion-item>
               <div style="text-align: -webkit-center;">
-                <img style="width: 15%;" src="img/icon/user.png"/>
+                <p style="font-size: 8px; color: #505A53;">Vehiculos <br> rentados</p>
+                <p style="font-size: 20px; color: #505A53;"><strong>{{datosC.vehiculosRentados}}</strong></p>
               </div> 
             </ion-item>
           </ion-card>
@@ -46,7 +55,18 @@
           <ion-card class="tarjeta">
             <ion-item>
               <div style="text-align: -webkit-center;">
-                <img style="width: 15%;" src="img/icon/user.png"/>
+                <p style="font-size: 8px; color: #505A53;">Vehiculos en <br> mal estado</p>
+                <p style="font-size: 20px; color: #505A53;"><strong>{{datosC.vehiculosMalEstado}}</strong></p>
+              </div> 
+            </ion-item>
+          </ion-card>
+        </ion-col>
+        <ion-col>     
+          <ion-card class="tarjeta">
+            <ion-item>
+              <div style="text-align: -webkit-center;">
+                <p style="font-size: 8px; color: #505A53;">Anticipo <br> del vehiculo</p>
+                <p style="font-size: 20px; color: #505A53;">$ <strong>{{datosC.anticipo}}</strong></p>
               </div> 
             </ion-item>
           </ion-card>
@@ -56,87 +76,70 @@
   </div>
 
 
-    <h1 id="nombre" color="primary"><ion-icon name="paw"  color="primary"></ion-icon> {{datosC.nombre}}</h1>
-    <br>
-      <ion-grid>
-        <ion-row>
-          <h2>Cliente:</h2><p id="tipoCliente"> {{datosC.tipoCliente}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Vehiculo Rentado:</h2><p id="vehiculoRentado"> {{datosC.vehiculoRentado}}</p>
-        </ion-row>
-      </ion-grid>
+<div class="c3">
+  <ion-grid style="text-align: center;">
+    <ion-row>
+      <ion-col>     
+        <ion-card class="tarjeta">
+          <ion-item>
+            <div style="text-align: -webkit-center;">
+              <p style="font-size: 10px; color: #505A53;">Mes</p>
+              <p style="font-size: 16px; color: #505A53;"><strong>{{datosC.mes}}</strong></p>
+            </div> 
+          </ion-item>
+        </ion-card>
+      </ion-col>
+      <ion-col>     
+        <ion-card class="tarjeta">
+          <ion-item>
+            <div style="text-align: -webkit-center;">
+              <p style="font-size: 10px; color: #505A53;">Día</p>
+              <p style="font-size: 16px; color: #505A53;"><strong>{{datosC.dia}}</strong></p>
+            </div> 
+          </ion-item>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-card class="c4">
+    <ion-item>
+      <p style="font-size: 12px; color: #505A53;">Posible vehiculo a rentar: <strong>{{datosC.observacionesVehiculo}}</strong></p>
+    </ion-item>
+  </ion-card> 
+</div>
 
+<div class="c5">
+  <ion-grid style="text-align: center;">
+    <ion-row> 
+      <ion-col>     
+        <ion-card class="tarjeta">
+          <ion-item>
+            <div style="text-align: -webkit-center;">
+              <p style="font-size: 10px; color: #505A53;">¿Trae vehiculo?</p>
+              <p style="font-size: 16px; color: #505A53;"><strong>{{datosC.vehiculoRentado}}</strong></p>
+            </div> 
+          </ion-item>
+        </ion-card>
+      </ion-col>
+      <ion-col>     
+        <ion-card class="tarjeta">
+          <ion-item>
+            <div style="text-align: -webkit-center;">
+              <p style="font-size: 10px; color: #505A53;">Cliente activo</p>
+              <p style="font-size: 16px; color: #505A53;"><strong>{{datosC.clienteactivo}}</strong></p>
+            </div> 
+          </ion-item>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid> 
+</div> 
 
-<div class="container">
+<div class="btn">
+  <button ion-button round block shape="round" color="boton" (click)="enlace_cliente()">
+    <ion-icon name="person" subtle large item-left></ion-icon>
+      Datos del cliente
+  </button>
+</div>
 
-      <br>
-      <ion-grid>
-        <ion-row>
-          <h2>Edad: </h2><p id="edad">{{datosC.edad}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Telefono: </h2><p id="telefono">{{datosC.telefono}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Sexo: </h2><p id="sexo">{{datosC.sexo}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Direccion: </h2><p id="direccion">{{datosC.direccion}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Colonia: </h2><p id="colonia">{{datosC.colonia}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Ciudad: </h2><p id="ciudad">{{datosC.ciudad}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Estado: </h2><p id="estado">{{datosC.estado}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Licencia: </h2><p id="licencia">{{datosC.licencia}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Vigencia de la licencia: </h2><p id="fechaLicencia">{{datosC.fechaLicencia}}</p> 
-        </ion-row>
-      </ion-grid>
-
-      <br>
-      <ion-grid>
-        <ion-row>
-          <h2>Mes: </h2><p id="mes">{{datosC.mes}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Anticipo $ </h2><p id="anticipo">{{datosC.anticipo}}</p> 
-        </ion-row>
-        <ion-row>
-           <h2>Observaciones del cliente: </h2><p id="observacionesCliente">{{datosC.observacionesCliente}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Observaciones del vehiculo: </h2><p id="observacionesVehiculo">{{datosC.observacionesVehiculo}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Vehiculos Rentados: </h2><p id="vehiculosRentados">{{datosC.vehiculosRentados}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Vehiculos Dañados: </h2><p id="vehiculosMalEstado">{{datosC.vehiculosMalEstado}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Notas: </h2><p id="notasC">{{datosC.notasC}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Cliente Activo: </h2><p id="notas">{{datosC.clienteactivo}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Notas del historial: </h2><p id="notashistorial">{{datosC.notashistorial}}</p>
-        </ion-row>   
-        <ion-row>
-          <h2>Fecha de alta del cliente: </h2><p id="fechaAltaCliente">{{datosC.fechaAltaCliente}}</p> 
-        </ion-row>  
-      </ion-grid>
-   
-      <h2>Atendido por el ultimo usuario que fue: </h2><p id="nombreUsuario">{{datosC.nombreUsuario}}</p> 
-
-
-  </div>
 </ion-content>

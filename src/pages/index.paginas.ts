@@ -66,5 +66,8 @@ export { PvehiculocincoPage } from './pvehiculocinco/pvehiculocinco';
 export { PvehiculosietePage } from './pvehiculosiete/pvehiculosiete';
 export { PvehiculoochoPage } from './pvehiculoocho/pvehiculoocho';
 export { PvehiculocatorcePage } from './pvehiculocatorce/pvehiculocatorce';
+export { HistorialactivarPage } from './historialactivar/historialactivar';
+export { HistorialagendaPage } from './historialagenda/historialagenda';
+export { HistorialclientePage } from './historialcliente/historialcliente';
 
 

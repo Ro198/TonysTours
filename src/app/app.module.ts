@@ -74,7 +74,10 @@ import {LoginPage,
   PvehiculocincoPage,
   PvehiculosietePage,
   PvehiculoochoPage,
-  PvehiculocatorcePage
+  PvehiculocatorcePage,
+  HistorialactivarPage,
+  HistorialagendaPage,
+  HistorialclientePage
 } from "../pages/index.paginas";
 
 import { LoginService } from '../pages/servicios/LoginServices';
@@ -156,7 +159,10 @@ import { Camera } from '@ionic-native/camera';
     PvehiculocincoPage,
     PvehiculosietePage,
     PvehiculoochoPage,
-    PvehiculocatorcePage
+    PvehiculocatorcePage,
+    HistorialactivarPage,
+    HistorialagendaPage,
+    HistorialclientePage
   ],
   imports: [
     BrowserModule,
@@ -233,7 +239,10 @@ import { Camera } from '@ionic-native/camera';
     PvehiculocincoPage,
     PvehiculosietePage,
     PvehiculoochoPage,
-    PvehiculocatorcePage
+    PvehiculocatorcePage,
+    HistorialactivarPage,
+    HistorialagendaPage,
+    HistorialclientePage
   ],
   providers: [
     StatusBar,

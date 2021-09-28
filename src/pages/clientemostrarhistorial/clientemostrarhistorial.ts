@@ -3,10 +3,11 @@ import { NavController, NavParams, LoadingController, AlertController, ViewContr
 import { ClienteService } from '../servicios/ClienteServices';
 
 
-import { ClienteeditarPage,
-  HistorialPage,
-  MenunivelunoPage,
-  MenuniveldosPage
+import { 
+         HistorialPage,
+         HistorialagendaPage,
+         HistorialactivarPage,
+         HistorialclientePage
 } from "../index.paginas";
 
 @Component({
@@ -47,14 +48,6 @@ ClienteService;
 
   regresar(){             
     this.navCtrl.push(HistorialPage);
-}
-
-menu(){
-  if(this.perfil.nivelUsuario == "Administrador"){             
-    this.navCtrl.push(MenunivelunoPage);
-}else if (this.perfil.nivelUsuario == "Estandar"){             
-  this.navCtrl.push(MenuniveldosPage);
-}
 }
 
   dismiss() {
@@ -122,12 +115,54 @@ eliminar(form){
         }
 }
 
-  enlace_editar_cliente()
-{
-  // console.log(item);
 
-     // window.localStorage.setItem('datoscliente', JSON.stringify(item));
-      this.navCtrl.push(ClienteeditarPage)
+
+
+
+
+
+
+  enlace_agenda()
+{
+  
+  this.BDCliente  = window.localStorage.getItem('datosCliente')
+  this.datosC = JSON.parse(this.BDCliente )
+  
+
+  if(this.datosC.mes !== "Sin mes"){
+
+    let alert = this.alertCtrl.create({
+      title: '¡Atencion!',
+      subTitle: 'Ya se ha agendado, para modificar los datos, valla a la opción de editar',
+      buttons: ['DE ACUERDO']
+    });
+    alert.present();
+  }
+  else if(this.datosC.mes == this.datosC.mes){
+                                          
+    this.navCtrl.push(HistorialagendaPage)
+  }
+  else{
+        let alert = this.alertCtrl.create({
+        title: '¡ERROR!',
+        subTitle: 'Algo salio mal...',
+        buttons: ['REGRESAR']
+          });
+        alert.present();
+        }
+
+}
+
+
+enlace_activar()
+{
+      this.navCtrl.push(HistorialactivarPage)
+
+}
+
+enlace_cliente()
+{
+      this.navCtrl.push(HistorialclientePage)
 
 }
 

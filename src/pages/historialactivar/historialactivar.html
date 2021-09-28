@@ -1,0 +1,49 @@
+
+
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
+    <ion-title>Activar cliente</ion-title>
+  </ion-toolbar>
+</ion-header> 
+
+
+<ion-content padding>
+
+  <ion-grid style="text-align: center;">
+    <ion-row> 
+      <ion-col>
+        <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+        <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+      </ion-col>
+      <ion-col>     
+        <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>
+        <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>
+    </ion-col>
+    </ion-row>
+  </ion-grid> 
+
+
+    <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>
+    <ion-card-content style="text-align: justify;">
+      <p style="color: #505A53;">Al elegir la opción de <strong>CLIENTE ACTIVO</strong>, el cliente <strong>{{datosC.nombre}}</strong> pasara a la lista de "Clientes Activos" con el fin de usar sus datos para la renta de algún vehiculo.</p>
+    </ion-card-content>
+
+  <form #editarForm="ngForm">
+    <ion-list>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/activo.png"/>      
+       </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Cliente activo</ion-label>
+      <ion-select [(ngModel)]="editarCliente.clienteactivo" name="clienteactivo" #clienteactivo="ngModel" required> 
+      <ion-option value="ACTIVO">ACTIVO</ion-option>
+      <ion-option value="NO ACTIVO">NO ACTIVO</ion-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <br>
+    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Enviar solicitud</button>
+  </form>
+
+
+</ion-content>

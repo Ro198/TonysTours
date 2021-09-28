@@ -1,0 +1,127 @@
+
+
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
+    <ion-title>Agendar cliente</ion-title>
+  </ion-toolbar>
+</ion-header> 
+
+
+<ion-content padding>
+
+  <ion-grid style="text-align: center;">
+    <ion-row> 
+      <ion-col>
+        <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+        <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+      </ion-col>
+      <ion-col>     
+        <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>
+        <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>
+    </ion-col>
+    </ion-row>
+  </ion-grid> 
+
+
+    <ion-item style="text-align: -webkit-center;" no-lines>
+      <img style="width: 15%;" src="img/icon/user.png"/>
+      <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>
+      <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>
+    </ion-item>
+
+
+
+  <form #editarForm="ngForm">
+    
+    <ion-list>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/calendar.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Mes</ion-label>
+        <ion-select [(ngModel)]="editarCliente.mes" name="mes" #mes="ngModel" required>
+        <ion-option value="Sin mes">Sin mes</ion-option>
+        <ion-option value="Enero">Enero</ion-option>
+        <ion-option value="Febrero">Febrero</ion-option>
+        <ion-option value="Marzo">Marzo</ion-option>
+        <ion-option value="Abril">Abril</ion-option>
+        <ion-option value="Mayo">Mayo</ion-option>
+        <ion-option value="Junio">Junio</ion-option>
+        <ion-option value="Julio">Julio</ion-option>
+        <ion-option value="Agosto">Agosto</ion-option>
+        <ion-option value="Septiembre">Septiembre</ion-option>
+        <ion-option value="Octubre">Octubre</ion-option>
+        <ion-option value="Noviembre">Noviembre</ion-option>
+        <ion-option value="Diciembre">Diciembre</ion-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/dia.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Día</ion-label>
+        <ion-select [(ngModel)]="editarCliente.dia" name="dia" #dia="ngModel" required>
+        <ion-option value="Sin dia">Sin dia</ion-option>
+        <ion-option value="1">1</ion-option>
+        <ion-option value="2">2</ion-option>
+        <ion-option value="3">3</ion-option>
+        <ion-option value="4">4</ion-option>
+        <ion-option value="5">5</ion-option>
+        <ion-option value="6">6</ion-option>
+        <ion-option value="7">7</ion-option>
+        <ion-option value="8">8</ion-option>
+        <ion-option value="9">9</ion-option>
+        <ion-option value="10">10</ion-option>
+        <ion-option value="11">11</ion-option>
+        <ion-option value="12">12</ion-option>
+        <ion-option value="13">13</ion-option>
+        <ion-option value="14">14</ion-option>
+        <ion-option value="15">15</ion-option>
+        <ion-option value="16">16</ion-option>
+        <ion-option value="17">17</ion-option>
+        <ion-option value="18">18</ion-option>
+        <ion-option value="19">19</ion-option>
+        <ion-option value="20">20</ion-option>
+        <ion-option value="21">21</ion-option>
+        <ion-option value="22">22</ion-option>
+        <ion-option value="23">23</ion-option>
+        <ion-option value="24">24</ion-option>
+        <ion-option value="25">25</ion-option>
+        <ion-option value="26">26</ion-option>
+        <ion-option value="27">27</ion-option>
+        <ion-option value="28">28</ion-option>
+        <ion-option value="29">29</ion-option>
+        <ion-option value="30">30</ion-option>
+        <ion-option value="31">31</ion-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/anticipo.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Anticipo $:</ion-label>
+        <ion-input type="number" [(ngModel)]="editarCliente.anticipo" name="anticipo" #anticipo="ngModel"
+       required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/vehiculo.png"/>      
+         </ion-avatar>
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Nombre del vehiculo:</ion-label>
+        <ion-input type="text-area" [(ngModel)]="editarCliente.observacionesVehiculo" name="observacionesVehiculo" #observacionesVehiculo="ngModel"
+       required></ion-input>
+      </ion-item>
+    </ion-list>
+    <br>
+
+    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Agendar ahora</button>
+
+</form>
+
+ 
+ 
+
+
+
+
+</ion-content>

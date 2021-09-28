@@ -27,16 +27,16 @@ export class ClienteService {
 
 //AGREGAR CLIENTE
 
-    agregar_cliente(nombre, sexo, edad, direccion, colonia, telefono, ciudad, estado, licencia, fechaLicencia, observacionesCliente, observacionesVehiculo, tipoCliente, vehiculoRentado, vehiculosRentados, vehiculosMalEstado, notasC, mes, anticipo, clienteactivo, notashistorial, idUsuario) {
-        this.params='action=agregar_cliente&nombre='+nombre+'&sexo='+sexo+'&edad='+edad+'&direccion='+direccion+'&colonia='+colonia+'&telefono='+telefono+'&ciudad='+ciudad+'&estado='+estado+'&licencia='+licencia+'&fechaLicencia='+fechaLicencia+'&observacionesCliente='+observacionesCliente+'&observacionesVehiculo='+observacionesVehiculo+'&tipoCliente='+tipoCliente+'&vehiculoRentado='+vehiculoRentado+'&vehiculosRentados='+vehiculosRentados+'&vehiculosMalEstado='+vehiculosMalEstado+'&notasC='+notasC+'&mes='+mes+'&anticipo='+anticipo+'&clienteactivo='+clienteactivo+'&notashistorial='+notashistorial+'&idUsuario='+idUsuario
+    agregar_cliente(nombre, sexo, edad, direccion, colonia, telefono, ciudad, estado, licencia, fechaLicencia, observacionesCliente, observacionesVehiculo, tipoCliente, vehiculoRentado, vehiculosRentados, vehiculosMalEstado, mes, dia, anticipo, clienteactivo, notashistorial, idUsuario) {
+        this.params='action=agregar_cliente&nombre='+nombre+'&sexo='+sexo+'&edad='+edad+'&direccion='+direccion+'&colonia='+colonia+'&telefono='+telefono+'&ciudad='+ciudad+'&estado='+estado+'&licencia='+licencia+'&fechaLicencia='+fechaLicencia+'&observacionesCliente='+observacionesCliente+'&observacionesVehiculo='+observacionesVehiculo+'&tipoCliente='+tipoCliente+'&vehiculoRentado='+vehiculoRentado+'&vehiculosRentados='+vehiculosRentados+'&vehiculosMalEstado='+vehiculosMalEstado+'&mes='+mes+'&dia='+dia+'&anticipo='+anticipo+'&clienteactivo='+clienteactivo+'&notashistorial='+notashistorial+'&idUsuario='+idUsuario
         var url = this.serverUrl+ this.params;
         return this.http.get(url).map(res => res.json());
     }
 
 //EDITAR CLIENTE
 
-    editar_cliente(idCliente, nombre, sexo, edad, direccion, colonia, telefono, ciudad, estado, licencia, fechaLicencia, observacionesCliente, observacionesVehiculo, tipoCliente, vehiculoRentado, vehiculosRentados, vehiculosMalEstado, notasC, mes, anticipo, clienteactivo, notashistorial, idUsuario) {
-        this.params='action=editar_cliente&idCliente='+idCliente+'&nombre='+nombre+'&sexo='+sexo+'&edad='+edad+'&direccion='+direccion+'&colonia='+colonia+'&telefono='+telefono+'&ciudad='+ciudad+'&estado='+estado+'&licencia='+licencia+'&fechaLicencia='+fechaLicencia+'&observacionesCliente='+observacionesCliente+'&observacionesVehiculo='+observacionesVehiculo+'&tipoCliente='+tipoCliente+'&vehiculoRentado='+vehiculoRentado+'&vehiculosRentados='+vehiculosRentados+'&vehiculosMalEstado='+vehiculosMalEstado+'&notasC='+notasC+'&mes='+mes+'&anticipo='+anticipo+'&clienteactivo='+clienteactivo+'&notashistorial='+notashistorial+'&idUsuario='+idUsuario
+    editar_cliente(idCliente, nombre, sexo, edad, direccion, colonia, telefono, ciudad, estado, licencia, fechaLicencia, observacionesCliente, observacionesVehiculo, tipoCliente, vehiculoRentado, vehiculosRentados, vehiculosMalEstado, mes, dia, anticipo, clienteactivo, notashistorial, idUsuario) {
+        this.params='action=editar_cliente&idCliente='+idCliente+'&nombre='+nombre+'&sexo='+sexo+'&edad='+edad+'&direccion='+direccion+'&colonia='+colonia+'&telefono='+telefono+'&ciudad='+ciudad+'&estado='+estado+'&licencia='+licencia+'&fechaLicencia='+fechaLicencia+'&observacionesCliente='+observacionesCliente+'&observacionesVehiculo='+observacionesVehiculo+'&tipoCliente='+tipoCliente+'&vehiculoRentado='+vehiculoRentado+'&vehiculosRentados='+vehiculosRentados+'&vehiculosMalEstado='+vehiculosMalEstado+'&mes='+mes+'&dia='+dia+'&anticipo='+anticipo+'&clienteactivo='+clienteactivo+'&notashistorial='+notashistorial+'&idUsuario='+idUsuario
         var url = this.serverUrl+ this.params;
         return this.http.get(url).map(res => res.json());
     }

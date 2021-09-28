@@ -1,0 +1,85 @@
+
+
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
+    <ion-title>Datos del cliente</ion-title>
+    <ion-grid style="text-align: center;">
+      <ion-row> 
+        <ion-col>
+          <img style="width: 32%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+        </ion-col>
+        <ion-col>     
+          <img style="width: 32%;" (click)="enlace_editar_cliente()" src="img/icon/editarT.png"/>
+          <p style="font-size: 14px; color: #4A6D68; margin-top: 0%;">Editar</p>
+        </ion-col>
+        <ion-col>
+          <form #eliminarForm="ngForm">    
+            <img style="width: 32%;" (click)="eliminar(eliminarForm)" src="img/icon/basura.png"/>
+            <p style="font-size: 14px; color: #C10000; margin-top: 0%;">Eliminar</p>
+          </form> 
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </ion-toolbar>
+</ion-header> 
+
+
+<ion-content padding>
+
+  <div class="S1">
+
+    <ion-card class="c1">
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/user.png"/>      
+        </ion-avatar>
+        <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>
+        <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>
+        <h3 style="color: #505A53;">Fecha de alta: <strong>{{datosC.fechaCreacion}}</strong></h3>
+        <h4 style="opacity: 50%;">{{datosC.telefono}}</h4>
+      </ion-item>
+    </ion-card>  
+
+  <ion-card-content> 
+    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/cumple.png"/> Edad: <strong>{{datosC.edad}}</strong></p>
+  </ion-card-content>
+
+  <ion-card-content> 
+    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/sex.png"/> Sexo: <strong>{{datosC.sexo}}</strong></p>
+  </ion-card-content>
+   
+  <ion-card-content> 
+    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/ciudad.png"/> Ciudad: <strong>{{datosC.ciudad}}</strong></p>
+  </ion-card-content>
+  
+  <ion-card-content> 
+    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/estado.png"/> Estado: <strong>{{datosC.estado}}</strong></p>
+  </ion-card-content> 
+
+  <ion-card-content> 
+      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/address.png"/> Dirección: <strong>{{datosC.direccion}}</strong></p>
+  </ion-card-content>
+
+  <ion-card-content> 
+      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/colonia.png"/> Colonia: <strong>{{datosC.colonia}}</strong></p>
+  </ion-card-content>
+
+  <ion-card-content> 
+      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/observaciones.png"/> Observaciones del cliente: <strong>{{datosC.observacionesCliente}}</strong></p>
+  </ion-card-content>
+
+  </div>
+
+  <br>
+  <ion-card-content> 
+    <ion-item no-lines>
+      <p style="font-size: 18px; color: #4A6D68;"><strong><img style="width: 5%;" src="img/icon/not.png"/> Notas del historial:</strong></p>
+      <p style="font-size: 12px; color: #4A6D68;">{{datosC.notashistorial}}</p>
+    </ion-item>
+  </ion-card-content>
+
+
+</ion-content>
+
+

@@ -90,7 +90,7 @@ export class VehiculosocupadosPage {
   detalles(event,item) 
   {                
 
-    console.log(item);
+    console.log(item); 
 
     if(item.renta == "EN RENTA"){
 
