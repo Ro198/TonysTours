@@ -126,7 +126,7 @@ export class HistorialagendaPage {
               console.log(this.perfil.idUsuario);
 
             let loading =this.loadingCtrl.create({
-            content: "Modificando tu cliente espere...",
+            content: "Agregando espere...",
               });
               loading.present();
 
@@ -171,7 +171,7 @@ export class HistorialagendaPage {
                         //this.dismiss()
                       }
                     }]
-               });
+               }); 
               alert.present();
              }
 

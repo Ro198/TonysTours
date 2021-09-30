@@ -3,8 +3,10 @@ import { NavController, NavParams, LoadingController, AlertController, ViewContr
 import { ClienteService } from '../servicios/ClienteServices';
 
 import { ClienteeditarPage,
-  ClientemostrarhistorialPage,
-  HistorialPage
+         ClientemostrarhistorialPage,
+         HistorialPage,
+         AgendaeditarPage,
+         RentaseditarPage
 } from "../index.paginas";
 
 @Component({
@@ -124,23 +126,23 @@ enlace_editar_cliente()
       {
         text: 'Datos del cliente',
         role: 'destructive',
-        icon: !this.platform.is('md') ? 'trash' : null,
+        icon: !this.platform.is('md') ? 'person' : null,
         handler: () => {
-          this.navCtrl.push(ClienteeditarPage)
+          this.navCtrl.push(ClienteeditarPage);
         }
       },
       {
         text: 'Agenda',
-        icon: !this.platform.is('md') ? 'share' : null,
+        icon: !this.platform.is('md') ? 'book' : null,
         handler: () => {
-          console.log('Share clicked');
+          this.navCtrl.push(AgendaeditarPage);
         }
       },
       {
         text: 'Rentas',
-        icon: !this.platform.is('md') ? 'arrow-dropright-circle' : null,
+        icon: !this.platform.is('md') ? 'car' : null,
         handler: () => {
-          console.log('Play clicked');
+           this.navCtrl.push(RentaseditarPage);
         }
       },
       {

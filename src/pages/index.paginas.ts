@@ -69,5 +69,7 @@ export { PvehiculocatorcePage } from './pvehiculocatorce/pvehiculocatorce';
 export { HistorialactivarPage } from './historialactivar/historialactivar';
 export { HistorialagendaPage } from './historialagenda/historialagenda';
 export { HistorialclientePage } from './historialcliente/historialcliente';
+export { AgendaeditarPage } from './agendaeditar/agendaeditar';
+export { RentaseditarPage } from './rentaseditar/rentaseditar';
 
 

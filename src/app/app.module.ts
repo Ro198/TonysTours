@@ -77,7 +77,9 @@ import {LoginPage,
   PvehiculocatorcePage,
   HistorialactivarPage,
   HistorialagendaPage,
-  HistorialclientePage
+  HistorialclientePage,
+  AgendaeditarPage,
+  RentaseditarPage
 } from "../pages/index.paginas";
 
 import { LoginService } from '../pages/servicios/LoginServices';
@@ -162,7 +164,9 @@ import { Camera } from '@ionic-native/camera';
     PvehiculocatorcePage,
     HistorialactivarPage,
     HistorialagendaPage,
-    HistorialclientePage
+    HistorialclientePage,
+    AgendaeditarPage,
+    RentaseditarPage
   ],
   imports: [
     BrowserModule,
@@ -242,7 +246,9 @@ import { Camera } from '@ionic-native/camera';
     PvehiculocatorcePage,
     HistorialactivarPage,
     HistorialagendaPage,
-    HistorialclientePage
+    HistorialclientePage,
+    AgendaeditarPage,
+    RentaseditarPage
   ],
   providers: [
     StatusBar,

@@ -2,8 +2,11 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, LoadingController, AlertController, ViewController } from 'ionic-angular';
 import { ClienteService } from '../servicios/ClienteServices';
 
-//import { MenuPage
-//} from "../index.paginas";
+import { HistorialclientePage,
+         HistorialPage,
+         MenuniveldosPage,
+         MenunivelunoPage
+} from "../index.paginas";
 
 @Component({ 
   selector: 'page-clienteeditar',
@@ -28,8 +31,8 @@ export class ClienteeditarPage {
     vehiculoRentado?: string,
     vehiculosRentados?: string,
     vehiculosMalEstado?: string,
-    notasC?: string,
     mes?: string,
+    dia?: string,
     anticipo?: string,
     clienteactivo?: string,
     notashistorial?: string
@@ -79,13 +82,26 @@ export class ClienteeditarPage {
     this.editarCliente.vehiculoRentado = this.datosC.vehiculoRentado;
     this.editarCliente.vehiculosRentados = this.datosC.vehiculosRentados;
     this.editarCliente.vehiculosMalEstado = this.datosC.vehiculosMalEstado;
-    this.editarCliente.notasC = this.datosC.notasC;
     this.editarCliente.mes = this.datosC.mes;
+    this.editarCliente.dia = this.datosC.dia;
     this.editarCliente.anticipo = this.datosC.anticipo;
     this.editarCliente.clienteactivo = this.datosC.clienteactivo;
     this.editarCliente.notashistorial = this.datosC.notashistorial;
 
   }
+
+regresar(){             
+  this.navCtrl.push(HistorialclientePage);
+}
+
+menu(){
+if(this.perfil.nivelUsuario == "Administrador"){             
+  this.navCtrl.setRoot(MenunivelunoPage);
+}else if(this.perfil.nivelUsuario == "Estandar"){             
+  this.navCtrl.setRoot(MenuniveldosPage);
+}
+
+}
 
   dismiss() {
     this.viewCtrl.dismiss();
@@ -116,15 +132,15 @@ export class ClienteeditarPage {
               console.log(this.editarCliente.vehiculoRentado);
               console.log(this.editarCliente.vehiculosRentados);
               console.log(this.editarCliente.vehiculosMalEstado);
-              console.log(this.editarCliente.notasC);
               console.log(this.editarCliente.mes);
+              console.log(this.editarCliente.dia);
               console.log(this.editarCliente.anticipo);
               console.log(this.editarCliente.clienteactivo);
               console.log(this.editarCliente.notashistorial);
               console.log(this.perfil.idUsuario);
 
             let loading =this.loadingCtrl.create({
-            content: "Modificando tu cliente espere...",
+            content: "Modificando los datos espere...",
               });
               loading.present();
 
@@ -145,8 +161,8 @@ export class ClienteeditarPage {
                                                this.editarCliente.vehiculoRentado,
                                                this.editarCliente.vehiculosRentados,
                                                this.editarCliente.vehiculosMalEstado,
-                                               this.editarCliente.notasC,
                                                this.editarCliente.mes,
+                                               this.editarCliente.dia,
                                                this.editarCliente.anticipo,
                                                this.editarCliente.clienteactivo,
                                                this.editarCliente.notashistorial,
@@ -160,13 +176,13 @@ export class ClienteeditarPage {
                 //console.log('Usuario registrado');
                 let alert = this.alertCtrl.create({
                 title: "¡OPERACION EXITOSA!",
-                subTitle:"Tu cliente fue modificado correctamente",
+                subTitle:"Datos modificados correctamente",
                 buttons: [
                     {
                       text: 'Aceptar',
                       handler: () => {
-                        //this.navCtrl.setRoot(MenuPage)
-                        this.dismiss()
+                        this.navCtrl.setRoot(HistorialPage)
+                        //this.dismiss()
                       }
                     }]
                });
@@ -177,7 +193,7 @@ export class ClienteeditarPage {
 
               let alert = this.alertCtrl.create({
                 title: "¡ERROR!",
-                subTitle:"No se pudo modificar tu cliente, intentalo nuevamente",
+                subTitle:"Datos no modificados, intentalo nuevamente",
                 buttons: ["Aceptar"]
             });
 
