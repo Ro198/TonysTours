@@ -135,14 +135,62 @@ enlace_editar_cliente()
         text: 'Agenda',
         icon: !this.platform.is('md') ? 'book' : null,
         handler: () => {
-          this.navCtrl.push(AgendaeditarPage);
+
+                this.BDCliente  = window.localStorage.getItem('datosCliente')
+                this.datosC = JSON.parse(this.BDCliente )
+                
+                if(this.datosC.vehiculoRentado == "RENTANDO"){
+                  let alert = this.alertCtrl.create({
+                    title: '¡Atencion!',
+                    subTitle: 'No se puede editar mientras que el cliente este rentando',
+                    buttons: ['DE ACUERDO']
+                  });
+                  alert.present();
+                }
+
+                else if(this.datosC.vehiculoRentado == "SIN VEHICULO"){                                                     
+                  this.navCtrl.push(AgendaeditarPage);
+                }
+
+                else{
+                      let alert = this.alertCtrl.create({
+                      title: '¡ERROR!',
+                      subTitle: 'Algo salio mal...',
+                      buttons: ['REGRESAR']
+                        });
+                      alert.present();
+                      }
         }
       },
       {
         text: 'Rentas',
         icon: !this.platform.is('md') ? 'car' : null,
         handler: () => {
-           this.navCtrl.push(RentaseditarPage);
+
+          this.BDCliente  = window.localStorage.getItem('datosCliente')
+          this.datosC = JSON.parse(this.BDCliente )
+          
+          if(this.datosC.vehiculoRentado == "RENTANDO"){
+            let alert = this.alertCtrl.create({
+              title: '¡Atencion!',
+              subTitle: 'No se puede editar mientras que el cliente este rentando',
+              buttons: ['DE ACUERDO']
+            });
+            alert.present();
+          }
+
+          else if(this.datosC.vehiculoRentado == "SIN VEHICULO"){                                                     
+            this.navCtrl.push(RentaseditarPage);
+          }
+
+          else{
+                let alert = this.alertCtrl.create({
+                title: '¡ERROR!',
+                subTitle: 'Algo salio mal...',
+                buttons: ['REGRESAR']
+                  });
+                alert.present();
+                }
         }
       },
       {

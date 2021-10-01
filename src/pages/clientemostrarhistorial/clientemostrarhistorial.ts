@@ -138,10 +138,21 @@ eliminar(form){
     });
     alert.present();
   }
+  
+  else if(this.datosC.vehiculoRentado == "RENTANDO"){
+    let alert = this.alertCtrl.create({
+      title: '¡Atencion!',
+      subTitle: 'No se puede agendar mientras que el cliente este rentando',
+      buttons: ['DE ACUERDO']
+    });
+    alert.present();
+  }
+
   else if(this.datosC.mes == this.datosC.mes){
                                           
     this.navCtrl.push(HistorialagendaPage)
-  }
+
+  }  
   else{
         let alert = this.alertCtrl.create({
         title: '¡ERROR!',
@@ -156,11 +167,35 @@ eliminar(form){
 
 enlace_activar()
 {
-      this.navCtrl.push(HistorialactivarPage)
+  this.BDCliente  = window.localStorage.getItem('datosCliente')
+  this.datosC = JSON.parse(this.BDCliente )
+  
+
+  if(this.datosC.vehiculoRentado == "RENTANDO"){
+
+    let alert = this.alertCtrl.create({
+      title: '¡Atencion!',
+      subTitle: 'No se puede activar mientras que el cliente este rentando',
+      buttons: ['DE ACUERDO']
+    });
+    alert.present();
+  }
+  else if(this.datosC.vehiculoRentado == "SIN VEHICULO"){
+                                          
+    this.navCtrl.push(HistorialactivarPage)
+  }
+  else{
+        let alert = this.alertCtrl.create({
+        title: '¡ERROR!',
+        subTitle: 'Algo salio mal...',
+        buttons: ['REGRESAR']
+          });
+        alert.present();
+        }
 
 }
 
-enlace_cliente()
+enlace_cliente() 
 {
       this.navCtrl.push(HistorialclientePage)
 

@@ -1,18 +1,68 @@
-<!--
-  Generated template for the RentaseditarPage page.
 
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
-<ion-header>
 
-  <ion-navbar>
-    <ion-title>rentaseditar</ion-title>
-  </ion-navbar>
-
-</ion-header>
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
+    <ion-title>Editar rentas</ion-title>
+  </ion-toolbar>
+</ion-header> 
 
 
 <ion-content padding>
+
+  <ion-grid style="text-align: center;">
+    <ion-row> 
+      <ion-col>
+        <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+        <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+      </ion-col>
+      <ion-col>     
+        <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>
+        <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>
+    </ion-col>
+    </ion-row>
+  </ion-grid> 
+ 
+  <ion-item style="text-align: -webkit-center;" no-lines>
+    <img style="width: 15%;" src="img/icon/user.png"/>
+    <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>
+    <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>
+  </ion-item>
+
+  <form #editarForm="ngForm">
+    
+    
+    <ion-list>
+      <h5 style="color: #505A53;">Numero de rentas</h5>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/car.png"/>      
+         </ion-avatar>
+         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Numero de vehiculos rentados:</ion-label>
+         <ion-input type="number" [(ngModel)]="editarCliente.vehiculosRentados" name="vehiculosRentados" #vehiculosRentados="ngModel"
+        required></ion-input>
+      </ion-item>
+      <br>
+
+      <h5 style="color: #505A53;">Numero de vehiculos en mal estado</h5>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/grua.png"/>      
+         </ion-avatar>
+         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">En mal estado:</ion-label>
+         <ion-input type="number" [(ngModel)]="editarCliente.vehiculosMalEstado" name="vehiculosMalEstado" #vehiculosMalEstado="ngModel"
+        required></ion-input>
+      </ion-item>
+    </ion-list>
+    <br>
+
+    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Modificar</button> 
+
+</form>
+
+
+
+
+
+
 
 </ion-content>

@@ -88,11 +88,10 @@ export class AgendaeditarPage {
     this.editarCliente.anticipo = this.datosC.anticipo;
     this.editarCliente.clienteactivo = this.datosC.clienteactivo;
     this.editarCliente.notashistorial = this.datosC.notashistorial;
-
-    
+  
   }
 
-   //EDITAR CLIENTE
+   //EDITAR AGENDA CLIENTE
 
    editar(form){
 
@@ -154,7 +153,7 @@ export class AgendaeditarPage {
                                                this.perfil.idUsuario).subscribe(
 
             data => {
-                this.userData = data;
+                this.userData = data; 
                 console.log(data);
               loading.dismiss();
                 if(this.userData.estatus === "OK"){
