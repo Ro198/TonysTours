@@ -733,9 +733,9 @@ var VehiculoService = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return url; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return url2; });
-var url = "http://localhost/TonyToursBD/API/?";
+var url = "http://192.168.0.3/TonyToursBD/API/?";
 //export var url = "http://34.229.103.166/TonyToursBD/API/?";
-var url2 = "http://localhost/TonyToursBD/API/foto.php";
+var url2 = "http://192.168.0.3/TonyToursBD/API/foto.php";
 //# sourceMappingURL=URL.js.map
 
 /***/ }),
@@ -2138,7 +2138,7 @@ var MenunivelunoPage = (function () {
     };
     MenunivelunoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-menuniveluno',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\menuniveluno\menuniveluno.html"*/`\n<ion-content padding>\n  <br>\n  <div class="logo" style="text-align: center;">\n    <img src="img/M1.png" style="width:96%;">\n  </div> \n\n  <ion-grid style="text-align: center;">\n    <ion-row>\n      <ion-col>\n          <button class="bordered" fill="solid" ion-button (click)="usuarios()" color="btnlogin">\n            <ion-icon name="people"></ion-icon>\n          </button>\n          <p style="font-size: 10px;">Usuarios</p>\n      </ion-col>\n      <ion-col>     \n          <button class="bordered" fill="solid" ion-button icon-only (click)="miperfil()" color="verde-limon">\n            <ion-icon name="person"></ion-icon> \n          </button>\n          <p style="font-size: 10px;">Mi perfil</p>\n      </ion-col>\n      <ion-col>     \n        <button class="bordered" fill="solid" ion-button icon-only (click)="logout()" color="rojo">\n           <ion-icon name="close-circle"></ion-icon>\n        </button>\n        <p style="font-size: 10px;">Cerrar sesión</p>\n    </ion-col>\n    </ion-row>\n  </ion-grid>\n\n  <ion-slides pager>\n    <ion-slide>\n      <h4 class="slide-title" color="primary">Vehiculos</h4>\n      <img src="img/M3.png" class="slide-image" (click)="vehiculos()"\n        style="border-radius: 50px;" />\n        <p>Mis vehiculos</p>\n      </ion-slide>\n    <ion-slide>\n      <h4 class="slide-title" color="primary">Clientes</h4>\n      <img src="img/M4.png" class="slide-image" (click)="clientes()"\n        style="border-radius: 50px;" />\n        <p>Mis clientes</p>\n    </ion-slide>\n    <ion-slide>\n      <h4 class="slide-title" color="primary">Historial</h4>\n      <img src="img/M5.png" class="slide-image" (click)="clientesHistorial()"\n      style="border-radius: 50px;" />\n      <p>Historial de clientes</p>\n    </ion-slide>\n  </ion-slides>\n\n  <div class="redes">\n    <ion-grid style="text-align: center; margin-top: -4%;">\n      <ion-row>\n        <ion-col>\n          <img src="img/facebookk.png"\n            onclick="window.open(\'https://www.facebook.com/tonystours.lp\',\'_system\',\'location=yes\')">\n        </ion-col>\n        <ion-col>\n          <img src="img/twitter.png"\n            onclick="window.open(\'https://twitter.com/grandpetmx?lang=es\',\'_system\',\'location=yes\')">\n        </ion-col>\n        <ion-col>\n          <img src="img/instagram.png"\n            onclick="window.open(\'https://www.instagram.com/grandpet_oficial/?hl=es-la\',\'_system\',\'location=yes\')">\n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  </div>\n\n  <ion-footer no-border no-shadow color="primary-contrast">\n      <div style="text-align: center;">\n        <img src="img/M2.png" style="width:100%;">\n      </div> \n  </ion-footer>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\menuniveluno\menuniveluno.html"*/,
+            selector: 'page-menuniveluno',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\menuniveluno\menuniveluno.html"*/`\n<ion-content padding>\n  <br>\n  \n  <ion-grid style="text-align: center;"> \n    <ion-row> \n      <ion-col> \n        <div class="logo" style="text-align: left;">\n          <img src="img/logoOF.png" style="width:80%;">\n        </div> \n      </ion-col>\n      <ion-col>     \n        <div style="text-align: center;">\n          <p style="padding: 0 0px; font-size: 10px; color: #505A53; margin-top: 24%; margin-right: 0%;">Bienvenid@ <br> \n            <strong style="font-size: 16px; color: #1BC7AF;">{{perfil.nombreUsuario}}</strong> <br> \n            <strong style="font-size: 12px; color: #505A53;">{{perfil.nivelUsuario}}</strong> </p>\n        </div> \n      </ion-col>\n    </ion-row>\n  </ion-grid> \n\n  <div class="c1">\n    <ion-grid style="text-align: center;">  \n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta" (click)="usuarios()">\n            <ion-item>\n              <ion-avatar item-center>\n                <img src="img/icon/users.png"/>      \n               </ion-avatar>\n            </ion-item>\n            <p style="font-size: 8px; color: #1BC7AF;">Usuarios</p>\n          </ion-card>\n        </ion-col> \n        <ion-col>     \n          <ion-card class="tarjeta" (click)="miperfil()">\n            <ion-item>\n              <ion-avatar item-center>\n                <img src="img/icon/usuario.png"/>      \n               </ion-avatar>\n            </ion-item>\n            <p style="font-size: 8px; color: #1BC7AF;">Mi perfil</p>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta">\n            <ion-item>\n              <ion-avatar item-center>\n                <img src="img/icon/calendar.png"/>      \n               </ion-avatar>\n            </ion-item>\n            <p style="font-size: 8px; color: #1BC7AF;">Agenda</p>\n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </div>\n\n\n  <ion-slides pager>\n    <ion-slide>\n      <h4 class="slide-title" style="color: #505A53;">Vehiculos</h4>\n      <img src="img/vehiculo.gif" class="slide-image" (click)="vehiculos()"\n        style="border-radius: 30px;" />\n        <p style="color: #505A53;">Mis vehiculos</p>\n      </ion-slide> \n    <ion-slide>\n      <h4 class="slide-title" style="color: #505A53;">Clientes</h4>\n      <img src="img/clientes.png" class="slide-image" (click)="clientes()"\n        style="border-radius: 30px;" />\n        <p style="color: #505A53;">Movimientos de clientes</p>\n    </ion-slide>\n    <ion-slide>\n      <h4 class="slide-title" style="color: #505A53;">Historial</h4>\n      <img src="img/historial.png" class="slide-image" (click)="clientesHistorial()"\n      style="border-radius: 30px;" />\n      <p style="color: #505A53;">Historial de clientes</p>\n    </ion-slide>\n  </ion-slides>\n\n\n  <ion-footer no-border no-shadow color="primary-contrast">\n      <div style="text-align: center;">\n        <img src="img/pye.png" style="width:100%;">\n      </div> \n  </ion-footer>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\menuniveluno\menuniveluno.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -6830,7 +6830,7 @@ var ClientemostrarhistorialPage = (function () {
                 console.log(data);
                 loading_1.dismiss();
                 if (_this.userData.estatus === "OK") {
-                    var alert = _this.alertCtrl.create({
+                    var alert_1 = _this.alertCtrl.create({
                         title: "¡ELIMINADO!",
                         subTitle: "Tu cliente fue eliminado correctamente",
                         buttons: [
@@ -6843,15 +6843,15 @@ var ClientemostrarhistorialPage = (function () {
                             }
                         ]
                     });
-                    alert.present();
+                    alert_1.present();
                 }
                 if (_this.userData.estatus === "ERROR") {
-                    var alert = _this.alertCtrl.create({
+                    var alert_2 = _this.alertCtrl.create({
                         title: "¡ERROR!",
                         subTitle: "No se pudo eliminar tu cliente, intentalo nuevamente",
                         buttons: ["Aceptar"]
                     });
-                    alert.present();
+                    alert_2.present();
                 }
             }, function (err) {
                 //console.log(err);
@@ -6869,54 +6869,54 @@ var ClientemostrarhistorialPage = (function () {
         this.BDCliente = window.localStorage.getItem('datosCliente');
         this.datosC = JSON.parse(this.BDCliente);
         if (this.datosC.mes !== "Sin mes") {
-            var alert = this.alertCtrl.create({
+            var alert_3 = this.alertCtrl.create({
                 title: '¡Atencion!',
                 subTitle: 'Ya se ha agendado, para modificar los datos, valla a la opción de editar',
                 buttons: ['DE ACUERDO']
             });
-            alert.present();
+            alert_3.present();
         }
         else if (this.datosC.vehiculoRentado == "RENTANDO") {
-            var alert = this.alertCtrl.create({
+            var alert_4 = this.alertCtrl.create({
                 title: '¡Atencion!',
                 subTitle: 'No se puede agendar mientras que el cliente este rentando',
                 buttons: ['DE ACUERDO']
             });
-            alert.present();
+            alert_4.present();
         }
         else if (this.datosC.mes == this.datosC.mes) {
             this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["y" /* HistorialagendaPage */]);
         }
         else {
-            var alert = this.alertCtrl.create({
+            var alert_5 = this.alertCtrl.create({
                 title: '¡ERROR!',
                 subTitle: 'Algo salio mal...',
                 buttons: ['REGRESAR']
             });
-            alert.present();
+            alert_5.present();
         }
     };
     ClientemostrarhistorialPage.prototype.enlace_activar = function () {
         this.BDCliente = window.localStorage.getItem('datosCliente');
         this.datosC = JSON.parse(this.BDCliente);
         if (this.datosC.vehiculoRentado == "RENTANDO") {
-            var alert = this.alertCtrl.create({
+            var alert_6 = this.alertCtrl.create({
                 title: '¡Atencion!',
                 subTitle: 'No se puede activar mientras que el cliente este rentando',
                 buttons: ['DE ACUERDO']
             });
-            alert.present();
+            alert_6.present();
         }
         else if (this.datosC.vehiculoRentado == "SIN VEHICULO") {
             this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["x" /* HistorialactivarPage */]);
         }
         else {
-            var alert = this.alertCtrl.create({
+            var alert_7 = this.alertCtrl.create({
                 title: '¡ERROR!',
                 subTitle: 'Algo salio mal...',
                 buttons: ['REGRESAR']
             });
-            alert.present();
+            alert_7.present();
         }
     };
     ClientemostrarhistorialPage.prototype.enlace_cliente = function () {
@@ -6927,12 +6927,16 @@ var ClientemostrarhistorialPage = (function () {
     };
     ClientemostrarhistorialPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-clientemostrarhistorial',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientemostrarhistorial\clientemostrarhistorial.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Detalles del cliente</ion-title>\n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content >\n\n  <ion-grid style="text-align: center;">\n    <ion-row> \n      <ion-col>\n        <img style="width: 32%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n        <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n      </ion-col>\n      <ion-col>     \n        <img style="width: 32%;" (click)="enlace_agenda()" src="img/icon/agendar.png"/>\n        <p style="font-size: 14px; color: #4A6D68; margin-top: 0%;">Agendar</p>\n      </ion-col>\n      <ion-col>\n          <img style="width: 32%;" (click)="enlace_activar()" src="img/icon/activo.png"/>\n          <p style="font-size: 14px; color: #4A6D68; margin-top: 0%;">Activar cliente</p>\n      </ion-col>\n    </ion-row>\n  </ion-grid> \n\n  <ion-card class="c1">\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/user.png"/>      \n      </ion-avatar>\n      <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>\n      <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>\n      <h3 style="color: #505A53;">Licencia: <strong>{{datosC.licencia}} - {{datosC.fechaLicencia}}</strong></h3>\n      <h4 style="opacity: 50%;">{{datosC.telefono}}</h4>\n    </ion-item>\n  </ion-card>  \n\n  <div class="c2">\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n          <ion-card class="tarjeta">\n            <ion-item>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 8px; color: #505A53;">Vehiculos <br> rentados</p>\n                <p style="font-size: 20px; color: #505A53;"><strong>{{datosC.vehiculosRentados}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta">\n            <ion-item>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 8px; color: #505A53;">Vehiculos en <br> mal estado</p>\n                <p style="font-size: 20px; color: #505A53;"><strong>{{datosC.vehiculosMalEstado}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta">\n            <ion-item>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 8px; color: #505A53;">Anticipo <br> del vehiculo</p>\n                <p style="font-size: 20px; color: #505A53;">$ <strong>{{datosC.anticipo}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </div>\n\n\n<div class="c3">\n  <ion-grid style="text-align: center;">\n    <ion-row>\n      <ion-col>     \n        <ion-card class="tarjeta">\n          <ion-item>\n            <div style="text-align: -webkit-center;">\n              <p style="font-size: 10px; color: #505A53;">Mes</p>\n              <p style="font-size: 16px; color: #505A53;"><strong>{{datosC.mes}}</strong></p>\n            </div> \n          </ion-item>\n        </ion-card>\n      </ion-col>\n      <ion-col>     \n        <ion-card class="tarjeta">\n          <ion-item>\n            <div style="text-align: -webkit-center;">\n              <p style="font-size: 10px; color: #505A53;">Día</p>\n              <p style="font-size: 16px; color: #505A53;"><strong>{{datosC.dia}}</strong></p>\n            </div> \n          </ion-item>\n        </ion-card>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n  <ion-card class="c4">\n    <ion-item>\n      <p style="font-size: 12px; color: #505A53;">Posible vehiculo a rentar: <strong>{{datosC.observacionesVehiculo}}</strong></p>\n    </ion-item>\n  </ion-card> \n</div>\n\n<div class="c5">\n  <ion-grid style="text-align: center;">\n    <ion-row> \n      <ion-col>     \n        <ion-card class="tarjeta">\n          <ion-item>\n            <div style="text-align: -webkit-center;">\n              <p style="font-size: 10px; color: #505A53;">¿Trae vehiculo?</p>\n              <p style="font-size: 16px; color: #505A53;"><strong>{{datosC.vehiculoRentado}}</strong></p>\n            </div> \n          </ion-item>\n        </ion-card>\n      </ion-col>\n      <ion-col>     \n        <ion-card class="tarjeta">\n          <ion-item>\n            <div style="text-align: -webkit-center;">\n              <p style="font-size: 10px; color: #505A53;">Cliente activo</p>\n              <p style="font-size: 16px; color: #505A53;"><strong>{{datosC.clienteactivo}}</strong></p>\n            </div> \n          </ion-item>\n        </ion-card>\n      </ion-col>\n    </ion-row>\n  </ion-grid> \n</div> \n\n<div class="btn">\n  <button ion-button round block shape="round" color="boton" (click)="enlace_cliente()">\n    <ion-icon name="person" subtle large item-left></ion-icon>\n      Datos del cliente\n  </button>\n</div>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientemostrarhistorial\clientemostrarhistorial.html"*/,
+            selector: 'page-clientemostrarhistorial',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientemostrarhistorial\clientemostrarhistorial.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Detalles del cliente</ion-title>\n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content >\n\n  <ion-grid style="text-align: center;">\n    <ion-row> \n      <ion-col>\n        <img style="width: 32%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n        <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n      </ion-col>\n      <ion-col>     \n        <img style="width: 32%;" (click)="enlace_agenda()" src="img/icon/agendar.png"/>\n        <p style="font-size: 14px; color: #4A6D68; margin-top: 0%;">Agendar</p>\n      </ion-col>\n      <ion-col>\n          <img style="width: 32%;" (click)="enlace_activar()" src="img/icon/activo.png"/>\n          <p style="font-size: 14px; color: #4A6D68; margin-top: 0%;">Activar cliente</p>\n      </ion-col>\n    </ion-row>\n  </ion-grid> \n \n  <ion-card class="c1">\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/user.png"/>      \n      </ion-avatar>\n      <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>\n      <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>\n      <h3 style="color: #505A53;">Licencia: <strong>{{datosC.licencia}} - {{datosC.fechaLicencia}}</strong></h3>\n      <h4 style="opacity: 50%;">{{datosC.telefono}}</h4>\n    </ion-item>\n  </ion-card>  \n\n  <div class="c2">\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta">\n            <ion-item>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 8px; color: #505A53;"> Vehiculos <br> rentados</p>\n                <p style="font-size: 20px; color: #1BC7AF;"><strong>{{datosC.vehiculosRentados}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta">\n            <ion-item>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 8px; color: #505A53;">Vehiculos en <br> mal estado</p>\n                <p style="font-size: 20px; color: #1BC7AF;"><strong>{{datosC.vehiculosMalEstado}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta">\n            <ion-item>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Agendado <br> para el día:</p>\n                <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosC.dia}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </div>\n\n\n<div class="c3">\n  <ion-grid style="text-align: center;">\n    <ion-row>\n      <ion-col>     \n        <ion-card class="tarjeta">\n          <ion-item>\n            <div style="text-align: -webkit-center;">\n              <p style="font-size: 10px; color: #505A53;">Agendado para el mes de:</p>\n              <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosC.mes}}</strong></p>\n            </div> \n          </ion-item>\n        </ion-card>\n      </ion-col>\n      <ion-col>     \n        <ion-card class="tarjeta">\n          <ion-item>\n            <div style="text-align: -webkit-center;">\n              <p style="font-size: 8px; color: #505A53;">Anticipo del vehiculo:</p>\n              <p style="font-size: 20px; color: #1BC7AF;">$ <strong>{{datosC.anticipo}}</strong></p>\n            </div> \n          </ion-item>\n        </ion-card>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n  <ion-card class="c4">\n    <ion-item>\n      <p style="font-size: 12px; color: #505A53;">Posible vehiculo a rentar: <strong>{{datosC.observacionesVehiculo}}</strong></p>\n    </ion-item>\n  </ion-card> \n</div>\n\n<div class="c5">\n  <ion-grid style="text-align: center;">\n    <ion-row> \n      <ion-col>     \n        <ion-card class="tarjeta">\n          <ion-item>\n            <div style="text-align: -webkit-center;">\n              <p style="font-size: 10px; color: #505A53;">¿Trae vehiculo?</p>\n              <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosC.vehiculoRentado}}</strong></p>\n            </div> \n          </ion-item>\n        </ion-card>\n      </ion-col>\n      <ion-col>     \n        <ion-card class="tarjeta">\n          <ion-item>\n            <div style="text-align: -webkit-center;">\n              <p style="font-size: 10px; color: #505A53;">Cliente activo</p>\n              <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosC.clienteactivo}}</strong></p>\n            </div> \n          </ion-item>\n        </ion-card>\n      </ion-col>\n    </ion-row>\n  </ion-grid> \n</div> \n\n<div class="btn">\n  <button ion-button round block shape="round" color="boton" (click)="enlace_cliente()">\n    <ion-icon name="person" subtle large item-left></ion-icon>\n      Datos del cliente\n  </button>\n</div>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientemostrarhistorial\clientemostrarhistorial.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__servicios_ClienteServices__["a" /* ClienteService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__servicios_ClienteServices__["a" /* ClienteService */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */]) === "function" && _f || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_2__servicios_ClienteServices__["a" /* ClienteService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */]])
     ], ClientemostrarhistorialPage);
     return ClientemostrarhistorialPage;
-    var _a, _b, _c, _d, _e, _f;
 }());
 
 //# sourceMappingURL=clientemostrarhistorial.js.map
@@ -9347,7 +9351,7 @@ var HistorialclientePage = (function () {
                 console.log(data);
                 loading_1.dismiss();
                 if (_this.userData.estatus === "OK") {
-                    var alert = _this.alertCtrl.create({
+                    var alert_1 = _this.alertCtrl.create({
                         title: "¡ELIMINADO!",
                         subTitle: "Tu cliente fue eliminado correctamente",
                         buttons: [
@@ -9359,15 +9363,15 @@ var HistorialclientePage = (function () {
                             }
                         ]
                     });
-                    alert.present();
+                    alert_1.present();
                 }
                 if (_this.userData.estatus === "ERROR") {
-                    var alert = _this.alertCtrl.create({
+                    var alert_2 = _this.alertCtrl.create({
                         title: "¡ERROR!",
                         subTitle: "No se pudo eliminar tu cliente, intentalo nuevamente",
                         buttons: ["Aceptar"]
                     });
-                    alert.present();
+                    alert_2.present();
                 }
             }, function (err) {
                 //console.log(err);
@@ -9402,23 +9406,23 @@ var HistorialclientePage = (function () {
                         _this.BDCliente = window.localStorage.getItem('datosCliente');
                         _this.datosC = JSON.parse(_this.BDCliente);
                         if (_this.datosC.vehiculoRentado == "RENTANDO") {
-                            var alert = _this.alertCtrl.create({
+                            var alert_3 = _this.alertCtrl.create({
                                 title: '¡Atencion!',
                                 subTitle: 'No se puede editar mientras que el cliente este rentando',
                                 buttons: ['DE ACUERDO']
                             });
-                            alert.present();
+                            alert_3.present();
                         }
                         else if (_this.datosC.vehiculoRentado == "SIN VEHICULO") {
                             _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["n" /* AgendaeditarPage */]);
                         }
                         else {
-                            var alert = _this.alertCtrl.create({
+                            var alert_4 = _this.alertCtrl.create({
                                 title: '¡ERROR!',
                                 subTitle: 'Algo salio mal...',
                                 buttons: ['REGRESAR']
                             });
-                            alert.present();
+                            alert_4.present();
                         }
                     }
                 },
@@ -9429,23 +9433,23 @@ var HistorialclientePage = (function () {
                         _this.BDCliente = window.localStorage.getItem('datosCliente');
                         _this.datosC = JSON.parse(_this.BDCliente);
                         if (_this.datosC.vehiculoRentado == "RENTANDO") {
-                            var alert = _this.alertCtrl.create({
+                            var alert_5 = _this.alertCtrl.create({
                                 title: '¡Atencion!',
                                 subTitle: 'No se puede editar mientras que el cliente este rentando',
                                 buttons: ['DE ACUERDO']
                             });
-                            alert.present();
+                            alert_5.present();
                         }
                         else if (_this.datosC.vehiculoRentado == "SIN VEHICULO") {
                             _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["O" /* RentaseditarPage */]);
                         }
                         else {
-                            var alert = _this.alertCtrl.create({
+                            var alert_6 = _this.alertCtrl.create({
                                 title: '¡ERROR!',
                                 subTitle: 'Algo salio mal...',
                                 buttons: ['REGRESAR']
                             });
-                            alert.present();
+                            alert_6.present();
                         }
                     }
                 },
@@ -9468,10 +9472,16 @@ var HistorialclientePage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-historialcliente',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\historialcliente\historialcliente.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Datos del cliente</ion-title>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n          <img style="width: 32%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 32%;" (click)="enlace_editar_cliente()" src="img/icon/editarT.png"/>\n          <p style="font-size: 14px; color: #4A6D68; margin-top: 0%;">Editar</p>\n        </ion-col>\n        <ion-col>\n          <form #eliminarForm="ngForm">    \n            <img style="width: 32%;" (click)="eliminar(eliminarForm)" src="img/icon/basura.png"/>\n            <p style="font-size: 14px; color: #C10000; margin-top: 0%;">Eliminar</p>\n          </form> \n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n  <div class="S1">\n\n    <ion-card class="c1">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/user.png"/>      \n        </ion-avatar>\n        <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>\n        <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>\n        <h3 style="color: #505A53;">Fecha de alta: <strong>{{datosC.fechaCreacion}}</strong></h3>\n        <h4 style="opacity: 50%;">{{datosC.telefono}}</h4>\n      </ion-item>\n    </ion-card>  \n\n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/cumple.png"/> Edad: <strong>{{datosC.edad}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/sex.png"/> Sexo: <strong>{{datosC.sexo}}</strong></p>\n  </ion-card-content>\n   \n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/ciudad.png"/> Ciudad: <strong>{{datosC.ciudad}}</strong></p>\n  </ion-card-content>\n  \n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/estado.png"/> Estado: <strong>{{datosC.estado}}</strong></p>\n  </ion-card-content> \n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/address.png"/> Dirección: <strong>{{datosC.direccion}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/colonia.png"/> Colonia: <strong>{{datosC.colonia}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/observaciones.png"/> Observaciones del cliente: <strong>{{datosC.observacionesCliente}}</strong></p>\n  </ion-card-content>\n\n  </div>\n\n  <br>\n  <ion-card-content> \n    <ion-item no-lines>\n      <p style="font-size: 18px; color: #4A6D68;"><strong><img style="width: 5%;" src="img/icon/not.png"/> Notas del historial:</strong></p>\n      <p style="font-size: 12px; color: #4A6D68;">{{datosC.notashistorial}}</p>\n    </ion-item>\n  </ion-card-content>\n\n\n</ion-content>\n\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\historialcliente\historialcliente.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_2__servicios_ClienteServices__["a" /* ClienteService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__servicios_ClienteServices__["a" /* ClienteService */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */]) === "function" && _h || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_2__servicios_ClienteServices__["a" /* ClienteService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */]])
     ], HistorialclientePage);
     return HistorialclientePage;
-    var _a, _b, _c, _d, _e, _f, _g, _h;
 }());
 
 //# sourceMappingURL=historialcliente.js.map
