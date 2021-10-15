@@ -13,7 +13,11 @@ import {
   AclienteseptiembrePage,
   AclienteoctubrePage,
   AclientenoviembrePage,
-  AclientediciembrePage
+  AclientediciembrePage,
+  MenunivelunoPage,
+  MenuniveldosPage,
+  ClientesopcionesPage,
+  HistorialPage
 } from "../index.paginas";
 
 
@@ -39,6 +43,21 @@ export class ClientesmesPage {
 
   }
 
+  regresar(){      
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
+  }
+
+  clientes(){      
+    this.navCtrl.push(ClientesopcionesPage);
+  }
+
+  historial(){      
+    this.navCtrl.push(HistorialPage);
+  }
 
   enero(){
     this.navCtrl.push(AclienteeneroPage);

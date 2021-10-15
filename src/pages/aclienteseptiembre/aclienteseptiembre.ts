@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, LoadingController, ViewController, ModalController, AlertController } from 'ionic-angular';
-
-
 import { ClienteService } from '../servicios/ClienteServices';
 
-import { ClientemostrarPage
+import { ClientemostrarPage,
+  ClientesmesPage,
+  MenunivelunoPage,
+  MenuniveldosPage
 } from "../index.paginas";
 
 @Component({
@@ -40,6 +41,18 @@ export class AclienteseptiembrePage {
 
     
   }
+
+  regresar(){      
+    this.navCtrl.push(ClientesmesPage);
+}
+
+menu(){
+  if(this.perfil.nivelUsuario == "Administrador"){             
+    this.navCtrl.push(MenunivelunoPage);
+  }else if (this.perfil.nivelUsuario == "Estandar"){             
+    this.navCtrl.push(MenuniveldosPage);
+  }
+}
 
   dismiss() {
     this.viewCtrl.dismiss(); 
@@ -112,7 +125,7 @@ export class AclienteseptiembrePage {
 
     if (val && val.trim() != '') {
    this.clientes =this.clientes.filter((item) => {
-        return (item.nombre.toString().toLowerCase().indexOf(val.toLowerCase()) =="");
+        return (item.dia.toString().toLowerCase().indexOf(val.toLowerCase()) =="");
       })
     }
   }

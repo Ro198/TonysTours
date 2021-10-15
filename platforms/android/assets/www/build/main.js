@@ -733,9 +733,9 @@ var VehiculoService = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return url; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return url2; });
-var url = "http://192.168.0.3/TonyToursBD/API/?";
+var url = "http://192.168.0.4/TonyToursBD/API/?";
 //export var url = "http://34.229.103.166/TonyToursBD/API/?";
-var url2 = "http://192.168.0.3/TonyToursBD/API/foto.php";
+var url2 = "http://192.168.0.4/TonyToursBD/API/foto.php";
 //# sourceMappingURL=URL.js.map
 
 /***/ }),
@@ -2100,6 +2100,9 @@ var MenunivelunoPage = (function () {
     MenunivelunoPage.prototype.miperfil = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["V" /* UsuariomiperfilPage */]);
     };
+    MenunivelunoPage.prototype.mes = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["t" /* ClientesmesPage */]);
+    };
     //CERRAR SESION
     MenunivelunoPage.prototype.logout = function () {
         var _this = this;
@@ -2138,7 +2141,7 @@ var MenunivelunoPage = (function () {
     };
     MenunivelunoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-menuniveluno',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\menuniveluno\menuniveluno.html"*/`\n<ion-content padding>\n  <br>\n  \n  <ion-grid style="text-align: center;"> \n    <ion-row> \n      <ion-col> \n        <div class="logo" style="text-align: left;">\n          <img src="img/logoOF.png" style="width:80%;">\n        </div> \n      </ion-col>\n      <ion-col>     \n        <div style="text-align: center;">\n          <p style="padding: 0 0px; font-size: 10px; color: #505A53; margin-top: 28%; margin-right: 0%;">Bienvenid@ <br> \n            <strong style="font-size: 16px; color: #1BC7AF;">{{perfil.nombreUsuario}}</strong> <br> \n            <strong style="font-size: 12px; color: #505A53;">{{perfil.nivelUsuario}}</strong> </p>\n        </div> \n      </ion-col>\n    </ion-row>\n  </ion-grid> \n\n  <div class="c1">\n    <ion-grid style="text-align: center;">  \n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta" (click)="usuarios()">\n            <ion-item>\n              <ion-avatar item-center>\n                <img src="img/icon/usuarios.png"/>      \n               </ion-avatar>\n            </ion-item>\n            <p style="font-size: 8px; color: #1BC7AF;">Usuarios</p>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta" (click)="miperfil()">\n            <ion-item>\n              <ion-avatar item-center>\n                <img src="img/icon/usuario.png"/>      \n               </ion-avatar>\n            </ion-item>\n            <p style="font-size: 8px; color: #1BC7AF;">Mi perfil</p>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta">\n            <ion-item>\n              <ion-avatar item-center>\n                <img src="img/icon/calendar.png"/>      \n               </ion-avatar>\n            </ion-item>\n            <p style="font-size: 8px; color: #1BC7AF;">Agenda</p>\n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </div>\n\n\n  <ion-slides pager>\n    <ion-slide>\n      <h4 class="slide-title" style="color: #505A53;">Vehiculos</h4>\n      <img src="img/vehiculo.gif" class="slide-image" (click)="vehiculos()"\n        style="border-radius: 30px;" />\n        <p style="color: #505A53;">Mis vehiculos</p>\n      </ion-slide> \n    <ion-slide>\n      <h4 class="slide-title" style="color: #505A53;">Clientes</h4>\n      <img src="img/clientes.png" class="slide-image" (click)="clientes()"\n        style="border-radius: 30px;" />\n        <p style="color: #505A53;">Movimientos de clientes</p>\n    </ion-slide>\n    <ion-slide>\n      <h4 class="slide-title" style="color: #505A53;">Historial</h4>\n      <img src="img/historial.png" class="slide-image" (click)="clientesHistorial()"\n      style="border-radius: 30px;" />\n      <p style="color: #505A53;">Historial de clientes</p>\n    </ion-slide>\n  </ion-slides>\n\n\n  <ion-footer no-border no-shadow color="primary-contrast">\n      <div style="text-align: center;">\n        <img src="img/pye.png" style="width:100%;">\n      </div> \n  </ion-footer>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\menuniveluno\menuniveluno.html"*/,
+            selector: 'page-menuniveluno',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\menuniveluno\menuniveluno.html"*/`\n<ion-content padding>\n  <br>\n  \n  <ion-grid style="text-align: center;"> \n    <ion-row> \n      <ion-col> \n        <div class="logo" style="text-align: left;">\n          <img src="img/logoOf.png" style="width:80%;">\n        </div> \n      </ion-col>\n      <ion-col>     \n        <div style="text-align: center;">\n          <p style="padding: 0 0px; font-size: 10px; color: #505A53; margin-top: 24%; margin-right: 0%;">Bienvenid@ <br> \n            <strong style="font-size: 16px; color: #1BC7AF;">{{perfil.nombreUsuario}}</strong> <br> \n            <strong style="font-size: 12px; color: #505A53;">{{perfil.nivelUsuario}}</strong> </p>\n        </div> \n      </ion-col>\n    </ion-row>\n  </ion-grid> \n\n  <div class="c1">\n    <ion-grid style="text-align: center;">  \n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta" (click)="usuarios()">\n            <ion-item>\n              <ion-avatar item-center>\n                <img src="img/icon/users.png"/>      \n               </ion-avatar>\n            </ion-item>\n            <p style="font-size: 8px; color: #1BC7AF;">Usuarios</p>\n          </ion-card>\n        </ion-col> \n        <ion-col>     \n          <ion-card class="tarjeta" (click)="miperfil()">\n            <ion-item>\n              <ion-avatar item-center>\n                <img src="img/icon/usuario.png"/>      \n               </ion-avatar>\n            </ion-item>\n            <p style="font-size: 8px; color: #1BC7AF;">Mi perfil</p>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta" (click)="mes()">\n            <ion-item>\n              <ion-avatar item-center>\n                <img src="img/icon/calendar.png"/>      \n               </ion-avatar>\n            </ion-item>\n            <p style="font-size: 8px; color: #1BC7AF;">Agenda</p>\n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </div>\n\n\n  <ion-slides pager>\n    <ion-slide>\n      <h4 class="slide-title" style="color: #505A53;">Vehiculos</h4>\n      <img src="img/vehiculo.gif" class="slide-image" (click)="vehiculos()"\n        style="border-radius: 30px;" />\n        <p style="color: #505A53;">Mis vehiculos</p>\n      </ion-slide> \n    <ion-slide>\n      <h4 class="slide-title" style="color: #505A53;">Clientes</h4>\n      <img src="img/clientes.png" class="slide-image" (click)="clientes()"\n        style="border-radius: 30px;" />\n        <p style="color: #505A53;">Movimientos de clientes</p>\n    </ion-slide>\n    <ion-slide>\n      <h4 class="slide-title" style="color: #505A53;">Historial</h4>\n      <img src="img/historial.png" class="slide-image" (click)="clientesHistorial()"\n      style="border-radius: 30px;" />\n      <p style="color: #505A53;">Historial de clientes</p>\n    </ion-slide>\n  </ion-slides>\n\n\n  <ion-footer no-border no-shadow color="primary-contrast">\n      <div style="text-align: center;">\n        <img src="img/pye.png" style="width:100%;">\n      </div> \n  </ion-footer>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\menuniveluno\menuniveluno.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -2447,7 +2450,7 @@ var UsuarioagregarPage = (function () {
     };
     UsuarioagregarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-usuarioagregar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuarioagregar\usuarioagregar.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Agregar nuevo usuario</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n  </ion-toolbar>\n</ion-header>\n\n \n<ion-content padding>\n\n  <form #guardarForm="ngForm">\n    \n    <ion-list>\n       <ion-item>\n         <ion-avatar item-left>\n          <img src="img/icon/usuario.png"/>      \n         </ion-avatar>\n         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Nombre de usuario:</ion-label>\n         <ion-input type="text" [(ngModel)]="datosBDUsuario.Username" name="Username" #Username="ngModel" placeholder="Rod1989"\n          required></ion-input>\n       </ion-item>\n       <br>\n       <ion-item> \n         <ion-avatar item-left>\n          <img src="img/icon/email.png"/>      \n         </ion-avatar>\n         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Correo:</ion-label>\n         <ion-input type="text" [(ngModel)]="datosBDUsuario.Correo" name="Correo" #Correo="ngModel" placeholder="ejemplo@gmail.com"\n          required></ion-input>\n       </ion-item>\n       <br>\n       <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/pass.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Contraseña:</ion-label>\n        <ion-input type="password" [(ngModel)]="datosBDUsuario.Pass" name="Pass" #Pass="ngModel" placeholder="**********"\n         required></ion-input>\n      </ion-item> \n      <br>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/name.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Nombre completo:</ion-label>\n        <ion-input type="text" [(ngModel)]="datosBDUsuario.nombreUsuario" name="nombreUsuario" #nombreUsuario="ngModel" placeholder="Rodrigo Ortiz"\n         required></ion-input>\n      </ion-item>\n      <br>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/admin.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo de cuenta:</ion-label>\n        <ion-select [(ngModel)]="datosBDUsuario.nivelUsuario" name="nivelUsuario" #nivelUsuario="ngModel" placeholder="Administrador o estandar" required> \n        <ion-option value="Administrador">Administrador</ion-option>\n        <ion-option value="Estandar">Estandar</ion-option>\n        </ion-select>\n      </ion-item>\n      <br>\n     </ion-list>                    \n   \n   <button ion-button round block color="boton" type="submit" (click)="guardar(guardarForm)">Guardar</button>\n   \n   </form>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuarioagregar\usuarioagregar.html"*/,
+            selector: 'page-usuarioagregar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuarioagregar\usuarioagregar.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Agregar nuevo usuario</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid>  \n\n  </ion-toolbar>\n</ion-header>\n\n \n<ion-content padding>\n\n  <form #guardarForm="ngForm">\n    \n    <ion-list>\n       <ion-item>\n         <ion-avatar item-left>\n          <img src="img/icon/usuario.png"/>      \n         </ion-avatar>\n         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Nombre de usuario:</ion-label>\n         <ion-input type="text" [(ngModel)]="datosBDUsuario.Username" name="Username" #Username="ngModel" placeholder="Rod1989"\n          required></ion-input>\n       </ion-item>\n       <br>\n       <ion-item> \n         <ion-avatar item-left>\n          <img src="img/icon/email.png"/>      \n         </ion-avatar>\n         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Correo:</ion-label>\n         <ion-input type="text" [(ngModel)]="datosBDUsuario.Correo" name="Correo" #Correo="ngModel" placeholder="ejemplo@gmail.com"\n          required></ion-input>\n       </ion-item>\n       <br>\n       <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/pass.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Contraseña:</ion-label>\n        <ion-input type="password" [(ngModel)]="datosBDUsuario.Pass" name="Pass" #Pass="ngModel" placeholder="**********"\n         required></ion-input>\n      </ion-item> \n      <br>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/name.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Nombre completo:</ion-label>\n        <ion-input type="text" [(ngModel)]="datosBDUsuario.nombreUsuario" name="nombreUsuario" #nombreUsuario="ngModel" placeholder="Rodrigo Ortiz"\n         required></ion-input>\n      </ion-item>\n      <br>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/admin.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo de cuenta:</ion-label>\n        <ion-select [(ngModel)]="datosBDUsuario.nivelUsuario" name="nivelUsuario" #nivelUsuario="ngModel" placeholder="Administrador o estandar" required> \n        <ion-option value="Administrador">Administrador</ion-option>\n        <ion-option value="Estandar">Estandar</ion-option>\n        </ion-select>\n      </ion-item>\n      <br>\n     </ion-list>                    \n   \n   <button ion-button round block color="boton" type="submit" (click)="guardar(guardarForm)">Guardar</button>\n   \n   </form>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuarioagregar\usuarioagregar.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -2692,7 +2695,7 @@ var UsuariomostrarPage = (function () {
     };
     UsuariomostrarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-usuariomostrar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuariomostrar\usuariomostrar.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Información del usuario</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-grid style="text-align: center;">\n    <ion-row> \n      <ion-col>\n        <img style="width: 32%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n        <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n      </ion-col>\n      <ion-col>     \n        <img style="width: 32%;" (click)="enlace_editar_usuario()" src="img/icon/editar.png"/>\n        <p style="font-size: 14px; color: #749E2A; margin-top: 0%;">Editar</p>\n      </ion-col>\n      <ion-col>\n        <form #eliminarForm="ngForm">    \n          <img style="width: 32%;" (click)="eliminar(eliminarForm)" src="img/icon/eliminar.png"/>\n          <p style="font-size: 14px; color: #C10000; margin-top: 0%;">Eliminar</p>\n        </form> \n      </ion-col>\n    </ion-row>\n  </ion-grid> \n\n  <br>\n\n  <ion-card class="tarjeta">\n    <ion-item>\n      <div style="text-align: -webkit-center;">\n        <img style="width: 15%;" src="img/icon/user.png"/>\n        <h1 style="color: #4A6D68;"><strong>{{datosU.nombreUsuario}}</strong></h1>\n        <br>\n        <h2 style="color: #505A53;"><strong>Correo:</strong> {{datosU.Correo}}</h2>\n        <br>\n        <h2 style="color: #505A53;"><strong>Nombre de usuario:</strong> {{datosU.Username}}</h2>\n        <br>\n        <h2 style="color: #505A53;"><strong>Tipo de cuenta:</strong> {{datosU.nivelUsuario}}</h2> \n        <br>\n        <h2 style="color: #505A53;"><strong>Fecha de alta al sistema:</strong></h2>\n        <h2 style="color: #505A53;">{{datosU.fechaCreacion}}</h2>\n      </div> \n    </ion-item>\n  </ion-card>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuariomostrar\usuariomostrar.html"*/,
+            selector: 'page-usuariomostrar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuariomostrar\usuariomostrar.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Información del usuario</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n          <img style="width: 32%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 32%;" (click)="enlace_editar_usuario()" src="img/icon/editarT.png"/>\n          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Editar</p>\n        </ion-col>\n        <ion-col>\n          <form #eliminarForm="ngForm">    \n            <img style="width: 32%;" (click)="eliminar(eliminarForm)" src="img/icon/basura.png"/>\n            <p style="font-size: 14px; color: #C10000; margin-top: 0%;">Eliminar</p>\n          </form> \n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-card class="tarjeta">\n    <ion-item>\n      <div style="text-align: -webkit-center;">\n        <img style="width: 15%;" src="img/icon/user.png"/>\n        <h1 style="color: #4A6D68;"><strong>{{datosU.nombreUsuario}}</strong></h1>\n        <br>\n        <h2 style="color: #505A53;"><strong>Correo:</strong> {{datosU.Correo}}</h2>\n        <br>\n        <h2 style="color: #505A53;"><strong>Nombre de usuario:</strong> {{datosU.Username}}</h2>\n        <br>\n        <h2 style="color: #505A53;"><strong>Tipo de cuenta:</strong> {{datosU.nivelUsuario}}</h2> \n        <br>\n        <h2 style="color: #505A53;"><strong>Fecha de alta al sistema:</strong></h2>\n        <h2 style="color: #505A53;">{{datosU.fechaCreacion}}</h2>\n      </div> \n    </ion-item>\n  </ion-card>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuariomostrar\usuariomostrar.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -2731,22 +2734,33 @@ var ClientesopcionesPage = (function () {
     function ClientesopcionesPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.datosUsuario = window.localStorage.getItem('dataUser');
+        this.perfil = JSON.parse(this.datosUsuario);
+        console.log(this.perfil);
     }
+    ClientesopcionesPage.prototype.regresar = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["C" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["B" /* MenuniveldosPage */]);
+        }
+    };
+    ClientesopcionesPage.prototype.historial = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["w" /* HistorialPage */]);
+    };
     ClientesopcionesPage.prototype.clientesActivos = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["s" /* ClientesactivosPage */]);
     };
     ClientesopcionesPage.prototype.clientesNoActivos = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["u" /* ClientesnoactivosPage */]);
     };
-    ClientesopcionesPage.prototype.clientesMes = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["t" /* ClientesmesPage */]);
-    };
     ClientesopcionesPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad ClientesopcionesPage');
     };
     ClientesopcionesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-clientesopciones',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientesopciones\clientesopciones.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Activo y no activo</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  \n<ion-card>\n  <img src="img/clientes.jpg" (click)="clientesActivos()" />\n  <div class="card-title">Clientes Activos</div>\n</ion-card>\n\n<ion-card>\n  <img src="img/clientes.jpg" (click)="clientesNoActivos()" />\n  <div class="card-title">Clientes no activos</div>\n</ion-card>\n\n<ion-card>\n  <img src="img/clientes.jpg" (click)="clientesMes()" />\n  <div class="card-title">Clientes por mes</div>\n</ion-card>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientesopciones\clientesopciones.html"*/,
+            selector: 'page-clientesopciones',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientesopciones\clientesopciones.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Clientes</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 22%;" (click)="historial()" src="img/icon/historial.png"/>\n          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Historial</p>\n      </ion-col>\n      </ion-row>\n    </ion-grid> \n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n  <br>\n  <div class="c1">\n    <ion-grid style="text-align: center;">  \n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta" (click)="clientesActivos()">\n            <div style="text-align: -webkit-center;">\n            <img style="width: 30%;" src="img/icon/clienteActivo.png"/>\n            </div>\n            <ion-item style="text-align: center;">\n              <p style="font-size: 24px; color: #1BC7AF;"><strong>Activos</strong></p>\n              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">Clientes</p>\n            </ion-item>      \n          </ion-card>\n        </ion-col> \n      </ion-row>\n    </ion-grid> \n  </div>\n\n  <br>\n  <br>\n\n  <div class="c1">\n    <ion-grid style="text-align: center;">  \n      <ion-row> \n        <ion-col>     \n          <ion-card class="tarjeta" (click)="clientesNoActivos()">\n            <div style="text-align: -webkit-center;">\n              <img style="width: 30%;" src="img/icon/noActivo.png"/>\n              </div>\n            <ion-item style="text-align: center;">\n              <p style="font-size: 24px; color: #1BC7AF;"><strong>No Activos</strong></p>\n              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">Clientes</p>\n            </ion-item>      \n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </div>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientesopciones\clientesopciones.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
@@ -6963,25 +6977,57 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 var UsuariomiperfilPage = (function () {
-    function UsuariomiperfilPage(navCtrl, navParams) {
+    function UsuariomiperfilPage(navCtrl, navParams, alertCtrl) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.alertCtrl = alertCtrl;
         this.datosUsuario = window.localStorage.getItem('dataUser');
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    UsuariomiperfilPage.prototype.regresar = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["C" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["B" /* MenuniveldosPage */]);
+        }
+    };
     UsuariomiperfilPage.prototype.enlace_editar_usuario = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["W" /* UsuariomiperfileditarPage */]);
+    };
+    //CERRAR SESION
+    UsuariomiperfilPage.prototype.logout = function () {
+        var _this = this;
+        var confirm = this.alertCtrl.create({
+            title: "¡ATENCION!",
+            message: "¿Estas seguro que quieres cerrar sesión?",
+            buttons: [
+                {
+                    text: "NO",
+                    handler: function () { }
+                },
+                {
+                    text: "SI",
+                    handler: function () {
+                        window.localStorage.removeItem("dataUser");
+                        _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["A" /* LoginPage */]);
+                    }
+                }
+            ]
+        });
+        confirm.present();
     };
     UsuariomiperfilPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad UsuariomiperfilPage');
     };
     UsuariomiperfilPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-usuariomiperfil',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuariomiperfil\usuariomiperfil.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Mi perfil</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-item class="center">\n\n    \n\n    <h1 id="Username" color="primary"><ion-icon name="paw"  color="primary"></ion-icon>Nombre de usuario: {{perfil.Username}}</h1>\n    <h2>Correo: </h2>      <p id="Correo">{{perfil.Correo}}</p>\n  \n\n    <div padding></div>\n  \n    <h2>Nombre completo: </h2>    <p id="nombreUsuario">{{perfil.nombreUsuario}}</p> \n    <h2>Nivel de ususario: </h2>   <p id="nivelUsuario">{{perfil.nivelUsuario}}</p>    \n\n\n    </ion-item>\n\n    <button ion-button color="primary" (click)="enlace_editar_usuario()">\n      <ion-icon name="medkit"></ion-icon>\n      Editar \n    </button>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuariomiperfil\usuariomiperfil.html"*/,
+            selector: 'page-usuariomiperfil',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuariomiperfil\usuariomiperfil.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Mi perfil</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 32%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 32%;" (click)="enlace_editar_usuario()" src="img/icon/editarT.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Editar</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 32%;" (click)="logout()" src="img/icon/salir.png"/>\n          <p style="font-size: 14px; color: #C10000; margin-top: 0%;">Cerrar sesión</p>\n      </ion-col>\n      </ion-row>\n    </ion-grid>  \n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-card class="tarjeta">\n    <ion-item>\n      <div style="text-align: -webkit-center;">\n        <img style="width: 15%;" src="img/icon/user.png"/>\n        <h1 style="color: #4A6D68;"><strong>{{perfil.nombreUsuario}}</strong></h1>\n        <br>\n        <h2 style="color: #505A53;"><strong>Correo:</strong> {{perfil.Correo}}</h2>\n        <br>\n        <h2 style="color: #505A53;"><strong>Nombre de usuario:</strong> {{perfil.Username}}</h2>\n        <br>\n        <h2 style="color: #505A53;"><strong>Tipo de cuenta:</strong> {{perfil.nivelUsuario}}</h2> \n        <br>\n        <h2 style="color: #505A53;"><strong>Fecha de alta al sistema:</strong></h2>\n        <h2 style="color: #505A53;">{{perfil.fechaCreacion}}</h2>\n      </div> \n    </ion-item>\n  </ion-card>\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuariomiperfil\usuariomiperfil.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
     ], UsuariomiperfilPage);
     return UsuariomiperfilPage;
 }());
@@ -6997,6 +7043,7 @@ var UsuariomiperfilPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_UsuarioServices__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(4);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -7006,6 +7053,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -7029,6 +7077,17 @@ var UsuariomiperfileditarPage = (function () {
         this.datosBDUsuario.nombreUsuario = this.perfil.nombreUsuario;
         this.datosBDUsuario.nivelUsuario = this.perfil.nivelUsuario;
     }
+    UsuariomiperfileditarPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["V" /* UsuariomiperfilPage */]);
+    };
+    UsuariomiperfileditarPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+        }
+    };
     UsuariomiperfileditarPage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
     };
@@ -7093,7 +7152,7 @@ var UsuariomiperfileditarPage = (function () {
     };
     UsuariomiperfileditarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-usuariomiperfileditar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuariomiperfileditar\usuariomiperfileditar.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Editar mi perfil</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <form #editarForm="ngForm"> \n\n    <ion-list>\n      <ion-item>\n        <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>\n        <ion-label stacked>Nombre de usuario:</ion-label>\n        <ion-input type="text" [(ngModel)]="datosBDUsuario.Username" name="Username" #Username="ngModel" disabled\n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>\n        <ion-label stacked>Correo:</ion-label>\n        <ion-input type="text" [(ngModel)]="datosBDUsuario.Correo" name="Correo" #Correo="ngModel"\n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>\n        <ion-label stacked>Contraseña:</ion-label>\n        <ion-input type="text" [(ngModel)]="datosBDUsuario.Pass" name="Pass" #Pass="ngModel"\n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-icon name="bowtie" subtle large item-left color="primary"></ion-icon>\n        <ion-label stacked>Nombre completo:</ion-label>\n        <ion-input type="text" [(ngModel)]="datosBDUsuario.nombreUsuario" name="nombreUsuario" #nombreUsuario="ngModel" disabled\n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>\n        <ion-label stacked>Nivel de usuario</ion-label>\n        <ion-select [(ngModel)]="datosBDUsuario.nivelUsuario" name="nivelUsuario" #nivelUsuario="ngModel" required disabled> \n        <ion-option value="1">1</ion-option>\n        <ion-option value="2">2</ion-option>\n        </ion-select>\n      </ion-item>\n    \n    </ion-list>\n\n  <button ion-button round block color="secondary" type="submit" (click)="editar(editarForm)">Modificar</button>\n\n</form>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuariomiperfileditar\usuariomiperfileditar.html"*/,
+            selector: 'page-usuariomiperfileditar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuariomiperfileditar\usuariomiperfileditar.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Editar mi perfil</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n  </ion-toolbar>\n</ion-header>\n \n\n<ion-content padding>\n\n  <form #editarForm="ngForm"> \n\n \n      <ion-list>\n        <ion-item>\n          <ion-avatar item-left>\n           <img src="img/icon/usuario.png"/>      \n          </ion-avatar>\n          <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Nombre de usuario:</ion-label>\n          <ion-input type="text" [(ngModel)]="datosBDUsuario.Username" name="Username" #Username="ngModel" disabled\n           required></ion-input>\n        </ion-item>\n        <br>\n        <ion-item> \n          <ion-avatar item-left>\n           <img src="img/icon/email.png"/>      \n          </ion-avatar>\n          <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Correo:</ion-label>\n          <ion-input type="text" [(ngModel)]="datosBDUsuario.Correo" name="Correo" #Correo="ngModel"\n           required></ion-input>\n        </ion-item>\n        <br>\n        <ion-item>\n          <ion-avatar item-left>\n            <img src="img/icon/pass.png"/>      \n           </ion-avatar>\n          <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Contraseña:</ion-label>\n          <ion-input type="text" [(ngModel)]="datosBDUsuario.Pass" name="Pass" #Pass="ngModel"\n           required></ion-input>\n        </ion-item> \n        <br>\n        <ion-item>\n          <ion-avatar item-left>\n            <img src="img/icon/name.png"/>      \n           </ion-avatar>\n          <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Nombre completo:</ion-label>\n          <ion-input type="text" [(ngModel)]="datosBDUsuario.nombreUsuario" name="nombreUsuario" #nombreUsuario="ngModel" disabled\n           required></ion-input>\n        </ion-item>\n        <br>\n        <ion-item>\n          <ion-avatar item-left>\n            <img src="img/icon/admin.png"/>      \n          </ion-avatar>\n          <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo de cuenta:</ion-label>\n          <ion-select [(ngModel)]="datosBDUsuario.nivelUsuario" name="nivelUsuario" #nivelUsuario="ngModel" required disabled> \n          <ion-option value="Administrador">Administrador</ion-option>\n          <ion-option value="Estandar">Estandar</ion-option>\n          </ion-select>\n        </ion-item>\n        <br>\n    </ion-list>\n\n    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Modificar</button>\n\n</form>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\usuariomiperfileditar\usuariomiperfileditar.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -7136,6 +7195,20 @@ var ClientesmesPage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    ClientesmesPage.prototype.regresar = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["C" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["B" /* MenuniveldosPage */]);
+        }
+    };
+    ClientesmesPage.prototype.clientes = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["v" /* ClientesopcionesPage */]);
+    };
+    ClientesmesPage.prototype.historial = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["w" /* HistorialPage */]);
+    };
     ClientesmesPage.prototype.enero = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["d" /* AclienteeneroPage */]);
     };
@@ -7177,7 +7250,7 @@ var ClientesmesPage = (function () {
     };
     ClientesmesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-clientesmes',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientesmes\clientesmes.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Clientes por mes</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <br>\n  \n  <ion-grid style="text-align: center;">\n    <ion-row> \n      <ion-col>\n          <button class="bordered" fill="solid" ion-button (click)="enero()" color="btnlogin">\n            <ion-icon name="people"></ion-icon>\n          </button>\n          <p style="font-size: 10px;">Enero</p>\n      </ion-col>\n      <ion-col>     \n          <button class="bordered" fill="solid" ion-button icon-only (click)="febrero()" color="verde-limon">\n            <ion-icon name="person"></ion-icon> \n          </button>\n          <p style="font-size: 10px;">Febrero</p>\n      </ion-col>\n      <ion-col>     \n        <button class="bordered" fill="solid" ion-button icon-only (click)="marzo()" color="rojo">\n           <ion-icon name="close-circle"></ion-icon>\n        </button>\n        <p style="font-size: 10px;">Marzo</p>\n    </ion-col>\n    </ion-row>\n  </ion-grid>\n\n  <ion-grid style="text-align: center;">\n    <ion-row>\n      <ion-col>\n          <button class="bordered" fill="solid" ion-button (click)="abril()" color="btnlogin">\n            <ion-icon name="people"></ion-icon>\n          </button>\n          <p style="font-size: 10px;">Abril</p>\n      </ion-col>\n      <ion-col>     \n          <button class="bordered" fill="solid" ion-button icon-only (click)="mayo()" color="verde-limon">\n            <ion-icon name="person"></ion-icon> \n          </button>\n          <p style="font-size: 10px;">Mayo</p>\n      </ion-col>\n      <ion-col>     \n        <button class="bordered" fill="solid" ion-button icon-only (click)="junio()" color="rojo">\n           <ion-icon name="close-circle"></ion-icon>\n        </button>\n        <p style="font-size: 10px;">Junio</p>\n    </ion-col>\n    </ion-row>\n  </ion-grid>\n\n  <ion-grid style="text-align: center;">\n    <ion-row>\n      <ion-col>\n          <button class="bordered" fill="solid" ion-button (click)="julio()" color="btnlogin">\n            <ion-icon name="people"></ion-icon>\n          </button>\n          <p style="font-size: 10px;">Julio</p>\n      </ion-col>\n      <ion-col>     \n          <button class="bordered" fill="solid" ion-button icon-only (click)="agosto()" color="verde-limon">\n            <ion-icon name="person"></ion-icon> \n          </button>\n          <p style="font-size: 10px;">Agosto</p>\n      </ion-col>\n      <ion-col>     \n        <button class="bordered" fill="solid" ion-button icon-only (click)="septiembre()" color="rojo">\n           <ion-icon name="close-circle"></ion-icon>\n        </button>\n        <p style="font-size: 10px;">Septiembre</p>\n    </ion-col>\n    </ion-row>\n  </ion-grid>\n\n  <ion-grid style="text-align: center;">\n    <ion-row>\n      <ion-col>\n          <button class="bordered" fill="solid" ion-button (click)="octubre()" color="btnlogin">\n            <ion-icon name="people"></ion-icon>\n          </button>\n          <p style="font-size: 10px;">Octubre</p>\n      </ion-col>\n      <ion-col>     \n          <button class="bordered" fill="solid" ion-button icon-only (click)="noviembre()" color="verde-limon">\n            <ion-icon name="person"></ion-icon> \n          </button>\n          <p style="font-size: 10px;">Noviembre</p>\n      </ion-col>\n      <ion-col>     \n        <button class="bordered" fill="solid" ion-button icon-only (click)="diciembre()" color="rojo">\n           <ion-icon name="close-circle"></ion-icon>\n        </button>\n        <p style="font-size: 10px;">Diciembre</p>\n    </ion-col>\n    </ion-row>\n  </ion-grid>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientesmes\clientesmes.html"*/,
+            selector: 'page-clientesmes',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientesmes\clientesmes.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Agendados por mes</ion-title>\n    <br> \n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 32%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 32%;" (click)="clientes()" src="img/icon/clientes.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Clientes</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 32%;" (click)="historial()" src="img/icon/historial.png"/>\n          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Historial</p>\n      </ion-col>\n      </ion-row>\n    </ion-grid> \n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n  <br>\n  <div class="c1">\n    <ion-grid style="text-align: center;">  \n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta" (click)="enero()">\n            <ion-item style="text-align: center;">\n              <p style="font-size: 16px; color: #1BC7AF;"><strong>Enero</strong></p>\n            </ion-item>      \n          </ion-card>\n        </ion-col> \n        <ion-col>     \n          <ion-card class="tarjeta" (click)="febrero()">\n            <ion-item style="text-align: center;">\n              <p style="font-size: 16px; color: #1BC7AF;"><strong>Febrero</strong></p>\n            </ion-item>      \n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </div>\n\n  <div class="c1">\n    <ion-grid style="text-align: center;">  \n      <ion-row>\n        <ion-col>     \n          <ion-card class="tarjeta" (click)="marzo()">\n            <ion-item style="text-align: center;">\n              <p style="font-size: 16px; color: #1BC7AF;"><strong>Marzo</strong></p>\n            </ion-item>\n          </ion-card>\n        </ion-col> \n        <ion-col> \n          <ion-card class="tarjeta" (click)="abril()">\n            <ion-item style="text-align: center;">\n              <p style="font-size: 16px; color: #1BC7AF;"><strong>Abril</strong></p>\n            </ion-item>      \n          </ion-card>\n        </ion-col> \n      </ion-row>\n    </ion-grid> \n  </div>\n\n  <div class="c1">\n    <ion-grid style="text-align: center;">  \n      <ion-row>\n        <ion-col>     \n          <ion-card class="tarjeta" (click)="mayo()">\n            <ion-item style="text-align: center;">\n              <p style="font-size: 16px; color: #1BC7AF;"><strong>Mayo</strong></p>\n            </ion-item>      \n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta" (click)="junio()">\n            <ion-item style="text-align: center;">\n              <p style="font-size: 16px; color: #1BC7AF;"><strong>Junio</strong></p>\n            </ion-item>\n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </div>\n\n  <div class="c1">\n    <ion-grid style="text-align: center;">  \n      <ion-row>\n        <ion-col> \n          <ion-card class="tarjeta" (click)="julio()">\n            <ion-item style="text-align: center;">\n              <p style="font-size: 16px; color: #1BC7AF;"><strong>Julio</strong></p>\n            </ion-item>      \n          </ion-card>\n        </ion-col> \n        <ion-col>     \n          <ion-card class="tarjeta" (click)="agosto()">\n            <ion-item style="text-align: center;">\n              <p style="font-size: 16px; color: #1BC7AF;"><strong>Agosto</strong></p>\n            </ion-item>      \n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </div>\n\n  <div class="c1">\n    <ion-grid style="text-align: center;">  \n      <ion-row> \n        <ion-col>     \n          <ion-card class="tarjeta" (click)="septiembre()">\n            <ion-item style="text-align: center;">\n              <p style="font-size: 16px; color: #1BC7AF;"><strong>Septiembre</strong></p>\n            </ion-item>\n          </ion-card>\n        </ion-col>\n        <ion-col> \n          <ion-card class="tarjeta" (click)="octubre()">\n            <ion-item style="text-align: center;">\n              <p style="font-size: 16px; color: #1BC7AF;"><strong>Octubre</strong></p>\n            </ion-item>      \n          </ion-card>\n        </ion-col> \n      </ion-row>\n    </ion-grid> \n  </div>\n\n  <div class="c1">\n    <ion-grid style="text-align: center;">  \n      <ion-row> \n        <ion-col>     \n          <ion-card class="tarjeta" (click)="noviembre()">\n            <ion-item style="text-align: center;">\n              <p style="font-size: 16px; color: #1BC7AF;"><strong>Noviembre</strong></p>\n            </ion-item>      \n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta" (click)="diciembre()">\n            <ion-item style="text-align: center;">\n              <p style="font-size: 16px; color: #1BC7AF;"><strong>Diciembre</strong></p>\n            </ion-item>\n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </div>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientesmes\clientesmes.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
@@ -7226,6 +7299,17 @@ var AclienteeneroPage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    AclienteeneroPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+    };
+    AclienteeneroPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+        }
+    };
     AclienteeneroPage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
     };
@@ -7274,7 +7358,7 @@ var AclienteeneroPage = (function () {
         var val = ev.target.value;
         if (val && val.trim() != '') {
             this.clientes = this.clientes.filter(function (item) {
-                return (item.nombre.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
+                return (item.dia.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
             });
         }
     };
@@ -7283,7 +7367,7 @@ var AclienteeneroPage = (function () {
     };
     AclienteeneroPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclienteenero',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteenero\aclienteenero.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Enero</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  \n  <ion-searchbar cancelButtonText  \n  (ionInput)="getItems($event)" placeholder="Buscar por nombre" \n  style="background-color: rgba(0, 0, 0, 0.3); border-radius: 30px;">\n</ion-searchbar>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n   <ion-refresher-content \n   refreshingSpinner="circles"\n   refreshingText="Actualizando...">\n   </ion-refresher-content>\n</ion-refresher>\n\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-item-sliding >\n<ion-item>\n\n <button translate ion-button icon-left clear small (click)="detalles($event,item)">\n         <ion-icon name="paw" style="color: orangered;"></ion-icon>\n         <h2 color="primary"> {{item.nombre}}</h2>\n             \n </button>\n <h2> {{item.tipoCliente}}</h2>\n <h2> {{item.vehiculoRentado}}</h2>\n <h2 >Atendido por: {{item.nombreUsuario}} </h2> \n\n</ion-item>\n\n</ion-item-sliding>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteenero\aclienteenero.html"*/,
+            selector: 'page-aclienteenero',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteenero\aclienteenero.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Enero</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteenero\aclienteenero.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -7337,6 +7421,17 @@ var AclientefebreroPage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    AclientefebreroPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+    };
+    AclientefebreroPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+        }
+    };
     AclientefebreroPage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
     };
@@ -7385,7 +7480,7 @@ var AclientefebreroPage = (function () {
         var val = ev.target.value;
         if (val && val.trim() != '') {
             this.clientes = this.clientes.filter(function (item) {
-                return (item.nombre.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
+                return (item.dia.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
             });
         }
     };
@@ -7394,7 +7489,7 @@ var AclientefebreroPage = (function () {
     };
     AclientefebreroPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclientefebrero',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientefebrero\aclientefebrero.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Febrero</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n    \n  <ion-searchbar cancelButtonText  \n  (ionInput)="getItems($event)" placeholder="Buscar por nombre" \n  style="background-color: rgba(0, 0, 0, 0.3); border-radius: 30px;">\n</ion-searchbar>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n   <ion-refresher-content \n   refreshingSpinner="circles"\n   refreshingText="Actualizando...">\n   </ion-refresher-content>\n</ion-refresher>\n\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-item-sliding >\n<ion-item>\n\n <button translate ion-button icon-left clear small (click)="detalles($event,item)">\n         <ion-icon name="paw" style="color: orangered;"></ion-icon>\n         <h2 color="primary"> {{item.nombre}}</h2>\n             \n </button>\n <h2> {{item.tipoCliente}}</h2>\n <h2> {{item.vehiculoRentado}}</h2>\n <h2 >Atendido por: {{item.nombreUsuario}} </h2> \n\n</ion-item>\n\n</ion-item-sliding>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientefebrero\aclientefebrero.html"*/,
+            selector: 'page-aclientefebrero',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientefebrero\aclientefebrero.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Febrero</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientefebrero\aclientefebrero.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -7448,6 +7543,17 @@ var AclientemarzoPage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    AclientemarzoPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+    };
+    AclientemarzoPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+        }
+    };
     AclientemarzoPage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
     };
@@ -7496,7 +7602,7 @@ var AclientemarzoPage = (function () {
         var val = ev.target.value;
         if (val && val.trim() != '') {
             this.clientes = this.clientes.filter(function (item) {
-                return (item.nombre.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
+                return (item.dia.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
             });
         }
     };
@@ -7505,7 +7611,7 @@ var AclientemarzoPage = (function () {
     };
     AclientemarzoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclientemarzo',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientemarzo\aclientemarzo.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Marzo</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-searchbar cancelButtonText  \n  (ionInput)="getItems($event)" placeholder="Buscar por nombre" \n  style="background-color: rgba(0, 0, 0, 0.3); border-radius: 30px;">\n</ion-searchbar>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n   <ion-refresher-content \n   refreshingSpinner="circles"\n   refreshingText="Actualizando...">\n   </ion-refresher-content>\n</ion-refresher>\n\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-item-sliding >\n<ion-item>\n\n <button translate ion-button icon-left clear small (click)="detalles($event,item)">\n         <ion-icon name="paw" style="color: orangered;"></ion-icon>\n         <h2 color="primary"> {{item.nombre}}</h2>\n             \n </button>\n <h2> {{item.tipoCliente}}</h2>\n <h2> {{item.vehiculoRentado}}</h2>\n <h2 >Atendido por: {{item.nombreUsuario}} </h2> \n\n</ion-item>\n\n</ion-item-sliding>\n</ion-list>\n\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientemarzo\aclientemarzo.html"*/,
+            selector: 'page-aclientemarzo',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientemarzo\aclientemarzo.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Marzo</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientemarzo\aclientemarzo.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -7559,6 +7665,17 @@ var AclienteabrilPage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    AclienteabrilPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+    };
+    AclienteabrilPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+        }
+    };
     AclienteabrilPage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
     };
@@ -7601,13 +7718,13 @@ var AclienteabrilPage = (function () {
             refresher.complete();
         }, 2000);
     };
-    // BARRA DE BUSCADOR
+    // BARRA DE BUSCADOR 
     AclienteabrilPage.prototype.getItems = function (ev) {
         this.clientes = this.clientesLista;
         var val = ev.target.value;
         if (val && val.trim() != '') {
             this.clientes = this.clientes.filter(function (item) {
-                return (item.nombre.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
+                return (item.dia.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
             });
         }
     };
@@ -7616,7 +7733,7 @@ var AclienteabrilPage = (function () {
     };
     AclienteabrilPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclienteabril',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteabril\aclienteabril.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Abril</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-searchbar cancelButtonText  \n  (ionInput)="getItems($event)" placeholder="Buscar por nombre" \n  style="background-color: rgba(0, 0, 0, 0.3); border-radius: 30px;">\n</ion-searchbar>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n   <ion-refresher-content \n   refreshingSpinner="circles"\n   refreshingText="Actualizando...">\n   </ion-refresher-content>\n</ion-refresher>\n\n \n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-item-sliding >\n<ion-item>\n\n <button translate ion-button icon-left clear small (click)="detalles($event,item)">\n         <ion-icon name="paw" style="color: orangered;"></ion-icon>\n         <h2 color="primary"> {{item.nombre}}</h2>\n             \n </button>\n <h2> {{item.tipoCliente}}</h2>\n <h2> {{item.vehiculoRentado}}</h2>\n <h2 >Atendido por: {{item.nombreUsuario}} </h2> \n\n</ion-item>\n\n</ion-item-sliding>\n</ion-list>\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteabril\aclienteabril.html"*/,
+            selector: 'page-aclienteabril',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteabril\aclienteabril.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Abril</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteabril\aclienteabril.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -7670,6 +7787,17 @@ var AclientemayoPage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    AclientemayoPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+    };
+    AclientemayoPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+        }
+    };
     AclientemayoPage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
     };
@@ -7718,7 +7846,7 @@ var AclientemayoPage = (function () {
         var val = ev.target.value;
         if (val && val.trim() != '') {
             this.clientes = this.clientes.filter(function (item) {
-                return (item.nombre.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
+                return (item.dia.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
             });
         }
     };
@@ -7727,7 +7855,7 @@ var AclientemayoPage = (function () {
     };
     AclientemayoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclientemayo',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientemayo\aclientemayo.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Mayo</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-searchbar cancelButtonText  \n  (ionInput)="getItems($event)" placeholder="Buscar por nombre" \n  style="background-color: rgba(0, 0, 0, 0.3); border-radius: 30px;">\n</ion-searchbar>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n   <ion-refresher-content \n   refreshingSpinner="circles"\n   refreshingText="Actualizando...">\n   </ion-refresher-content>\n</ion-refresher>\n\n \n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-item-sliding >\n<ion-item>\n\n <button translate ion-button icon-left clear small (click)="detalles($event,item)">\n         <ion-icon name="paw" style="color: orangered;"></ion-icon>\n         <h2 color="primary"> {{item.nombre}}</h2>\n             \n </button>\n <h2> {{item.tipoCliente}}</h2>\n <h2> {{item.vehiculoRentado}}</h2>\n <h2 >Atendido por: {{item.nombreUsuario}} </h2> \n\n</ion-item>\n\n</ion-item-sliding>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientemayo\aclientemayo.html"*/,
+            selector: 'page-aclientemayo',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientemayo\aclientemayo.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Mayo</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientemayo\aclientemayo.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -7781,6 +7909,17 @@ var AclientejunioPage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    AclientejunioPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+    };
+    AclientejunioPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+        }
+    };
     AclientejunioPage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
     };
@@ -7829,7 +7968,7 @@ var AclientejunioPage = (function () {
         var val = ev.target.value;
         if (val && val.trim() != '') {
             this.clientes = this.clientes.filter(function (item) {
-                return (item.nombre.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
+                return (item.dia.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
             });
         }
     };
@@ -7838,7 +7977,7 @@ var AclientejunioPage = (function () {
     };
     AclientejunioPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclientejunio',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientejunio\aclientejunio.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Junio</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-searchbar cancelButtonText  \n  (ionInput)="getItems($event)" placeholder="Buscar por nombre" \n  style="background-color: rgba(0, 0, 0, 0.3); border-radius: 30px;">\n</ion-searchbar>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n   <ion-refresher-content \n   refreshingSpinner="circles"\n   refreshingText="Actualizando...">\n   </ion-refresher-content>\n</ion-refresher>\n\n \n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-item-sliding >\n<ion-item>\n\n <button translate ion-button icon-left clear small (click)="detalles($event,item)">\n         <ion-icon name="paw" style="color: orangered;"></ion-icon>\n         <h2 color="primary"> {{item.nombre}}</h2>\n             \n </button>\n <h2> {{item.tipoCliente}}</h2>\n <h2> {{item.vehiculoRentado}}</h2>\n <h2 >Atendido por: {{item.nombreUsuario}} </h2> \n\n</ion-item>\n\n</ion-item-sliding>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientejunio\aclientejunio.html"*/,
+            selector: 'page-aclientejunio',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientejunio\aclientejunio.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Junio</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientejunio\aclientejunio.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -7892,6 +8031,17 @@ var AclientejulioPage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    AclientejulioPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+    };
+    AclientejulioPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+        }
+    };
     AclientejulioPage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
     };
@@ -7940,7 +8090,7 @@ var AclientejulioPage = (function () {
         var val = ev.target.value;
         if (val && val.trim() != '') {
             this.clientes = this.clientes.filter(function (item) {
-                return (item.nombre.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
+                return (item.dia.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
             });
         }
     };
@@ -7949,7 +8099,7 @@ var AclientejulioPage = (function () {
     };
     AclientejulioPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclientejulio',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientejulio\aclientejulio.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Julio</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-searchbar cancelButtonText  \n  (ionInput)="getItems($event)" placeholder="Buscar por nombre" \n  style="background-color: rgba(0, 0, 0, 0.3); border-radius: 30px;">\n</ion-searchbar>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n   <ion-refresher-content \n   refreshingSpinner="circles"\n   refreshingText="Actualizando...">\n   </ion-refresher-content>\n</ion-refresher>\n\n \n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-item-sliding >\n<ion-item>\n\n <button translate ion-button icon-left clear small (click)="detalles($event,item)">\n         <ion-icon name="paw" style="color: orangered;"></ion-icon>\n         <h2 color="primary"> {{item.nombre}}</h2>\n             \n </button>\n <h2> {{item.tipoCliente}}</h2>\n <h2> {{item.vehiculoRentado}}</h2>\n <h2 >Atendido por: {{item.nombreUsuario}} </h2> \n\n</ion-item>\n\n</ion-item-sliding>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientejulio\aclientejulio.html"*/,
+            selector: 'page-aclientejulio',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientejulio\aclientejulio.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Julio</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientejulio\aclientejulio.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -8003,6 +8153,17 @@ var AclienteagostoPage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    AclienteagostoPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+    };
+    AclienteagostoPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+        }
+    };
     AclienteagostoPage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
     };
@@ -8051,7 +8212,7 @@ var AclienteagostoPage = (function () {
         var val = ev.target.value;
         if (val && val.trim() != '') {
             this.clientes = this.clientes.filter(function (item) {
-                return (item.nombre.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
+                return (item.dia.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
             });
         }
     };
@@ -8060,7 +8221,7 @@ var AclienteagostoPage = (function () {
     };
     AclienteagostoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclienteagosto',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteagosto\aclienteagosto.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Agosto</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-searchbar cancelButtonText  \n  (ionInput)="getItems($event)" placeholder="Buscar por nombre" \n  style="background-color: rgba(0, 0, 0, 0.3); border-radius: 30px;">\n</ion-searchbar>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n   <ion-refresher-content \n   refreshingSpinner="circles"\n   refreshingText="Actualizando...">\n   </ion-refresher-content>\n</ion-refresher>\n\n \n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-item-sliding >\n<ion-item>\n\n <button translate ion-button icon-left clear small (click)="detalles($event,item)">\n         <ion-icon name="paw" style="color: orangered;"></ion-icon>\n         <h2 color="primary"> {{item.nombre}}</h2>\n             \n </button>\n <h2> {{item.tipoCliente}}</h2>\n <h2> {{item.vehiculoRentado}}</h2>\n <h2 >Atendido por: {{item.nombreUsuario}} </h2> \n\n</ion-item>\n\n</ion-item-sliding>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteagosto\aclienteagosto.html"*/,
+            selector: 'page-aclienteagosto',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteagosto\aclienteagosto.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Agosto</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteagosto\aclienteagosto.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -8114,6 +8275,17 @@ var AclienteseptiembrePage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    AclienteseptiembrePage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+    };
+    AclienteseptiembrePage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+        }
+    };
     AclienteseptiembrePage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
     };
@@ -8162,7 +8334,7 @@ var AclienteseptiembrePage = (function () {
         var val = ev.target.value;
         if (val && val.trim() != '') {
             this.clientes = this.clientes.filter(function (item) {
-                return (item.nombre.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
+                return (item.dia.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
             });
         }
     };
@@ -8171,7 +8343,7 @@ var AclienteseptiembrePage = (function () {
     };
     AclienteseptiembrePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclienteseptiembre',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteseptiembre\aclienteseptiembre.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Septiembre</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-searchbar cancelButtonText  \n  (ionInput)="getItems($event)" placeholder="Buscar por nombre" \n  style="background-color: rgba(0, 0, 0, 0.3); border-radius: 30px;">\n</ion-searchbar>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n   <ion-refresher-content \n   refreshingSpinner="circles"\n   refreshingText="Actualizando...">\n   </ion-refresher-content>\n</ion-refresher>\n\n \n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-item-sliding >\n<ion-item>\n\n <button translate ion-button icon-left clear small (click)="detalles($event,item)">\n         <ion-icon name="paw" style="color: orangered;"></ion-icon>\n         <h2 color="primary"> {{item.nombre}}</h2>\n             \n </button>\n <h2> {{item.tipoCliente}}</h2>\n <h2> {{item.vehiculoRentado}}</h2>\n <h2 >Atendido por: {{item.nombreUsuario}} </h2> \n\n</ion-item>\n\n</ion-item-sliding>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteseptiembre\aclienteseptiembre.html"*/,
+            selector: 'page-aclienteseptiembre',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteseptiembre\aclienteseptiembre.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Septiembre</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteseptiembre\aclienteseptiembre.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -8225,6 +8397,17 @@ var AclienteoctubrePage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    AclienteoctubrePage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+    };
+    AclienteoctubrePage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+        }
+    };
     AclienteoctubrePage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
     };
@@ -8273,7 +8456,7 @@ var AclienteoctubrePage = (function () {
         var val = ev.target.value;
         if (val && val.trim() != '') {
             this.clientes = this.clientes.filter(function (item) {
-                return (item.nombre.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
+                return (item.dia.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
             });
         }
     };
@@ -8282,7 +8465,7 @@ var AclienteoctubrePage = (function () {
     };
     AclienteoctubrePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclienteoctubre',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteoctubre\aclienteoctubre.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Octubre</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-searchbar cancelButtonText  \n  (ionInput)="getItems($event)" placeholder="Buscar por nombre" \n  style="background-color: rgba(0, 0, 0, 0.3); border-radius: 30px;">\n</ion-searchbar>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n   <ion-refresher-content \n   refreshingSpinner="circles"\n   refreshingText="Actualizando...">\n   </ion-refresher-content>\n</ion-refresher>\n\n \n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-item-sliding >\n<ion-item>\n\n <button translate ion-button icon-left clear small (click)="detalles($event,item)">\n         <ion-icon name="paw" style="color: orangered;"></ion-icon>\n         <h2 color="primary"> {{item.nombre}}</h2>\n             \n </button>\n <h2> {{item.tipoCliente}}</h2>\n <h2> {{item.vehiculoRentado}}</h2>\n <h2 >Atendido por: {{item.nombreUsuario}} </h2> \n\n</ion-item>\n\n</ion-item-sliding>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteoctubre\aclienteoctubre.html"*/,
+            selector: 'page-aclienteoctubre',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteoctubre\aclienteoctubre.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Octubre</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteoctubre\aclienteoctubre.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -8336,6 +8519,17 @@ var AclientenoviembrePage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    AclientenoviembrePage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+    };
+    AclientenoviembrePage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+        }
+    };
     AclientenoviembrePage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
     };
@@ -8384,7 +8578,7 @@ var AclientenoviembrePage = (function () {
         var val = ev.target.value;
         if (val && val.trim() != '') {
             this.clientes = this.clientes.filter(function (item) {
-                return (item.nombre.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
+                return (item.dia.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
             });
         }
     };
@@ -8393,7 +8587,7 @@ var AclientenoviembrePage = (function () {
     };
     AclientenoviembrePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclientenoviembre',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientenoviembre\aclientenoviembre.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Noviembre</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-searchbar cancelButtonText  \n  (ionInput)="getItems($event)" placeholder="Buscar por nombre" \n  style="background-color: rgba(0, 0, 0, 0.3); border-radius: 30px;">\n</ion-searchbar>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n   <ion-refresher-content \n   refreshingSpinner="circles"\n   refreshingText="Actualizando...">\n   </ion-refresher-content>\n</ion-refresher>\n\n \n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-item-sliding >\n<ion-item>\n\n <button translate ion-button icon-left clear small (click)="detalles($event,item)">\n         <ion-icon name="paw" style="color: orangered;"></ion-icon>\n         <h2 color="primary"> {{item.nombre}}</h2>\n             \n </button>\n <h2> {{item.tipoCliente}}</h2>\n <h2> {{item.vehiculoRentado}}</h2>\n <h2 >Atendido por: {{item.nombreUsuario}} </h2> \n\n</ion-item>\n\n</ion-item-sliding>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientenoviembre\aclientenoviembre.html"*/,
+            selector: 'page-aclientenoviembre',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientenoviembre\aclientenoviembre.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Noviembre</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientenoviembre\aclientenoviembre.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -8447,6 +8641,17 @@ var AclientediciembrePage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    AclientediciembrePage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+    };
+    AclientediciembrePage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+        }
+    };
     AclientediciembrePage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
     };
@@ -8495,7 +8700,7 @@ var AclientediciembrePage = (function () {
         var val = ev.target.value;
         if (val && val.trim() != '') {
             this.clientes = this.clientes.filter(function (item) {
-                return (item.nombre.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
+                return (item.dia.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
             });
         }
     };
@@ -8504,7 +8709,7 @@ var AclientediciembrePage = (function () {
     };
     AclientediciembrePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclientediciembre',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientediciembre\aclientediciembre.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Diciembre</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-searchbar cancelButtonText  \n  (ionInput)="getItems($event)" placeholder="Buscar por nombre" \n  style="background-color: rgba(0, 0, 0, 0.3); border-radius: 30px;">\n</ion-searchbar>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n   <ion-refresher-content \n   refreshingSpinner="circles"\n   refreshingText="Actualizando...">\n   </ion-refresher-content>\n</ion-refresher>\n\n \n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-item-sliding >\n<ion-item>\n\n <button translate ion-button icon-left clear small (click)="detalles($event,item)">\n         <ion-icon name="paw" style="color: orangered;"></ion-icon>\n         <h2 color="primary"> {{item.nombre}}</h2>\n             \n </button>\n <h2> {{item.tipoCliente}}</h2>\n <h2> {{item.vehiculoRentado}}</h2>\n <h2 >Atendido por: {{item.nombreUsuario}} </h2> \n\n</ion-item>\n\n</ion-item-sliding>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientediciembre\aclientediciembre.html"*/,
+            selector: 'page-aclientediciembre',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientediciembre\aclientediciembre.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Diciembre</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientediciembre\aclientediciembre.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -9470,7 +9675,7 @@ var HistorialclientePage = (function () {
     };
     HistorialclientePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-historialcliente',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\historialcliente\historialcliente.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Datos del cliente</ion-title>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n          <img style="width: 32%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 32%;" (click)="enlace_editar_cliente()" src="img/icon/editarT.png"/>\n          <p style="font-size: 14px; color: #4A6D68; margin-top: 0%;">Editar</p>\n        </ion-col>\n        <ion-col>\n          <form #eliminarForm="ngForm">    \n            <img style="width: 32%;" (click)="eliminar(eliminarForm)" src="img/icon/basura.png"/>\n            <p style="font-size: 14px; color: #C10000; margin-top: 0%;">Eliminar</p>\n          </form> \n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n  <div class="S1">\n\n    <ion-card class="c1">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/user.png"/>      \n        </ion-avatar>\n        <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>\n        <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>\n        <h3 style="color: #505A53;">Fecha de alta: <strong>{{datosC.fechaCreacion}}</strong></h3>\n        <h4 style="opacity: 50%;">{{datosC.telefono}}</h4>\n      </ion-item>\n    </ion-card>  \n\n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/cumple.png"/> Edad: <strong>{{datosC.edad}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/sex.png"/> Sexo: <strong>{{datosC.sexo}}</strong></p>\n  </ion-card-content>\n   \n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/ciudad.png"/> Ciudad: <strong>{{datosC.ciudad}}</strong></p>\n  </ion-card-content>\n  \n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/estado.png"/> Estado: <strong>{{datosC.estado}}</strong></p>\n  </ion-card-content> \n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/address.png"/> Dirección: <strong>{{datosC.direccion}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/colonia.png"/> Colonia: <strong>{{datosC.colonia}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/observaciones.png"/> Observaciones del cliente: <strong>{{datosC.observacionesCliente}}</strong></p>\n  </ion-card-content>\n\n  </div>\n\n  <br>\n  <ion-card-content> \n    <ion-item no-lines>\n      <p style="font-size: 18px; color: #4A6D68;"><strong><img style="width: 5%;" src="img/icon/not.png"/> Notas del historial:</strong></p>\n      <p style="font-size: 12px; color: #4A6D68;">{{datosC.notashistorial}}</p>\n    </ion-item>\n  </ion-card-content>\n\n\n</ion-content>\n\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\historialcliente\historialcliente.html"*/,
+            selector: 'page-historialcliente',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\historialcliente\historialcliente.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Datos del cliente</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n          <img style="width: 32%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 32%;" (click)="enlace_editar_cliente()" src="img/icon/editarT.png"/>\n          <p style="font-size: 14px; color: #4A6D68; margin-top: 0%;">Editar</p>\n        </ion-col>\n        <ion-col>\n          <form #eliminarForm="ngForm">    \n            <img style="width: 32%;" (click)="eliminar(eliminarForm)" src="img/icon/basura.png"/>\n            <p style="font-size: 14px; color: #C10000; margin-top: 0%;">Eliminar</p>\n          </form> \n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n  <div class="S1">\n\n    <ion-card class="c1">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/user.png"/>      \n        </ion-avatar>\n        <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>\n        <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>\n        <h3 style="color: #505A53;">Fecha de alta: <strong>{{datosC.fechaCreacion}}</strong></h3>\n        <h4 style="opacity: 50%;">{{datosC.telefono}}</h4>\n      </ion-item>\n    </ion-card>  \n\n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/cumple.png"/> Edad: <strong>{{datosC.edad}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/sex.png"/> Sexo: <strong>{{datosC.sexo}}</strong></p>\n  </ion-card-content>\n   \n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/ciudad.png"/> Ciudad: <strong>{{datosC.ciudad}}</strong></p>\n  </ion-card-content>\n  \n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/estado.png"/> Estado: <strong>{{datosC.estado}}</strong></p>\n  </ion-card-content> \n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/address.png"/> Dirección: <strong>{{datosC.direccion}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/colonia.png"/> Colonia: <strong>{{datosC.colonia}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/observaciones.png"/> Observaciones del cliente: <strong>{{datosC.observacionesCliente}}</strong></p>\n  </ion-card-content>\n\n  </div>\n\n  <br>\n  <ion-card-content> \n    <ion-item no-lines>\n      <p style="font-size: 18px; color: #4A6D68;"><strong><img style="width: 5%;" src="img/icon/not.png"/> Notas del historial:</strong></p>\n      <p style="font-size: 12px; color: #4A6D68;">{{datosC.notashistorial}}</p>\n    </ion-item>\n  </ion-card-content>\n\n\n</ion-content>\n\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\historialcliente\historialcliente.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Platform */],

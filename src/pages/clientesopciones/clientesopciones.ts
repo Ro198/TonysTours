@@ -3,7 +3,9 @@ import { NavController, NavParams } from 'ionic-angular';
 
 import { ClientesactivosPage,
          ClientesnoactivosPage,
-         ClientesmesPage
+         MenunivelunoPage,
+         MenuniveldosPage,
+         HistorialPage
 } from "../index.paginas";
 
 @Component({
@@ -12,16 +14,30 @@ import { ClientesactivosPage,
 })
 export class ClientesopcionesPage {
 
-  
+  datosUsuario
+  perfil
 
   constructor(public navCtrl: NavController, 
               public navParams: NavParams) 
   {
 
-
+    this.datosUsuario  = window.localStorage.getItem('dataUser')
+    this.perfil = JSON.parse(this.datosUsuario )
+    console.log(this.perfil);
 
   }
 
+  regresar(){      
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
+  }
+
+  historial(){      
+    this.navCtrl.push(HistorialPage);
+  }
 
 clientesActivos(){
     this.navCtrl.push(ClientesactivosPage);
@@ -31,9 +47,7 @@ clientesNoActivos(){
    this.navCtrl.push(ClientesnoactivosPage);
 }
 
-clientesMes(){
-  this.navCtrl.push(ClientesmesPage);
-}
+
 
 
 

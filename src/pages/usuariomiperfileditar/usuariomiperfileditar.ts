@@ -2,6 +2,12 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, LoadingController, AlertController, ViewController } from 'ionic-angular';
 import { UsuarioService } from '../servicios/UsuarioServices';
 
+import { 
+  MenunivelunoPage,
+  MenuniveldosPage,
+  UsuariomiperfilPage
+} from "../index.paginas";
+
 @Component({
   selector: 'page-usuariomiperfileditar',
   templateUrl: 'usuariomiperfileditar.html',
@@ -45,6 +51,18 @@ export class UsuariomiperfileditarPage {
     this.datosBDUsuario.Pass = this.perfil.Pass;
     this.datosBDUsuario.nombreUsuario = this.perfil.nombreUsuario; 
     this.datosBDUsuario.nivelUsuario = this.perfil.nivelUsuario; 
+  }
+
+  regresar(){      
+      this.navCtrl.push(UsuariomiperfilPage);
+  }
+
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
   }
 
   dismiss() {

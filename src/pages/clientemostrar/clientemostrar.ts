@@ -2,7 +2,10 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 
-import { ClienteeditarPage
+import { 
+  HistorialPage,
+  ClientesactivosPage,
+  ClientesnoactivosPage
 } from "../index.paginas";
 
 @Component({
@@ -15,7 +18,7 @@ BDCliente;
 datosC;
 datosUsuario;
 perfil;
-
+ 
 
   constructor(public navCtrl: NavController, 
               public navParams: NavParams) 
@@ -31,15 +34,17 @@ perfil;
 
   }
 
+  regresar(){      
+    if(this.datosC.clienteactivo == "ACTIVO"){             
+      this.navCtrl.push(ClientesactivosPage);
+    }else if (this.datosC.clienteactivo == "NO ACTIVO"){             
+      this.navCtrl.push(ClientesnoactivosPage);
+    }
+  }
 
-  enlace_editar_cliente()
-{
-  // console.log(item);
-
-     // window.localStorage.setItem('datoscliente', JSON.stringify(item));
-      this.navCtrl.push(ClienteeditarPage)
-
-}
+  historial(){      
+    this.navCtrl.push(HistorialPage);
+  }
 
 
   ionViewDidLoad() {

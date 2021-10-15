@@ -1,28 +1,65 @@
 
-<ion-header>
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
+    <ion-title>Clientes</ion-title>
+    <br>
+    <ion-grid style="text-align: center;">
+      <ion-row>  
+        <ion-col>
+            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+        </ion-col>
+        <ion-col>     
+          <img style="width: 22%;" (click)="historial()" src="img/icon/historial.png"/>
+          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Historial</p>
+      </ion-col>
+      </ion-row>
+    </ion-grid> 
 
-  <ion-navbar>
-    <ion-title>Activo y no activo</ion-title>
-  </ion-navbar>
-
+  </ion-toolbar>
 </ion-header>
 
 
 <ion-content padding>
-  
-<ion-card>
-  <img src="img/clientes.jpg" (click)="clientesActivos()" />
-  <div class="card-title">Clientes Activos</div>
-</ion-card>
 
-<ion-card>
-  <img src="img/clientes.jpg" (click)="clientesNoActivos()" />
-  <div class="card-title">Clientes no activos</div>
-</ion-card>
+  <br>
+  <div class="c1">
+    <ion-grid style="text-align: center;">  
+      <ion-row> 
+        <ion-col> 
+          <ion-card class="tarjeta" (click)="clientesActivos()">
+            <div style="text-align: -webkit-center;">
+            <img style="width: 30%;" src="img/icon/clienteActivo.png"/>
+            </div>
+            <ion-item style="text-align: center;">
+              <p style="font-size: 24px; color: #1BC7AF;"><strong>Activos</strong></p>
+              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">Clientes</p>
+            </ion-item>      
+          </ion-card>
+        </ion-col> 
+      </ion-row>
+    </ion-grid> 
+  </div>
 
-<ion-card>
-  <img src="img/clientes.jpg" (click)="clientesMes()" />
-  <div class="card-title">Clientes por mes</div>
-</ion-card>
+  <br>
+  <br>
+
+  <div class="c1">
+    <ion-grid style="text-align: center;">  
+      <ion-row> 
+        <ion-col>     
+          <ion-card class="tarjeta" (click)="clientesNoActivos()">
+            <div style="text-align: -webkit-center;">
+              <img style="width: 30%;" src="img/icon/noActivo.png"/>
+              </div>
+            <ion-item style="text-align: center;">
+              <p style="font-size: 24px; color: #1BC7AF;"><strong>No Activos</strong></p>
+              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">Clientes</p>
+            </ion-item>      
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </div>
 
 </ion-content>

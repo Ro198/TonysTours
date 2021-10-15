@@ -6,7 +6,7 @@
     <ion-row> 
       <ion-col> 
         <div class="logo" style="text-align: left;">
-          <img src="img/logoOF.png" style="width:80%;">
+          <img src="img/logoOf.png" style="width:80%;">
         </div> 
       </ion-col>
       <ion-col>     
@@ -43,7 +43,7 @@
           </ion-card>
         </ion-col>
         <ion-col>     
-          <ion-card class="tarjeta">
+          <ion-card class="tarjeta" (click)="mes()">
             <ion-item>
               <ion-avatar item-center>
                 <img src="img/icon/calendar.png"/>      
@@ -59,13 +59,13 @@
 
   <ion-slides pager>
     <ion-slide>
-      <h4 class="slide-title" style="color: #505A53;">Vehiculos</h4>
+      <h4 class="slide-title" style="color: #505A53;">Mis Vehiculos</h4>
       <img src="img/vehiculo.gif" class="slide-image" (click)="vehiculos()"
         style="border-radius: 30px;" />
-        <p style="color: #505A53;">Mis vehiculos</p>
+        <p style="color: #505A53;">Movimientos de vehiculos</p>
       </ion-slide> 
     <ion-slide>
-      <h4 class="slide-title" style="color: #505A53;">Clientes</h4>
+      <h4 class="slide-title" style="color: #505A53;">Mis Clientes</h4>
       <img src="img/clientes.png" class="slide-image" (click)="clientes()"
         style="border-radius: 30px;" />
         <p style="color: #505A53;">Movimientos de clientes</p>

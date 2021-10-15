@@ -6,7 +6,8 @@ import { LoginPage,
          UsuariosPage,
          HistorialPage,
          VehiculosPage,
-         UsuariomiperfilPage
+         UsuariomiperfilPage,
+         ClientesmesPage
 } from "../index.paginas";
 
 @Component({
@@ -37,6 +38,12 @@ export class MenunivelunoPage {
   miperfil(){
 
     this.navCtrl.push(UsuariomiperfilPage);
+
+  }
+
+  mes(){
+
+    this.navCtrl.push(ClientesmesPage);
 
   }
 

@@ -160,11 +160,14 @@ export class AgendaeditarPage {
                 //console.log('Usuario registrado');
                 let alert = this.alertCtrl.create({
                 title: "¡EXITO!",
-                subTitle:"Datos modificacdos correctamente",
+                subTitle:"Datos modificados correctamente",
                 buttons: [
                     {
                       text: 'Aceptar',
                       handler: () => {
+
+
+
                         this.navCtrl.setRoot(HistorialPage)
                         //this.dismiss()
                       }

@@ -3,32 +3,30 @@
 <ion-header translucent="true" no-border>
   <ion-toolbar color="sincolor" style="text-align: center;">
     <ion-title>Información del usuario</ion-title>
+    <br>
+    <ion-grid style="text-align: center;">
+      <ion-row> 
+        <ion-col>
+          <img style="width: 32%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+        </ion-col>
+        <ion-col>     
+          <img style="width: 32%;" (click)="enlace_editar_usuario()" src="img/icon/editarT.png"/>
+          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Editar</p>
+        </ion-col>
+        <ion-col>
+          <form #eliminarForm="ngForm">    
+            <img style="width: 32%;" (click)="eliminar(eliminarForm)" src="img/icon/basura.png"/>
+            <p style="font-size: 14px; color: #C10000; margin-top: 0%;">Eliminar</p>
+          </form> 
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
   </ion-toolbar>
 </ion-header>
 
 
 <ion-content padding>
-
-  <ion-grid style="text-align: center;">
-    <ion-row> 
-      <ion-col>
-        <img style="width: 32%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
-        <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
-      </ion-col>
-      <ion-col>     
-        <img style="width: 32%;" (click)="enlace_editar_usuario()" src="img/icon/editar.png"/>
-        <p style="font-size: 14px; color: #749E2A; margin-top: 0%;">Editar</p>
-      </ion-col>
-      <ion-col>
-        <form #eliminarForm="ngForm">    
-          <img style="width: 32%;" (click)="eliminar(eliminarForm)" src="img/icon/eliminar.png"/>
-          <p style="font-size: 14px; color: #C10000; margin-top: 0%;">Eliminar</p>
-        </form> 
-      </ion-col>
-    </ion-row>
-  </ion-grid> 
-
-  <br>
 
   <ion-card class="tarjeta">
     <ion-item>

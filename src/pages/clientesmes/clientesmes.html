@@ -1,107 +1,156 @@
 
-<ion-header>
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
+    <ion-title>Agendados por mes</ion-title>
+    <br> 
+    <ion-grid style="text-align: center;">
+      <ion-row>  
+        <ion-col>
+            <img style="width: 32%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+        </ion-col>
+        <ion-col>     
+            <img style="width: 32%;" (click)="clientes()" src="img/icon/clientes.png"/>
+            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Clientes</p>
+        </ion-col>
+        <ion-col>     
+          <img style="width: 32%;" (click)="historial()" src="img/icon/historial.png"/>
+          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Historial</p>
+      </ion-col>
+      </ion-row>
+    </ion-grid> 
 
-  <ion-navbar>
-    <ion-title>Clientes por mes</ion-title>
-  </ion-navbar>
-
+  </ion-toolbar>
 </ion-header>
 
 
 <ion-content padding>
 
   <br>
-  
-  <ion-grid style="text-align: center;">
-    <ion-row> 
-      <ion-col>
-          <button class="bordered" fill="solid" ion-button (click)="enero()" color="btnlogin">
-            <ion-icon name="people"></ion-icon>
-          </button>
-          <p style="font-size: 10px;">Enero</p>
-      </ion-col>
-      <ion-col>     
-          <button class="bordered" fill="solid" ion-button icon-only (click)="febrero()" color="verde-limon">
-            <ion-icon name="person"></ion-icon> 
-          </button>
-          <p style="font-size: 10px;">Febrero</p>
-      </ion-col>
-      <ion-col>     
-        <button class="bordered" fill="solid" ion-button icon-only (click)="marzo()" color="rojo">
-           <ion-icon name="close-circle"></ion-icon>
-        </button>
-        <p style="font-size: 10px;">Marzo</p>
-    </ion-col>
-    </ion-row>
-  </ion-grid>
+  <div class="c1">
+    <ion-grid style="text-align: center;">  
+      <ion-row> 
+        <ion-col> 
+          <ion-card class="tarjeta" (click)="enero()">
+            <ion-item style="text-align: center;">
+              <p style="font-size: 16px; color: #1BC7AF;"><strong>Enero</strong></p>
+            </ion-item>      
+          </ion-card>
+        </ion-col> 
+        <ion-col>     
+          <ion-card class="tarjeta" (click)="febrero()">
+            <ion-item style="text-align: center;">
+              <p style="font-size: 16px; color: #1BC7AF;"><strong>Febrero</strong></p>
+            </ion-item>      
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </div>
 
-  <ion-grid style="text-align: center;">
-    <ion-row>
-      <ion-col>
-          <button class="bordered" fill="solid" ion-button (click)="abril()" color="btnlogin">
-            <ion-icon name="people"></ion-icon>
-          </button>
-          <p style="font-size: 10px;">Abril</p>
-      </ion-col>
-      <ion-col>     
-          <button class="bordered" fill="solid" ion-button icon-only (click)="mayo()" color="verde-limon">
-            <ion-icon name="person"></ion-icon> 
-          </button>
-          <p style="font-size: 10px;">Mayo</p>
-      </ion-col>
-      <ion-col>     
-        <button class="bordered" fill="solid" ion-button icon-only (click)="junio()" color="rojo">
-           <ion-icon name="close-circle"></ion-icon>
-        </button>
-        <p style="font-size: 10px;">Junio</p>
-    </ion-col>
-    </ion-row>
-  </ion-grid>
+  <div class="c1">
+    <ion-grid style="text-align: center;">  
+      <ion-row>
+        <ion-col>     
+          <ion-card class="tarjeta" (click)="marzo()">
+            <ion-item style="text-align: center;">
+              <p style="font-size: 16px; color: #1BC7AF;"><strong>Marzo</strong></p>
+            </ion-item>
+          </ion-card>
+        </ion-col> 
+        <ion-col> 
+          <ion-card class="tarjeta" (click)="abril()">
+            <ion-item style="text-align: center;">
+              <p style="font-size: 16px; color: #1BC7AF;"><strong>Abril</strong></p>
+            </ion-item>      
+          </ion-card>
+        </ion-col> 
+      </ion-row>
+    </ion-grid> 
+  </div>
 
-  <ion-grid style="text-align: center;">
-    <ion-row>
-      <ion-col>
-          <button class="bordered" fill="solid" ion-button (click)="julio()" color="btnlogin">
-            <ion-icon name="people"></ion-icon>
-          </button>
-          <p style="font-size: 10px;">Julio</p>
-      </ion-col>
-      <ion-col>     
-          <button class="bordered" fill="solid" ion-button icon-only (click)="agosto()" color="verde-limon">
-            <ion-icon name="person"></ion-icon> 
-          </button>
-          <p style="font-size: 10px;">Agosto</p>
-      </ion-col>
-      <ion-col>     
-        <button class="bordered" fill="solid" ion-button icon-only (click)="septiembre()" color="rojo">
-           <ion-icon name="close-circle"></ion-icon>
-        </button>
-        <p style="font-size: 10px;">Septiembre</p>
-    </ion-col>
-    </ion-row>
-  </ion-grid>
+  <div class="c1">
+    <ion-grid style="text-align: center;">  
+      <ion-row>
+        <ion-col>     
+          <ion-card class="tarjeta" (click)="mayo()">
+            <ion-item style="text-align: center;">
+              <p style="font-size: 16px; color: #1BC7AF;"><strong>Mayo</strong></p>
+            </ion-item>      
+          </ion-card>
+        </ion-col>
+        <ion-col>     
+          <ion-card class="tarjeta" (click)="junio()">
+            <ion-item style="text-align: center;">
+              <p style="font-size: 16px; color: #1BC7AF;"><strong>Junio</strong></p>
+            </ion-item>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </div>
 
-  <ion-grid style="text-align: center;">
-    <ion-row>
-      <ion-col>
-          <button class="bordered" fill="solid" ion-button (click)="octubre()" color="btnlogin">
-            <ion-icon name="people"></ion-icon>
-          </button>
-          <p style="font-size: 10px;">Octubre</p>
-      </ion-col>
-      <ion-col>     
-          <button class="bordered" fill="solid" ion-button icon-only (click)="noviembre()" color="verde-limon">
-            <ion-icon name="person"></ion-icon> 
-          </button>
-          <p style="font-size: 10px;">Noviembre</p>
-      </ion-col>
-      <ion-col>     
-        <button class="bordered" fill="solid" ion-button icon-only (click)="diciembre()" color="rojo">
-           <ion-icon name="close-circle"></ion-icon>
-        </button>
-        <p style="font-size: 10px;">Diciembre</p>
-    </ion-col>
-    </ion-row>
-  </ion-grid>
+  <div class="c1">
+    <ion-grid style="text-align: center;">  
+      <ion-row>
+        <ion-col> 
+          <ion-card class="tarjeta" (click)="julio()">
+            <ion-item style="text-align: center;">
+              <p style="font-size: 16px; color: #1BC7AF;"><strong>Julio</strong></p>
+            </ion-item>      
+          </ion-card>
+        </ion-col> 
+        <ion-col>     
+          <ion-card class="tarjeta" (click)="agosto()">
+            <ion-item style="text-align: center;">
+              <p style="font-size: 16px; color: #1BC7AF;"><strong>Agosto</strong></p>
+            </ion-item>      
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </div>
+
+  <div class="c1">
+    <ion-grid style="text-align: center;">  
+      <ion-row> 
+        <ion-col>     
+          <ion-card class="tarjeta" (click)="septiembre()">
+            <ion-item style="text-align: center;">
+              <p style="font-size: 16px; color: #1BC7AF;"><strong>Septiembre</strong></p>
+            </ion-item>
+          </ion-card>
+        </ion-col>
+        <ion-col> 
+          <ion-card class="tarjeta" (click)="octubre()">
+            <ion-item style="text-align: center;">
+              <p style="font-size: 16px; color: #1BC7AF;"><strong>Octubre</strong></p>
+            </ion-item>      
+          </ion-card>
+        </ion-col> 
+      </ion-row>
+    </ion-grid> 
+  </div>
+
+  <div class="c1">
+    <ion-grid style="text-align: center;">  
+      <ion-row> 
+        <ion-col>     
+          <ion-card class="tarjeta" (click)="noviembre()">
+            <ion-item style="text-align: center;">
+              <p style="font-size: 16px; color: #1BC7AF;"><strong>Noviembre</strong></p>
+            </ion-item>      
+          </ion-card>
+        </ion-col>
+        <ion-col>     
+          <ion-card class="tarjeta" (click)="diciembre()">
+            <ion-item style="text-align: center;">
+              <p style="font-size: 16px; color: #1BC7AF;"><strong>Diciembre</strong></p>
+            </ion-item>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </div>
 
 </ion-content>

@@ -4,23 +4,18 @@ page-acuerdo {
         margin-top: 20%;
     }
 
-.btn{
-    padding-left: 50px;
-    padding-right: 50px;
-}   
+    .btn{
+        padding-left: 50px;
+        padding-right: 50px;
+    }   
 
-ion-card{
-    
-.button {
-
-    height: 48px;
-    font-size: 18px;
-    text-transform: initial;
-    border-radius: 50px;
-    box-shadow: 10px 10px 15px #d1d1d1, -5px -5px 10px #FFFFFF;
-    
-    
-}
-
-}
+    ion-card{  
+      .button {
+        height: 48px;
+        font-size: 18px;
+        text-transform: initial;
+        border-radius: 50px;
+        box-shadow: 10px 10px 15px #d1d1d1, -5px -5px 10px #FFFFFF;  
+      }
+    }
 }

@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams} from 'ionic-angular';
+import { NavController, NavParams, AlertController} from 'ionic-angular';
 
 
-import { UsuariomiperfileditarPage
+import { UsuariomiperfileditarPage,
+  MenunivelunoPage,
+  MenuniveldosPage,
+  LoginPage
 } from "../index.paginas";
 
 @Component({
@@ -15,7 +18,8 @@ export class UsuariomiperfilPage {
   perfil;
 
   constructor(public navCtrl: NavController, 
-              public navParams: NavParams) 
+              public navParams: NavParams,
+              public alertCtrl: AlertController) 
   {
 
     this.datosUsuario  = window.localStorage.getItem('dataUser')
@@ -24,9 +28,41 @@ export class UsuariomiperfilPage {
 
   }
 
+  regresar(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
+  }
+
   enlace_editar_usuario(){
     this.navCtrl.push(UsuariomiperfileditarPage);
   }
+
+   //CERRAR SESION
+
+   logout(): void {
+    let confirm = this.alertCtrl.create({
+      title: "¡ATENCION!",
+      message: "¿Estas seguro que quieres cerrar sesión?",
+      buttons: [
+        {
+          text: "NO",
+          handler: () => {}
+        },
+        {
+          text: "SI",
+          handler: () => {
+            window.localStorage.removeItem("dataUser");
+            this.navCtrl.setRoot(LoginPage);
+          }
+        }
+      ]
+    });
+    confirm.present();
+  }
+ 
 
 
   ionViewDidLoad() {

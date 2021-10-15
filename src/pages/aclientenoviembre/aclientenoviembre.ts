@@ -3,7 +3,10 @@ import { NavController, NavParams, LoadingController, ViewController, ModalContr
 
 import { ClienteService } from '../servicios/ClienteServices';
 
-import { ClientemostrarPage
+import { ClientemostrarPage,
+  ClientesmesPage,
+  MenunivelunoPage,
+  MenuniveldosPage
 } from "../index.paginas";
 
 @Component({
@@ -38,6 +41,18 @@ export class AclientenoviembrePage {
     console.log(this.perfil);
     
   }
+
+  regresar(){      
+    this.navCtrl.push(ClientesmesPage);
+}
+
+menu(){
+  if(this.perfil.nivelUsuario == "Administrador"){             
+    this.navCtrl.push(MenunivelunoPage);
+  }else if (this.perfil.nivelUsuario == "Estandar"){             
+    this.navCtrl.push(MenuniveldosPage);
+  }
+}
 
   dismiss() {
     this.viewCtrl.dismiss(); 
@@ -110,7 +125,7 @@ export class AclientenoviembrePage {
 
     if (val && val.trim() != '') {
    this.clientes =this.clientes.filter((item) => {
-        return (item.nombre.toString().toLowerCase().indexOf(val.toLowerCase()) =="");
+        return (item.dia.toString().toLowerCase().indexOf(val.toLowerCase()) =="");
       })
     }
   }

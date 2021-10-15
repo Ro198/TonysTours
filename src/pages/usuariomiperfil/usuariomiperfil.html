@@ -1,34 +1,48 @@
 
-<ion-header>
-
-  <ion-navbar>
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
     <ion-title>Mi perfil</ion-title>
-  </ion-navbar>
+    <br>
+    <ion-grid style="text-align: center;">
+      <ion-row> 
+        <ion-col>
+            <img style="width: 32%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+        </ion-col>
+        <ion-col>     
+            <img style="width: 32%;" (click)="enlace_editar_usuario()" src="img/icon/editarT.png"/>
+            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Editar</p>
+        </ion-col>
+        <ion-col>     
+          <img style="width: 32%;" (click)="logout()" src="img/icon/salir.png"/>
+          <p style="font-size: 14px; color: #C10000; margin-top: 0%;">Cerrar sesión</p>
+      </ion-col>
+      </ion-row>
+    </ion-grid>  
 
+  </ion-toolbar>
 </ion-header>
 
 
 <ion-content padding>
 
-  <ion-item class="center">
-
-    
-
-    <h1 id="Username" color="primary"><ion-icon name="paw"  color="primary"></ion-icon>Nombre de usuario: {{perfil.Username}}</h1>
-    <h2>Correo: </h2>      <p id="Correo">{{perfil.Correo}}</p>
-  
-
-    <div padding></div>
-  
-    <h2>Nombre completo: </h2>    <p id="nombreUsuario">{{perfil.nombreUsuario}}</p> 
-    <h2>Nivel de ususario: </h2>   <p id="nivelUsuario">{{perfil.nivelUsuario}}</p>    
-
-
+  <ion-card class="tarjeta">
+    <ion-item>
+      <div style="text-align: -webkit-center;">
+        <img style="width: 15%;" src="img/icon/user.png"/>
+        <h1 style="color: #4A6D68;"><strong>{{perfil.nombreUsuario}}</strong></h1>
+        <br>
+        <h2 style="color: #505A53;"><strong>Correo:</strong> {{perfil.Correo}}</h2>
+        <br>
+        <h2 style="color: #505A53;"><strong>Nombre de usuario:</strong> {{perfil.Username}}</h2>
+        <br>
+        <h2 style="color: #505A53;"><strong>Tipo de cuenta:</strong> {{perfil.nivelUsuario}}</h2> 
+        <br>
+        <h2 style="color: #505A53;"><strong>Fecha de alta al sistema:</strong></h2>
+        <h2 style="color: #505A53;">{{perfil.fechaCreacion}}</h2>
+      </div> 
     </ion-item>
+  </ion-card>
 
-    <button ion-button color="primary" (click)="enlace_editar_usuario()">
-      <ion-icon name="medkit"></ion-icon>
-      Editar 
-    </button>
 
 </ion-content>

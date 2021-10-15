@@ -2,7 +2,10 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, LoadingController, ViewController, ModalController, AlertController } from 'ionic-angular';
 import { ClienteService } from '../servicios/ClienteServices';
 
-import { ClientemostrarPage
+import { ClientemostrarPage,
+ ClientesopcionesPage,
+ MenunivelunoPage,
+ MenuniveldosPage
 } from "../index.paginas";
 
 
@@ -39,6 +42,18 @@ export class ClientesactivosPage {
     console.log(this.perfil);
     
   }
+
+  regresar(){      
+    this.navCtrl.push(ClientesopcionesPage);
+}
+
+menu(){
+  if(this.perfil.nivelUsuario == "Administrador"){             
+    this.navCtrl.push(MenunivelunoPage);
+  }else if (this.perfil.nivelUsuario == "Estandar"){             
+    this.navCtrl.push(MenuniveldosPage);
+  }
+}
 
   dismiss() {
     this.viewCtrl.dismiss();

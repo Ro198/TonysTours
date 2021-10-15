@@ -1,104 +1,72 @@
 
-<ion-header>
 
-  <ion-navbar>
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
     <ion-title>Detalles del cliente</ion-title>
-    
-  </ion-navbar>
+    <br> 
+    <ion-grid style="text-align: center;">
+      <ion-row>  
+        <ion-col>
+            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+        </ion-col>
+        <ion-col>     
+          <img style="width: 22%;" (click)="historial()" src="img/icon/historial.png"/>
+          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Historial</p>
+      </ion-col>
+      </ion-row>
+    </ion-grid> 
 
+  </ion-toolbar>
 </ion-header>
 
 
 <ion-content padding>
-    
-  <ion-item class="center">
+     
+  <div class="S1">
 
-    
+    <ion-card class="c1">
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="img/icon/user.png"/>      
+        </ion-avatar>
+        <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>
+        <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>
+        <h3 style="color: #505A53;">Licencia: <strong>{{datosC.licencia}} - {{datosC.fechaLicencia}}</strong></h3>
+        <h4 style="opacity: 50%;">{{datosC.telefono}}</h4>
+      </ion-item>
+    </ion-card>  
 
-    <h1 id="nombre" color="primary"><ion-icon name="paw"  color="primary"></ion-icon> {{datosC.nombre}}</h1>
-    <br>
-      <ion-grid>
-        <ion-row>
-          <h2>Cliente:</h2><p id="tipoCliente"> {{datosC.tipoCliente}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Vehiculo Rentado:</h2><p id="vehiculoRentado"> {{datosC.vehiculoRentado}}</p>
-        </ion-row>
-      </ion-grid>
+  <ion-card-content> 
+    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/cumple.png"/> Edad: <strong>{{datosC.edad}}</strong></p>
+  </ion-card-content>
 
-      <br>
-      <ion-grid>
-        <ion-row>
-          <h2>Edad: </h2><p id="edad">{{datosC.edad}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Telefono: </h2><p id="telefono">{{datosC.telefono}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Sexo: </h2><p id="sexo">{{datosC.sexo}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Direccion: </h2><p id="direccion">{{datosC.direccion}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Colonia: </h2><p id="colonia">{{datosC.colonia}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Ciudad: </h2><p id="ciudad">{{datosC.ciudad}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Estado: </h2><p id="estado">{{datosC.estado}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Licencia: </h2><p id="licencia">{{datosC.licencia}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Vigencia de la licencia: </h2><p id="fechaLicencia">{{datosC.fechaLicencia}}</p> 
-        </ion-row>
-      </ion-grid>
-
-      <br>
-      <ion-grid>
-        <ion-row>
-          <h2>Mes: </h2><p id="mes">{{datosC.mes}}</p>
-       </ion-row>
-       <ion-row>
-        <h2>Anticipo $</h2><p id="anticipo">{{datosC.anticipo}}</p>
-     </ion-row>
-        <ion-row>
-           <h2>Observaciones del cliente: </h2><p id="observacionesCliente">{{datosC.observacionesCliente}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Observaciones del vehiculo: </h2><p id="observacionesVehiculo">{{datosC.observacionesVehiculo}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Vehiculos Rentados: </h2><p id="vehiculosRentados">{{datosC.vehiculosRentados}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Vehiculos Dañados: </h2><p id="vehiculosMalEstado">{{datosC.vehiculosMalEstado}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Notas: </h2><p id="notasC">{{datosC.notasC}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Cliente Activo: </h2><p id="notas">{{datosC.clienteactivo}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Notas del historial: </h2><p id="notas">{{datosC.notashistorial}}</p>
-        </ion-row>   
-        <ion-row>
-          <h2>Fecha de alta del cliente: </h2><p id="fechaAltaCliente">{{datosC.fechaAltaCliente}}</p> 
-        </ion-row>  
-      </ion-grid>
+  <ion-card-content> 
+    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/sex.png"/> Sexo: <strong>{{datosC.sexo}}</strong></p>
+  </ion-card-content>
    
-      <h2>Atendido por el ultimo usuario que fue: </h2><p id="fechaAltaCliente">{{datosC.nombreUsuario}}</p> 
+  <ion-card-content> 
+    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/ciudad.png"/> Ciudad: <strong>{{datosC.ciudad}}</strong></p>
+  </ion-card-content>
+  
+  <ion-card-content> 
+    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/estado.png"/> Estado: <strong>{{datosC.estado}}</strong></p>
+  </ion-card-content> 
 
-    </ion-item>
+  <ion-card-content> 
+      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/address.png"/> Dirección: <strong>{{datosC.direccion}}</strong></p>
+  </ion-card-content>
 
-    <button ion-button color="primary" (click)="enlace_editar_cliente()">
-      <ion-icon name="medkit"></ion-icon>
-      Editar 
-    </button>
+  <ion-card-content> 
+      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/colonia.png"/> Colonia: <strong>{{datosC.colonia}}</strong></p>
+  </ion-card-content>
+
+  <ion-card-content> 
+      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/observaciones.png"/> Observaciones del cliente: <strong>{{datosC.observacionesCliente}}</strong></p>
+  </ion-card-content>
+
+  </div>
+
 
 
 </ion-content>
