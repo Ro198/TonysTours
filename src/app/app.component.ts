@@ -20,6 +20,8 @@ export class MyApp {
   datosUser;
   rootPage;
 
+
+
   constructor(
     public platform: Platform, 
     public statusBar: StatusBar,
@@ -76,6 +78,7 @@ export class MyApp {
         this.statusBar.styleDefault();
         this.splashScreen.hide();
         this.statusBar.backgroundColorByHexString('#ffffff');
+
       });
     }
 

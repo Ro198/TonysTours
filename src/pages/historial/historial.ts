@@ -49,7 +49,7 @@ export class HistorialPage {
         this.navCtrl.push(MenunivelunoPage);
     }else if (this.perfil.nivelUsuario == "Estandar"){             
       this.navCtrl.push(MenuniveldosPage);
-  }
+  } 
   }
 
   enlace_agregar_cliente(){

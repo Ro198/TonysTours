@@ -132,17 +132,26 @@ enlace_editar_cliente()
         }
       },
       {
-        text: 'Agenda',
+        text: 'Reagendar',
         icon: !this.platform.is('md') ? 'book' : null,
         handler: () => {
 
                 this.BDCliente  = window.localStorage.getItem('datosCliente')
                 this.datosC = JSON.parse(this.BDCliente )
                 
-                if(this.datosC.vehiculoRentado == "RENTANDO"){
+                if(this.datosC.clienteactivo == "ACTIVO"){
                   let alert = this.alertCtrl.create({
                     title: '¡Atencion!',
-                    subTitle: 'No se puede editar mientras que el cliente este rentando',
+                    subTitle: 'Mientras que el cliente este ACTIVO, no se puede Reagendar.',
+                    buttons: ['DE ACUERDO']
+                  });
+                  alert.present();
+                }
+                
+                else if(this.datosC.vehiculoRentado == "RENTANDO"){
+                  let alert = this.alertCtrl.create({
+                    title: '¡Atencion!',
+                    subTitle: 'No se puede editar mientras que el cliente este RENTANDO',
                     buttons: ['DE ACUERDO']
                   });
                   alert.present();

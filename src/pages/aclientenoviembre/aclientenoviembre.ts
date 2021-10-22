@@ -3,7 +3,7 @@ import { NavController, NavParams, LoadingController, ViewController, ModalContr
 
 import { ClienteService } from '../servicios/ClienteServices';
 
-import { ClientemostrarPage,
+import { CbajaagendamesPage,
   ClientesmesPage,
   MenunivelunoPage,
   MenuniveldosPage
@@ -22,6 +22,7 @@ export class AclientenoviembrePage {
   loading;
   BDCliente;
   ClienteService;
+  datosC;
 
   constructor(public navCtrl: NavController, 
               public navParams: NavParams,
@@ -95,10 +96,10 @@ menu(){
           });
   }
 
-  detalles(event,item) 
-  {                
-      window.localStorage.setItem('datosCliente', JSON.stringify(item));
-      this.navCtrl.push(ClientemostrarPage)
+  detalles(event, item) 
+  { 
+        window.localStorage.setItem('datosCliente', JSON.stringify(item));                                 
+        this.navCtrl.push(CbajaagendamesPage)
  
   }
 

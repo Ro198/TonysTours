@@ -74,7 +74,7 @@ export class ClienteagregarPage {
     this.datosCliente.mes = "Sin mes";
     this.datosCliente.dia = "Sin dia";
     this.datosCliente.anticipo = "0"; 
-    this.datosCliente.clienteactivo = "NO ACTIVO";
+    this.datosCliente.clienteactivo = "EN HISTORIAL";
 
   }
 

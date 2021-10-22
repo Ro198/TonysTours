@@ -8,109 +8,109 @@ webpackJsonp([0],[
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__login_login__ = __webpack_require__(278);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_0__login_login__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_0__login_login__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__clientemostrar_clientemostrar__ = __webpack_require__(279);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_1__clientemostrar_clientemostrar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_1__clientemostrar_clientemostrar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__clienteagregar_clienteagregar__ = __webpack_require__(280);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_2__clienteagregar_clienteagregar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_2__clienteagregar_clienteagregar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__clienteeditar_clienteeditar__ = __webpack_require__(281);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_3__clienteeditar_clienteeditar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_3__clienteeditar_clienteeditar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__acuerdo_acuerdo__ = __webpack_require__(282);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_4__acuerdo_acuerdo__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__menuniveluno_menuniveluno__ = __webpack_require__(283);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_5__menuniveluno_menuniveluno__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return __WEBPACK_IMPORTED_MODULE_5__menuniveluno_menuniveluno__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__menuniveldos_menuniveldos__ = __webpack_require__(284);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_6__menuniveldos_menuniveldos__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_6__menuniveldos_menuniveldos__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__usuarios_usuarios__ = __webpack_require__(285);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Y", function() { return __WEBPACK_IMPORTED_MODULE_7__usuarios_usuarios__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_0", function() { return __WEBPACK_IMPORTED_MODULE_7__usuarios_usuarios__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__usuarioagregar_usuarioagregar__ = __webpack_require__(286);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "T", function() { return __WEBPACK_IMPORTED_MODULE_8__usuarioagregar_usuarioagregar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "V", function() { return __WEBPACK_IMPORTED_MODULE_8__usuarioagregar_usuarioagregar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__usuarioeditar_usuarioeditar__ = __webpack_require__(287);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "U", function() { return __WEBPACK_IMPORTED_MODULE_9__usuarioeditar_usuarioeditar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "W", function() { return __WEBPACK_IMPORTED_MODULE_9__usuarioeditar_usuarioeditar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__usuariomostrar_usuariomostrar__ = __webpack_require__(288);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "X", function() { return __WEBPACK_IMPORTED_MODULE_10__usuariomostrar_usuariomostrar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Z", function() { return __WEBPACK_IMPORTED_MODULE_10__usuariomostrar_usuariomostrar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__clientesopciones_clientesopciones__ = __webpack_require__(289);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_11__clientesopciones_clientesopciones__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_11__clientesopciones_clientesopciones__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__historial_historial__ = __webpack_require__(290);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_12__historial_historial__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_12__historial_historial__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__clientesactivos_clientesactivos__ = __webpack_require__(291);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_13__clientesactivos_clientesactivos__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_13__clientesactivos_clientesactivos__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__clientesnoactivos_clientesnoactivos__ = __webpack_require__(292);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_14__clientesnoactivos_clientesnoactivos__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_14__clientesnoactivos_clientesnoactivos__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__vehiculos_vehiculos__ = __webpack_require__(293);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_13", function() { return __WEBPACK_IMPORTED_MODULE_15__vehiculos_vehiculos__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_15", function() { return __WEBPACK_IMPORTED_MODULE_15__vehiculos_vehiculos__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__vehiculosdisponibles_vehiculosdisponibles__ = __webpack_require__(294);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_14", function() { return __WEBPACK_IMPORTED_MODULE_16__vehiculosdisponibles_vehiculosdisponibles__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_16", function() { return __WEBPACK_IMPORTED_MODULE_16__vehiculosdisponibles_vehiculosdisponibles__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__vehiculosrentados_vehiculosrentados__ = __webpack_require__(295);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_19", function() { return __WEBPACK_IMPORTED_MODULE_17__vehiculosrentados_vehiculosrentados__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_21", function() { return __WEBPACK_IMPORTED_MODULE_17__vehiculosrentados_vehiculosrentados__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__vehiculosmantenimiento_vehiculosmantenimiento__ = __webpack_require__(296);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_16", function() { return __WEBPACK_IMPORTED_MODULE_18__vehiculosmantenimiento_vehiculosmantenimiento__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_18", function() { return __WEBPACK_IMPORTED_MODULE_18__vehiculosmantenimiento_vehiculosmantenimiento__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__vehiculomostrar_vehiculomostrar__ = __webpack_require__(297);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_10", function() { return __WEBPACK_IMPORTED_MODULE_19__vehiculomostrar_vehiculomostrar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_12", function() { return __WEBPACK_IMPORTED_MODULE_19__vehiculomostrar_vehiculomostrar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__rentasmostrar_rentasmostrar__ = __webpack_require__(298);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "P", function() { return __WEBPACK_IMPORTED_MODULE_20__rentasmostrar_rentasmostrar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "R", function() { return __WEBPACK_IMPORTED_MODULE_20__rentasmostrar_rentasmostrar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__vehiculosopciones_vehiculosopciones__ = __webpack_require__(299);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_18", function() { return __WEBPACK_IMPORTED_MODULE_21__vehiculosopciones_vehiculosopciones__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_20", function() { return __WEBPACK_IMPORTED_MODULE_21__vehiculosopciones_vehiculosopciones__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__vehiculosocupados_vehiculosocupados__ = __webpack_require__(300);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_17", function() { return __WEBPACK_IMPORTED_MODULE_22__vehiculosocupados_vehiculosocupados__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_19", function() { return __WEBPACK_IMPORTED_MODULE_22__vehiculosocupados_vehiculosocupados__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__vehiculoslibres_vehiculoslibres__ = __webpack_require__(301);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_15", function() { return __WEBPACK_IMPORTED_MODULE_23__vehiculoslibres_vehiculoslibres__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_17", function() { return __WEBPACK_IMPORTED_MODULE_23__vehiculoslibres_vehiculoslibres__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__vehiculossinservicio_vehiculossinservicio__ = __webpack_require__(302);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_20", function() { return __WEBPACK_IMPORTED_MODULE_24__vehiculossinservicio_vehiculossinservicio__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_22", function() { return __WEBPACK_IMPORTED_MODULE_24__vehiculossinservicio_vehiculossinservicio__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__vehiculomostrarlibre_vehiculomostrarlibre__ = __webpack_require__(303);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_11", function() { return __WEBPACK_IMPORTED_MODULE_25__vehiculomostrarlibre_vehiculomostrarlibre__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_13", function() { return __WEBPACK_IMPORTED_MODULE_25__vehiculomostrarlibre_vehiculomostrarlibre__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__vehiculomostrarocupado_vehiculomostrarocupado__ = __webpack_require__(304);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_12", function() { return __WEBPACK_IMPORTED_MODULE_26__vehiculomostrarocupado_vehiculomostrarocupado__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_14", function() { return __WEBPACK_IMPORTED_MODULE_26__vehiculomostrarocupado_vehiculomostrarocupado__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__rentalistausuarios_rentalistausuarios__ = __webpack_require__(305);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "N", function() { return __WEBPACK_IMPORTED_MODULE_27__rentalistausuarios_rentalistausuarios__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "P", function() { return __WEBPACK_IMPORTED_MODULE_27__rentalistausuarios_rentalistausuarios__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__rentaagregar_rentaagregar__ = __webpack_require__(306);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return __WEBPACK_IMPORTED_MODULE_28__rentaagregar_rentaagregar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return __WEBPACK_IMPORTED_MODULE_28__rentaagregar_rentaagregar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__vehiculoagregar_vehiculoagregar__ = __webpack_require__(307);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Z", function() { return __WEBPACK_IMPORTED_MODULE_29__vehiculoagregar_vehiculoagregar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_1", function() { return __WEBPACK_IMPORTED_MODULE_29__vehiculoagregar_vehiculoagregar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__vehiculoeditarrenta_vehiculoeditarrenta__ = __webpack_require__(308);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_5", function() { return __WEBPACK_IMPORTED_MODULE_30__vehiculoeditarrenta_vehiculoeditarrenta__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_7", function() { return __WEBPACK_IMPORTED_MODULE_30__vehiculoeditarrenta_vehiculoeditarrenta__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__vehiculoeditar_vehiculoeditar__ = __webpack_require__(309);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_0", function() { return __WEBPACK_IMPORTED_MODULE_31__vehiculoeditar_vehiculoeditar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_2", function() { return __WEBPACK_IMPORTED_MODULE_31__vehiculoeditar_vehiculoeditar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__vehiculoeditarenservicio_vehiculoeditarenservicio__ = __webpack_require__(310);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_2", function() { return __WEBPACK_IMPORTED_MODULE_32__vehiculoeditarenservicio_vehiculoeditarenservicio__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_4", function() { return __WEBPACK_IMPORTED_MODULE_32__vehiculoeditarenservicio_vehiculoeditarenservicio__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__vehiculoenviartaller_vehiculoenviartaller__ = __webpack_require__(311);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_9", function() { return __WEBPACK_IMPORTED_MODULE_33__vehiculoenviartaller_vehiculoenviartaller__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_11", function() { return __WEBPACK_IMPORTED_MODULE_33__vehiculoenviartaller_vehiculoenviartaller__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__vehiculoeditarsinservicio_vehiculoeditarsinservicio__ = __webpack_require__(312);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_7", function() { return __WEBPACK_IMPORTED_MODULE_34__vehiculoeditarsinservicio_vehiculoeditarsinservicio__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_9", function() { return __WEBPACK_IMPORTED_MODULE_34__vehiculoeditarsinservicio_vehiculoeditarsinservicio__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__vehiculoeditarfoto_vehiculoeditarfoto__ = __webpack_require__(313);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_4", function() { return __WEBPACK_IMPORTED_MODULE_35__vehiculoeditarfoto_vehiculoeditarfoto__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_6", function() { return __WEBPACK_IMPORTED_MODULE_35__vehiculoeditarfoto_vehiculoeditarfoto__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__vehiculoeditardos_vehiculoeditardos__ = __webpack_require__(314);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_1", function() { return __WEBPACK_IMPORTED_MODULE_36__vehiculoeditardos_vehiculoeditardos__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_3", function() { return __WEBPACK_IMPORTED_MODULE_36__vehiculoeditardos_vehiculoeditardos__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__vehiculoeditartres_vehiculoeditartres__ = __webpack_require__(315);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_8", function() { return __WEBPACK_IMPORTED_MODULE_37__vehiculoeditartres_vehiculoeditartres__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_10", function() { return __WEBPACK_IMPORTED_MODULE_37__vehiculoeditartres_vehiculoeditartres__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__vehiculoeditarserviciorenta_vehiculoeditarserviciorenta__ = __webpack_require__(316);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_6", function() { return __WEBPACK_IMPORTED_MODULE_38__vehiculoeditarserviciorenta_vehiculoeditarserviciorenta__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_8", function() { return __WEBPACK_IMPORTED_MODULE_38__vehiculoeditarserviciorenta_vehiculoeditarserviciorenta__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__vehiculoeditarenviara_vehiculoeditarenviara__ = __webpack_require__(317);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_3", function() { return __WEBPACK_IMPORTED_MODULE_39__vehiculoeditarenviara_vehiculoeditarenviara__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_5", function() { return __WEBPACK_IMPORTED_MODULE_39__vehiculoeditarenviara_vehiculoeditarenviara__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__rentaeditar_rentaeditar__ = __webpack_require__(318);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "M", function() { return __WEBPACK_IMPORTED_MODULE_40__rentaeditar_rentaeditar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "O", function() { return __WEBPACK_IMPORTED_MODULE_40__rentaeditar_rentaeditar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__rentabaja_rentabaja__ = __webpack_require__(319);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return __WEBPACK_IMPORTED_MODULE_41__rentabaja_rentabaja__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return __WEBPACK_IMPORTED_MODULE_41__rentabaja_rentabaja__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__rentabajaeliminar_rentabajaeliminar__ = __webpack_require__(320);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return __WEBPACK_IMPORTED_MODULE_42__rentabajaeliminar_rentabajaeliminar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return __WEBPACK_IMPORTED_MODULE_42__rentabajaeliminar_rentabajaeliminar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__rentadatoscliente_rentadatoscliente__ = __webpack_require__(321);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return __WEBPACK_IMPORTED_MODULE_43__rentadatoscliente_rentadatoscliente__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "M", function() { return __WEBPACK_IMPORTED_MODULE_43__rentadatoscliente_rentadatoscliente__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__rentadatosvehiculo_rentadatosvehiculo__ = __webpack_require__(322);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return __WEBPACK_IMPORTED_MODULE_44__rentadatosvehiculo_rentadatosvehiculo__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "N", function() { return __WEBPACK_IMPORTED_MODULE_44__rentadatosvehiculo_rentadatosvehiculo__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__tallermostrar_tallermostrar__ = __webpack_require__(323);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "R", function() { return __WEBPACK_IMPORTED_MODULE_45__tallermostrar_tallermostrar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "T", function() { return __WEBPACK_IMPORTED_MODULE_45__tallermostrar_tallermostrar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__tallereditar_tallereditar__ = __webpack_require__(324);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Q", function() { return __WEBPACK_IMPORTED_MODULE_46__tallereditar_tallereditar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "S", function() { return __WEBPACK_IMPORTED_MODULE_46__tallereditar_tallereditar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__tallervd_tallervd__ = __webpack_require__(325);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "S", function() { return __WEBPACK_IMPORTED_MODULE_47__tallervd_tallervd__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "U", function() { return __WEBPACK_IMPORTED_MODULE_47__tallervd_tallervd__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__clientemostrarhistorial_clientemostrarhistorial__ = __webpack_require__(326);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_48__clientemostrarhistorial_clientemostrarhistorial__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_48__clientemostrarhistorial_clientemostrarhistorial__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__usuariomiperfil_usuariomiperfil__ = __webpack_require__(327);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "V", function() { return __WEBPACK_IMPORTED_MODULE_49__usuariomiperfil_usuariomiperfil__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "X", function() { return __WEBPACK_IMPORTED_MODULE_49__usuariomiperfil_usuariomiperfil__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__usuariomiperfileditar_usuariomiperfileditar__ = __webpack_require__(328);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "W", function() { return __WEBPACK_IMPORTED_MODULE_50__usuariomiperfileditar_usuariomiperfileditar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Y", function() { return __WEBPACK_IMPORTED_MODULE_50__usuariomiperfileditar_usuariomiperfileditar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__clientesmes_clientesmes__ = __webpack_require__(329);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_51__clientesmes_clientesmes__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_51__clientesmes_clientesmes__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__aclienteenero_aclienteenero__ = __webpack_require__(330);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_52__aclienteenero_aclienteenero__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__aclientefebrero_aclientefebrero__ = __webpack_require__(331);
@@ -136,23 +136,29 @@ webpackJsonp([0],[
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__aclientediciembre_aclientediciembre__ = __webpack_require__(341);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_63__aclientediciembre_aclientediciembre__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__pvehiculocinco_pvehiculocinco__ = __webpack_require__(342);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return __WEBPACK_IMPORTED_MODULE_64__pvehiculocinco_pvehiculocinco__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return __WEBPACK_IMPORTED_MODULE_64__pvehiculocinco_pvehiculocinco__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__pvehiculosiete_pvehiculosiete__ = __webpack_require__(343);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return __WEBPACK_IMPORTED_MODULE_65__pvehiculosiete_pvehiculosiete__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return __WEBPACK_IMPORTED_MODULE_65__pvehiculosiete_pvehiculosiete__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__pvehiculoocho_pvehiculoocho__ = __webpack_require__(344);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return __WEBPACK_IMPORTED_MODULE_66__pvehiculoocho_pvehiculoocho__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return __WEBPACK_IMPORTED_MODULE_66__pvehiculoocho_pvehiculoocho__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__pvehiculocatorce_pvehiculocatorce__ = __webpack_require__(345);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_67__pvehiculocatorce_pvehiculocatorce__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return __WEBPACK_IMPORTED_MODULE_67__pvehiculocatorce_pvehiculocatorce__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__historialactivar_historialactivar__ = __webpack_require__(346);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_68__historialactivar_historialactivar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_68__historialactivar_historialactivar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__historialagenda_historialagenda__ = __webpack_require__(347);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_69__historialagenda_historialagenda__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_69__historialagenda_historialagenda__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__historialcliente_historialcliente__ = __webpack_require__(348);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_70__historialcliente_historialcliente__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_70__historialcliente_historialcliente__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__agendaeditar_agendaeditar__ = __webpack_require__(349);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_71__agendaeditar_agendaeditar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_72__rentaseditar_rentaseditar__ = __webpack_require__(350);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "O", function() { return __WEBPACK_IMPORTED_MODULE_72__rentaseditar_rentaseditar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Q", function() { return __WEBPACK_IMPORTED_MODULE_72__rentaseditar_rentaseditar__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__clienteactivomes_clienteactivomes__ = __webpack_require__(351);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_73__clienteactivomes_clienteactivomes__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__cbajaagendames_cbajaagendames__ = __webpack_require__(352);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_74__cbajaagendames_cbajaagendames__["a"]; });
+
+
 
 
 
@@ -1175,58 +1181,58 @@ var AppModule = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["A" /* LoginPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["q" /* ClientemostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["o" /* ClienteagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["p" /* ClienteeditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["C" /* LoginPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["s" /* ClientemostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["q" /* ClienteagregarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["r" /* ClienteeditarPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["m" /* AcuerdoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["C" /* MenunivelunoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["B" /* MenuniveldosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Y" /* UsuariosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["T" /* UsuarioagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["U" /* UsuarioeditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["X" /* UsuariomostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["v" /* ClientesopcionesPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["w" /* HistorialPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["s" /* ClientesactivosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["u" /* ClientesnoactivosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_13" /* VehiculosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_14" /* VehiculosdisponiblesPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_19" /* VehiculosrentadosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_16" /* VehiculosmantenimientoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_10" /* VehiculomostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["P" /* RentasmostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_18" /* VehiculosopcionesPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_17" /* VehiculosocupadosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_15" /* VehiculoslibresPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_20" /* VehiculossinservicioPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_11" /* VehiculomostrarlibrePage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_12" /* VehiculomostrarocupadoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["N" /* RentalistausuariosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["H" /* RentaagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Z" /* VehiculoagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_5" /* VehiculoeditarrentaPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_0" /* VehiculoeditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_2" /* VehiculoeditarenservicioPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_9" /* VehiculoenviartallerPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_7" /* VehiculoeditarsinservicioPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_4" /* VehiculoeditarfotoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_1" /* VehiculoeditardosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_8" /* VehiculoeditartresPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_6" /* VehiculoeditarserviciorentaPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_3" /* VehiculoeditarenviaraPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["M" /* RentaeditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["I" /* RentabajaPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["J" /* RentabajaeliminarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["K" /* RentadatosclientePage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["L" /* RentadatosvehiculoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["R" /* TallermostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Q" /* TallereditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["S" /* TallervdPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["r" /* ClientemostrarhistorialPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["V" /* UsuariomiperfilPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["W" /* UsuariomiperfileditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["t" /* ClientesmesPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["E" /* MenunivelunoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["D" /* MenuniveldosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_0" /* UsuariosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["V" /* UsuarioagregarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["W" /* UsuarioeditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Z" /* UsuariomostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["x" /* ClientesopcionesPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["y" /* HistorialPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["u" /* ClientesactivosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["w" /* ClientesnoactivosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_15" /* VehiculosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_16" /* VehiculosdisponiblesPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_21" /* VehiculosrentadosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_18" /* VehiculosmantenimientoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_12" /* VehiculomostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["R" /* RentasmostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_20" /* VehiculosopcionesPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_19" /* VehiculosocupadosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_17" /* VehiculoslibresPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_22" /* VehiculossinservicioPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_13" /* VehiculomostrarlibrePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_14" /* VehiculomostrarocupadoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["P" /* RentalistausuariosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["J" /* RentaagregarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_1" /* VehiculoagregarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_7" /* VehiculoeditarrentaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_2" /* VehiculoeditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_4" /* VehiculoeditarenservicioPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_11" /* VehiculoenviartallerPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_9" /* VehiculoeditarsinservicioPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_6" /* VehiculoeditarfotoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_3" /* VehiculoeditardosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_10" /* VehiculoeditartresPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_8" /* VehiculoeditarserviciorentaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_5" /* VehiculoeditarenviaraPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["O" /* RentaeditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["K" /* RentabajaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["L" /* RentabajaeliminarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["M" /* RentadatosclientePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["N" /* RentadatosvehiculoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["T" /* TallermostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["S" /* TallereditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["U" /* TallervdPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["t" /* ClientemostrarhistorialPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["X" /* UsuariomiperfilPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Y" /* UsuariomiperfileditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["v" /* ClientesmesPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["d" /* AclienteeneroPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["e" /* AclientefebreroPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["h" /* AclientemarzoPage */],
@@ -1239,15 +1245,17 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["k" /* AclienteoctubrePage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["j" /* AclientenoviembrePage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["c" /* AclientediciembrePage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["E" /* PvehiculocincoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["G" /* PvehiculosietePage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["F" /* PvehiculoochoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["D" /* PvehiculocatorcePage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["x" /* HistorialactivarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["y" /* HistorialagendaPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["z" /* HistorialclientePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["G" /* PvehiculocincoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["I" /* PvehiculosietePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["H" /* PvehiculoochoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["F" /* PvehiculocatorcePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["z" /* HistorialactivarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["A" /* HistorialagendaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["B" /* HistorialclientePage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["n" /* AgendaeditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["O" /* RentaseditarPage */]
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Q" /* RentaseditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["p" /* ClienteactivomesPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["o" /* CbajaagendamesPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -1259,58 +1267,58 @@ var AppModule = (function () {
             bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicApp */]],
             entryComponents: [
                 __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["A" /* LoginPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["q" /* ClientemostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["o" /* ClienteagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["p" /* ClienteeditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["C" /* LoginPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["s" /* ClientemostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["q" /* ClienteagregarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["r" /* ClienteeditarPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["m" /* AcuerdoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["C" /* MenunivelunoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["B" /* MenuniveldosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Y" /* UsuariosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["T" /* UsuarioagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["U" /* UsuarioeditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["X" /* UsuariomostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["v" /* ClientesopcionesPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["w" /* HistorialPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["s" /* ClientesactivosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["u" /* ClientesnoactivosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_13" /* VehiculosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_14" /* VehiculosdisponiblesPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_19" /* VehiculosrentadosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_16" /* VehiculosmantenimientoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_10" /* VehiculomostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["P" /* RentasmostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_18" /* VehiculosopcionesPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_17" /* VehiculosocupadosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_15" /* VehiculoslibresPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_20" /* VehiculossinservicioPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_11" /* VehiculomostrarlibrePage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_12" /* VehiculomostrarocupadoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["N" /* RentalistausuariosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["H" /* RentaagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Z" /* VehiculoagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_5" /* VehiculoeditarrentaPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_0" /* VehiculoeditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_2" /* VehiculoeditarenservicioPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_9" /* VehiculoenviartallerPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_7" /* VehiculoeditarsinservicioPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_4" /* VehiculoeditarfotoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_1" /* VehiculoeditardosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_8" /* VehiculoeditartresPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_6" /* VehiculoeditarserviciorentaPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_3" /* VehiculoeditarenviaraPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["M" /* RentaeditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["I" /* RentabajaPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["J" /* RentabajaeliminarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["K" /* RentadatosclientePage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["L" /* RentadatosvehiculoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["R" /* TallermostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Q" /* TallereditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["S" /* TallervdPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["r" /* ClientemostrarhistorialPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["V" /* UsuariomiperfilPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["W" /* UsuariomiperfileditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["t" /* ClientesmesPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["E" /* MenunivelunoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["D" /* MenuniveldosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_0" /* UsuariosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["V" /* UsuarioagregarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["W" /* UsuarioeditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Z" /* UsuariomostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["x" /* ClientesopcionesPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["y" /* HistorialPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["u" /* ClientesactivosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["w" /* ClientesnoactivosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_15" /* VehiculosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_16" /* VehiculosdisponiblesPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_21" /* VehiculosrentadosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_18" /* VehiculosmantenimientoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_12" /* VehiculomostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["R" /* RentasmostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_20" /* VehiculosopcionesPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_19" /* VehiculosocupadosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_17" /* VehiculoslibresPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_22" /* VehiculossinservicioPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_13" /* VehiculomostrarlibrePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_14" /* VehiculomostrarocupadoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["P" /* RentalistausuariosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["J" /* RentaagregarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_1" /* VehiculoagregarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_7" /* VehiculoeditarrentaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_2" /* VehiculoeditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_4" /* VehiculoeditarenservicioPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_11" /* VehiculoenviartallerPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_9" /* VehiculoeditarsinservicioPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_6" /* VehiculoeditarfotoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_3" /* VehiculoeditardosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_10" /* VehiculoeditartresPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_8" /* VehiculoeditarserviciorentaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_5" /* VehiculoeditarenviaraPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["O" /* RentaeditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["K" /* RentabajaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["L" /* RentabajaeliminarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["M" /* RentadatosclientePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["N" /* RentadatosvehiculoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["T" /* TallermostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["S" /* TallereditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["U" /* TallervdPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["t" /* ClientemostrarhistorialPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["X" /* UsuariomiperfilPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Y" /* UsuariomiperfileditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["v" /* ClientesmesPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["d" /* AclienteeneroPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["e" /* AclientefebreroPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["h" /* AclientemarzoPage */],
@@ -1323,15 +1331,17 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["k" /* AclienteoctubrePage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["j" /* AclientenoviembrePage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["c" /* AclientediciembrePage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["E" /* PvehiculocincoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["G" /* PvehiculosietePage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["F" /* PvehiculoochoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["D" /* PvehiculocatorcePage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["x" /* HistorialactivarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["y" /* HistorialagendaPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["z" /* HistorialclientePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["G" /* PvehiculocincoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["I" /* PvehiculosietePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["H" /* PvehiculoochoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["F" /* PvehiculocatorcePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["z" /* HistorialactivarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["A" /* HistorialagendaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["B" /* HistorialclientePage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["n" /* AgendaeditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["O" /* RentaseditarPage */]
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Q" /* RentaseditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["p" /* ClienteactivomesPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["o" /* CbajaagendamesPage */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
@@ -1451,13 +1461,13 @@ var MyApp = (function () {
         });
         //CERRAR SESION
         if (this.userData == null) {
-            this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_index_paginas__["A" /* LoginPage */];
+            this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_index_paginas__["C" /* LoginPage */];
         }
         else if (this.userData.nivelUsuario == "Administrador") {
-            this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_index_paginas__["C" /* MenunivelunoPage */];
+            this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_index_paginas__["E" /* MenunivelunoPage */];
         }
         else if (this.userData.nivelUsuario == "Estandar") {
-            this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_index_paginas__["B" /* MenuniveldosPage */];
+            this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_index_paginas__["D" /* MenuniveldosPage */];
         }
     }
     MyApp.prototype.initializeApp = function () {
@@ -1645,21 +1655,21 @@ var ClientemostrarPage = (function () {
     }
     ClientemostrarPage.prototype.regresar = function () {
         if (this.datosC.clienteactivo == "ACTIVO") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["s" /* ClientesactivosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["u" /* ClientesactivosPage */]);
         }
         else if (this.datosC.clienteactivo == "NO ACTIVO") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["u" /* ClientesnoactivosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["w" /* ClientesnoactivosPage */]);
         }
     };
     ClientemostrarPage.prototype.historial = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["w" /* HistorialPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["y" /* HistorialPage */]);
     };
     ClientemostrarPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad ClientemostrarPage');
     };
     ClientemostrarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-clientemostrar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientemostrar\clientemostrar.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Detalles del cliente</ion-title>\n    <br> \n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 22%;" (click)="historial()" src="img/icon/historial.png"/>\n          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Historial</p>\n      </ion-col>\n      </ion-row>\n    </ion-grid> \n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n     \n  <div class="S1">\n\n    <ion-card class="c1">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/user.png"/>      \n        </ion-avatar>\n        <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>\n        <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>\n        <h3 style="color: #505A53;">Licencia: <strong>{{datosC.licencia}} - {{datosC.fechaLicencia}}</strong></h3>\n        <h4 style="opacity: 50%;">{{datosC.telefono}}</h4>\n      </ion-item>\n    </ion-card>  \n\n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/cumple.png"/> Edad: <strong>{{datosC.edad}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/sex.png"/> Sexo: <strong>{{datosC.sexo}}</strong></p>\n  </ion-card-content>\n   \n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/ciudad.png"/> Ciudad: <strong>{{datosC.ciudad}}</strong></p>\n  </ion-card-content>\n  \n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/estado.png"/> Estado: <strong>{{datosC.estado}}</strong></p>\n  </ion-card-content> \n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/address.png"/> Dirección: <strong>{{datosC.direccion}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/colonia.png"/> Colonia: <strong>{{datosC.colonia}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/observaciones.png"/> Observaciones del cliente: <strong>{{datosC.observacionesCliente}}</strong></p>\n  </ion-card-content>\n\n  </div>\n\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientemostrar\clientemostrar.html"*/,
+            selector: 'page-clientemostrar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientemostrar\clientemostrar.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Detalles del cliente</ion-title>\n    <br> \n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 22%;" (click)="historial()" src="img/icon/historial.png"/>\n          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Historial</p>\n      </ion-col>\n      </ion-row>\n    </ion-grid> \n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n     \n  <br>\n  \n  <div class="S1">\n\n    <ion-card class="c1">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/user.png"/>      \n        </ion-avatar>\n        <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>\n        <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>\n        <h3 style="color: #505A53;">Licencia: <strong>{{datosC.licencia}} - {{datosC.fechaLicencia}}</strong></h3>\n        <h4 style="opacity: 50%;">{{datosC.telefono}}</h4>\n      </ion-item>\n    </ion-card>  \n\n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/cumple.png"/> Edad: <strong>{{datosC.edad}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/sex.png"/> Sexo: <strong>{{datosC.sexo}}</strong></p>\n  </ion-card-content>\n   \n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/ciudad.png"/> Ciudad: <strong>{{datosC.ciudad}}</strong></p>\n  </ion-card-content>\n  \n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/estado.png"/> Estado: <strong>{{datosC.estado}}</strong></p>\n  </ion-card-content> \n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/address.png"/> Dirección: <strong>{{datosC.direccion}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/colonia.png"/> Colonia: <strong>{{datosC.colonia}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/observaciones.png"/> Observaciones del cliente: <strong>{{datosC.observacionesCliente}}</strong></p>\n  </ion-card-content>\n\n  </div>\n\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientemostrar\clientemostrar.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
@@ -1716,17 +1726,17 @@ var ClienteagregarPage = (function () {
         this.datosCliente.mes = "Sin mes";
         this.datosCliente.dia = "Sin dia";
         this.datosCliente.anticipo = "0";
-        this.datosCliente.clienteactivo = "NO ACTIVO";
+        this.datosCliente.clienteactivo = "EN HISTORIAL";
     }
     ClienteagregarPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["w" /* HistorialPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["y" /* HistorialPage */]);
     };
     ClienteagregarPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     //GUARDAR CLIENTE
@@ -1885,14 +1895,14 @@ var ClienteeditarPage = (function () {
         this.editarCliente.notashistorial = this.datosC.notashistorial;
     }
     ClienteeditarPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["z" /* HistorialclientePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* HistorialclientePage */]);
     };
     ClienteeditarPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     ClienteeditarPage.prototype.dismiss = function () {
@@ -1943,7 +1953,7 @@ var ClienteeditarPage = (function () {
                             {
                                 text: 'Aceptar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["w" /* HistorialPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["y" /* HistorialPage */]);
                                     //this.dismiss()
                                 }
                             }
@@ -2032,7 +2042,7 @@ var AcuerdoPage = (function () {
             alert_1.present();
             console.log(this.perfil);
             window.localStorage.setItem('datosCliente', JSON.stringify(this.perfil));
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
             var alert_2 = this.alertCtrl.create({
@@ -2043,7 +2053,7 @@ var AcuerdoPage = (function () {
             alert_2.present();
             console.log(this.perfil);
             window.localStorage.setItem('datosCliente', JSON.stringify(this.perfil));
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["D" /* MenuniveldosPage */]);
         }
         else {
             var alert_3 = this.alertCtrl.create({
@@ -2101,13 +2111,13 @@ var MenunivelunoPage = (function () {
         console.log(this.perfil);
     }
     MenunivelunoPage.prototype.usuarios = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["Y" /* UsuariosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_0" /* UsuariosPage */]);
     };
     MenunivelunoPage.prototype.miperfil = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["V" /* UsuariomiperfilPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["X" /* UsuariomiperfilPage */]);
     };
     MenunivelunoPage.prototype.mes = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["t" /* ClientesmesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["v" /* ClientesmesPage */]);
     };
     //CERRAR SESION
     MenunivelunoPage.prototype.logout = function () {
@@ -2124,7 +2134,7 @@ var MenunivelunoPage = (function () {
                     text: "SI",
                     handler: function () {
                         window.localStorage.removeItem("dataUser");
-                        _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["A" /* LoginPage */]);
+                        _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["C" /* LoginPage */]);
                     }
                 }
             ]
@@ -2132,15 +2142,15 @@ var MenunivelunoPage = (function () {
         confirm.present();
     };
     MenunivelunoPage.prototype.vehiculos = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_13" /* VehiculosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_15" /* VehiculosPage */]);
         //this.navCtrl.push(ClientesPage);
     };
     MenunivelunoPage.prototype.clientes = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["v" /* ClientesopcionesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["x" /* ClientesopcionesPage */]);
         //this.navCtrl.push(ClientesPage);
     };
     MenunivelunoPage.prototype.clientesHistorial = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["w" /* HistorialPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["y" /* HistorialPage */]);
     };
     MenunivelunoPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad MenunivelunoPage');
@@ -2203,7 +2213,7 @@ var MenuniveldosPage = (function () {
                     text: "SI",
                     handler: function () {
                         window.localStorage.removeItem("dataUser");
-                        _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["A" /* LoginPage */]);
+                        _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["C" /* LoginPage */]);
                     }
                 }
             ]
@@ -2211,18 +2221,18 @@ var MenuniveldosPage = (function () {
         confirm.present();
     };
     MenuniveldosPage.prototype.miperfil = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["V" /* UsuariomiperfilPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["X" /* UsuariomiperfilPage */]);
     };
     MenuniveldosPage.prototype.vehiculos = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_13" /* VehiculosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_15" /* VehiculosPage */]);
         //this.navCtrl.push(ClientesPage);
     };
     MenuniveldosPage.prototype.clientes = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["v" /* ClientesopcionesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["x" /* ClientesopcionesPage */]);
         //this.navCtrl.push(ClientesPage);
     };
     MenuniveldosPage.prototype.clientesHistorial = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["w" /* HistorialPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["y" /* HistorialPage */]);
     };
     MenuniveldosPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad MenuniveldosPage');
@@ -2321,14 +2331,14 @@ var UsuariosPage = (function () {
     };
     UsuariosPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('infoUsuario', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["X" /* UsuariomostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["Z" /* UsuariomostrarPage */]);
     };
     UsuariosPage.prototype.enlace_agregar_usuario = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["T" /* UsuarioagregarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["V" /* UsuarioagregarPage */]);
     };
     UsuariosPage.prototype.regresar = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
     };
     UsuariosPage.prototype.ionViewDidLoad = function () {
@@ -2388,11 +2398,11 @@ var UsuarioagregarPage = (function () {
     }
     UsuarioagregarPage.prototype.regresar = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["Y" /* UsuariosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_0" /* UsuariosPage */]);
         }
     };
     UsuarioagregarPage.prototype.menu = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
     };
     //GUARDAR USUARIO
     UsuarioagregarPage.prototype.guardar = function (form) {
@@ -2517,11 +2527,11 @@ var UsuarioeditarPage = (function () {
     }
     UsuarioeditarPage.prototype.regresar = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["X" /* UsuariomostrarPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["Z" /* UsuariomostrarPage */]);
         }
     };
     UsuarioeditarPage.prototype.menu = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
     };
     //EDITAR CLIENTE
     UsuarioeditarPage.prototype.editar = function (form) {
@@ -2551,7 +2561,7 @@ var UsuarioeditarPage = (function () {
                             {
                                 text: 'Aceptar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["Y" /* UsuariosPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_0" /* UsuariosPage */]);
                                 }
                             }
                         ]
@@ -2637,11 +2647,11 @@ var UsuariomostrarPage = (function () {
     }
     UsuariomostrarPage.prototype.regresar = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["Y" /* UsuariosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_0" /* UsuariosPage */]);
         }
     };
     UsuariomostrarPage.prototype.enlace_editar_usuario = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["U" /* UsuarioeditarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["W" /* UsuarioeditarPage */]);
     };
     //ELIMINAR USUARIO
     UsuariomostrarPage.prototype.eliminar = function (form) {
@@ -2746,20 +2756,20 @@ var ClientesopcionesPage = (function () {
     }
     ClientesopcionesPage.prototype.regresar = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     ClientesopcionesPage.prototype.historial = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["w" /* HistorialPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["y" /* HistorialPage */]);
     };
     ClientesopcionesPage.prototype.clientesActivos = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["s" /* ClientesactivosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["u" /* ClientesactivosPage */]);
     };
     ClientesopcionesPage.prototype.clientesNoActivos = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["u" /* ClientesnoactivosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["w" /* ClientesnoactivosPage */]);
     };
     ClientesopcionesPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad ClientesopcionesPage');
@@ -2817,19 +2827,19 @@ var HistorialPage = (function () {
     }
     HistorialPage.prototype.regresar = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     HistorialPage.prototype.enlace_agregar_cliente = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["o" /* ClienteagregarPage */]);
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["q" /* ClienteagregarPage */]);
         modal.present();
     };
     HistorialPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosCliente', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["r" /* ClientemostrarhistorialPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientemostrarhistorialPage */]);
     };
     HistorialPage.prototype.listar_clientes = function () {
         var _this = this;
@@ -2884,7 +2894,7 @@ var HistorialPage = (function () {
     };
     HistorialPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-historial',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\historial\historial.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Historial de clientes</ion-title>\n      <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="enlace_agregar_cliente()" src="img/icon/add-client.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Agregar nuevo cliente</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  \n  <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por nombre del cliente">\n  </ion-searchbar>\n  \n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n    <ion-refresher (ionRefresh)="Refrescar($event)">\n        <ion-refresher-content \n        refreshingSpinner="circles"\n        refreshingText="Actualizando lista...">\n        </ion-refresher-content>\n    </ion-refresher>\n\n    <ion-list *ngFor="let item of clientes; let i=index;">\n      <ion-card class="lista" (click)="detalles($event,item)">\n        <ion-item>\n          <ion-avatar item-left>\n            <img src="img/icon/usuario.png"/>      \n          </ion-avatar>\n          <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n          <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n          <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n        </ion-item>\n      </ion-card>\n    </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\historial\historial.html"*/,
+            selector: 'page-historial',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\historial\historial.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Historial de clientes</ion-title>\n      <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="enlace_agregar_cliente()" src="img/icon/add-client.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Agregar nuevo cliente</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  \n  <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por nombre del cliente">\n  </ion-searchbar>\n  \n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n    <ion-refresher (ionRefresh)="Refrescar($event)">\n        <ion-refresher-content \n        refreshingSpinner="circles"\n        refreshingText="Actualizando lista...">\n        </ion-refresher-content>\n    </ion-refresher>\n\n    <ion-list *ngFor="let item of clientes; let i=index;">\n      <ion-card class="lista" (click)="detalles($event,item)">\n        <ion-item>\n          <ion-avatar item-left>\n            <img src="img/icon/usuario.png"/>      \n          </ion-avatar>\n          <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n          <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n          <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n          <h3 style="color: #1BC7AF;">{{item.vehiculoRentado}}</h3>\n        </ion-item>\n      </ion-card>\n    </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\historial\historial.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -2939,14 +2949,14 @@ var ClientesactivosPage = (function () {
         console.log(this.perfil);
     }
     ClientesactivosPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["v" /* ClientesopcionesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["x" /* ClientesopcionesPage */]);
     };
     ClientesactivosPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     ClientesactivosPage.prototype.dismiss = function () {
@@ -2980,7 +2990,7 @@ var ClientesactivosPage = (function () {
     };
     ClientesactivosPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosCliente', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["q" /* ClientemostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["s" /* ClientemostrarPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     ClientesactivosPage.prototype.Refrescar = function (refresher) {
@@ -3006,7 +3016,7 @@ var ClientesactivosPage = (function () {
     };
     ClientesactivosPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-clientesactivos',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientesactivos\clientesactivos.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Clientes Activos</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por nombre del cliente">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientesactivos\clientesactivos.html"*/,
+            selector: 'page-clientesactivos',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientesactivos\clientesactivos.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Clientes Activos</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por nombre del cliente">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n    <h3 style="color: #1BC7AF;">{{item.vehiculoRentado}}</h3>\n  </ion-item>\n</ion-card> \n</ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientesactivos\clientesactivos.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -3061,14 +3071,14 @@ var ClientesnoactivosPage = (function () {
         console.log(this.perfil);
     }
     ClientesnoactivosPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["v" /* ClientesopcionesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["x" /* ClientesopcionesPage */]);
     };
     ClientesnoactivosPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     ClientesnoactivosPage.prototype.dismiss = function () {
@@ -3102,7 +3112,7 @@ var ClientesnoactivosPage = (function () {
     };
     ClientesnoactivosPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosCliente', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["q" /* ClientemostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["s" /* ClientemostrarPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     ClientesnoactivosPage.prototype.Refrescar = function (refresher) {
@@ -3173,13 +3183,13 @@ var VehiculosPage = (function () {
         console.log(this.perfil);
     }
     VehiculosPage.prototype.vehiculosDisponibles = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_18" /* VehiculosopcionesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_20" /* VehiculosopcionesPage */]);
     };
     VehiculosPage.prototype.vehiculosRentados = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_19" /* VehiculosrentadosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_21" /* VehiculosrentadosPage */]);
     };
     VehiculosPage.prototype.vehiculosMantenimiento = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_16" /* VehiculosmantenimientoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_18" /* VehiculosmantenimientoPage */]);
     };
     VehiculosPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad VehiculosPage');
@@ -3266,7 +3276,7 @@ var VehiculosdisponiblesPage = (function () {
     };
     VehiculosdisponiblesPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosVehiculo', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_10" /* VehiculomostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_12" /* VehiculomostrarPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     VehiculosdisponiblesPage.prototype.Refrescar = function (refresher) {
@@ -3377,7 +3387,7 @@ var VehiculosrentadosPage = (function () {
     };
     VehiculosrentadosPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosRenta', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["P" /* RentasmostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["R" /* RentasmostrarPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     VehiculosrentadosPage.prototype.Refrescar = function (refresher) {
@@ -3488,7 +3498,7 @@ var VehiculosmantenimientoPage = (function () {
     };
     VehiculosmantenimientoPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosVehiculo', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["R" /* TallermostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["T" /* TallermostrarPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     VehiculosmantenimientoPage.prototype.Refrescar = function (refresher) {
@@ -3570,17 +3580,17 @@ var VehiculomostrarPage = (function () {
         console.log(this.perfil);
     }
     VehiculomostrarPage.prototype.enlace_editar_vehiculoFoto = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_4" /* VehiculoeditarfotoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_6" /* VehiculoeditarfotoPage */]);
     };
     VehiculomostrarPage.prototype.enlace_editar_vehiculo = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_0" /* VehiculoeditarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_2" /* VehiculoeditarPage */]);
     };
     VehiculomostrarPage.prototype.enlace_Enservicio = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_2" /* VehiculoeditarenservicioPage */]);
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_4" /* VehiculoeditarenservicioPage */]);
         modal.present();
     };
     VehiculomostrarPage.prototype.enviar_taller = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_9" /* VehiculoenviartallerPage */]);
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_11" /* VehiculoenviartallerPage */]);
         modal.present();
     };
     VehiculomostrarPage.prototype.dismiss = function () {
@@ -3690,16 +3700,16 @@ var RentasmostrarPage = (function () {
         console.log(this.perfil);
     }
     RentasmostrarPage.prototype.enlace_editar_renta = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["M" /* RentaeditarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["O" /* RentaeditarPage */]);
     };
     RentasmostrarPage.prototype.enlace_Datos_Cliente = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["K" /* RentadatosclientePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["M" /* RentadatosclientePage */]);
     };
     RentasmostrarPage.prototype.enlace_Datos_Vehiculo = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["L" /* RentadatosvehiculoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["N" /* RentadatosvehiculoPage */]);
     };
     RentasmostrarPage.prototype.enlace_Dar_Baja = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["I" /* RentabajaPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["K" /* RentabajaPage */]);
     };
     RentasmostrarPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad RentasmostrarPage');
@@ -3743,13 +3753,13 @@ var VehiculosopcionesPage = (function () {
         this.navParams = navParams;
     }
     VehiculosopcionesPage.prototype.vehiculosSinServicio = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_20" /* VehiculossinservicioPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_22" /* VehiculossinservicioPage */]);
     };
     VehiculosopcionesPage.prototype.vehiculosLibres = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_15" /* VehiculoslibresPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_17" /* VehiculoslibresPage */]);
     };
     VehiculosopcionesPage.prototype.vehiculosOcupados = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_17" /* VehiculosocupadosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_19" /* VehiculosocupadosPage */]);
     };
     VehiculosopcionesPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad VehiculosopcionesPage');
@@ -3846,7 +3856,7 @@ var VehiculosocupadosPage = (function () {
         }
         else if (item.renta == "SIN RENTAR") {
             window.localStorage.setItem('datosVehiculo', JSON.stringify(item));
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_12" /* VehiculomostrarocupadoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_14" /* VehiculomostrarocupadoPage */]);
         }
         else {
             var alert_2 = this.alertCtrl.create({
@@ -3926,16 +3936,16 @@ var VehiculoslibresPage = (function () {
         console.log(this.perfil);
     }
     VehiculoslibresPage.prototype.cinco = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["E" /* PvehiculocincoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["G" /* PvehiculocincoPage */]);
     };
     VehiculoslibresPage.prototype.siete = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["G" /* PvehiculosietePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["I" /* PvehiculosietePage */]);
     };
     VehiculoslibresPage.prototype.ocho = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["F" /* PvehiculoochoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["H" /* PvehiculoochoPage */]);
     };
     VehiculoslibresPage.prototype.catorce = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["D" /* PvehiculocatorcePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["F" /* PvehiculocatorcePage */]);
     };
     VehiculoslibresPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad VehiculoslibresPage');
@@ -4022,10 +4032,10 @@ var VehiculossinservicioPage = (function () {
     };
     VehiculossinservicioPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosVehiculo', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_10" /* VehiculomostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_12" /* VehiculomostrarPage */]);
     };
     VehiculossinservicioPage.prototype.enlace_agregar_vehiculo = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["Z" /* VehiculoagregarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_1" /* VehiculoagregarPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     VehiculossinservicioPage.prototype.Refrescar = function (refresher) {
@@ -4100,17 +4110,17 @@ var VehiculomostrarlibrePage = (function () {
         console.log(this.perfil);
     }
     VehiculomostrarlibrePage.prototype.enlace_editar_vehiculoFoto = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_4" /* VehiculoeditarfotoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_6" /* VehiculoeditarfotoPage */]);
     };
     VehiculomostrarlibrePage.prototype.enlace_editar_vehiculo = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_1" /* VehiculoeditardosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_3" /* VehiculoeditardosPage */]);
     };
     VehiculomostrarlibrePage.prototype.enlace_Sinservicio = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_7" /* VehiculoeditarsinservicioPage */]);
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_9" /* VehiculoeditarsinservicioPage */]);
         modal.present();
     };
     VehiculomostrarlibrePage.prototype.enlace_rentar = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_6" /* VehiculoeditarserviciorentaPage */]);
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_8" /* VehiculoeditarserviciorentaPage */]);
         modal.present();
     };
     VehiculomostrarlibrePage.prototype.ionViewDidLoad = function () {
@@ -4164,16 +4174,16 @@ var VehiculomostrarocupadoPage = (function () {
         console.log(this.perfil);
     }
     VehiculomostrarocupadoPage.prototype.enlace_editar_vehiculoFoto = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_4" /* VehiculoeditarfotoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_6" /* VehiculoeditarfotoPage */]);
     };
     VehiculomostrarocupadoPage.prototype.enlace_rentar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_5" /* VehiculoeditarrentaPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_7" /* VehiculoeditarrentaPage */]);
     };
     VehiculomostrarocupadoPage.prototype.enlace_editar_vehiculo = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_8" /* VehiculoeditartresPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_10" /* VehiculoeditartresPage */]);
     };
     VehiculomostrarocupadoPage.prototype.enlace_enviarA = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_3" /* VehiculoeditarenviaraPage */]);
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_5" /* VehiculoeditarenviaraPage */]);
         modal.present();
     };
     VehiculomostrarocupadoPage.prototype.ionViewDidLoad = function () {
@@ -4266,7 +4276,7 @@ var RentalistausuariosPage = (function () {
     };
     RentalistausuariosPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosRentaCliente', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["H" /* RentaagregarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["J" /* RentaagregarPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     RentalistausuariosPage.prototype.Refrescar = function (refresher) {
@@ -4391,7 +4401,7 @@ var RentaagregarPage = (function () {
                             {
                                 text: 'Aceptar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_13" /* VehiculosPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_15" /* VehiculosPage */]);
                                     //this.dismiss()
                                 }
                             }
@@ -4727,7 +4737,7 @@ var VehiculoeditarrentaPage = (function () {
                             {
                                 text: 'Continuar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["N" /* RentalistausuariosPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["P" /* RentalistausuariosPage */]);
                                     _this.dismiss();
                                 }
                             }
@@ -6224,7 +6234,7 @@ var RentabajaPage = (function () {
                             {
                                 text: 'Continuar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["J" /* RentabajaeliminarPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["L" /* RentabajaeliminarPage */]);
                                     //this.dismiss()
                                 }
                             }
@@ -6337,7 +6347,7 @@ var RentabajaeliminarPage = (function () {
                             {
                                 text: 'Aceptar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_13" /* VehiculosPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_15" /* VehiculosPage */]);
                                 }
                             }
                         ]
@@ -6507,13 +6517,13 @@ var TallermostrarPage = (function () {
         console.log(this.datosV);
     }
     TallermostrarPage.prototype.enlace_editar_taller = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["Q" /* TallereditarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["S" /* TallereditarPage */]);
     };
     TallermostrarPage.prototype.enlace_vd = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["S" /* TallervdPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["U" /* TallervdPage */]);
     };
     TallermostrarPage.prototype.enlace_editar_vehiculoFoto = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_4" /* VehiculoeditarfotoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_6" /* VehiculoeditarfotoPage */]);
     };
     TallermostrarPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad TallermostrarPage');
@@ -6852,7 +6862,7 @@ var ClientemostrarhistorialPage = (function () {
         console.log(this.perfil);
     }
     ClientemostrarhistorialPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["w" /* HistorialPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["y" /* HistorialPage */]);
     };
     ClientemostrarhistorialPage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
@@ -6913,7 +6923,7 @@ var ClientemostrarhistorialPage = (function () {
         if (this.datosC.mes !== "Sin mes") {
             var alert_3 = this.alertCtrl.create({
                 title: '¡Atencion!',
-                subTitle: 'Ya se ha agendado, para modificar los datos, valla a la opción de editar',
+                subTitle: 'Ya se ha agendado, para modificar los datos, valla a la opción de editar cliente',
                 buttons: ['DE ACUERDO']
             });
             alert_3.present();
@@ -6921,48 +6931,56 @@ var ClientemostrarhistorialPage = (function () {
         else if (this.datosC.vehiculoRentado == "RENTANDO") {
             var alert_4 = this.alertCtrl.create({
                 title: '¡Atencion!',
-                subTitle: 'No se puede agendar mientras que el cliente este rentando',
+                subTitle: 'No se puede agendar mientras que el cliente este rentando.',
                 buttons: ['DE ACUERDO']
             });
             alert_4.present();
         }
+        else if (this.datosC.clienteactivo == "ACTIVO") {
+            var alert_5 = this.alertCtrl.create({
+                title: '¡Atencion!',
+                subTitle: 'Mientras que el cliente este activo, no se puede agendar.',
+                buttons: ['DE ACUERDO']
+            });
+            alert_5.present();
+        }
         else if (this.datosC.mes == this.datosC.mes) {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["y" /* HistorialagendaPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["A" /* HistorialagendaPage */]);
         }
         else {
-            var alert_5 = this.alertCtrl.create({
+            var alert_6 = this.alertCtrl.create({
                 title: '¡ERROR!',
                 subTitle: 'Algo salio mal...',
                 buttons: ['REGRESAR']
             });
-            alert_5.present();
+            alert_6.present();
         }
     };
     ClientemostrarhistorialPage.prototype.enlace_activar = function () {
         this.BDCliente = window.localStorage.getItem('datosCliente');
         this.datosC = JSON.parse(this.BDCliente);
         if (this.datosC.vehiculoRentado == "RENTANDO") {
-            var alert_6 = this.alertCtrl.create({
+            var alert_7 = this.alertCtrl.create({
                 title: '¡Atencion!',
-                subTitle: 'No se puede activar mientras que el cliente este rentando',
+                subTitle: 'No se puede modificar mientras que el cliente este rentando.',
                 buttons: ['DE ACUERDO']
             });
-            alert_6.present();
+            alert_7.present();
         }
         else if (this.datosC.vehiculoRentado == "SIN VEHICULO") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["x" /* HistorialactivarPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["z" /* HistorialactivarPage */]);
         }
         else {
-            var alert_7 = this.alertCtrl.create({
+            var alert_8 = this.alertCtrl.create({
                 title: '¡ERROR!',
                 subTitle: 'Algo salio mal...',
                 buttons: ['REGRESAR']
             });
-            alert_7.present();
+            alert_8.present();
         }
     };
     ClientemostrarhistorialPage.prototype.enlace_cliente = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["z" /* HistorialclientePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* HistorialclientePage */]);
     };
     ClientemostrarhistorialPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad ClientemostrarhistorialPage');
@@ -7015,14 +7033,14 @@ var UsuariomiperfilPage = (function () {
     }
     UsuariomiperfilPage.prototype.regresar = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     UsuariomiperfilPage.prototype.enlace_editar_usuario = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["W" /* UsuariomiperfileditarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["Y" /* UsuariomiperfileditarPage */]);
     };
     //CERRAR SESION
     UsuariomiperfilPage.prototype.logout = function () {
@@ -7039,7 +7057,7 @@ var UsuariomiperfilPage = (function () {
                     text: "SI",
                     handler: function () {
                         window.localStorage.removeItem("dataUser");
-                        _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["A" /* LoginPage */]);
+                        _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["C" /* LoginPage */]);
                     }
                 }
             ]
@@ -7106,14 +7124,14 @@ var UsuariomiperfileditarPage = (function () {
         this.datosBDUsuario.nivelUsuario = this.perfil.nivelUsuario;
     }
     UsuariomiperfileditarPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["V" /* UsuariomiperfilPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["X" /* UsuariomiperfilPage */]);
     };
     UsuariomiperfileditarPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     UsuariomiperfileditarPage.prototype.dismiss = function () {
@@ -7225,17 +7243,17 @@ var ClientesmesPage = (function () {
     }
     ClientesmesPage.prototype.regresar = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     ClientesmesPage.prototype.clientes = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["v" /* ClientesopcionesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["x" /* ClientesopcionesPage */]);
     };
     ClientesmesPage.prototype.historial = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["w" /* HistorialPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["y" /* HistorialPage */]);
     };
     ClientesmesPage.prototype.enero = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["d" /* AclienteeneroPage */]);
@@ -7328,14 +7346,14 @@ var AclienteeneroPage = (function () {
         console.log(this.perfil);
     }
     AclienteeneroPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["v" /* ClientesmesPage */]);
     };
     AclienteeneroPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     AclienteeneroPage.prototype.dismiss = function () {
@@ -7344,7 +7362,7 @@ var AclienteeneroPage = (function () {
     AclienteeneroPage.prototype.listar_clientes = function () {
         var _this = this;
         this.loading = this.loadingCtrl.create({
-            content: "Cargando clientes activos...",
+            content: "Cargando clientes...",
         });
         this.loading.present();
         this.ClienteService.ClienteMesEnero().subscribe(function (data) {
@@ -7369,7 +7387,7 @@ var AclienteeneroPage = (function () {
     };
     AclienteeneroPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosCliente', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["q" /* ClientemostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["o" /* CbajaagendamesPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     AclienteeneroPage.prototype.Refrescar = function (refresher) {
@@ -7395,7 +7413,7 @@ var AclienteeneroPage = (function () {
     };
     AclienteeneroPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclienteenero',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteenero\aclienteenero.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Enero</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteenero\aclienteenero.html"*/,
+            selector: 'page-aclienteenero',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteenero\aclienteenero.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Enero</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Anticipo: $<strong style="color: #1BC7AF;"> {{item.anticipo}}</strong></h3>\n    <h3 style="color: #505A53;">Día: <strong style="color: #1BC7AF;">{{item.dia}}</strong></h3>\n    <h3 style="color: #718d79;">Vehiculo: <strong style="color: #505A53;">{{item.observacionesVehiculo}}</strong></h3>\n    <h3 style="color: #505A53; opacity: 50%;">Tipo de cliente: <strong>{{item.tipoCliente}}</strong></h3> \n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteenero\aclienteenero.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -7450,14 +7468,14 @@ var AclientefebreroPage = (function () {
         console.log(this.perfil);
     }
     AclientefebreroPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["v" /* ClientesmesPage */]);
     };
     AclientefebreroPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     AclientefebreroPage.prototype.dismiss = function () {
@@ -7466,7 +7484,7 @@ var AclientefebreroPage = (function () {
     AclientefebreroPage.prototype.listar_clientes = function () {
         var _this = this;
         this.loading = this.loadingCtrl.create({
-            content: "Cargando clientes activos...",
+            content: "Cargando clientes...",
         });
         this.loading.present();
         this.ClienteService.ClienteMesFebrero().subscribe(function (data) {
@@ -7491,7 +7509,7 @@ var AclientefebreroPage = (function () {
     };
     AclientefebreroPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosCliente', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["q" /* ClientemostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["o" /* CbajaagendamesPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     AclientefebreroPage.prototype.Refrescar = function (refresher) {
@@ -7517,7 +7535,7 @@ var AclientefebreroPage = (function () {
     };
     AclientefebreroPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclientefebrero',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientefebrero\aclientefebrero.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Febrero</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientefebrero\aclientefebrero.html"*/,
+            selector: 'page-aclientefebrero',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientefebrero\aclientefebrero.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Febrero</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Anticipo: $<strong style="color: #1BC7AF;"> {{item.anticipo}}</strong></h3>\n    <h3 style="color: #505A53;">Día: <strong style="color: #1BC7AF;">{{item.dia}}</strong></h3>\n    <h3 style="color: #718d79;">Vehiculo: <strong style="color: #505A53;">{{item.observacionesVehiculo}}</strong></h3>\n    <h3 style="color: #505A53; opacity: 50%;">Tipo de cliente: <strong>{{item.tipoCliente}}</strong></h3> \n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientefebrero\aclientefebrero.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -7572,14 +7590,14 @@ var AclientemarzoPage = (function () {
         console.log(this.perfil);
     }
     AclientemarzoPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["v" /* ClientesmesPage */]);
     };
     AclientemarzoPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     AclientemarzoPage.prototype.dismiss = function () {
@@ -7613,7 +7631,7 @@ var AclientemarzoPage = (function () {
     };
     AclientemarzoPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosCliente', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["q" /* ClientemostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["o" /* CbajaagendamesPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     AclientemarzoPage.prototype.Refrescar = function (refresher) {
@@ -7639,7 +7657,7 @@ var AclientemarzoPage = (function () {
     };
     AclientemarzoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclientemarzo',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientemarzo\aclientemarzo.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Marzo</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientemarzo\aclientemarzo.html"*/,
+            selector: 'page-aclientemarzo',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientemarzo\aclientemarzo.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Marzo</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event, item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Anticipo: $<strong style="color: #1BC7AF;"> {{item.anticipo}}</strong></h3>\n    <h3 style="color: #505A53;">Día: <strong style="color: #1BC7AF;">{{item.dia}}</strong></h3>\n    <h3 style="color: #718d79;">Vehiculo: <strong style="color: #505A53;">{{item.observacionesVehiculo}}</strong></h3>\n    <h3 style="color: #505A53; opacity: 50%;">Tipo de cliente: <strong>{{item.tipoCliente}}</strong></h3> \n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientemarzo\aclientemarzo.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -7694,14 +7712,14 @@ var AclienteabrilPage = (function () {
         console.log(this.perfil);
     }
     AclienteabrilPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["v" /* ClientesmesPage */]);
     };
     AclienteabrilPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     AclienteabrilPage.prototype.dismiss = function () {
@@ -7735,7 +7753,7 @@ var AclienteabrilPage = (function () {
     };
     AclienteabrilPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosCliente', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["q" /* ClientemostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["o" /* CbajaagendamesPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     AclienteabrilPage.prototype.Refrescar = function (refresher) {
@@ -7761,7 +7779,7 @@ var AclienteabrilPage = (function () {
     };
     AclienteabrilPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclienteabril',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteabril\aclienteabril.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Abril</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteabril\aclienteabril.html"*/,
+            selector: 'page-aclienteabril',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteabril\aclienteabril.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Abril</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event, item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Anticipo: $<strong style="color: #1BC7AF;"> {{item.anticipo}}</strong></h3>\n    <h3 style="color: #505A53;">Día: <strong style="color: #1BC7AF;">{{item.dia}}</strong></h3>\n    <h3 style="color: #718d79;">Vehiculo: <strong style="color: #505A53;">{{item.observacionesVehiculo}}</strong></h3>\n    <h3 style="color: #505A53; opacity: 50%;">Tipo de cliente: <strong>{{item.tipoCliente}}</strong></h3> \n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteabril\aclienteabril.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -7816,14 +7834,14 @@ var AclientemayoPage = (function () {
         console.log(this.perfil);
     }
     AclientemayoPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["v" /* ClientesmesPage */]);
     };
     AclientemayoPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     AclientemayoPage.prototype.dismiss = function () {
@@ -7857,7 +7875,7 @@ var AclientemayoPage = (function () {
     };
     AclientemayoPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosCliente', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["q" /* ClientemostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["o" /* CbajaagendamesPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     AclientemayoPage.prototype.Refrescar = function (refresher) {
@@ -7883,7 +7901,7 @@ var AclientemayoPage = (function () {
     };
     AclientemayoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclientemayo',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientemayo\aclientemayo.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Mayo</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientemayo\aclientemayo.html"*/,
+            selector: 'page-aclientemayo',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientemayo\aclientemayo.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Mayo</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event, item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Anticipo: $<strong style="color: #1BC7AF;"> {{item.anticipo}}</strong></h3>\n    <h3 style="color: #505A53;">Día: <strong style="color: #1BC7AF;">{{item.dia}}</strong></h3>\n    <h3 style="color: #718d79;">Vehiculo: <strong style="color: #505A53;">{{item.observacionesVehiculo}}</strong></h3>\n    <h3 style="color: #505A53; opacity: 50%;">Tipo de cliente: <strong>{{item.tipoCliente}}</strong></h3> \n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientemayo\aclientemayo.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -7938,14 +7956,14 @@ var AclientejunioPage = (function () {
         console.log(this.perfil);
     }
     AclientejunioPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["v" /* ClientesmesPage */]);
     };
     AclientejunioPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     AclientejunioPage.prototype.dismiss = function () {
@@ -7979,7 +7997,7 @@ var AclientejunioPage = (function () {
     };
     AclientejunioPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosCliente', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["q" /* ClientemostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["o" /* CbajaagendamesPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     AclientejunioPage.prototype.Refrescar = function (refresher) {
@@ -8005,7 +8023,7 @@ var AclientejunioPage = (function () {
     };
     AclientejunioPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclientejunio',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientejunio\aclientejunio.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Junio</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientejunio\aclientejunio.html"*/,
+            selector: 'page-aclientejunio',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientejunio\aclientejunio.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Junio</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event, item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Anticipo: $<strong style="color: #1BC7AF;"> {{item.anticipo}}</strong></h3>\n    <h3 style="color: #505A53;">Día: <strong style="color: #1BC7AF;">{{item.dia}}</strong></h3>\n    <h3 style="color: #718d79;">Vehiculo: <strong style="color: #505A53;">{{item.observacionesVehiculo}}</strong></h3>\n    <h3 style="color: #505A53; opacity: 50%;">Tipo de cliente: <strong>{{item.tipoCliente}}</strong></h3> \n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientejunio\aclientejunio.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -8060,14 +8078,14 @@ var AclientejulioPage = (function () {
         console.log(this.perfil);
     }
     AclientejulioPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["v" /* ClientesmesPage */]);
     };
     AclientejulioPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     AclientejulioPage.prototype.dismiss = function () {
@@ -8101,7 +8119,7 @@ var AclientejulioPage = (function () {
     };
     AclientejulioPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosCliente', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["q" /* ClientemostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["o" /* CbajaagendamesPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     AclientejulioPage.prototype.Refrescar = function (refresher) {
@@ -8127,7 +8145,7 @@ var AclientejulioPage = (function () {
     };
     AclientejulioPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclientejulio',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientejulio\aclientejulio.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Julio</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientejulio\aclientejulio.html"*/,
+            selector: 'page-aclientejulio',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientejulio\aclientejulio.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Julio</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event, item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Anticipo: $<strong style="color: #1BC7AF;"> {{item.anticipo}}</strong></h3>\n    <h3 style="color: #505A53;">Día: <strong style="color: #1BC7AF;">{{item.dia}}</strong></h3>\n    <h3 style="color: #718d79;">Vehiculo: <strong style="color: #505A53;">{{item.observacionesVehiculo}}</strong></h3>\n    <h3 style="color: #505A53; opacity: 50%;">Tipo de cliente: <strong>{{item.tipoCliente}}</strong></h3> \n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientejulio\aclientejulio.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -8182,14 +8200,14 @@ var AclienteagostoPage = (function () {
         console.log(this.perfil);
     }
     AclienteagostoPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["v" /* ClientesmesPage */]);
     };
     AclienteagostoPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     AclienteagostoPage.prototype.dismiss = function () {
@@ -8223,7 +8241,7 @@ var AclienteagostoPage = (function () {
     };
     AclienteagostoPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosCliente', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["q" /* ClientemostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["o" /* CbajaagendamesPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     AclienteagostoPage.prototype.Refrescar = function (refresher) {
@@ -8249,7 +8267,7 @@ var AclienteagostoPage = (function () {
     };
     AclienteagostoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclienteagosto',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteagosto\aclienteagosto.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Agosto</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteagosto\aclienteagosto.html"*/,
+            selector: 'page-aclienteagosto',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteagosto\aclienteagosto.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Agosto</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event, item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Anticipo: $<strong style="color: #1BC7AF;"> {{item.anticipo}}</strong></h3>\n    <h3 style="color: #505A53;">Día: <strong style="color: #1BC7AF;">{{item.dia}}</strong></h3>\n    <h3 style="color: #718d79;">Vehiculo: <strong style="color: #505A53;">{{item.observacionesVehiculo}}</strong></h3>\n    <h3 style="color: #505A53; opacity: 50%;">Tipo de cliente: <strong>{{item.tipoCliente}}</strong></h3> \n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteagosto\aclienteagosto.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -8304,14 +8322,14 @@ var AclienteseptiembrePage = (function () {
         console.log(this.perfil);
     }
     AclienteseptiembrePage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["v" /* ClientesmesPage */]);
     };
     AclienteseptiembrePage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     AclienteseptiembrePage.prototype.dismiss = function () {
@@ -8345,7 +8363,7 @@ var AclienteseptiembrePage = (function () {
     };
     AclienteseptiembrePage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosCliente', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["q" /* ClientemostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["o" /* CbajaagendamesPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     AclienteseptiembrePage.prototype.Refrescar = function (refresher) {
@@ -8371,7 +8389,7 @@ var AclienteseptiembrePage = (function () {
     };
     AclienteseptiembrePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclienteseptiembre',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteseptiembre\aclienteseptiembre.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Septiembre</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteseptiembre\aclienteseptiembre.html"*/,
+            selector: 'page-aclienteseptiembre',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteseptiembre\aclienteseptiembre.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Septiembre</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event, item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Anticipo: $<strong style="color: #1BC7AF;"> {{item.anticipo}}</strong></h3>\n    <h3 style="color: #505A53;">Día: <strong style="color: #1BC7AF;">{{item.dia}}</strong></h3>\n    <h3 style="color: #718d79;">Vehiculo: <strong style="color: #505A53;">{{item.observacionesVehiculo}}</strong></h3>\n    <h3 style="color: #505A53; opacity: 50%;">Tipo de cliente: <strong>{{item.tipoCliente}}</strong></h3> \n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteseptiembre\aclienteseptiembre.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -8426,14 +8444,14 @@ var AclienteoctubrePage = (function () {
         console.log(this.perfil);
     }
     AclienteoctubrePage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["v" /* ClientesmesPage */]);
     };
     AclienteoctubrePage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     AclienteoctubrePage.prototype.dismiss = function () {
@@ -8467,7 +8485,7 @@ var AclienteoctubrePage = (function () {
     };
     AclienteoctubrePage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosCliente', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["q" /* ClientemostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["o" /* CbajaagendamesPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     AclienteoctubrePage.prototype.Refrescar = function (refresher) {
@@ -8493,7 +8511,7 @@ var AclienteoctubrePage = (function () {
     };
     AclienteoctubrePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclienteoctubre',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteoctubre\aclienteoctubre.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Octubre</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteoctubre\aclienteoctubre.html"*/,
+            selector: 'page-aclienteoctubre',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteoctubre\aclienteoctubre.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Octubre</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event, item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Anticipo: $<strong style="color: #1BC7AF;"> {{item.anticipo}}</strong></h3>\n    <h3 style="color: #505A53;">Día: <strong style="color: #1BC7AF;">{{item.dia}}</strong></h3>\n    <h3 style="color: #718d79;">Vehiculo: <strong style="color: #505A53;">{{item.observacionesVehiculo}}</strong></h3>\n    <h3 style="color: #505A53; opacity: 50%;">Tipo de cliente: <strong>{{item.tipoCliente}}</strong></h3> \n  </ion-item>\n</ion-card> \n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclienteoctubre\aclienteoctubre.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -8548,14 +8566,14 @@ var AclientenoviembrePage = (function () {
         console.log(this.perfil);
     }
     AclientenoviembrePage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["v" /* ClientesmesPage */]);
     };
     AclientenoviembrePage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     AclientenoviembrePage.prototype.dismiss = function () {
@@ -8589,7 +8607,7 @@ var AclientenoviembrePage = (function () {
     };
     AclientenoviembrePage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosCliente', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["q" /* ClientemostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["o" /* CbajaagendamesPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     AclientenoviembrePage.prototype.Refrescar = function (refresher) {
@@ -8615,7 +8633,7 @@ var AclientenoviembrePage = (function () {
     };
     AclientenoviembrePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclientenoviembre',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientenoviembre\aclientenoviembre.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Noviembre</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientenoviembre\aclientenoviembre.html"*/,
+            selector: 'page-aclientenoviembre',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientenoviembre\aclientenoviembre.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Noviembre</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event, item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Anticipo: $<strong style="color: #1BC7AF;"> {{item.anticipo}}</strong></h3>\n    <h3 style="color: #505A53;">Día: <strong style="color: #1BC7AF;">{{item.dia}}</strong></h3>\n    <h3 style="color: #718d79;">Vehiculo: <strong style="color: #505A53;">{{item.observacionesVehiculo}}</strong></h3>\n    <h3 style="color: #505A53; opacity: 50%;">Tipo de cliente: <strong>{{item.tipoCliente}}</strong></h3> \n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientenoviembre\aclientenoviembre.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -8670,14 +8688,14 @@ var AclientediciembrePage = (function () {
         console.log(this.perfil);
     }
     AclientediciembrePage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientesmesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["v" /* ClientesmesPage */]);
     };
     AclientediciembrePage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     AclientediciembrePage.prototype.dismiss = function () {
@@ -8711,7 +8729,7 @@ var AclientediciembrePage = (function () {
     };
     AclientediciembrePage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosCliente', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["q" /* ClientemostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["o" /* CbajaagendamesPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     AclientediciembrePage.prototype.Refrescar = function (refresher) {
@@ -8737,7 +8755,7 @@ var AclientediciembrePage = (function () {
     };
     AclientediciembrePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aclientediciembre',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientediciembre\aclientediciembre.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Diciembre</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event,item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>\n    <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>\n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientediciembre\aclientediciembre.html"*/,
+            selector: 'page-aclientediciembre',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientediciembre\aclientediciembre.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Diciembre</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por dia">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n<ion-refresher (ionRefresh)="Refrescar($event)">\n  <ion-refresher-content \n  refreshingSpinner="circles"\n  refreshingText="Actualizando lista...">\n  </ion-refresher-content>\n</ion-refresher>\n\n<ion-list *ngFor="let item of clientes; let i=index;">\n<ion-card class="lista" (click)="detalles($event, item)">\n  <ion-item>\n    <ion-avatar item-left>\n      <img src="img/icon/usuario.png"/>      \n    </ion-avatar>\n    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> \n    <h3 style="color: #505A53;">Anticipo: $<strong style="color: #1BC7AF;"> {{item.anticipo}}</strong></h3>\n    <h3 style="color: #505A53;">Día: <strong style="color: #1BC7AF;">{{item.dia}}</strong></h3>\n    <h3 style="color: #718d79;">Vehiculo: <strong style="color: #505A53;">{{item.observacionesVehiculo}}</strong></h3>\n    <h3 style="color: #505A53; opacity: 50%;">Tipo de cliente: <strong>{{item.tipoCliente}}</strong></h3> \n  </ion-item>\n</ion-card>\n</ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\aclientediciembre\aclientediciembre.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -8822,7 +8840,7 @@ var PvehiculocincoPage = (function () {
     };
     PvehiculocincoPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosVehiculo', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_11" /* VehiculomostrarlibrePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_13" /* VehiculomostrarlibrePage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     PvehiculocincoPage.prototype.Refrescar = function (refresher) {
@@ -8933,7 +8951,7 @@ var PvehiculosietePage = (function () {
     };
     PvehiculosietePage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosVehiculo', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_11" /* VehiculomostrarlibrePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_13" /* VehiculomostrarlibrePage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     PvehiculosietePage.prototype.Refrescar = function (refresher) {
@@ -9044,7 +9062,7 @@ var PvehiculoochoPage = (function () {
     };
     PvehiculoochoPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosVehiculo', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_11" /* VehiculomostrarlibrePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_13" /* VehiculomostrarlibrePage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     PvehiculoochoPage.prototype.Refrescar = function (refresher) {
@@ -9155,7 +9173,7 @@ var PvehiculocatorcePage = (function () {
     };
     PvehiculocatorcePage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosVehiculo', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_11" /* VehiculomostrarlibrePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_13" /* VehiculomostrarlibrePage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     PvehiculocatorcePage.prototype.Refrescar = function (refresher) {
@@ -9302,7 +9320,7 @@ var HistorialactivarPage = (function () {
                             {
                                 text: 'Aceptar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["w" /* HistorialPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["y" /* HistorialPage */]);
                                     //this.dismiss()
                                 }
                             }
@@ -9331,14 +9349,14 @@ var HistorialactivarPage = (function () {
         }
     };
     HistorialactivarPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["r" /* ClientemostrarhistorialPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientemostrarhistorialPage */]);
     };
     HistorialactivarPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     HistorialactivarPage.prototype.ionViewDidLoad = function () {
@@ -9346,7 +9364,7 @@ var HistorialactivarPage = (function () {
     };
     HistorialactivarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-historialactivar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\historialactivar\historialactivar.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Activar cliente</ion-title>\n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n  <ion-grid style="text-align: center;">\n    <ion-row> \n      <ion-col>\n        <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n        <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n      </ion-col>\n      <ion-col>     \n        <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n        <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n    </ion-col>\n    </ion-row>\n  </ion-grid> \n\n\n    <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>\n    <ion-card-content style="text-align: justify;">\n      <p style="color: #505A53;">Al elegir la opción de <strong>CLIENTE ACTIVO</strong>, el cliente <strong>{{datosC.nombre}}</strong> pasara a la lista de "Clientes Activos" con el fin de usar sus datos para la renta de algún vehiculo.</p>\n    </ion-card-content>\n\n  <form #editarForm="ngForm">\n    <ion-list>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/activo.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Cliente activo</ion-label>\n      <ion-select [(ngModel)]="editarCliente.clienteactivo" name="clienteactivo" #clienteactivo="ngModel" required> \n      <ion-option value="ACTIVO">ACTIVO</ion-option>\n      <ion-option value="NO ACTIVO">NO ACTIVO</ion-option>\n      </ion-select>\n    </ion-item>\n  </ion-list>\n  <br>\n    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Enviar solicitud</button>\n  </form>\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\historialactivar\historialactivar.html"*/,
+            selector: 'page-historialactivar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\historialactivar\historialactivar.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Activar cliente</ion-title>\n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n  <ion-grid style="text-align: center;">\n    <ion-row> \n      <ion-col>\n        <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n        <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n      </ion-col>\n      <ion-col>     \n        <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n        <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n    </ion-col>\n    </ion-row>\n  </ion-grid> \n\n\n    <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>\n    <ion-card-content style="text-align: justify;">\n      <p style="color: #505A53;">Al elegir la opción de <strong>CLIENTE ACTIVO</strong>, el cliente <strong>{{datosC.nombre}}</strong> pasara a la lista de "Clientes Activos" con el fin de usar sus datos para la renta de algún vehiculo.</p>\n    </ion-card-content>\n\n  <form #editarForm="ngForm">\n    <ion-list>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/activo.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Cliente activo</ion-label>\n      <ion-select [(ngModel)]="editarCliente.clienteactivo" name="clienteactivo" #clienteactivo="ngModel" required> \n      <ion-option value="ACTIVO">ACTIVO</ion-option>\n      <ion-option value="NO ACTIVO">NO ACTIVO</ion-option>\n      <ion-option value="EN HISTORIAL">EN HISTORIAL</ion-option>\n      </ion-select>\n    </ion-item>\n  </ion-list>\n  <br>\n    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Enviar solicitud</button>\n  </form>\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\historialactivar\historialactivar.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -9465,7 +9483,7 @@ var HistorialagendaPage = (function () {
                             {
                                 text: 'Aceptar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["w" /* HistorialPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["y" /* HistorialPage */]);
                                     //this.dismiss()
                                 }
                             }
@@ -9494,14 +9512,14 @@ var HistorialagendaPage = (function () {
         }
     };
     HistorialagendaPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["r" /* ClientemostrarhistorialPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientemostrarhistorialPage */]);
     };
     HistorialagendaPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     HistorialagendaPage.prototype.ionViewDidLoad = function () {
@@ -9564,7 +9582,7 @@ var HistorialclientePage = (function () {
         console.log(this.perfil);
     }
     HistorialclientePage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["r" /* ClientemostrarhistorialPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["t" /* ClientemostrarhistorialPage */]);
     };
     HistorialclientePage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
@@ -9591,7 +9609,7 @@ var HistorialclientePage = (function () {
                             {
                                 text: 'Aceptar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["w" /* HistorialPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["y" /* HistorialPage */]);
                                 }
                             }
                         ]
@@ -9629,33 +9647,41 @@ var HistorialclientePage = (function () {
                     role: 'destructive',
                     icon: !this.platform.is('md') ? 'person' : null,
                     handler: function () {
-                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["p" /* ClienteeditarPage */]);
+                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["r" /* ClienteeditarPage */]);
                     }
                 },
                 {
-                    text: 'Agenda',
+                    text: 'Reagendar',
                     icon: !this.platform.is('md') ? 'book' : null,
                     handler: function () {
                         _this.BDCliente = window.localStorage.getItem('datosCliente');
                         _this.datosC = JSON.parse(_this.BDCliente);
-                        if (_this.datosC.vehiculoRentado == "RENTANDO") {
+                        if (_this.datosC.clienteactivo == "ACTIVO") {
                             var alert_3 = _this.alertCtrl.create({
                                 title: '¡Atencion!',
-                                subTitle: 'No se puede editar mientras que el cliente este rentando',
+                                subTitle: 'Mientras que el cliente este ACTIVO, no se puede Reagendar.',
                                 buttons: ['DE ACUERDO']
                             });
                             alert_3.present();
+                        }
+                        else if (_this.datosC.vehiculoRentado == "RENTANDO") {
+                            var alert_4 = _this.alertCtrl.create({
+                                title: '¡Atencion!',
+                                subTitle: 'No se puede editar mientras que el cliente este RENTANDO',
+                                buttons: ['DE ACUERDO']
+                            });
+                            alert_4.present();
                         }
                         else if (_this.datosC.vehiculoRentado == "SIN VEHICULO") {
                             _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["n" /* AgendaeditarPage */]);
                         }
                         else {
-                            var alert_4 = _this.alertCtrl.create({
+                            var alert_5 = _this.alertCtrl.create({
                                 title: '¡ERROR!',
                                 subTitle: 'Algo salio mal...',
                                 buttons: ['REGRESAR']
                             });
-                            alert_4.present();
+                            alert_5.present();
                         }
                     }
                 },
@@ -9666,23 +9692,23 @@ var HistorialclientePage = (function () {
                         _this.BDCliente = window.localStorage.getItem('datosCliente');
                         _this.datosC = JSON.parse(_this.BDCliente);
                         if (_this.datosC.vehiculoRentado == "RENTANDO") {
-                            var alert_5 = _this.alertCtrl.create({
+                            var alert_6 = _this.alertCtrl.create({
                                 title: '¡Atencion!',
                                 subTitle: 'No se puede editar mientras que el cliente este rentando',
                                 buttons: ['DE ACUERDO']
                             });
-                            alert_5.present();
+                            alert_6.present();
                         }
                         else if (_this.datosC.vehiculoRentado == "SIN VEHICULO") {
-                            _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["O" /* RentaseditarPage */]);
+                            _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["Q" /* RentaseditarPage */]);
                         }
                         else {
-                            var alert_6 = _this.alertCtrl.create({
+                            var alert_7 = _this.alertCtrl.create({
                                 title: '¡ERROR!',
                                 subTitle: 'Algo salio mal...',
                                 buttons: ['REGRESAR']
                             });
-                            alert_6.present();
+                            alert_7.present();
                         }
                     }
                 },
@@ -9818,28 +9844,28 @@ var AgendaeditarPage = (function () {
                 loading_1.dismiss();
                 if (_this.userData.estatus === "OK") {
                     //console.log('Usuario registrado');
-                    var alert = _this.alertCtrl.create({
+                    var alert_1 = _this.alertCtrl.create({
                         title: "¡EXITO!",
                         subTitle: "Datos modificados correctamente",
                         buttons: [
                             {
                                 text: 'Aceptar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["w" /* HistorialPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["y" /* HistorialPage */]);
                                     //this.dismiss()
                                 }
                             }
                         ]
                     });
-                    alert.present();
+                    alert_1.present();
                 }
                 if (_this.userData.estatus === "ERROR") {
-                    var alert = _this.alertCtrl.create({
+                    var alert_2 = _this.alertCtrl.create({
                         title: "¡ERROR!",
                         subTitle: "No se pudo modificar, intentalo nuevamente",
                         buttons: ["Aceptar"]
                     });
-                    alert.present();
+                    alert_2.present();
                 }
             }, function (err) {
                 //console.log(err);
@@ -9854,14 +9880,14 @@ var AgendaeditarPage = (function () {
         }
     };
     AgendaeditarPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["z" /* HistorialclientePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* HistorialclientePage */]);
     };
     AgendaeditarPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     AgendaeditarPage.prototype.ionViewDidLoad = function () {
@@ -9869,12 +9895,15 @@ var AgendaeditarPage = (function () {
     };
     AgendaeditarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-agendaeditar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\agendaeditar\agendaeditar.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Editar agenda</ion-title>\n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n  <ion-grid style="text-align: center;">\n    <ion-row> \n      <ion-col>\n        <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n        <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n      </ion-col>\n      <ion-col>     \n        <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n        <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n    </ion-col>\n    </ion-row>\n  </ion-grid> \n\n\n    <ion-item style="text-align: -webkit-center;" no-lines>\n      <img style="width: 15%;" src="img/icon/user.png"/>\n      <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>\n      <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>\n    </ion-item>\n\n\n\n  <form #editarForm="ngForm">\n    \n    <ion-list>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/calendar.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Mes</ion-label>\n        <ion-select [(ngModel)]="editarCliente.mes" name="mes" #mes="ngModel" required>\n        <ion-option value="Sin mes">Sin mes</ion-option>\n        <ion-option value="Enero">Enero</ion-option>\n        <ion-option value="Febrero">Febrero</ion-option>\n        <ion-option value="Marzo">Marzo</ion-option>\n        <ion-option value="Abril">Abril</ion-option>\n        <ion-option value="Mayo">Mayo</ion-option>\n        <ion-option value="Junio">Junio</ion-option>\n        <ion-option value="Julio">Julio</ion-option>\n        <ion-option value="Agosto">Agosto</ion-option>\n        <ion-option value="Septiembre">Septiembre</ion-option>\n        <ion-option value="Octubre">Octubre</ion-option>\n        <ion-option value="Noviembre">Noviembre</ion-option>\n        <ion-option value="Diciembre">Diciembre</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/dia.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Día</ion-label>\n        <ion-select [(ngModel)]="editarCliente.dia" name="dia" #dia="ngModel" required>\n        <ion-option value="Sin dia">Sin dia</ion-option>\n        <ion-option value="1">1</ion-option>\n        <ion-option value="2">2</ion-option>\n        <ion-option value="3">3</ion-option>\n        <ion-option value="4">4</ion-option>\n        <ion-option value="5">5</ion-option>\n        <ion-option value="6">6</ion-option>\n        <ion-option value="7">7</ion-option>\n        <ion-option value="8">8</ion-option>\n        <ion-option value="9">9</ion-option>\n        <ion-option value="10">10</ion-option>\n        <ion-option value="11">11</ion-option>\n        <ion-option value="12">12</ion-option>\n        <ion-option value="13">13</ion-option>\n        <ion-option value="14">14</ion-option>\n        <ion-option value="15">15</ion-option>\n        <ion-option value="16">16</ion-option>\n        <ion-option value="17">17</ion-option>\n        <ion-option value="18">18</ion-option>\n        <ion-option value="19">19</ion-option>\n        <ion-option value="20">20</ion-option>\n        <ion-option value="21">21</ion-option>\n        <ion-option value="22">22</ion-option>\n        <ion-option value="23">23</ion-option>\n        <ion-option value="24">24</ion-option>\n        <ion-option value="25">25</ion-option>\n        <ion-option value="26">26</ion-option>\n        <ion-option value="27">27</ion-option>\n        <ion-option value="28">28</ion-option>\n        <ion-option value="29">29</ion-option>\n        <ion-option value="30">30</ion-option>\n        <ion-option value="31">31</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/anticipo.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Anticipo $:</ion-label>\n        <ion-input type="number" [(ngModel)]="editarCliente.anticipo" name="anticipo" #anticipo="ngModel"\n       required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/vehiculo.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Nombre del vehiculo:</ion-label>\n        <ion-input type="text-area" [(ngModel)]="editarCliente.observacionesVehiculo" name="observacionesVehiculo" #observacionesVehiculo="ngModel"></ion-input>\n      </ion-item>\n    </ion-list>\n    <br>\n\n    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Modificar</button> \n\n</form>\n\n</ion-content>\n `/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\agendaeditar\agendaeditar.html"*/,
+            selector: 'page-agendaeditar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\agendaeditar\agendaeditar.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Reagendar</ion-title>\n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n  <ion-grid style="text-align: center;">\n    <ion-row> \n      <ion-col>\n        <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n        <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n      </ion-col>\n      <ion-col>     \n        <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n        <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n    </ion-col>\n    </ion-row>\n  </ion-grid> \n\n\n    <ion-item style="text-align: -webkit-center;" no-lines>\n      <img style="width: 15%;" src="img/icon/user.png"/>\n      <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>\n      <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>\n    </ion-item>\n\n\n\n  <form #editarForm="ngForm">\n    \n    <ion-list>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/calendar.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Mes</ion-label>\n        <ion-select [(ngModel)]="editarCliente.mes" name="mes" #mes="ngModel" required>\n        <ion-option value="Sin mes">Sin mes</ion-option>\n        <ion-option value="Enero">Enero</ion-option>\n        <ion-option value="Febrero">Febrero</ion-option>\n        <ion-option value="Marzo">Marzo</ion-option>\n        <ion-option value="Abril">Abril</ion-option>\n        <ion-option value="Mayo">Mayo</ion-option>\n        <ion-option value="Junio">Junio</ion-option>\n        <ion-option value="Julio">Julio</ion-option>\n        <ion-option value="Agosto">Agosto</ion-option>\n        <ion-option value="Septiembre">Septiembre</ion-option>\n        <ion-option value="Octubre">Octubre</ion-option>\n        <ion-option value="Noviembre">Noviembre</ion-option>\n        <ion-option value="Diciembre">Diciembre</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/dia.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Día</ion-label>\n        <ion-select [(ngModel)]="editarCliente.dia" name="dia" #dia="ngModel" required>\n        <ion-option value="Sin dia">Sin dia</ion-option>\n        <ion-option value="1">1</ion-option>\n        <ion-option value="2">2</ion-option>\n        <ion-option value="3">3</ion-option>\n        <ion-option value="4">4</ion-option>\n        <ion-option value="5">5</ion-option>\n        <ion-option value="6">6</ion-option>\n        <ion-option value="7">7</ion-option>\n        <ion-option value="8">8</ion-option>\n        <ion-option value="9">9</ion-option>\n        <ion-option value="10">10</ion-option>\n        <ion-option value="11">11</ion-option>\n        <ion-option value="12">12</ion-option>\n        <ion-option value="13">13</ion-option>\n        <ion-option value="14">14</ion-option>\n        <ion-option value="15">15</ion-option>\n        <ion-option value="16">16</ion-option>\n        <ion-option value="17">17</ion-option>\n        <ion-option value="18">18</ion-option>\n        <ion-option value="19">19</ion-option>\n        <ion-option value="20">20</ion-option>\n        <ion-option value="21">21</ion-option>\n        <ion-option value="22">22</ion-option>\n        <ion-option value="23">23</ion-option>\n        <ion-option value="24">24</ion-option>\n        <ion-option value="25">25</ion-option>\n        <ion-option value="26">26</ion-option>\n        <ion-option value="27">27</ion-option>\n        <ion-option value="28">28</ion-option>\n        <ion-option value="29">29</ion-option>\n        <ion-option value="30">30</ion-option>\n        <ion-option value="31">31</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/anticipo.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Anticipo $:</ion-label>\n        <ion-input type="number" [(ngModel)]="editarCliente.anticipo" name="anticipo" #anticipo="ngModel"\n       required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/vehiculo.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Nombre del vehiculo:</ion-label>\n        <ion-input type="text-area" [(ngModel)]="editarCliente.observacionesVehiculo" name="observacionesVehiculo" #observacionesVehiculo="ngModel"></ion-input>\n      </ion-item>\n    </ion-list>\n    <br>\n\n    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Modificar</button> \n\n</form>\n\n</ion-content>\n `/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\agendaeditar\agendaeditar.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__servicios_ClienteServices__["a" /* ClienteService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__servicios_ClienteServices__["a" /* ClienteService */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]) === "function" && _e || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_2__servicios_ClienteServices__["a" /* ClienteService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
     ], AgendaeditarPage);
     return AgendaeditarPage;
-    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=agendaeditar.js.map
@@ -9985,7 +10014,7 @@ var RentaseditarPage = (function () {
                             {
                                 text: 'Aceptar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["w" /* HistorialPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["y" /* HistorialPage */]);
                                     //this.dismiss()
                                 }
                             }
@@ -10014,14 +10043,14 @@ var RentaseditarPage = (function () {
         }
     };
     RentaseditarPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["z" /* HistorialclientePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* HistorialclientePage */]);
     };
     RentaseditarPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["C" /* MenunivelunoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
         }
         else if (this.perfil.nivelUsuario == "Estandar") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["B" /* MenuniveldosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
         }
     };
     RentaseditarPage.prototype.ionViewDidLoad = function () {
@@ -10041,6 +10070,371 @@ var RentaseditarPage = (function () {
 }());
 
 //# sourceMappingURL=rentaseditar.js.map
+
+/***/ }),
+/* 351 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ClienteactivomesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_ClienteServices__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(4);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var ClienteactivomesPage = (function () {
+    function ClienteactivomesPage(navCtrl, navParams, ClienteService, alertCtrl, loadingCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.editarCliente = {};
+        this.submitted = false;
+        this.disableSubmit = false;
+        this.ClienteService = ClienteService;
+        this.BDCliente = window.localStorage.getItem('datosCliente');
+        this.datosC = JSON.parse(this.BDCliente);
+        console.log(this.datosC);
+        this.datosUsuario = window.localStorage.getItem('dataUser');
+        this.perfil = JSON.parse(this.datosUsuario);
+        console.log(this.perfil);
+        this.editarCliente.nombre = this.datosC.nombre;
+        this.editarCliente.sexo = this.datosC.sexo;
+        this.editarCliente.edad = this.datosC.edad;
+        this.editarCliente.direccion = this.datosC.direccion;
+        this.editarCliente.colonia = this.datosC.colonia;
+        this.editarCliente.telefono = this.datosC.telefono;
+        this.editarCliente.ciudad = this.datosC.ciudad;
+        this.editarCliente.estado = this.datosC.estado;
+        this.editarCliente.licencia = this.datosC.licencia;
+        this.editarCliente.fechaLicencia = this.datosC.fechaLicencia;
+        this.editarCliente.observacionesCliente = this.datosC.observacionesCliente;
+        this.editarCliente.observacionesVehiculo = " ";
+        this.editarCliente.tipoCliente = this.datosC.tipoCliente;
+        this.editarCliente.vehiculoRentado = this.datosC.vehiculoRentado;
+        this.editarCliente.vehiculosRentados = this.datosC.vehiculosRentados;
+        this.editarCliente.vehiculosMalEstado = this.datosC.vehiculosMalEstado;
+        this.editarCliente.mes = "Sin mes";
+        this.editarCliente.dia = "Sin dia";
+        this.editarCliente.anticipo = "0";
+        this.editarCliente.clienteactivo = this.datosC.clienteactivo;
+        this.editarCliente.notashistorial = this.datosC.notashistorial;
+    }
+    //ACTIVAR CLIENTE
+    ClienteactivomesPage.prototype.editar = function (form) {
+        var _this = this;
+        this.submitted = true;
+        if (form.valid) {
+            console.log(this.datosC.idCliente);
+            console.log(this.editarCliente.nombre);
+            console.log(this.editarCliente.sexo);
+            console.log(this.editarCliente.edad);
+            console.log(this.editarCliente.direccion);
+            console.log(this.editarCliente.colonia);
+            console.log(this.editarCliente.telefono);
+            console.log(this.editarCliente.ciudad);
+            console.log(this.editarCliente.estado);
+            console.log(this.editarCliente.licencia);
+            console.log(this.editarCliente.fechaLicencia);
+            console.log(this.editarCliente.observacionesCliente);
+            console.log(this.editarCliente.observacionesVehiculo);
+            console.log(this.editarCliente.tipoCliente);
+            console.log(this.editarCliente.vehiculoRentado);
+            console.log(this.editarCliente.vehiculosRentados);
+            console.log(this.editarCliente.vehiculosMalEstado);
+            console.log(this.editarCliente.mes);
+            console.log(this.editarCliente.dia);
+            console.log(this.editarCliente.anticipo);
+            console.log(this.editarCliente.clienteactivo);
+            console.log(this.editarCliente.notashistorial);
+            console.log(this.perfil.idUsuario);
+            var loading_1 = this.loadingCtrl.create({
+                content: "Enviando, espere...",
+            });
+            loading_1.present();
+            this.ClienteService.editar_cliente(this.datosC.idCliente, this.editarCliente.nombre, this.editarCliente.sexo, this.editarCliente.edad, this.editarCliente.direccion, this.editarCliente.colonia, this.editarCliente.telefono, this.editarCliente.ciudad, this.editarCliente.estado, this.editarCliente.licencia, this.editarCliente.fechaLicencia, this.editarCliente.observacionesCliente, this.editarCliente.observacionesVehiculo, this.editarCliente.tipoCliente, this.editarCliente.vehiculoRentado, this.editarCliente.vehiculosRentados, this.editarCliente.vehiculosMalEstado, this.editarCliente.mes, this.editarCliente.dia, this.editarCliente.anticipo, this.editarCliente.clienteactivo, this.editarCliente.notashistorial, this.perfil.idUsuario).subscribe(function (data) {
+                _this.userData = data;
+                console.log(data);
+                loading_1.dismiss();
+                if (_this.userData.estatus === "OK") {
+                    //console.log('Usuario registrado');
+                    var alert_1 = _this.alertCtrl.create({
+                        title: "¡EXITO!",
+                        subTitle: "El cliente se ha enviado a la lista de Clientes Activos",
+                        buttons: [
+                            {
+                                text: 'Ir a Clientes Activos',
+                                handler: function () {
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["u" /* ClientesactivosPage */]);
+                                    //this.dismiss()
+                                }
+                            }
+                        ]
+                    });
+                    alert_1.present();
+                }
+                if (_this.userData.estatus === "ERROR") {
+                    var alert_2 = _this.alertCtrl.create({
+                        title: "¡ERROR!",
+                        subTitle: "No se pudo enviar, intentalo nuevamente",
+                        buttons: ["Aceptar"]
+                    });
+                    alert_2.present();
+                }
+            }, function (err) {
+                //console.log(err);
+                loading_1.dismiss();
+                var alert = _this.alertCtrl.create({
+                    title: "Error de conexión",
+                    subTitle: "Ocurrio un problema para realizar la operación, intentalo más tarde",
+                    buttons: ["Aceptar"]
+                });
+                alert.present();
+            });
+        }
+    };
+    ClienteactivomesPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
+        }
+    };
+    ClienteactivomesPage.prototype.historial = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["y" /* HistorialPage */]);
+    };
+    ClienteactivomesPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ClienteactivomesPage');
+    };
+    ClienteactivomesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-clienteactivomes',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clienteactivomes\clienteactivomes.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Enviar</ion-title>\n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n  <ion-grid style="text-align: center;">\n    <ion-row> \n      <ion-col>\n        <img style="width: 22%;" (click)="historial()" src="img/icon/historial.png"/>\n        <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Historial</p>\n      </ion-col>\n      <ion-col>     \n        <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n        <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n    </ion-col>\n    </ion-row>\n  </ion-grid> \n\n\n    <h1 style=" text-align: center; color: #4A6D68;"><strong>Enviar a Clientes Activos</strong></h1>\n    <ion-card-content style="text-align: center;">\n      <p style="color: #505A53;">Ahora ya puedes enviar al cliente <strong>{{datosC.nombre}}</strong> a la lista de "Clientes Activos".</p>\n    </ion-card-content>\n\n  <form #editarForm="ngForm">\n    <ion-list>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/activo.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Lista de clientes activos</ion-label>\n      <ion-select [(ngModel)]="editarCliente.clienteactivo" name="clienteactivo" #clienteactivo="ngModel" required> \n      <ion-option value="ACTIVO">ACTIVO</ion-option>\n      <ion-option value="EN HISTORIAL">EN HISTORIAL</ion-option>\n      </ion-select>\n    </ion-item>\n  </ion-list>\n  <br>\n    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Enviar</button>\n  </form>\n\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clienteactivomes\clienteactivomes.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__servicios_ClienteServices__["a" /* ClienteService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
+    ], ClienteactivomesPage);
+    return ClienteactivomesPage;
+}());
+
+//# sourceMappingURL=clienteactivomes.js.map
+
+/***/ }),
+/* 352 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CbajaagendamesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_ClienteServices__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(4);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var CbajaagendamesPage = (function () {
+    function CbajaagendamesPage(navCtrl, navParams, ClienteService, alertCtrl, loadingCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.editarCliente = {};
+        this.submitted = false;
+        this.disableSubmit = false;
+        this.ClienteService = ClienteService;
+        this.BDCliente = window.localStorage.getItem('datosCliente');
+        this.datosC = JSON.parse(this.BDCliente);
+        console.log(this.datosC);
+        this.datosUsuario = window.localStorage.getItem('dataUser');
+        this.perfil = JSON.parse(this.datosUsuario);
+        console.log(this.perfil);
+        this.editarCliente.nombre = this.datosC.nombre;
+        this.editarCliente.sexo = this.datosC.sexo;
+        this.editarCliente.edad = this.datosC.edad;
+        this.editarCliente.direccion = this.datosC.direccion;
+        this.editarCliente.colonia = this.datosC.colonia;
+        this.editarCliente.telefono = this.datosC.telefono;
+        this.editarCliente.ciudad = this.datosC.ciudad;
+        this.editarCliente.estado = this.datosC.estado;
+        this.editarCliente.licencia = this.datosC.licencia;
+        this.editarCliente.fechaLicencia = this.datosC.fechaLicencia;
+        this.editarCliente.observacionesCliente = this.datosC.observacionesCliente;
+        this.editarCliente.observacionesVehiculo = " ";
+        this.editarCliente.tipoCliente = this.datosC.tipoCliente;
+        this.editarCliente.vehiculoRentado = this.datosC.vehiculoRentado;
+        this.editarCliente.vehiculosRentados = this.datosC.vehiculosRentados;
+        this.editarCliente.vehiculosMalEstado = this.datosC.vehiculosMalEstado;
+        this.editarCliente.mes = "Sin mes";
+        this.editarCliente.dia = "Sin dia";
+        this.editarCliente.anticipo = "0";
+        this.editarCliente.clienteactivo = "EN HISTORIAL";
+        this.editarCliente.notashistorial = this.datosC.notashistorial;
+    }
+    //Dar de baja al cliente de la agenda
+    CbajaagendamesPage.prototype.quitar = function (form) {
+        var _this = this;
+        this.submitted = true;
+        if (form.valid) {
+            console.log(this.datosC.idCliente);
+            console.log(this.editarCliente.nombre);
+            console.log(this.editarCliente.sexo);
+            console.log(this.editarCliente.edad);
+            console.log(this.editarCliente.direccion);
+            console.log(this.editarCliente.colonia);
+            console.log(this.editarCliente.telefono);
+            console.log(this.editarCliente.ciudad);
+            console.log(this.editarCliente.estado);
+            console.log(this.editarCliente.licencia);
+            console.log(this.editarCliente.fechaLicencia);
+            console.log(this.editarCliente.observacionesCliente);
+            console.log(this.editarCliente.observacionesVehiculo);
+            console.log(this.editarCliente.tipoCliente);
+            console.log(this.editarCliente.vehiculoRentado);
+            console.log(this.editarCliente.vehiculosRentados);
+            console.log(this.editarCliente.vehiculosMalEstado);
+            console.log(this.editarCliente.mes);
+            console.log(this.editarCliente.dia);
+            console.log(this.editarCliente.anticipo);
+            console.log(this.editarCliente.clienteactivo);
+            console.log(this.editarCliente.notashistorial);
+            console.log(this.perfil.idUsuario);
+            var loading_1 = this.loadingCtrl.create({
+                content: "Quitando cliente de la agenda espere...",
+            });
+            loading_1.present();
+            this.ClienteService.editar_cliente(this.datosC.idCliente, this.editarCliente.nombre, this.editarCliente.sexo, this.editarCliente.edad, this.editarCliente.direccion, this.editarCliente.colonia, this.editarCliente.telefono, this.editarCliente.ciudad, this.editarCliente.estado, this.editarCliente.licencia, this.editarCliente.fechaLicencia, this.editarCliente.observacionesCliente, this.editarCliente.observacionesVehiculo, this.editarCliente.tipoCliente, this.editarCliente.vehiculoRentado, this.editarCliente.vehiculosRentados, this.editarCliente.vehiculosMalEstado, this.editarCliente.mes, this.editarCliente.dia, this.editarCliente.anticipo, this.editarCliente.clienteactivo, this.editarCliente.notashistorial, this.perfil.idUsuario).subscribe(function (data) {
+                _this.userData = data;
+                console.log(data);
+                loading_1.dismiss();
+                if (_this.userData.estatus === "OK") {
+                    //console.log('Usuario registrado');
+                    var alert_1 = _this.alertCtrl.create({
+                        title: "¡EXITO!",
+                        subTitle: "El cliente se ha quitado de la lista de agendados",
+                        buttons: [
+                            {
+                                text: 'Continuar',
+                                handler: function () {
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["p" /* ClienteactivomesPage */]);
+                                    //this.dismiss()
+                                }
+                            }
+                        ]
+                    });
+                    alert_1.present();
+                }
+                if (_this.userData.estatus === "ERROR") {
+                    var alert_2 = _this.alertCtrl.create({
+                        title: "¡ERROR!",
+                        subTitle: "No se pudo dar de baja, intentalo nuevamente",
+                        buttons: ["Aceptar"]
+                    });
+                    alert_2.present();
+                }
+            }, function (err) {
+                //console.log(err);
+                loading_1.dismiss();
+                var alert = _this.alertCtrl.create({
+                    title: "Error de conexión",
+                    subTitle: "Ocurrio un problema para realizar la operación, intentalo más tarde",
+                    buttons: ["Aceptar"]
+                });
+                alert.present();
+            });
+        }
+    };
+    CbajaagendamesPage.prototype.regresar = function () {
+        this.BDCliente = window.localStorage.getItem('datosCliente');
+        this.datosC = JSON.parse(this.BDCliente);
+        if (this.datosC.mes == "Enero") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["d" /* AclienteeneroPage */]);
+        }
+        else if (this.datosC.mes == "Febrero") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["e" /* AclientefebreroPage */]);
+        }
+        else if (this.datosC.mes == "Marzo") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["h" /* AclientemarzoPage */]);
+        }
+        else if (this.datosC.mes == "Abril") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["a" /* AclienteabrilPage */]);
+        }
+        else if (this.datosC.mes == "Mayo") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["i" /* AclientemayoPage */]);
+        }
+        else if (this.datosC.mes == "Junio") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["g" /* AclientejunioPage */]);
+        }
+        else if (this.datosC.mes == "Julio") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["f" /* AclientejulioPage */]);
+        }
+        else if (this.datosC.mes == "Agosto") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["b" /* AclienteagostoPage */]);
+        }
+        else if (this.datosC.mes == "Septiembre") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["l" /* AclienteseptiembrePage */]);
+        }
+        else if (this.datosC.mes == "Octubre") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["k" /* AclienteoctubrePage */]);
+        }
+        else if (this.datosC.mes == "Noviembre") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["j" /* AclientenoviembrePage */]);
+        }
+        else if (this.datosC.mes == "Diciembre") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["c" /* AclientediciembrePage */]);
+        }
+        else {
+        }
+    };
+    CbajaagendamesPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
+        }
+    };
+    CbajaagendamesPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CbajaagendamesPage');
+    };
+    CbajaagendamesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-cbajaagendames',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\cbajaagendames\cbajaagendames.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Quitar de la agenda</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n      </ion-col>\n      </ion-row>\n    </ion-grid> \n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n  <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>\n  <ion-card-content style="text-align: center;">\n    <p style="color: #505A53;">Para poder enviar al cliente <strong>{{datosC.nombre}}</strong> a la lista de "Clientes Activos", primeramente tienes que darlo de baja de la agenda.</p>\n  \n    <p style="color: #505A53;">¿Seguro que quieres quitar al cliente <strong>{{datosC.nombre}}</strong>  de la lista de agendados?</p>\n  </ion-card-content>\n\n<br>\n  <form #quitarForm="ngForm">\n    <button ion-button round block color="txteditar" type="submit" (click)="quitar(quitarForm)">Quitar</button>\n  </form>\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\cbajaagendames\cbajaagendames.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__servicios_ClienteServices__["a" /* ClienteService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
+    ], CbajaagendamesPage);
+    return CbajaagendamesPage;
+}());
+
+//# sourceMappingURL=cbajaagendames.js.map
 
 /***/ })
 ],[205]);

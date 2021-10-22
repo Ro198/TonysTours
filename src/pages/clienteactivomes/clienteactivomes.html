@@ -1,0 +1,50 @@
+
+
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
+    <ion-title>Enviar</ion-title>
+  </ion-toolbar>
+</ion-header> 
+
+
+<ion-content padding>
+
+  <ion-grid style="text-align: center;">
+    <ion-row> 
+      <ion-col>
+        <img style="width: 22%;" (click)="historial()" src="img/icon/historial.png"/>
+        <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Historial</p>
+      </ion-col>
+      <ion-col>     
+        <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>
+        <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>
+    </ion-col>
+    </ion-row>
+  </ion-grid> 
+
+
+    <h1 style=" text-align: center; color: #4A6D68;"><strong>Enviar a Clientes Activos</strong></h1>
+    <ion-card-content style="text-align: center;">
+      <p style="color: #505A53;">Ahora ya puedes enviar al cliente <strong>{{datosC.nombre}}</strong> a la lista de "Clientes Activos".</p>
+    </ion-card-content>
+
+  <form #editarForm="ngForm">
+    <ion-list>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/activo.png"/>      
+       </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Lista de clientes activos</ion-label>
+      <ion-select [(ngModel)]="editarCliente.clienteactivo" name="clienteactivo" #clienteactivo="ngModel" required> 
+      <ion-option value="ACTIVO">ACTIVO</ion-option>
+      <ion-option value="EN HISTORIAL">EN HISTORIAL</ion-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <br>
+    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Enviar</button>
+  </form>
+
+
+</ion-content>
+

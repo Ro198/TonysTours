@@ -71,5 +71,8 @@ export { HistorialagendaPage } from './historialagenda/historialagenda';
 export { HistorialclientePage } from './historialcliente/historialcliente';
 export { AgendaeditarPage } from './agendaeditar/agendaeditar';
 export { RentaseditarPage } from './rentaseditar/rentaseditar';
+export { ClienteactivomesPage } from './clienteactivomes/clienteactivomes';
+export { CbajaagendamesPage } from './cbajaagendames/cbajaagendames';
+
 
 

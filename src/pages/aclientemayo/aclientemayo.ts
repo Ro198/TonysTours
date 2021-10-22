@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, LoadingController, ViewController, ModalController, AlertController } from 'ionic-angular';
 import { ClienteService } from '../servicios/ClienteServices';
 
-import { ClientemostrarPage,
+import { CbajaagendamesPage,
   ClientesmesPage,
   MenunivelunoPage,
   MenuniveldosPage
@@ -21,6 +21,7 @@ export class AclientemayoPage {
   loading;
   BDCliente;
   ClienteService;
+  datosC;
 
   constructor(public navCtrl: NavController, 
               public navParams: NavParams,
@@ -95,10 +96,10 @@ menu(){
           });
   }
 
-  detalles(event,item) 
-  {                
-      window.localStorage.setItem('datosCliente', JSON.stringify(item));
-      this.navCtrl.push(ClientemostrarPage)
+  detalles(event, item) 
+  { 
+        window.localStorage.setItem('datosCliente', JSON.stringify(item));                                 
+        this.navCtrl.push(CbajaagendamesPage)
  
   }
 

@@ -116,12 +116,6 @@ eliminar(form){
 }
 
 
-
-
-
-
-
-
   enlace_agenda()
 {
   
@@ -133,7 +127,7 @@ eliminar(form){
 
     let alert = this.alertCtrl.create({
       title: '¡Atencion!',
-      subTitle: 'Ya se ha agendado, para modificar los datos, valla a la opción de editar',
+      subTitle: 'Ya se ha agendado, para modificar los datos, valla a la opción de editar cliente',
       buttons: ['DE ACUERDO']
     });
     alert.present();
@@ -142,7 +136,16 @@ eliminar(form){
   else if(this.datosC.vehiculoRentado == "RENTANDO"){
     let alert = this.alertCtrl.create({
       title: '¡Atencion!',
-      subTitle: 'No se puede agendar mientras que el cliente este rentando',
+      subTitle: 'No se puede agendar mientras que el cliente este rentando.',
+      buttons: ['DE ACUERDO']
+    });
+    alert.present();
+  }
+
+  else if(this.datosC.clienteactivo == "ACTIVO"){
+    let alert = this.alertCtrl.create({
+      title: '¡Atencion!',
+      subTitle: 'Mientras que el cliente este activo, no se puede agendar.',
       buttons: ['DE ACUERDO']
     });
     alert.present();
@@ -175,7 +178,7 @@ enlace_activar()
 
     let alert = this.alertCtrl.create({
       title: '¡Atencion!',
-      subTitle: 'No se puede activar mientras que el cliente este rentando',
+      subTitle: 'No se puede modificar mientras que el cliente este rentando.',
       buttons: ['DE ACUERDO']
     });
     alert.present();

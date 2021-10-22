@@ -79,7 +79,9 @@ import {LoginPage,
   HistorialagendaPage,
   HistorialclientePage,
   AgendaeditarPage,
-  RentaseditarPage
+  RentaseditarPage,
+  ClienteactivomesPage,
+  CbajaagendamesPage
 } from "../pages/index.paginas";
 
 import { LoginService } from '../pages/servicios/LoginServices';
@@ -90,6 +92,7 @@ import { VehiculoService } from '../pages/servicios/VehiculoServices';
 import { VehiculoFotoService } from '../pages/servicios/VehiculoFotoServices';
 import { HttpModule } from '@angular/http';
 import { Camera } from '@ionic-native/camera';
+
 
 @NgModule({
   declarations: [
@@ -166,7 +169,9 @@ import { Camera } from '@ionic-native/camera';
     HistorialagendaPage,
     HistorialclientePage,
     AgendaeditarPage,
-    RentaseditarPage
+    RentaseditarPage,
+    ClienteactivomesPage,
+    CbajaagendamesPage
   ],
   imports: [
     BrowserModule,
@@ -248,7 +253,9 @@ import { Camera } from '@ionic-native/camera';
     HistorialagendaPage,
     HistorialclientePage,
     AgendaeditarPage,
-    RentaseditarPage
+    RentaseditarPage,
+    ClienteactivomesPage,
+    CbajaagendamesPage
   ],
   providers: [
     StatusBar,
