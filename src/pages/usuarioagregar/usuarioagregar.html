@@ -67,7 +67,7 @@
           <img src="img/icon/admin.png"/>      
         </ion-avatar>
         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo de cuenta:</ion-label>
-        <ion-select [(ngModel)]="datosBDUsuario.nivelUsuario" name="nivelUsuario" #nivelUsuario="ngModel" placeholder="Administrador o estandar" required> 
+        <ion-select [(ngModel)]="datosBDUsuario.nivelUsuario" name="nivelUsuario" #nivelUsuario="ngModel" placeholder="Administrador o estandar" cancelText="Cancelar" okText="Agregar" required> 
         <ion-option value="Administrador">Administrador</ion-option>
         <ion-option value="Estandar">Estandar</ion-option>
         </ion-select>

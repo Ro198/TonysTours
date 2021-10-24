@@ -33,18 +33,19 @@
 </ion-refresher>
 
 <ion-list *ngFor="let item of clientes; let i=index;">
-<ion-card class="lista" (click)="detalles($event,item)">
-  <ion-item>
-    <ion-avatar item-left>
-      <img src="img/icon/usuario.png"/>      
-    </ion-avatar>
-    <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> 
-    <h3 style="color: #505A53;">Anticipo: $<strong style="color: #1BC7AF;"> {{item.anticipo}}</strong></h3>
-    <h3 style="color: #505A53;">Día: <strong style="color: #1BC7AF;">{{item.dia}}</strong></h3>
-    <h3 style="color: #718d79;">Vehiculo: <strong style="color: #505A53;">{{item.observacionesVehiculo}}</strong></h3>
-    <h3 style="color: #505A53; opacity: 50%;">Tipo de cliente: <strong>{{item.tipoCliente}}</strong></h3> 
-  </ion-item>
-</ion-card>
-</ion-list>
+  <ion-card class="lista" (click)="detalles($event,item)">
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/usuario.png"/>      
+      </ion-avatar>
+      <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> 
+      <h3 style="color: #505A53;">Anticipo: $<strong style="color: #1BC7AF;"> {{item.anticipo}}</strong></h3>
+      <h3 style="color: #505A53;">Día: <strong style="color: #1BC7AF;">{{item.dia}}</strong></h3>
+      <h3 style="color: #505A53;">Hora: <strong style="color: #1BC7AF;">{{item.hora}}</strong></h3>
+      <h3 style="color: #718d79;">Vehiculo: <strong style="color: #505A53;">{{item.observacionesVehiculo}}</strong></h3>
+      <h3 style="color: #505A53; opacity: 50%;">Tipo de cliente: <strong>{{item.tipoCliente}}</strong></h3> 
+    </ion-item>
+  </ion-card>
+  </ion-list>
 
 </ion-content>
