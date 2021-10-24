@@ -45,6 +45,7 @@ export class CbajaagendamesPage {
     vehiculosMalEstado?: string,
     mes?: string,
     dia?: string,
+    hora?: string,
     anticipo?: string,
     clienteactivo?: string,
     notashistorial?: string
@@ -96,6 +97,7 @@ export class CbajaagendamesPage {
     this.editarCliente.vehiculosMalEstado = this.datosC.vehiculosMalEstado;
     this.editarCliente.mes = "Sin mes";
     this.editarCliente.dia = "Sin dia";
+    this.editarCliente.hora = "00:00:00";
     this.editarCliente.anticipo = "0"; 
     this.editarCliente.clienteactivo = "EN HISTORIAL";
     this.editarCliente.notashistorial = this.datosC.notashistorial;
@@ -130,6 +132,7 @@ export class CbajaagendamesPage {
             console.log(this.editarCliente.vehiculosMalEstado);
             console.log(this.editarCliente.mes);
             console.log(this.editarCliente.dia);
+            console.log(this.editarCliente.hora);
             console.log(this.editarCliente.anticipo);
             console.log(this.editarCliente.clienteactivo);
             console.log(this.editarCliente.notashistorial);
@@ -159,6 +162,7 @@ export class CbajaagendamesPage {
                                              this.editarCliente.vehiculosMalEstado,
                                              this.editarCliente.mes,
                                              this.editarCliente.dia,
+                                             this.editarCliente.hora,
                                              this.editarCliente.anticipo,
                                              this.editarCliente.clienteactivo,
                                              this.editarCliente.notashistorial,

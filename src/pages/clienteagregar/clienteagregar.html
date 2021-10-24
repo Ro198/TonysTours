@@ -40,7 +40,7 @@
           <img src="img/icon/sex.png"/>      
         </ion-avatar>
         <ion-label stacked stacked style="font-size: 1.8rem; color: #4A6D68;">Sexo* :</ion-label>
-        <ion-select [(ngModel)]="datosCliente.sexo" name="sexo" #sexo="ngModel" placeholder="genero" required> 
+        <ion-select [(ngModel)]="datosCliente.sexo" name="sexo" #sexo="ngModel" placeholder="genero" cancelText="Cancelar" okText="Agregar" required> 
         <ion-option value="Masculino">Masculino</ion-option>
         <ion-option value="Femenino">Femenino</ion-option>
         </ion-select>
@@ -108,7 +108,7 @@
         <img src="img/icon/licencia.png"/>      
       </ion-avatar>
       <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Licencia* :</ion-label>
-      <ion-select [(ngModel)]="datosCliente.licencia" name="licencia" #licencia="ngModel" placeholder="vigente, no vigente" required> 
+      <ion-select [(ngModel)]="datosCliente.licencia" name="licencia" #licencia="ngModel" placeholder="vigente, no vigente" cancelText="Cancelar" okText="Agregar" required> 
       <ion-option value="Vigente">Vigente</ion-option>
       <ion-option value="No vigente">No vigente</ion-option>
       </ion-select>
@@ -118,7 +118,7 @@
         <img src="img/icon/calendar.png"/>      
       </ion-avatar>
       <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Fecha de la licencia* :</ion-label>
-      <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosCliente.fechaLicencia" name="fechaLicencia" #fechaLicencia="ngModel" required></ion-datetime>
+      <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosCliente.fechaLicencia" name="fechaLicencia" #fechaLicencia="ngModel" cancelText="Cancelar" doneText="Agregar" required></ion-datetime>
     </ion-item>
 </ion-list>
 <br>     
@@ -129,7 +129,7 @@
         <img src="img/icon/tipocliente.png"/>      
       </ion-avatar>
       <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo de cliente* :</ion-label>
-      <ion-select [(ngModel)]="datosCliente.tipoCliente" name="tipoCliente" #tipoCliente="ngModel" placeholder="nuevo o recurrente" required> 
+      <ion-select [(ngModel)]="datosCliente.tipoCliente" name="tipoCliente" #tipoCliente="ngModel" placeholder="nuevo o recurrente" cancelText="Cancelar" okText="Agregar" required> 
       <ion-option value="Nuevo">Nuevo</ion-option>
       <ion-option value="Recurrente">Recurrente</ion-option>
       </ion-select>

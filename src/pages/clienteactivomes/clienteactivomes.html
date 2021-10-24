@@ -35,7 +35,7 @@
         <img src="img/icon/activo.png"/>      
        </ion-avatar>
       <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Lista de clientes activos</ion-label>
-      <ion-select [(ngModel)]="editarCliente.clienteactivo" name="clienteactivo" #clienteactivo="ngModel" required> 
+      <ion-select [(ngModel)]="editarCliente.clienteactivo" name="clienteactivo" #clienteactivo="ngModel" cancelText="Cancelar" okText="Cambiar" required> 
       <ion-option value="ACTIVO">ACTIVO</ion-option>
       <ion-option value="EN HISTORIAL">EN HISTORIAL</ion-option>
       </ion-select>

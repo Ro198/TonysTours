@@ -34,6 +34,7 @@ export class HistorialagendaPage {
     vehiculosMalEstado?: string,
     mes?: string,
     dia?: string,
+    hora?: string,
     anticipo?: string,
     clienteactivo?: string,
     notashistorial?: string
@@ -86,6 +87,7 @@ export class HistorialagendaPage {
     this.editarCliente.vehiculosMalEstado = this.datosC.vehiculosMalEstado;
     this.editarCliente.mes = this.datosC.mes;
     this.editarCliente.dia = this.datosC.dia;
+    this.editarCliente.hora = this.datosC.hora;
     this.editarCliente.anticipo = this.datosC.anticipo;
     this.editarCliente.clienteactivo = this.datosC.clienteactivo;
     this.editarCliente.notashistorial = this.datosC.notashistorial;
@@ -120,6 +122,7 @@ export class HistorialagendaPage {
               console.log(this.editarCliente.vehiculosMalEstado);
               console.log(this.editarCliente.mes);
               console.log(this.editarCliente.dia);
+              console.log(this.editarCliente.hora);
               console.log(this.editarCliente.anticipo);
               console.log(this.editarCliente.clienteactivo);
               console.log(this.editarCliente.notashistorial);
@@ -149,6 +152,7 @@ export class HistorialagendaPage {
                                                this.editarCliente.vehiculosMalEstado,
                                                this.editarCliente.mes,
                                                this.editarCliente.dia,
+                                               this.editarCliente.hora,
                                                this.editarCliente.anticipo,
                                                this.editarCliente.clienteactivo,
                                                this.editarCliente.notashistorial,

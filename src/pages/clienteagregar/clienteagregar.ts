@@ -33,6 +33,7 @@ export class ClienteagregarPage {
     vehiculosMalEstado?: string,
     mes?: string,
     dia?: string,
+    hora?: string,
     anticipo?: string,
     clienteactivo?: string,
     notashistorial?: string
@@ -73,6 +74,7 @@ export class ClienteagregarPage {
     this.datosCliente.vehiculosMalEstado = "0";
     this.datosCliente.mes = "Sin mes";
     this.datosCliente.dia = "Sin dia";
+    this.datosCliente.hora = "00:00:00";
     this.datosCliente.anticipo = "0"; 
     this.datosCliente.clienteactivo = "EN HISTORIAL";
 
@@ -117,6 +119,7 @@ export class ClienteagregarPage {
              console.log(this.datosCliente.vehiculosMalEstado);
              console.log(this.datosCliente.mes);
              console.log(this.datosCliente.dia);
+             console.log(this.datosCliente.hora);
              console.log(this.datosCliente.anticipo);
              console.log(this.datosCliente.clienteactivo);
              console.log(this.datosCliente.notashistorial);
@@ -146,6 +149,7 @@ export class ClienteagregarPage {
                                                 this.datosCliente.vehiculosMalEstado,
                                                 this.datosCliente.mes,
                                                 this.datosCliente.dia,
+                                                this.datosCliente.hora,
                                                 this.datosCliente.anticipo,
                                                 this.datosCliente.clienteactivo,
                                                 this.datosCliente.notashistorial,

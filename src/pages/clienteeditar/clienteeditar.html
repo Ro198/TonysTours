@@ -39,7 +39,7 @@
           <img src="img/icon/sex.png"/>      
         </ion-avatar>
         <ion-label stacked stacked style="font-size: 1.8rem; color: #4A6D68;">Sexo* :</ion-label>
-        <ion-select [(ngModel)]="editarCliente.sexo" name="sexo" #sexo="ngModel" required> 
+        <ion-select [(ngModel)]="editarCliente.sexo" name="sexo" #sexo="ngModel" cancelText="Cancelar" okText="Agregar" required> 
         <ion-option value="Masculino">Masculino</ion-option>
         <ion-option value="Femenino">Femenino</ion-option>
         </ion-select>
@@ -107,7 +107,7 @@
           <img src="img/icon/licencia.png"/>      
         </ion-avatar>
         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Licencia* :</ion-label>
-        <ion-select [(ngModel)]="editarCliente.licencia" name="licencia" #licencia="ngModel" required> 
+        <ion-select [(ngModel)]="editarCliente.licencia" name="licencia" #licencia="ngModel" cancelText="Cancelar" okText="Agregar" required> 
         <ion-option value="Vigente">Vigente</ion-option>
         <ion-option value="No vigente">No vigente</ion-option>
         </ion-select>
@@ -128,7 +128,7 @@
             <img src="img/icon/tipocliente.png"/>      
           </ion-avatar>
           <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo de cliente* :</ion-label>
-          <ion-select [(ngModel)]="editarCliente.tipoCliente" name="tipoCliente" #tipoCliente="ngModel" required> 
+          <ion-select [(ngModel)]="editarCliente.tipoCliente" name="tipoCliente" #tipoCliente="ngModel" cancelText="Cancelar" okText="Agregar" required> 
           <ion-option value="Nuevo">Nuevo</ion-option>
           <ion-option value="Recurrente">Recurrente</ion-option>
           </ion-select>
