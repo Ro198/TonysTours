@@ -1,31 +1,55 @@
 
-<ion-header>
-
-  <ion-navbar>
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
     <ion-title>Vehiculos</ion-title>
-  </ion-navbar>
+    <br>
+    <ion-grid style="text-align: center;">
+      <ion-row>  
+        <ion-col>
+            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+        </ion-col>
+        <ion-col>     
+          <img style="width: 22%;" (click)="historial()" src="img/icon/historial.png"/>
+          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Historial</p>
+      </ion-col>
+      </ion-row>
+    </ion-grid> 
 
+  </ion-toolbar>
 </ion-header>
 
 
 <ion-content padding>
 
   <ion-card>
-    <img src="img/v-disponibles.jpg" (click)="vehiculosDisponibles()" />
-    <div class="card-title">VEHICULOS</div>
-    <div class="card-subtitle">Todos mis vehiculos</div>
+    <img src="img/vdisponibles.png" (click)="vehiculosDisponibles()" />
+      <div class="card-title">
+        <ion-label style="margin-right: 60px; margin-left: 60px; border-radius: 20px;">MIS VEHICULOS</ion-label>
+      </div>
+      <div class="card-subtitle">
+        <ion-label style="margin-right: 80px; margin-left: 80px; border-radius: 20px;">Todos mis vehiculos</ion-label>
+      </div>
+    </ion-card>
+  
+  <ion-card>
+    <img src="img/vrentados.png" (click)="vehiculosRentados()" />
+    <div class="card-title">
+      <ion-label style="margin-right: 80px; margin-left: 80px; border-radius: 20px;">VEHICULOS</ion-label>
+    </div>
+    <div class="card-subtitle">
+      <ion-label style="margin-right: 90px; margin-left: 90px; border-radius: 20px;">Rentados</ion-label>
+    </div>
   </ion-card>
   
   <ion-card>
-    <img src="img/v-rentados.jpg" (click)="vehiculosRentados()" />
-    <div class="card-title">VEHICULOS</div>
-    <div class="card-subtitle">Rentados</div>
-  </ion-card>
-  
-  <ion-card>
-    <img src="img/v-mantenimiento.jpg" (click)="vehiculosMantenimiento()" />
-    <div class="card-title">VEHICULOS</div>
-    <div class="card-subtitle">En mantenimiento</div>
+    <img src="img/vtaller.png" (click)="vehiculosMantenimiento()" />
+    <div class="card-title">
+      <ion-label style="margin-right: 80px; margin-left: 80px; border-radius: 20px; ">VEHICULOS</ion-label>
+    </div>
+    <div class="card-subtitle">
+      <ion-label style="margin-right: 90px; margin-left: 90px; border-radius: 20px;">En mantenimiento</ion-label>
+    </div>
   </ion-card>
 
 </ion-content>

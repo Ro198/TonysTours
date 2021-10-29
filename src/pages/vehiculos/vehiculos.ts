@@ -4,7 +4,10 @@ import { NavController, NavParams } from 'ionic-angular';
 import { 
          VehiculosrentadosPage,
          VehiculosmantenimientoPage,
-         VehiculosopcionesPage
+         VehiculosopcionesPage,
+         MenunivelunoPage,
+         MenuniveldosPage,
+         HistorialPage
 } from "../index.paginas";
 
 
@@ -27,6 +30,17 @@ export class VehiculosPage {
 
   }
 
+  regresar(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
+  }
+
+  historial(){
+    this.navCtrl.push(HistorialPage);
+  }
 
 
   vehiculosDisponibles(){
