@@ -1,22 +1,13 @@
 
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>Detalles del vehiculo</ion-title>
-  </ion-navbar>
-
-</ion-header>
 
 
-<ion-content padding>
+<ion-content>
 
-  <div class="Foto">
-    <img src="{{datosV?.foto}}" id="Foto">
-    <button ion-button color="primary" (click)="enlace_editar_vehiculoFoto()">
-      <ion-icon name="medkit"></ion-icon>
-      Editar foto
-    </button>
-  </div>
+ 
+    <div class="Foto">
+      <img src="{{datosV?.foto}}" id="Foto">
+    </div>
+
 
   <ion-item class="center">
 
@@ -135,3 +126,26 @@
 
 
 </ion-content>
+
+<ion-footer no-border no-shadow color="primary-contrast">
+  <ion-grid style="text-align: center;">
+    <ion-row>  
+      <ion-col>
+          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+      </ion-col>
+      <ion-col>     
+        <img style="width: 22%;" (click)="enlace_editar_vehiculoFoto()" src="img/icon/historial.png"/>
+        <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Editar datos</p>
+      </ion-col>
+      <ion-col>     
+        <img style="width: 22%;" (click)="enlace_editar_vehiculoFoto()" src="img/icon/historial.png"/>
+        <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Editar foto</p>
+      </ion-col>
+      <ion-col>     
+        <img style="width: 22%;" (click)="enlace_editar_vehiculoFoto()" src="img/icon/historial.png"/>
+        <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Eliminar</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid> 
+</ion-footer>

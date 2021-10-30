@@ -6,7 +6,8 @@ import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
 import { VehiculoeditarPage,
          VehiculoeditarenservicioPage,
          VehiculoenviartallerPage,
-         VehiculoeditarfotoPage
+         VehiculoeditarfotoPage,
+         VehiculossinservicioPage
 } from "../index.paginas";
 
 
@@ -44,6 +45,14 @@ userData;
     console.log(this.perfil);
 
     
+  }
+
+  historial(){
+
+  }
+  
+  regresar(){
+    this.navCtrl.push(VehiculossinservicioPage)
   }
 
   enlace_editar_vehiculoFoto(){

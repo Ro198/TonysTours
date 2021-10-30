@@ -4,7 +4,8 @@ import { VehiculoService } from '../servicios/VehiculoServices';
 
 
 import { VehiculomostrarPage,
-         VehiculoagregarPage
+         VehiculoagregarPage,
+         VehiculosopcionesPage
 } from "../index.paginas";
 
 @Component({
@@ -39,6 +40,10 @@ export class VehiculossinservicioPage {
     console.log(this.perfil);
 
     
+  }
+
+  regresar(){
+    this.navCtrl.push(VehiculosopcionesPage);
   }
 
 

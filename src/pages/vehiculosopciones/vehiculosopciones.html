@@ -1,29 +1,46 @@
 
-<ion-header>
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
+    <ion-title>Opciones</ion-title>
+    <br>
+    <ion-grid style="text-align: center;">
+      <ion-row>  
+        <ion-col>
+            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+        </ion-col>
+        <ion-col>     
+            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>
+            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
 
-  <ion-navbar>
-    <ion-title>Vehiculos opciones</ion-title>
-  </ion-navbar>
-
+  </ion-toolbar>
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding> 
 
   <ion-card>
-    <img src="img/clientes.jpg" (click)="vehiculosSinServicio()" />
-    <div class="card-title">Vehiculos fuera de servicio</div>
+    <img src="img/fueradeserviciov.png" (click)="vehiculosSinServicio()" />
+      <div class="card-title">
+        <ion-label style="margin-right: 10px; margin-left: 10px; border-radius: 20px;">Vehiculos fuera de servicio</ion-label>
+      </div>
+    </ion-card>
+  
+  <ion-card>
+    <img src="img/disponiblesv.png" (click)="vehiculosLibres()" />
+    <div class="card-title">
+      <ion-label style="margin-right: 40px; margin-left: 40px; border-radius: 20px;">Vehiculos disponibles</ion-label>
+    </div>
   </ion-card>
   
-<ion-card>
-  <img src="img/clientes.jpg" (click)="vehiculosLibres()" />
-  <div class="card-title">Vehiculos disponibles</div>
-</ion-card>
-
-<ion-card>
-  <img src="img/clientes.jpg" (click)="vehiculosOcupados()" />
-  <div class="card-title">Vehiculos para la renta</div>
-</ion-card>
-
+  <ion-card>
+    <img src="img/rentav.png" (click)="vehiculosOcupados()" />
+    <div class="card-title">
+      <ion-label style="margin-right: 30px; margin-left: 30px; border-radius: 20px; ">Vehiculos para la renta</ion-label>
+    </div>
+  </ion-card>
 
 </ion-content>
