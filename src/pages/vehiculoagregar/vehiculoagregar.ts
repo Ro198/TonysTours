@@ -6,9 +6,16 @@ import { NavController,
          ViewController, 
          ActionSheetController,
          Platform } from 'ionic-angular';
+         
 import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
 
 import { Camera, CameraOptions } from '@ionic-native/camera';
+
+import { 
+  VehiculossinservicioPage,
+  MenunivelunoPage,
+  MenuniveldosPage
+} from "../index.paginas";
 
 @Component({
   selector: 'page-vehiculoagregar',
@@ -75,15 +82,33 @@ export class VehiculoagregarPage {
     this.datosVehiculo.vehiculoMantenimiento = "SIN MANTENIMIENTO";
     this.datosVehiculo.autoRentado = "SIN SERVICIO";
     this.datosVehiculo.renta = "SIN RENTAR";
-    this.datosVehiculo.motivoTaller = "Sin motivo";
-    this.datosVehiculo.fechaEntrada = "0000-00-00";
-    this.datosVehiculo.fechaSalidaT = "0000-00-00";
-    this.datosVehiculo.notasT = "Ninguna";
+    this.datosVehiculo.motivoTaller = " ";
+    this.datosVehiculo.fechaEntrada = " ";
+    this.datosVehiculo.fechaSalidaT = " ";
+    this.datosVehiculo.notasT = " ";
     this.datosVehiculo.idasTaller = "0";
+    this.datosVehiculo.notasV = " ";
+    this.datosVehiculo.cristalesV = " ";
+    this.datosVehiculo.llantasV = " ";
+    this.datosVehiculo.tapiceriaV = " ";
+    this.datosVehiculo.numeroMotor = " ";
+    this.datosVehiculo.numeroSerie = " ";
   }
 
   dismiss() {
     this.viewCtrl.dismiss();
+}
+
+regresar(){             
+  this.navCtrl.push(VehiculossinservicioPage);
+}
+
+menu(){
+  if(this.perfil.nivelUsuario == "Administrador"){             
+  this.navCtrl.setRoot(MenunivelunoPage);
+  }else if(this.perfil.nivelUsuario == "Estandar"){             
+  this.navCtrl.setRoot(MenuniveldosPage);
+  }
 }
 
   // GUARDAR VEHICULO BTN

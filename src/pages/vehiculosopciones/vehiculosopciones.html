@@ -25,21 +25,21 @@
   <ion-card>
     <img src="img/fueradeserviciov.png" (click)="vehiculosSinServicio()" />
       <div class="card-title">
-        <ion-label style="margin-right: 10px; margin-left: 10px; border-radius: 20px;">Vehiculos fuera de servicio</ion-label>
+        <ion-label (click)="vehiculosSinServicio()" style="margin-right: 10px; margin-left: 10px; border-radius: 20px;">Vehiculos fuera de servicio</ion-label>
       </div>
     </ion-card>
   
   <ion-card>
     <img src="img/disponiblesv.png" (click)="vehiculosLibres()" />
     <div class="card-title">
-      <ion-label style="margin-right: 40px; margin-left: 40px; border-radius: 20px;">Vehiculos disponibles</ion-label>
+      <ion-label (click)="vehiculosLibres()" style="margin-right: 40px; margin-left: 40px; border-radius: 20px;">Vehiculos disponibles</ion-label>
     </div>
   </ion-card>
   
   <ion-card>
     <img src="img/rentav.png" (click)="vehiculosOcupados()" />
     <div class="card-title">
-      <ion-label style="margin-right: 30px; margin-left: 30px; border-radius: 20px; ">Vehiculos para la renta</ion-label>
+      <ion-label (click)="vehiculosOcupados()" style="margin-right: 30px; margin-left: 30px; border-radius: 20px; ">Vehiculos para la renta</ion-label>
     </div>
   </ion-card>
 

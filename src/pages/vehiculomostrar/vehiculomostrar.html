@@ -9,7 +9,6 @@
       <img src="{{datosV?.foto}}" id="Foto">
     </div>
 
-
     <ion-grid style="text-align: center;">
       <ion-row> 
         <ion-col> 
@@ -100,42 +99,30 @@
     </ion-card-content>
     </ion-item>
 
-    <p style="text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{datosV.nombreUsuario}}</strong></p>
+    <p style="margin-top: 14px; text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{datosV.nombreUsuario}}</strong></p>
 
-    <div class="c3">
-      <ion-grid style="text-align: center;">
-        <ion-row>
-          <ion-col>     
-            <div class="btn">
-              <button ion-button round block shape="round" color="boton" (click)="enlace_Enservicio()">
-                Enviar a disponibles
-              </button>
-            </div>
-          </ion-col>
-          <ion-col>     
-            <div class="btn">
-              <button ion-button round block shape="round" color="boton" (click)="enviar_taller()">
-                Enviar al Taller
-              </button>
-            </div>
-          </ion-col>
-        </ion-row>
-      </ion-grid>
-    </div>
-
-  <ion-fab right top>
-    <button ion-fab ><ion-icon name="people"></ion-icon></button>
-    <ion-fab-list side="bottom">
-        <button ion-fab onclick="window.open('https://www.youtube.com/channel/UCF6nt7j_m9lr6F-Di0Vk6Vw/videos','_system','location=yes')"><ion-icon style="color:hsl(3, 81.8%, 49.6%)" name="logo-youtube"></ion-icon></button>
-        <button ion-fab onclick="window.open('https://www.instagram.com/grandPET_mx/','_system','location=yes')"><ion-icon style="color:#c08d64" name="logo-instagram"></ion-icon></button>
-        <button ion-fab onclick="window.open('https://twitter.com/grandPETMX','_system','location=yes')"><ion-icon style="color:#1da1f2" name="logo-twitter"></ion-icon></button>
-        <button ion-fab onclick="window.open('https://www.facebook.com/GrandPETmx/?fref=ts','_system','location=yes')"><ion-icon style="color:#4267b2" name="logo-facebook" ></ion-icon></button>
+ 
+  <ion-fab left top>
+    <button ion-fab ><ion-icon name="build"></ion-icon></button>
+    <ion-fab-list side="top">
+      <img ion-fab style="border-radius: 50%;" src="img/vtaller.png" (click)="enviar_taller()" />   
+      <img ion-fab style="border-radius: 50%;" src="img/datostaller.jpg" (click)="enviar_taller()" />   
     </ion-fab-list>
-    <ion-fab-list side="left">
-      <h5>Redes Sociales</h5>
+    <ion-fab-list side="right">
+      <p style="color: aliceblue;">Envio y datos del taller</p>
     </ion-fab-list>
   </ion-fab>
 
+  
+  <ion-fab right top>
+    <button ion-fab ><ion-icon name="arrow-forward"></ion-icon></button>
+    <ion-fab-list side="bottom">
+      <img ion-fab style="border-radius: 50%;" src="img/disponiblesv.png" (click)="enlace_Enservicio()" />
+    </ion-fab-list>
+    <ion-fab-list side="left">
+      <p style="color: aliceblue;">Enviar a vehiculos disponibles</p>
+    </ion-fab-list>
+  </ion-fab>
 
 
 </ion-content>
