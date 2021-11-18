@@ -1,11 +1,22 @@
 
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>Editar foto</ion-title>
-  </ion-navbar>
-
-</ion-header>
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;"> 
+    <ion-title>Cambiar imagen</ion-title>
+    <br>
+    <ion-grid style="text-align: center;">
+      <ion-row> 
+        <ion-col>
+          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+        </ion-col>
+        <ion-col>     
+          <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>
+          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>
+      </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </ion-toolbar>
+</ion-header> 
 
 
 <ion-content padding>

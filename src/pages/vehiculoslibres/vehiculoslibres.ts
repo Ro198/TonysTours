@@ -6,7 +6,10 @@ import { NavController, NavParams } from 'ionic-angular';
 import { PvehiculocincoPage,
          PvehiculosietePage,
          PvehiculoochoPage,
-         PvehiculocatorcePage
+         PvehiculocatorcePage,
+         VehiculosopcionesPage,
+         MenunivelunoPage,
+         MenuniveldosPage
 } from "../index.paginas"; 
 
 
@@ -27,6 +30,18 @@ export class VehiculoslibresPage {
     this.perfil = JSON.parse(this.datosUsuario )
     console.log(this.perfil);
     
+  }
+
+  regresar(){             
+    this.navCtrl.push(VehiculosopcionesPage);
+  }
+
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
   }
 
   cinco(){

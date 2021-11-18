@@ -3,7 +3,10 @@ import { NavController, NavParams, LoadingController, ViewController, ModalContr
 import { VehiculoService } from '../servicios/VehiculoServices';
 
 
-import { VehiculomostrarocupadoPage
+import { VehiculomostrarocupadoPage,
+  VehiculosopcionesPage,
+  MenunivelunoPage,
+  MenuniveldosPage
 } from "../index.paginas";
 
 
@@ -42,6 +45,18 @@ export class VehiculosocupadosPage {
     console.log(this.perfil);
 
 
+  }
+
+  regresar(){             
+    this.navCtrl.push(VehiculosopcionesPage);
+  }
+
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
   }
 
   dismiss() {
@@ -95,9 +110,9 @@ export class VehiculosocupadosPage {
     if(item.renta == "EN RENTA"){
 
       let alert = this.alertCtrl.create({
-        title: 'Atencion!!',
-        subTitle: 'Este vehiculo ya ha sido rentado',
-        buttons: ['OK']
+        title: '¡Atencion!',
+        subTitle: 'Este vehiculo esta siendo rentado.',
+        buttons: ['DE ACUERDO']
       });
       alert.present();
 

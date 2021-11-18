@@ -45,13 +45,13 @@
         <ion-grid style="text-align: center;">
           <ion-row> 
             <ion-col>
-              <ion-chip *ngIf="item.vehiculoRentado === 'RENTANDO'" color="boton">
+              <ion-chip *ngIf="item.vehiculoRentado === 'RENTANDO'" color="rojo">
                 <ion-label style="margin: 0 10px;">RENTANDO</ion-label>
               </ion-chip>
-              <ion-chip *ngIf="item.vehiculoRentado === 'SIN VEHICULO'" color="rojo">
+              <ion-chip *ngIf="item.vehiculoRentado === 'SIN VEHICULO'" color="boton">
                 <ion-label style="margin: 0 10px;">SIN VEHICULO</ion-label>
               </ion-chip>
-            </ion-col>
+            </ion-col> 
             <ion-col>     
               <h3 style="color: #505A53;">Licencia: <strong>{{item.licencia}} <br> {{item.fechaLicencia}}</strong></h3>
             </ion-col>

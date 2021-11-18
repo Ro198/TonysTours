@@ -3,7 +3,10 @@ import { NavController, NavParams, LoadingController, ViewController, ModalContr
 import { VehiculoService } from '../servicios/VehiculoServices';
 
 
-import { VehiculomostrarlibrePage
+import { VehiculomostrarlibrePage,
+  VehiculoslibresPage,
+  MenunivelunoPage,
+  MenuniveldosPage
 } from "../index.paginas";
 
 @Component({
@@ -40,6 +43,18 @@ export class PvehiculoochoPage {
     
 
     
+  }
+
+  regresar(){             
+    this.navCtrl.push(VehiculoslibresPage);
+  }
+
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
   }
 
   dismiss() {

@@ -7,7 +7,8 @@ import { VehiculoeditarPage,
          VehiculoeditarenservicioPage,
          VehiculoenviartallerPage,
          VehiculoeditarfotoPage,
-         VehiculossinservicioPage
+         VehiculossinservicioPage,
+         VehiculodatostallerPage
 } from "../index.paginas";
 
 
@@ -70,6 +71,11 @@ userData;
 
   enviar_taller(){
     let modal = this.modalCtrl.create(VehiculoenviartallerPage);
+    modal.present();
+  }
+
+  datos_taller(){
+    let modal = this.modalCtrl.create(VehiculodatostallerPage);
     modal.present();
   }
 

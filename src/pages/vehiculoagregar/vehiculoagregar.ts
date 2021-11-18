@@ -86,7 +86,7 @@ export class VehiculoagregarPage {
     this.datosVehiculo.fechaEntrada = " ";
     this.datosVehiculo.fechaSalidaT = " ";
     this.datosVehiculo.notasT = " ";
-    this.datosVehiculo.idasTaller = "0";
+    this.datosVehiculo.idasTaller = "0"; 
     this.datosVehiculo.notasV = " ";
     this.datosVehiculo.cristalesV = " ";
     this.datosVehiculo.llantasV = " ";

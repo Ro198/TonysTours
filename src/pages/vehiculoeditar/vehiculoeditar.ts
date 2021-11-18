@@ -6,6 +6,11 @@ import {  NavController,
           ViewController} from 'ionic-angular';
 import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
 
+import { 
+  VehiculomostrarPage,
+  MenunivelunoPage,
+  MenuniveldosPage
+} from "../index.paginas";
 
 @Component({ 
   selector: 'page-vehiculoeditar',
@@ -98,6 +103,18 @@ this.VehiculoFotoService=VehiculoFotoService;
  
   }
 
+  regresar(){             
+    this.navCtrl.push(VehiculomostrarPage);
+  }
+  
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+    this.navCtrl.setRoot(MenunivelunoPage);
+    }else if(this.perfil.nivelUsuario == "Estandar"){             
+    this.navCtrl.setRoot(MenuniveldosPage);
+    }
+  }
+
   dismiss() {
     this.viewCtrl.dismiss();
   } 
@@ -139,7 +156,7 @@ this.VehiculoFotoService=VehiculoFotoService;
               console.log(this.perfil.idUsuario);
 
             let loading =this.loadingCtrl.create({
-            content: "Modificando tus datos del vehiculo espere...",
+            content: "Modificando datos del vehiculo, espere...",
               });
               loading.present();
 

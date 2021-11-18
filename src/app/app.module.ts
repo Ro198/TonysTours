@@ -81,7 +81,8 @@ import {LoginPage,
   AgendaeditarPage,
   RentaseditarPage,
   ClienteactivomesPage,
-  CbajaagendamesPage
+  CbajaagendamesPage,
+  VehiculodatostallerPage
 } from "../pages/index.paginas";
 
 import { LoginService } from '../pages/servicios/LoginServices';
@@ -171,7 +172,8 @@ import { Camera } from '@ionic-native/camera';
     AgendaeditarPage,
     RentaseditarPage,
     ClienteactivomesPage,
-    CbajaagendamesPage
+    CbajaagendamesPage,
+    VehiculodatostallerPage
   ],
   imports: [
     BrowserModule,
@@ -255,7 +257,8 @@ import { Camera } from '@ionic-native/camera';
     AgendaeditarPage,
     RentaseditarPage,
     ClienteactivomesPage,
-    CbajaagendamesPage
+    CbajaagendamesPage,
+    VehiculodatostallerPage
   ],
   providers: [
     StatusBar,

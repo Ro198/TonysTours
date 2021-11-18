@@ -2,6 +2,12 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, AlertController, ViewController, LoadingController } from 'ionic-angular';
 import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
 
+import { 
+  VehiculomostrarPage,
+  MenunivelunoPage,
+  MenuniveldosPage
+} from "../index.paginas";
+
 @Component({
   selector: 'page-vehiculoeditarenservicio',
   templateUrl: 'vehiculoeditarenservicio.html',
@@ -41,6 +47,18 @@ export class VehiculoeditarenservicioPage {
 
   }
 
+  regresar(){             
+    this.navCtrl.push(VehiculomostrarPage);
+  }
+
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
+  }
+
   dismiss() {  
     this.viewCtrl.dismiss();
   }
@@ -58,7 +76,7 @@ export class VehiculoeditarenservicioPage {
               console.log(this.perfil.idUsuario);
 
             let loading =this.loadingCtrl.create({
-            content: "Procesando peticion...",
+            content: "Procesando tu petición...",
               });
               loading.present();
 
@@ -74,7 +92,7 @@ this.VehiculoFotoService.editar_vehiculo_Servicios(this.datosV.idVehiculo,
                 //console.log('Usuario registrado');
                 let alert = this.alertCtrl.create({
                 title: "¡OPERACION EXITOSA!",
-                subTitle:"Ahora tu vehiculo esta en servicio activo",
+                subTitle:"Ahora tu vehiculo esta en vehiculos disponibles",
                 buttons: [
                     {
                       text: 'Continuar',

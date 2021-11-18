@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, LoadingController, ViewController, ModalController, AlertController } from 'ionic-angular';
 import { VehiculoService } from '../servicios/VehiculoServices';
+ 
 
-
-import { VehiculomostrarlibrePage
+import { VehiculomostrarlibrePage,
+  VehiculoslibresPage,
+  MenunivelunoPage,
+  MenuniveldosPage
 } from "../index.paginas";
  
 @Component({
@@ -40,6 +43,17 @@ export class PvehiculocincoPage {
     
   }
 
+  regresar(){             
+    this.navCtrl.push(VehiculoslibresPage);
+  }
+
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
+  }
   
   dismiss() {
     this.viewCtrl.dismiss();  

@@ -10,6 +10,12 @@ import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
 
 import { Camera, CameraOptions } from '@ionic-native/camera';
 
+import { 
+  VehiculomostrarPage,
+  MenunivelunoPage,
+  MenuniveldosPage
+} from "../index.paginas";
+
 
 @Component({
   selector: 'page-vehiculoeditarfoto',
@@ -61,6 +67,18 @@ export class VehiculoeditarfotoPage {
 
   }
 
+  regresar(){             
+    this.navCtrl.push(VehiculomostrarPage);
+  }
+
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
+  }
+  
   dismiss() {
     this.viewCtrl.dismiss();
   }

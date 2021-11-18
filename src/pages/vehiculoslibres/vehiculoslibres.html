@@ -1,51 +1,89 @@
 
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>Vehiculos en servicio</ion-title>
-  </ion-navbar>
-
-</ion-header>
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;"> 
+    <ion-title>Vehiculos disponibles</ion-title>
+    <br>
+    <ion-grid style="text-align: center;">
+      <ion-row> 
+        <ion-col>
+          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+        </ion-col>
+        <ion-col>     
+          <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>
+          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>
+      </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </ion-toolbar>
+</ion-header> 
 
 
 <ion-content padding>
-
+  
+  <br>
   <br>
   
-  <ion-grid style="text-align: center;">
-    <ion-row> 
-      <ion-col>
-          <button class="bordered" fill="solid" ion-button (click)="cinco()" color="btnlogin">
-            <ion-icon name="people"></ion-icon>
-          </button>
-          <p style="font-size: 10px;">Cinco pasajeros</p>
-      </ion-col>
-      <ion-col>     
-          <button class="bordered" fill="solid" ion-button icon-only (click)="siete()" color="verde-limon">
-            <ion-icon name="person"></ion-icon> 
-          </button>
-          <p style="font-size: 10px;">Siete pasajeros</p>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+  <div class="c1">
+    <ion-grid style="text-align: center;">  
+      <ion-row> 
+        <ion-col> 
+          <ion-card class="tarjeta" (click)="cinco()">
+            <div style="text-align: -webkit-center;">
+            <img style="width: 30%;" src="img/icon/car.png"/>
+            </div>
+            <ion-item style="text-align: center;">
+              <p style="font-size: 24px; color: #1BC7AF;"><strong>Cinco</strong></p>
+              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">Pasajeros</p>
+            </ion-item>      
+          </ion-card>
+        </ion-col>
+        <ion-col> 
+          <ion-card class="tarjeta" (click)="siete()">
+            <div style="text-align: -webkit-center;">
+            <img style="width: 30%;" src="img/icon/vehiculo.png"/>
+            </div>
+            <ion-item style="text-align: center;">
+              <p style="font-size: 24px; color: #1BC7AF;"><strong>Siete</strong></p>
+              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">Pasajeros</p>
+            </ion-item>      
+          </ion-card>
+        </ion-col>  
+      </ion-row>
+    </ion-grid> 
+  </div>
 
   <br>
-  
-  <ion-grid style="text-align: center;">
-    <ion-row> 
-      <ion-col>
-          <button class="bordered" fill="solid" ion-button (click)="ocho()" color="btnlogin">
-            <ion-icon name="people"></ion-icon>
-          </button>
-          <p style="font-size: 10px;">Ocho pasajeros</p>
-      </ion-col>
-      <ion-col>     
-          <button class="bordered" fill="solid" ion-button icon-only (click)="catorce()" color="verde-limon">
-            <ion-icon name="person"></ion-icon> 
-          </button>
-          <p style="font-size: 10px;">Catorce pasajeros</p>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+  <br>
+  <br>
+
+  <div class="c1">
+    <ion-grid style="text-align: center;">  
+      <ion-row> 
+        <ion-col> 
+          <ion-card class="tarjeta" (click)="ocho()">
+            <div style="text-align: -webkit-center;">
+            <img style="width: 30%;" src="img/icon/ocho.png"/>
+            </div>
+            <ion-item style="text-align: center;">
+              <p style="font-size: 24px; color: #1BC7AF;"><strong>Ocho</strong></p>
+              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">Pasajeros</p>
+            </ion-item>      
+          </ion-card>
+        </ion-col>
+        <ion-col> 
+          <ion-card class="tarjeta" (click)="catorce()">
+            <div style="text-align: -webkit-center;">
+            <img style="width: 30%;" src="img/icon/catorce.png"/>
+            </div>
+            <ion-item style="text-align: center;">
+              <p style="font-size: 24px; color: #1BC7AF;"><strong>Catorce</strong></p>
+              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">Pasajeros</p>
+            </ion-item>      
+          </ion-card>
+        </ion-col>  
+      </ion-row>
+    </ion-grid> 
+  </div>
 
 </ion-content>

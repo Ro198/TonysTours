@@ -2,6 +2,12 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, AlertController, ViewController, LoadingController } from 'ionic-angular';
 import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
  
+import { 
+  VehiculomostrarPage,
+  MenunivelunoPage,
+  MenuniveldosPage
+} from "../index.paginas";
+
 @Component({
   selector: 'page-vehiculoenviartaller',
   templateUrl: 'vehiculoenviartaller.html',
@@ -43,9 +49,22 @@ export class VehiculoenviartallerPage {
     this.datosV = JSON.parse(this.BDVehiculo )
     console.log(this.datosV);
 
-    this.enviarVehiculoTaller.fechaSalidaT = "0000-00-00";
-    this.enviarVehiculoTaller.idasTaller = "0";
+    this.enviarVehiculoTaller.fechaSalidaT = " ";
+    this.enviarVehiculoTaller.idasTaller = " ";
+    this.enviarVehiculoTaller.vehiculoMantenimiento = "EN MANTENIMIENTO";
 
+  }
+
+  regresar(){             
+    this.navCtrl.push(VehiculomostrarPage);
+  }
+
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
   }
 
   dismiss() {  
