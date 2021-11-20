@@ -4,9 +4,10 @@ import { NavController, NavParams, AlertController, ModalController } from 'ioni
 import { VehiculoeditarrentaPage,
   VehiculoeditartresPage,
   VehiculoeditarenviaraPage,
-  VehiculoeditarfotoPage
+  VehiculoeditarfotoPage,
+  VehiculosocupadosPage
 } from "../index.paginas";
-
+ 
 @Component({
   selector: 'page-vehiculomostrarocupado',
   templateUrl: 'vehiculomostrarocupado.html',
@@ -33,9 +34,12 @@ datosV;
     this.perfil = JSON.parse(this.datosUsuario )
     console.log(this.perfil);
 
+  }
 
 
-
+  
+  regresar(){    
+      this.navCtrl.push(VehiculosocupadosPage);
   }
 
   enlace_editar_vehiculoFoto(){

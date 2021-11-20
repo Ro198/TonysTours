@@ -1,108 +1,146 @@
+<ion-content>
 
-<ion-header>
+  <br>
+  <br>
+    <div class="Foto">
+      <img src="{{datosV?.foto}}" id="Foto">
+    </div>
 
-  <ion-navbar>
-    <ion-title>Detalles del vehiculo</ion-title>
-  </ion-navbar>
+    <ion-grid style="text-align: center;">
+      <ion-row>  
+        <ion-col> 
+            <ion-item no-lines>
+              <div>
+                <p style="font-size: 20px; color: #4A6D68;"><strong>{{datosV.marcaVehiculo}} - {{datosV.tipoVehiculo}}</strong></p>
+                <p style="font-size: 12px; color: #718d79;">Transmición: <strong style="color: #505A53;">{{datosV.transmicion}}</strong></p>
+                <p style="font-size: 12px; color: #718d79;">Color: <strong style="color: #505A53;">{{datosV.color}}</strong></p>   
+                <p style="font-size: 12px; color: #718d79;">Placas: <strong style="color: #505A53;">{{datosV.placas}}</strong></p> 
+              </div> 
+            </ion-item>
+        </ion-col>
+        <ion-col>
+          <p style="font-size: 12px; color: #718d79;">Documentación: <strong style="color: #505A53;">{{datosV.documentacionVehiculoV}}</strong></p>
+          <p style="font-size: 12px; color: #718d79;">Refacción: <strong style="color: #505A53;">{{datosV.refaccionV}}</strong></p>
+          <p style="font-size: 12px; color: #718d79;">Gato: <strong style="color: #505A53;">{{datosV.gatoV}}</strong></p>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
 
-</ion-header>
 
-
-<ion-content padding>
-
-  <div class="Foto">
-    <img src="{{datosV?.foto}}" id="Foto">
-      <button ion-button color="primary" (click)="enlace_editar_vehiculoFoto()">
-        <ion-icon name="medkit"></ion-icon>
-        Editar foto
-      </button>
-  </div>
-
-  <ion-item class="center">
-
-     
-
-    <h1 id="nombre" color="primary"><ion-icon name="paw"  color="primary"></ion-icon> {{datosV.marcaVehiculo}}</h1>
-    <br>
-      <ion-grid>
-        <ion-row>
-          <h2>Tipo de vehiculo:</h2><p id="tipoVehiculo"> {{datosV.tipoVehiculo}}</p>
+    <div class="c1">
+      <ion-grid style="text-align: center;">
+        <ion-row> 
+          <ion-col> 
+            <ion-card class="tarjeta">
+              <ion-item>
+                <div style="text-align: -webkit-center;">
+                  <p style="font-size: 10px; color: #505A53;">Modelo</p>
+                  <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosV.modelo}}</strong></p>
+                </div> 
+              </ion-item>
+            </ion-card>
+          </ion-col>
+          <ion-col>     
+            <ion-card class="tarjeta">
+              <ion-item>
+                <div style="text-align: -webkit-center;">
+                  <p style="font-size: 10px; color: #505A53;">Pasajeros</p>
+                  <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosV.numeroPasajeros}}</strong></p>
+                </div> 
+              </ion-item>
+            </ion-card>
+          </ion-col>
+          <ion-col>     
+            <ion-card class="tarjeta">
+              <ion-item>
+                <div style="text-align: -webkit-center;">
+                  <p style="font-size: 10px; color: #505A53;">Km</p>
+                  <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosV.kilometrajeV}}</strong></p>
+                </div> 
+              </ion-item>
+            </ion-card>
+          </ion-col>
         </ion-row>
+      </ion-grid> 
+    </div>
+
+    <div>
+      <ion-grid no-padding style="text-align: center;">
         <ion-row>
-          <h2>Numero de pasajeros:</h2><p id="numeroPasajeros"> {{datosV.numeroPasajeros}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Placas:</h2><p id="placas"> {{datosV.placas}}</p>
+          <ion-col>     
+              <ion-item no-lines>
+                <div style="text-align: -webkit-center;">
+                  <p style="font-size: 10px; color: #505A53;">Numero de motor</p>
+                  <p style="font-size: 12px; color: #1BC7AF;"><strong>{{datosV.numeroMotor}}</strong></p>
+                </div> 
+              </ion-item>
+          </ion-col>
+          <ion-col>     
+              <ion-item no-lines>
+                <div style="text-align: -webkit-center;">
+                  <p style="font-size: 10px; color: #505A53;">Numero de serie</p>
+                  <p style="font-size: 12px; color: #1BC7AF;"><strong>{{datosV.numeroSerie}}</strong></p>
+                </div> 
+              </ion-item>
+          </ion-col>
         </ion-row>
       </ion-grid>
+    </div>
 
-      <br>
-      <ion-grid>
-        <ion-row>
-          <h2>Año: </h2><p id="modelo">{{datosV.modelo}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Numero de motor: </h2><p id="numeroMotor">{{datosV.numeroMotor}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Transmicion: </h2><p id="transmicion">{{datosV.transmicion}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Numero de serie: </h2><p id="numeroSerie">{{datosV.numeroSerie}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Color: </h2><p id="color">{{datosV.color}}</p>  
-        </ion-row>
-        <ion-row>
-          <h2>Kilometraje: </h2><p id="kilometrajeV">{{datosV.kilometrajeV}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Cristales: </h2><p id="cristalesV">{{datosV.cristalesV}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Llantas: </h2><p id="llantasV">{{datosV.llantasV}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Tapiceria: </h2><p id="tapiceriaV">{{datosV.tapiceriaV}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Documentacion del vehiculo: </h2><p id="documentacionVehiculoV">{{datosV.documentacionVehiculoV}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Refaccion: </h2><p id="refaccionV">{{datosV.refaccionV}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Gato: </h2><p id="gatoV">{{datosV.gatoV}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Vehiculo en mantenimiento: </h2><p id="vehiculoMantenimiento">{{datosV.vehiculoMantenimiento}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Vehiculo: </h2><p id="vehiculoRentado">{{datosV.autoRentado}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>notas: </h2><p id="notasV">{{datosV.notasV}}</p> 
-        </ion-row>
-      </ion-grid>
-   
-      <h2>Atendido por el ultimo usuario que fue: </h2><p id="fechaAltaCliente">{{datosV.nombreUsuario}}</p> 
-
+    <ion-item no-lines>
+      <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/cristal.png"/> Cristales: <strong>{{datosV.cristalesV}}</strong></p>
+      <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/llanta.png"/> Llantas: <strong>{{datosV.llantasV}}</strong></p>
+      <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/car.png"/> Tapiceria: <strong>{{datosV.tapiceriaV}}</strong></p>
+    <ion-card-content>
+      <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/notas.png"/> Notas: <strong>{{datosV.notasV}}</strong></p>
+    </ion-card-content>
     </ion-item>
 
-    <button ion-button color="primary" (click)="enlace_editar_vehiculo()">
-      <ion-icon name="medkit"></ion-icon>
-      Editar 
-    </button>
+    <p style="margin-top: 14px; text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{datosV.nombreUsuario}}</strong></p>
 
-    <button ion-button color="secondary" (click)="enlace_Sinservicio()">
-      <ion-icon name="medkit"></ion-icon>
-      Enviar a fuera de servicio
-    </button>
+ 
+  <ion-fab left top>
+    <button ion-fab ><ion-icon name="arrow-back"></ion-icon></button>
+    <ion-fab-list side="bottom">
+      <img ion-fab style="border-radius: 50%;" src="img/fueradeserviciov.png" (click)="enlace_Sinservicio()" />     
+    </ion-fab-list>
+    <ion-fab-list side="right">
+      <p style="color: aliceblue;">Enviar a fuera de servicio</p>
+    </ion-fab-list>
+  </ion-fab>
 
-    <button ion-button color="light" (click)="enlace_rentar()">
-      <ion-icon name="medkit"></ion-icon>
-      Enviar para la renta
-    </button> 
+  
+  <ion-fab right top>
+    <button ion-fab ><ion-icon name="arrow-forward"></ion-icon></button>
+    <ion-fab-list side="bottom">
+      <img ion-fab style="border-radius: 50%;" src="img/rentav.png" (click)="enlace_rentar()" />
+    </ion-fab-list>
+    <ion-fab-list side="left">
+      <p style="color: aliceblue;">Enviar para la renta</p>
+    </ion-fab-list>
+  </ion-fab>
+
+
+</ion-content> 
+
+<ion-footer no-border no-shadow color="primary-contrast">
+  <ion-grid style="text-align: center;">
+    <ion-row>  
+      <ion-col>
+          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+          <p (click)="regresar()" style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+      </ion-col>
+      <ion-col>     
+        <img style="width: 22%;" (click)="enlace_editar_vehiculo()" src="img/icon/editvehiculo.png"/>
+        <p (click)="enlace_editar_vehiculo()" style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Editar datos</p>
+      </ion-col>
+      <ion-col>     
+        <img style="width: 22%;" (click)="enlace_editar_vehiculoFoto()" src="img/icon/camera.png"/>
+        <p (click)="enlace_editar_vehiculoFoto()" style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Editar foto</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid> 
+</ion-footer>
 
    
 
@@ -110,4 +148,4 @@
 
 
 
-</ion-content>
+

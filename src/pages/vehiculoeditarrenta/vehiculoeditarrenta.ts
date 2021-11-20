@@ -2,9 +2,12 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, AlertController, ViewController, LoadingController } from 'ionic-angular';
 import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
 
-import { RentalistausuariosPage
+import { 
+  VehiculomostrarocupadoPage,
+  MenunivelunoPage,
+  MenuniveldosPage,
+  RentalistausuariosPage
 } from "../index.paginas";
-
 
 @Component({
   selector: 'page-vehiculoeditarrenta',
@@ -42,6 +45,22 @@ export class VehiculoeditarrentaPage {
     this.datosV = JSON.parse(this.BDVehiculo )
     console.log(this.datosV);
 
+  }
+
+  cliente(){              
+    this.navCtrl.push(RentalistausuariosPage);
+  }
+
+  regresar(){              
+    this.navCtrl.push(VehiculomostrarocupadoPage);
+  }
+
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
   }
 
   dismiss() {  

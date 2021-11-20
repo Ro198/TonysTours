@@ -13,7 +13,6 @@ import {
 export class RentaagregarPage {
 
   datosRenta: { 
-    chofer?: string, 
     destino?: string,
     fechaSalida?: string,
     horaSalida?: string,
@@ -75,7 +74,6 @@ export class RentaagregarPage {
    
            if(form.valid) {
    
-             console.log(this.datosRenta.chofer);
              console.log(this.datosRenta.destino);
              console.log(this.datosRenta.fechaSalida);
              console.log(this.datosRenta.horaSalida);
@@ -99,7 +97,7 @@ export class RentaagregarPage {
              });
             loading.present();
    
-             this.VehiculoService.agregar_renta(this.datosRenta.chofer,
+             this.VehiculoService.agregar_renta(
                                                 this.datosRenta.destino, 
                                                 this.datosRenta.fechaSalida,
                                                 this.datosRenta.horaSalida,

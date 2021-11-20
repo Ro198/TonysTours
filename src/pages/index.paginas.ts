@@ -74,6 +74,7 @@ export { RentaseditarPage } from './rentaseditar/rentaseditar';
 export { ClienteactivomesPage } from './clienteactivomes/clienteactivomes';
 export { CbajaagendamesPage } from './cbajaagendames/cbajaagendames';
 export { VehiculodatostallerPage } from './vehiculodatostaller/vehiculodatostaller';
+export { RentalistausuariorentadoPage } from './rentalistausuariorentado/rentalistausuariorentado';
 
 
 

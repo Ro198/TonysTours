@@ -95,16 +95,16 @@ listarVehiculosOcupados(){
 
 ////////////////////////////////////////////////AGREGAR VEHICULO RENTA
 
-    agregar_renta(chofer, destino, fechaSalida, horaSalida, fechaLlegada, horaLlegada, kilometrajeR, cristalesR, llantasR, tapiceriaR, documentacionVehiculoR, refaccionR, gatoR, notasR, idVehiculo, idCliente, idUsuario) {
-        this.params='action=agregar_renta&chofer='+chofer+'&destino='+destino+'&fechaSalida='+fechaSalida+'&horaSalida='+horaSalida+'&fechaLlegada='+fechaLlegada+'&horaLlegada='+horaLlegada+'&kilometrajeR='+kilometrajeR+'&cristalesR='+cristalesR+'&llantasR='+llantasR+'&tapiceriaR='+tapiceriaR+'&documentacionVehiculoR='+documentacionVehiculoR+'&refaccionR='+refaccionR+'&gatoR='+gatoR+'&notasR='+notasR+'&idVehiculo='+idVehiculo+'&idCliente='+idCliente+'&idUsuario='+idUsuario
+    agregar_renta(destino, fechaSalida, horaSalida, fechaLlegada, horaLlegada, kilometrajeR, cristalesR, llantasR, tapiceriaR, documentacionVehiculoR, refaccionR, gatoR, notasR, idVehiculo, idCliente, idUsuario) {
+        this.params='action=agregar_renta&destino='+destino+'&fechaSalida='+fechaSalida+'&horaSalida='+horaSalida+'&fechaLlegada='+fechaLlegada+'&horaLlegada='+horaLlegada+'&kilometrajeR='+kilometrajeR+'&cristalesR='+cristalesR+'&llantasR='+llantasR+'&tapiceriaR='+tapiceriaR+'&documentacionVehiculoR='+documentacionVehiculoR+'&refaccionR='+refaccionR+'&gatoR='+gatoR+'&notasR='+notasR+'&idVehiculo='+idVehiculo+'&idCliente='+idCliente+'&idUsuario='+idUsuario
         var url = this.serverUrl+ this.params;
         return this.http.get(url).map(res => res.json());
     }
 
 //EDITAR VEHICULO RENTA
 
-    editar_renta(idRenta, chofer, destino, fechaSalida, horaSalida, fechaLlegada, horaLlegada, kilometrajeR, cristalesR, llantasR, tapiceriaR, documentacionVehiculoR, refaccionR, gatoR, notasR, idVehiculo, idCliente, idUsuario) {
-        this.params='action=editar_renta&idRenta='+idRenta+'&chofer='+chofer+'&destino='+destino+'&fechaSalida='+fechaSalida+'&horaSalida='+horaSalida+'&fechaLlegada='+fechaLlegada+'&horaLlegada='+horaLlegada+'&kilometrajeR='+kilometrajeR+'&cristalesR='+cristalesR+'&llantasR='+llantasR+'&tapiceriaR='+tapiceriaR+'&documentacionVehiculoR='+documentacionVehiculoR+'&refaccionR='+refaccionR+'&gatoR='+gatoR+'&notasR='+notasR+'&idVehiculo='+idVehiculo+'&idCliente='+idCliente+'&idUsuario='+idUsuario
+    editar_renta(idRenta, destino, fechaSalida, horaSalida, fechaLlegada, horaLlegada, kilometrajeR, cristalesR, llantasR, tapiceriaR, documentacionVehiculoR, refaccionR, gatoR, notasR, idVehiculo, idCliente, idUsuario) {
+        this.params='action=editar_renta&idRenta='+idRenta+'&destino='+destino+'&fechaSalida='+fechaSalida+'&horaSalida='+horaSalida+'&fechaLlegada='+fechaLlegada+'&horaLlegada='+horaLlegada+'&kilometrajeR='+kilometrajeR+'&cristalesR='+cristalesR+'&llantasR='+llantasR+'&tapiceriaR='+tapiceriaR+'&documentacionVehiculoR='+documentacionVehiculoR+'&refaccionR='+refaccionR+'&gatoR='+gatoR+'&notasR='+notasR+'&idVehiculo='+idVehiculo+'&idCliente='+idCliente+'&idUsuario='+idUsuario
         var url = this.serverUrl+ this.params;
         return this.http.get(url).map(res => res.json());
     }

@@ -1,52 +1,47 @@
 
-<ion-header>
 
-  <ion-navbar>
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
     <ion-title>Enviar a...</ion-title>
-
-    <ion-buttons start>
-      <button ion-button  (click)="dismiss()">
-       <span ion-text showWhen="ios, android">Cancelar</span>
-       <ion-icon name="md-close" showWhen="windows"></ion-icon>
-      </button>
-    </ion-buttons>
-
-  </ion-navbar>
-
-</ion-header>
+    <br>
+    <ion-grid style="text-align: center;">
+      <ion-row> 
+        <ion-col>
+          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+        </ion-col>
+        <ion-col>     
+          <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>
+          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>
+      </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </ion-toolbar>
+</ion-header> 
 
 
 <ion-content padding>
 
-
-  <div style="text-align: center;">
-
-    <h2>¡AVISO!</h2>
-
-    <p>Puedes enviar este vehiculo en servicio o sin servicio
-    </p>
-    <br>
-      <P>¿A donde quieres enviar este vehiculo?</P>
-   
-    
-  </div>
-  
-<br> 
+    <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>
+    <ion-card-content style="text-align: justify;">
+      <p style="color: #505A53;">De acuerdo a las condiciones del vehiculo, puedes enviarlo a la lista de <strong>Vehiculos fuera de servicio o Vehiculos disponibles</strong>, una vez hecho el cambio, puedes devolverlo o asignarlo a otra lista de vehiculos.</p>
+    </ion-card-content>
 
   <form #editarForm="ngForm">
-    
     <ion-list>
-      <ion-item>
-        <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
-        <ion-label stacked>Sin servicio o disponibles...</ion-label>
-        <ion-select [(ngModel)]="editarVehiculoEnviar.autoRentado" name="autoRentado" #autoRentado="ngModel" placeholder="PARA LA RENTA" required> 
-        <ion-option value="SIN SERVICIO">SIN SERVICIO</ion-option>
+    <ion-item> 
+      <ion-avatar item-left>
+        <img src="img/icon/car.png"/>      
+      </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Enviar a...</ion-label>
+      <ion-select [(ngModel)]="editarVehiculoEnviar.autoRentado" name="autoRentado" #autoRentado="ngModel" cancelText="Cancelar" okText="Agregar" placeholder="PARA LA RENTA" required> 
+        <ion-option value="SIN SERVICIO">FUERA DE SERVICIO</ion-option>
         <ion-option value="EN SERVICIO">DISPONIBLES</ion-option>
-        </ion-select>
-      </ion-item>
-    </ion-list>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <br>
+    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Enviar</button>
+  </form>
 
-  <button ion-button round block color="secondary" type="submit" (click)="editar(editarForm)">ENVIAR</button>
-
-</form> 
 </ion-content>

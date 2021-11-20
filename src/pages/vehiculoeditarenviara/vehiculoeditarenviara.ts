@@ -2,6 +2,12 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, AlertController, ViewController, LoadingController  } from 'ionic-angular';
 import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
 
+import { 
+  VehiculomostrarocupadoPage,
+  MenunivelunoPage,
+  MenuniveldosPage
+} from "../index.paginas";
+
 @Component({
   selector: 'page-vehiculoeditarenviara',
   templateUrl: 'vehiculoeditarenviara.html',
@@ -39,6 +45,18 @@ export class VehiculoeditarenviaraPage {
     console.log(this.datosV);
 
 
+  }
+
+  regresar(){              
+    this.navCtrl.push(VehiculomostrarocupadoPage);
+  }
+
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
   }
 
   dismiss() {  

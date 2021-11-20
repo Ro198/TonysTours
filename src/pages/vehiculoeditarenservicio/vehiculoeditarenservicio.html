@@ -16,7 +16,7 @@
       </ion-row>
     </ion-grid> 
   </ion-toolbar>
-</ion-header> 
+</ion-header>   
 
 
 <ion-content padding>
@@ -33,7 +33,7 @@
       <img src="img/icon/car.png"/>      
      </ion-avatar>
     <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Enviar a vehiculos disponibles</ion-label>
-    <ion-select [(ngModel)]="editarVehiculoEnServicio.autoRentado" name="autoRentado" #autoRentado="ngModel" cancelText="Cancelar" okText="Agregar" required> 
+    <ion-select [(ngModel)]="editarVehiculoEnServicio.autoRentado" name="autoRentado" #autoRentado="ngModel" cancelText="Cancelar" okText="Agregar" placeholder="FUERA DE SERVICIO" required> 
       <ion-option value="EN SERVICIO">DISPONIBLES</ion-option>
     </ion-select>
   </ion-item>

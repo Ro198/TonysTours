@@ -4,7 +4,11 @@ import { NavController, NavParams, ModalController } from 'ionic-angular';
 import { VehiculoeditardosPage,
   VehiculoeditarsinservicioPage,
   VehiculoeditarfotoPage,
-  VehiculoeditarserviciorentaPage
+  VehiculoeditarserviciorentaPage,
+  PvehiculocincoPage,
+  PvehiculosietePage,
+  PvehiculoochoPage,
+  PvehiculocatorcePage
 } from "../index.paginas";
 
 
@@ -16,7 +20,7 @@ export class VehiculomostrarlibrePage {
 
 datosUsuario;
 perfil;
-BDVehiculo;
+BDVehiculo; 
 datosV;
 
   constructor(public navCtrl: NavController, 
@@ -32,6 +36,23 @@ datosV;
     this.perfil = JSON.parse(this.datosUsuario )
     console.log(this.perfil);
     
+  }
+
+  regresar(){
+    if(this.datosV.numeroPasajeros == 5){             
+      this.navCtrl.push(PvehiculocincoPage);
+
+    }else if (this.datosV.numeroPasajeros == 7){             
+      this.navCtrl.push(PvehiculosietePage);
+    
+    }else if (this.datosV.numeroPasajeros == 8){             
+      this.navCtrl.push(PvehiculoochoPage);
+
+    }else if (this.datosV.numeroPasajeros == 14){             
+      this.navCtrl.push(PvehiculocatorcePage);
+
+    }
+
   }
 
   enlace_editar_vehiculoFoto(){

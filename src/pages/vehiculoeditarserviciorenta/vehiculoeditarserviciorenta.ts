@@ -2,6 +2,12 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, AlertController, ViewController, LoadingController  } from 'ionic-angular';
 import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
 
+import { 
+  VehiculomostrarlibrePage,
+  MenunivelunoPage,
+  MenuniveldosPage
+} from "../index.paginas";
+
 @Component({
   selector: 'page-vehiculoeditarserviciorenta', 
   templateUrl: 'vehiculoeditarserviciorenta.html',
@@ -38,6 +44,18 @@ export class VehiculoeditarserviciorentaPage {
     this.datosV = JSON.parse(this.BDVehiculo )
     console.log(this.datosV);
 
+  } 
+
+  regresar(){              
+    this.navCtrl.push(VehiculomostrarlibrePage);
+  }
+
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
   }
 
   dismiss() {  

@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, LoadingController, ViewController, ModalController, AlertController } from 'ionic-angular';
 import { ClienteService } from '../servicios/ClienteServices';
  
-import { RentaagregarPage
+import { 
+  RentalistausuariorentadoPage
 } from "../index.paginas";
 
 @Component({
@@ -52,11 +53,11 @@ export class RentalistausuariosPage {
   listar_clientes()
   {
          this.loading =this.loadingCtrl.create({
-           content: "Cargando clientes activos...",
+           content: "Cargando clientes...",
             });
              this.loading.present();
 
-           this.ClienteService.listarClienteActivo().subscribe(
+           this.ClienteService.listarClienteActivoRenta().subscribe(
           data => {
 
 
@@ -84,12 +85,12 @@ export class RentalistausuariosPage {
 
           //() =>  console.log('cargar equipos complete')
           });
-  }
+  } 
 
   detalles(event,item) 
   {                
      window.localStorage.setItem('datosRentaCliente', JSON.stringify(item));
-      this.navCtrl.push(RentaagregarPage)
+      this.navCtrl.push(RentalistausuariorentadoPage)
  
   }
 

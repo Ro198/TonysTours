@@ -1,11 +1,24 @@
-<ion-header>
 
-  <ion-navbar>
-    <ion-title>Editar vehiculo 2</ion-title>
-  </ion-navbar>
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
+    <ion-title>Editar vehiculo</ion-title>
+    <br>
+    <ion-grid style="text-align: center;">
+      <ion-row> 
+        <ion-col>
+            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+        </ion-col>
+        <ion-col>     
+            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>
+            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
  
+  </ion-toolbar>
 </ion-header> 
-
+ 
 
 <ion-content padding>
 
@@ -13,119 +26,152 @@
 
   <ion-list>
     <ion-item>
-      <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
-      <ion-label stacked>Marca:</ion-label>
-      <ion-input type="text" [(ngModel)]="datosVehiculo.marcaVehiculo" name="marcaVehiculo" #marcaVehiculo="ngModel"
+      <ion-avatar item-left>
+        <img src="img/icon/marca.png"/>      
+       </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Marca* :</ion-label>
+      <ion-input type="text" [(ngModel)]="datosVehiculo.marcaVehiculo" name="marcaVehiculo" #marcaVehiculo="ngModel" 
        required></ion-input>
     </ion-item>
     <ion-item>
-     <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
-     <ion-label stacked>Tipo:</ion-label>
-     <ion-input type="text" [(ngModel)]="datosVehiculo.tipoVehiculo" name="tipoVehiculo" #tipoVehiculo="ngModel"
-      required></ion-input>
-   </ion-item>
-   <ion-item>
-    <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
-    <ion-label stacked>Numero de pasajeros:</ion-label>
-    <ion-input type="number" [(ngModel)]="datosVehiculo.numeroPasajeros" name="numeroPasajeros" #numeroPasajeros="ngModel" 
-     required></ion-input>
-  </ion-item>
-   <ion-item>
-     <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
-     <ion-label stacked>Placas:</ion-label>
-     <ion-input type="text" [(ngModel)]="datosVehiculo.placas" name="placas" #placas="ngModel" 
-      required></ion-input>
-   </ion-item>
-   <ion-item>
-     <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
-     <ion-label stacked>Modelo:</ion-label>
-     <ion-input type="number" [(ngModel)]="datosVehiculo.modelo" name="modelo" #modelo="ngModel" 
-      required></ion-input>
-   </ion-item>
-   <ion-item>
-     <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
-     <ion-label stacked>Numero de motor:</ion-label>
-     <ion-input type="text" [(ngModel)]="datosVehiculo.numeroMotor" name="numeroMotor" #numeroMotor="ngModel" 
-      required></ion-input>
-   </ion-item>
-   <ion-item>
-     <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
-     <ion-label stacked>Transmicion:</ion-label>
-     <ion-select [(ngModel)]="datosVehiculo.transmicion" name="transmicion" #transmicion="ngModel" required> 
-     <ion-option value="Estandar">Estandar</ion-option>
-     <ion-option value="Automatico">Automatico</ion-option>
-     </ion-select>
-   </ion-item>
-   <ion-item>
-     <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
-     <ion-label stacked>Numero de serie:</ion-label>
-     <ion-input type="text" [(ngModel)]="datosVehiculo.numeroSerie" name="numeroSerie" #numeroSerie="ngModel"
-      required></ion-input>
-   </ion-item>
-   <ion-item>
-     <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
-     <ion-label stacked>Color:</ion-label>
-     <ion-input type="text" [(ngModel)]="datosVehiculo.color" name="color" #color="ngModel"
-      required></ion-input>
-   </ion-item>
-   <ion-item>
-     <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
-     <ion-label stacked>Kilometraje:</ion-label>
-     <ion-input type="number" [(ngModel)]="datosVehiculo.kilometrajeV" name="kilometrajeV" #kilometrajeV="ngModel"
-      required></ion-input>
-   </ion-item>
-   <ion-item>
-     <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
-     <ion-label stacked>Cristales:</ion-label>
-     <ion-input type="number" [(ngModel)]="datosVehiculo.cristalesV" name="cristalesV" #cristalesV="ngModel"
-      required></ion-input>
-   </ion-item>
-   <ion-item>
-     <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
-     <ion-label stacked>Llantas:</ion-label>
-     <ion-input type="number" [(ngModel)]="datosVehiculo.llantasV" name="llantasV" #llantasV="ngModel"
-      required></ion-input>
-   </ion-item>
-   <ion-item>
-     <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>
-     <ion-label stacked>Tapiceria:</ion-label>
-     <ion-input type="text" [(ngModel)]="datosVehiculo.tapiceriaV" name="tapiceriaV" #tapiceriaV="ngModel"
-      required></ion-input>
-   </ion-item>
-   <ion-item>
-     <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
-     <ion-label stacked>Documentacion del vehiculo:</ion-label>
-     <ion-select [(ngModel)]="datosVehiculo.documentacionVehiculoV" name="documentacionVehiculoV" #documentacionVehiculoV="ngModel" required> 
-     <ion-option value="SI">SI</ion-option>
-     <ion-option value="NO">NO</ion-option>
-     </ion-select>
-   </ion-item>
-   <ion-item>
-     <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
-     <ion-label stacked>Refaccion:</ion-label>
-     <ion-select [(ngModel)]="datosVehiculo.refaccionV" name="refaccionV" #refaccionV="ngModel" required> 
-     <ion-option value="SI">SI</ion-option>
-     <ion-option value="NO">NO</ion-option>
-     </ion-select>
-   </ion-item>
-   <ion-item>
-     <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>
-     <ion-label stacked>Gato:</ion-label>
-     <ion-select [(ngModel)]="datosVehiculo.gatoV" name="gatoV" #gatoV="ngModel" required> 
-     <ion-option value="SI">SI</ion-option>
-     <ion-option value="NO">NO</ion-option>
-     </ion-select> 
-   </ion-item>
-   <ion-item>
-     <ion-icon name="create" subtle large item-left color="primary"></ion-icon>
-     <ion-label stacked>Notas:</ion-label>
-     <ion-textarea type="text-area" [(ngModel)]="datosVehiculo.notasV" name="notasV" #notasV="ngModel"
-    required></ion-textarea>
-   </ion-item>
-
+      <ion-avatar item-left>
+        <img src="img/icon/tipo.png"/>      
+       </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo* :</ion-label>
+      <ion-input type="text" [(ngModel)]="datosVehiculo.tipoVehiculo" name="tipoVehiculo" #tipoVehiculo="ngModel" 
+       required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/pasajeros.png"/>      
+      </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Numero de pasajeros* :</ion-label>
+      <ion-select [(ngModel)]="datosVehiculo.numeroPasajeros" name="numeroPasajeros" #numeroPasajeros="ngModel" required> 
+      <ion-option value="5">5</ion-option>
+      <ion-option value="7">7</ion-option>
+      <ion-option value="8">8</ion-option>
+      <ion-option value="14">14</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/placas.png"/>      
+       </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Placas* :</ion-label>
+      <ion-input type="text" [(ngModel)]="datosVehiculo.placas" name="placas" #placas="ngModel"
+       required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/modelo.png"/>      
+       </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Modelo* :</ion-label>
+      <ion-input type="number" [(ngModel)]="datosVehiculo.modelo" name="modelo" #modelo="ngModel"
+       required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/motor.png"/>      
+       </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de motor :</ion-label>
+      <ion-input type="text" [(ngModel)]="datosVehiculo.numeroMotor" name="numeroMotor" #numeroMotor="ngModel"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/serial.png"/>      
+       </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de serie :</ion-label>
+      <ion-input type="text" [(ngModel)]="datosVehiculo.numeroSerie" name="numeroSerie" #numeroSerie="ngModel"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/transmicion.png"/>      
+      </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Transmición* :</ion-label>
+      <ion-select [(ngModel)]="datosVehiculo.transmicion" name="transmicion" #transmicion="ngModel" required> 
+      <ion-option value="Estandar">Estandar</ion-option>
+      <ion-option value="Automatico">Automatico</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/color.png"/>      
+       </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Color* :</ion-label>
+      <ion-input type="text" [(ngModel)]="datosVehiculo.color" name="color" #color="ngModel" 
+       required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/km.png"/>      
+       </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Kilometraje* :</ion-label>
+      <ion-input type="text" [(ngModel)]="datosVehiculo.kilometrajeV" name="kilometrajeV" #kilometrajeV="ngModel"
+       required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/cristales.png"/>      
+       </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Cristales :</ion-label>
+      <ion-input type="text" [(ngModel)]="datosVehiculo.cristalesV" name="cristalesV" #cristalesV="ngModel" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/llanta.png"/>      
+       </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Llantas :</ion-label>
+      <ion-input type="text" [(ngModel)]="datosVehiculo.llantasV" name="llantasV" #llantasV="ngModel" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/car.png"/>      
+       </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tapiceria :</ion-label>
+      <ion-input type="text" [(ngModel)]="datosVehiculo.tapiceriaV" name="tapiceriaV" #tapiceriaV="ngModel"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/transmicion.png"/>      
+      </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Documentación del vehiculo* :</ion-label>
+      <ion-select [(ngModel)]="datosVehiculo.documentacionVehiculoV" name="documentacionVehiculoV" #documentacionVehiculoV="ngModel" required> 
+      <ion-option value="SI">SI</ion-option>
+      <ion-option value="NO">NO</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/refaccion.png"/>      
+      </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Refacción* :</ion-label>
+      <ion-select [(ngModel)]="datosVehiculo.refaccionV" name="refaccionV" #refaccionV="ngModel" required> 
+      <ion-option value="SI">SI</ion-option>
+      <ion-option value="NO">NO</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/gato.png"/>      
+      </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Gato* :</ion-label>
+      <ion-select [(ngModel)]="datosVehiculo.gatoV" name="refgatoVaccionV" #gatoV="ngModel" required> 
+      <ion-option value="SI">SI</ion-option>
+      <ion-option value="NO">NO</ion-option>
+      </ion-select>
+    </ion-item> 
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/notasV.png"/>      
+       </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Notas :</ion-label>
+      <ion-input type="text-area" [(ngModel)]="datosVehiculo.notasV" name="notasV" #notasV="ngModel" ></ion-input>
+    </ion-item>
   </ion-list>
+  <br>
 </form>
 
-<button ion-button round block color="secondary" type="submit" (click)="editar(editarForm)">Modificar</button>
+<button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Modificar</button>
 
 </ion-content>
+  

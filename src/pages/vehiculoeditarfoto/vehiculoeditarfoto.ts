@@ -13,7 +13,9 @@ import { Camera, CameraOptions } from '@ionic-native/camera';
 import { 
   VehiculomostrarPage,
   MenunivelunoPage,
-  MenuniveldosPage
+  MenuniveldosPage,
+  VehiculomostrarlibrePage,
+  VehiculomostrarocupadoPage
 } from "../index.paginas";
 
 
@@ -67,8 +69,18 @@ export class VehiculoeditarfotoPage {
 
   }
 
-  regresar(){             
-    this.navCtrl.push(VehiculomostrarPage);
+  regresar(){
+    if(this.datosV.autoRentado == "SIN SERVICIO"){             
+      this.navCtrl.push(VehiculomostrarPage);
+
+    }else if (this.datosV.autoRentado == "EN SERVICIO"){             
+      this.navCtrl.push(VehiculomostrarlibrePage);
+    
+    }else if (this.datosV.autoRentado == "PARA LA RENTA"){             
+      this.navCtrl.push(VehiculomostrarocupadoPage);
+
+    }           
+
   }
 
   menu(){

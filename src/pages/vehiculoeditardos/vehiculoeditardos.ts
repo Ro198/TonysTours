@@ -6,6 +6,11 @@ import {  NavController,
   ViewController} from 'ionic-angular';
 import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
 
+import { 
+  VehiculomostrarlibrePage,
+  MenunivelunoPage,
+  MenuniveldosPage
+} from "../index.paginas";
 
 @Component({
   selector: 'page-vehiculoeditardos',
@@ -95,6 +100,18 @@ export class VehiculoeditardosPage {
     this.datosVehiculo.idasTaller = "0";
 
  
+  }
+
+  regresar(){             
+    this.navCtrl.push(VehiculomostrarlibrePage);
+  }
+  
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+    this.navCtrl.setRoot(MenunivelunoPage);
+    }else if(this.perfil.nivelUsuario == "Estandar"){             
+    this.navCtrl.setRoot(MenuniveldosPage);
+    }
   }
 
   dismiss() {

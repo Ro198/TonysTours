@@ -57,6 +57,14 @@ export class ClienteService {
         return this.http.get(url).map(res => res.json());
 }
 
+//*****************CLIENTES ACTIVOS PARA RENTA****************************/
+
+listarClienteActivoRenta(){
+    this.params= 'action=listarClienteActivoRenta'
+    var url = this.serverUrl+ this.params;
+    return this.http.get(url).map(res => res.json());
+}
+
 //*****************CLIENTES ACTIVOS****************************/
 
 listarClienteActivo(){
