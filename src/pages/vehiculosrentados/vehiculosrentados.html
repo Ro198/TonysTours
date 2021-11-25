@@ -1,48 +1,98 @@
 
-<ion-header>
-
-  <ion-navbar>
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
     <ion-title>Vehiculos rentados</ion-title>
-  </ion-navbar>
+    <br>
+    <ion-grid style="text-align: center;">
+      <ion-row>  
+        <ion-col>
+            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+        </ion-col>
+        <ion-col>     
+            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>
+            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>
+        </ion-col>
+      </ion-row> 
+    </ion-grid> 
 
+  </ion-toolbar>
 </ion-header>
-
+ 
 
 <ion-content padding>
+  
+  <ion-card class="tarjeta" (click)="carros()">
+    <div style="text-align: -webkit-center;">
+    <img style="width: 15%;" src="img/icon/car.png"/>
+    </div>
+    <ion-item style="text-align: center;">
+      <p style="font-size: 24px; color: #1BC7AF;"><strong>Carros</strong></p>
+      <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">5 pasajeros</p>
+    </ion-item>      
+  </ion-card>
 
-  <ion-searchbar cancelButtonText  
-      (ionInput)="getItems($event)" placeholder="Buscar vehiculo" 
-      style="background-color: rgba(0, 0, 0, 0.3); border-radius: 30px;">
-    </ion-searchbar>
+  <br>
 
-    <ion-refresher (ionRefresh)="Refrescar($event)">
-      <ion-refresher-content 
-      refreshingSpinner="circles"
-      refreshingText="Actualizando..."> 
-      </ion-refresher-content>
-    </ion-refresher>
+  <div class="c1">
+    <ion-grid style="text-align: center;">  
+      <ion-row> 
+        <ion-col> 
+          <ion-card class="tarjeta" (click)="avanza()">
+            <div style="text-align: -webkit-center;">
+            <img style="width: 30%;" src="img/icon/car.png"/>
+            </div>
+            <ion-item style="text-align: center;">
+              <p style="font-size: 24px; color: #1BC7AF;"><strong>Avanza</strong></p>
+              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">7 Pasajeros</p>
+            </ion-item>      
+          </ion-card>
+        </ion-col>
+        <ion-col> 
+          <ion-card class="tarjeta" (click)="odyssey()">
+            <div style="text-align: -webkit-center;">
+            <img style="width: 30%;" src="img/icon/vehiculo.png"/>
+            </div>
+            <ion-item style="text-align: center;">
+              <p style="font-size: 24px; color: #1BC7AF;"><strong>Odyssey</strong></p>
+              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">7 y 8 Pasajeros</p>
+            </ion-item>      
+          </ion-card>
+        </ion-col>  
+      </ion-row>
+    </ion-grid> 
+  </div>
 
+  <br>
 
-<ion-list *ngFor="let item of rentas; let i=index;">
-    <ion-item-sliding >
-    <ion-item>
-
-      <ion-avatar item-left>
-        <img src="{{item.foto}}">     
-      </ion-avatar>
-
-    <button translate ion-button icon-left clear small (click)="detalles($event,item)">
-            <ion-icon name="paw" style="color: orangered;"></ion-icon>
-            <h2 color="primary"> {{item.marcaVehiculo}} - {{item.tipoVehiculo}}</h2>
-                
-    </button>
-    <h2>Fecha de salida: {{item.fechaSalida}}</h2>
-    <h2>Cliente: {{item.nombre}}</h2>
-    <h2 >Lo agrego: {{item.nombreUsuario}} </h2> 
-
-    </ion-item>
-
-    </ion-item-sliding>
-</ion-list>
+  <div class="c1">
+    <ion-grid style="text-align: center;">  
+      <ion-row> 
+        <ion-col> 
+          <ion-card class="tarjeta" (click)="sienna()">
+            <div style="text-align: -webkit-center;">
+            <img style="width: 30%;" src="img/icon/ocho.png"/>
+            </div>
+            <ion-item style="text-align: center;">
+              <p style="font-size: 24px; color: #1BC7AF;"><strong>Sienna</strong></p>
+              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">7 y 8 Pasajeros</p>
+            </ion-item>      
+          </ion-card>
+        </ion-col>
+        <ion-col> 
+          <ion-card class="tarjeta" (click)="hiace()">
+            <div style="text-align: -webkit-center;">
+            <img style="width: 30%;" src="img/icon/catorce.png"/>
+            </div>
+            <ion-item style="text-align: center;">
+              <p style="font-size: 24px; color: #1BC7AF;"><strong>Hiace</strong></p>
+              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">14 pasajeros</p>
+            </ion-item>      
+          </ion-card>
+        </ion-col>  
+      </ion-row>
+    </ion-grid> 
+  </div>
 
 </ion-content>
+ 

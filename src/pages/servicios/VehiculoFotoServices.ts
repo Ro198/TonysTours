@@ -19,12 +19,13 @@ export class VehiculoFotoService {
 
 //AGREGAR VEHICULO
 
-   agregarVehiculo(marcaVehiculo, tipoVehiculo, numeroPasajeros, placas, modelo, numeroMotor, transmicion, numeroSerie, color, kilometrajeV, cristalesV, llantasV, tapiceriaV, documentacionVehiculoV, refaccionV, gatoV, vehiculoMantenimiento, autoRentado, renta, notasV, foto, motivoTaller, fechaEntrada, fechaSalidaT, notasT, idasTaller, idUsuario){
+   agregarVehiculo(marcaVehiculo, tipoVehiculo, categoria, numeroPasajeros, placas, modelo, numeroMotor, transmicion, numeroSerie, color, kilometrajeV, cristalesV, llantasV, tapiceriaV, documentacionVehiculoV, refaccionV, gatoV, vehiculoMantenimiento, autoRentado, renta, notasV, foto, motivoTaller, fechaEntrada, fechaSalidaT, notasT, idasTaller, idUsuario){
         
         let body = {
         "action": "agregarVehiculo",
         "marcaVehiculo": marcaVehiculo,
         "tipoVehiculo": tipoVehiculo,
+        "categoria": categoria,
         "numeroPasajeros": numeroPasajeros,
         "placas": placas,
         "modelo": modelo,
@@ -89,13 +90,14 @@ editarVehiculoFoto(idVehiculo, foto, idUsuario){
 
 //EDITAR VEHICULO DATOS
 
-editarVehiculoDatos(idVehiculo, marcaVehiculo, tipoVehiculo, numeroPasajeros, placas, modelo, numeroMotor, transmicion, numeroSerie, color, kilometrajeV, cristalesV, llantasV, tapiceriaV, documentacionVehiculoV, refaccionV, gatoV, vehiculoMantenimiento, autoRentado, renta, notasV, motivoTaller, fechaEntrada, fechaSalidaT, notasT, idasTaller, idUsuario){
+editarVehiculoDatos(idVehiculo, marcaVehiculo, tipoVehiculo, categoria, numeroPasajeros, placas, modelo, numeroMotor, transmicion, numeroSerie, color, kilometrajeV, cristalesV, llantasV, tapiceriaV, documentacionVehiculoV, refaccionV, gatoV, vehiculoMantenimiento, autoRentado, renta, notasV, motivoTaller, fechaEntrada, fechaSalidaT, notasT, idasTaller, idUsuario){
 
     let body = { 
         "action": "editarVehiculoDatos",
         "idVehiculo": idVehiculo,
         "marcaVehiculo": marcaVehiculo,
         "tipoVehiculo": tipoVehiculo,
+        "categoria": categoria,
         "numeroPasajeros": numeroPasajeros,
         "placas": placas,
         "modelo": modelo,

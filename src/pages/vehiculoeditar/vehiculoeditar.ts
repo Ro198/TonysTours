@@ -9,7 +9,8 @@ import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
 import { 
   VehiculomostrarPage,
   MenunivelunoPage,
-  MenuniveldosPage
+  MenuniveldosPage,
+  VehiculosopcionesPage
 } from "../index.paginas";
 
 @Component({ 
@@ -22,6 +23,7 @@ export class VehiculoeditarPage {
   datosVehiculo: { 
     marcaVehiculo?: string, 
     tipoVehiculo?: string,
+    categoria?: string,
     numeroPasajeros?: string,
     placas?: string,
     modelo?: string,
@@ -76,6 +78,7 @@ this.VehiculoFotoService=VehiculoFotoService;
 
     this.datosVehiculo.marcaVehiculo = this.datosV.marcaVehiculo;
     this.datosVehiculo.tipoVehiculo = this.datosV.tipoVehiculo;
+    this.datosVehiculo.categoria = this.datosV.categoria;
     this.datosVehiculo.numeroPasajeros = this.datosV.numeroPasajeros;
     this.datosVehiculo.placas = this.datosV.placas; 
     this.datosVehiculo.modelo = this.datosV.modelo;
@@ -130,6 +133,7 @@ this.VehiculoFotoService=VehiculoFotoService;
               console.log(this.datosV.idVehiculo);
               console.log(this.datosVehiculo.marcaVehiculo);
               console.log(this.datosVehiculo.tipoVehiculo);
+              console.log(this.datosVehiculo.categoria);
               console.log(this.datosVehiculo.numeroPasajeros);
               console.log(this.datosVehiculo.placas);
               console.log(this.datosVehiculo.modelo);
@@ -163,6 +167,7 @@ this.VehiculoFotoService=VehiculoFotoService;
         this.VehiculoFotoService.editarVehiculoDatos(this.datosV.idVehiculo, 
                                                 this.datosVehiculo.marcaVehiculo, 
                                                 this.datosVehiculo.tipoVehiculo,
+                                                this.datosVehiculo.categoria,
                                                 this.datosVehiculo.numeroPasajeros,  
                                                 this.datosVehiculo.placas, 
                                                 this.datosVehiculo.modelo, 
@@ -201,8 +206,7 @@ this.VehiculoFotoService=VehiculoFotoService;
                     {
                       text: 'Aceptar',
                       handler: () => {
-                        //this.navCtrl.setRoot(MenuPage)
-                        this.dismiss()
+                        this.navCtrl.setRoot(VehiculosopcionesPage)
                       }
                     }]
                });

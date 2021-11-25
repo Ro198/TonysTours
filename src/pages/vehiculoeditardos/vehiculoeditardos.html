@@ -43,6 +43,19 @@
     </ion-item>
     <ion-item>
       <ion-avatar item-left>
+        <img src="img/icon/categoria.png"/>      
+      </ion-avatar>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Categoria* :</ion-label>
+      <ion-select [(ngModel)]="datosVehiculo.categoria" name="categoria" #categoria="ngModel" required> 
+      <ion-option value="Carros">Carros</ion-option>
+      <ion-option value="Avanza">Avanza</ion-option>
+      <ion-option value="Odyssey">Odyssey</ion-option>
+      <ion-option value="Sienna">Sienna</ion-option> 
+      <ion-option value="Hiace">Hiace</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
         <img src="img/icon/pasajeros.png"/>      
       </ion-avatar>
       <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Numero de pasajeros* :</ion-label>

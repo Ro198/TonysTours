@@ -1,0 +1,33 @@
+page-vehiculosrentadosavanza {
+    .toolbar-title-md {
+        padding: 0 12px;
+        font-size: 2.5rem;
+        font-weight: 500;
+      }
+    
+      .toolbar-md-sincolor .bar-button-clear-md, .toolbar-md-sincolor .bar-button-default-md, .toolbar-md-sincolor .bar-button-outline-md, .toolbar-md-sincolor .toolbar-title-md {
+          color: #10CF50;
+          padding: 3%;
+      }
+
+      .searchbar-md .searchbar-input {
+        border-radius: 10px;
+        box-shadow: 8px 8px 12px #d1d1d1, -5px -5px 10px #FFFFFF;
+    }
+
+    .lista{
+        border-radius: 10px;
+        margin: 30px 0 16px;
+        box-shadow: 8px 8px 12px #d1d1d1, -5px -5px 10px #FFFFFF;
+    }
+
+    .item-md ion-avatar ion-img, .item-md ion-avatar img{
+        width: 130px;
+        height: 80px;
+        border-radius: 7px;
+    }
+
+    .col {
+        padding: 0px;
+    }
+}

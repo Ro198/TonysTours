@@ -14,7 +14,8 @@ import { Camera, CameraOptions } from '@ionic-native/camera';
 import { 
   VehiculossinservicioPage,
   MenunivelunoPage,
-  MenuniveldosPage
+  MenuniveldosPage,
+  VehiculosopcionesPage
 } from "../index.paginas";
 
 @Component({
@@ -28,6 +29,7 @@ export class VehiculoagregarPage {
   datosVehiculo: { 
     marcaVehiculo?: string, 
     tipoVehiculo?: string,
+    categoria?: string,
     numeroPasajeros?: string,
     placas?: string,
     modelo?: string,
@@ -82,7 +84,7 @@ export class VehiculoagregarPage {
     this.datosVehiculo.vehiculoMantenimiento = "SIN MANTENIMIENTO";
     this.datosVehiculo.autoRentado = "SIN SERVICIO";
     this.datosVehiculo.renta = "SIN RENTAR";
-    this.datosVehiculo.motivoTaller = " ";
+    this.datosVehiculo.motivoTaller = "Sin motivo";
     this.datosVehiculo.fechaEntrada = " ";
     this.datosVehiculo.fechaSalidaT = " ";
     this.datosVehiculo.notasT = " ";
@@ -95,8 +97,8 @@ export class VehiculoagregarPage {
     this.datosVehiculo.numeroSerie = " ";
   }
 
-  dismiss() {
-    this.viewCtrl.dismiss();
+dismiss() {
+  this.viewCtrl.dismiss();
 }
 
 regresar(){             
@@ -121,6 +123,7 @@ menu(){
 
               console.log(this.datosVehiculo.marcaVehiculo);
               console.log(this.datosVehiculo.tipoVehiculo);
+              console.log(this.datosVehiculo.categoria);
               console.log(this.datosVehiculo.numeroPasajeros);
               console.log(this.datosVehiculo.placas);
               console.log(this.datosVehiculo.modelo);
@@ -156,6 +159,7 @@ menu(){
 
             this.VehiculoFotoService.agregarVehiculo(this.datosVehiculo.marcaVehiculo, 
                                                      this.datosVehiculo.tipoVehiculo,
+                                                     this.datosVehiculo.categoria,
                                                      this.datosVehiculo.numeroPasajeros,  
                                                      this.datosVehiculo.placas,
                                                      this.datosVehiculo.modelo, 
@@ -196,8 +200,8 @@ menu(){
                       {
                         text: 'Aceptar',
                         handler: () => {
-                          //this.navCtrl.push(Milista);
-                        this.dismiss()
+                          this.navCtrl.setRoot(VehiculosopcionesPage);
+                     
                         }
                       }]
                                 });

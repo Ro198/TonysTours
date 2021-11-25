@@ -75,6 +75,12 @@ export { ClienteactivomesPage } from './clienteactivomes/clienteactivomes';
 export { CbajaagendamesPage } from './cbajaagendames/cbajaagendames';
 export { VehiculodatostallerPage } from './vehiculodatostaller/vehiculodatostaller';
 export { RentalistausuariorentadoPage } from './rentalistausuariorentado/rentalistausuariorentado';
+export { VehiculosrentadoscarrosPage } from './vehiculosrentadoscarros/vehiculosrentadoscarros';
+export { VehiculosrentadossiennaPage } from './vehiculosrentadossienna/vehiculosrentadossienna';
+export { VehiculosrentadosavanzaPage } from './vehiculosrentadosavanza/vehiculosrentadosavanza';
+export { VehiculosrentadoshiacePage } from './vehiculosrentadoshiace/vehiculosrentadoshiace';
+export { VehiculosrentadosodysseyPage } from './vehiculosrentadosodyssey/vehiculosrentadosodyssey';
+
 
 
 

@@ -42,13 +42,54 @@ listarVehiculosEnMantenimiento(){
     return this.http.get(url).map(res => res.json());
 }
 
- //LISTAR VEHICULOS DE CUATRO TABLAS, VEHICULOS, RENTA, CLIENTES Y USUARIOS 
+ //LISTAR VEHICULOS DE CUATRO TABLAS, CARROS
+
+ listarVehiculosCarros(){
+    this.params= 'action=listarVehiculosCarros'
+    var url = this.serverUrl+ this.params;
+    return this.http.get(url).map(res => res.json());
+}
+
+ //LISTAR VEHICULOS DE CUATRO TABLAS, AVANZA
+
+ listarVehiculosAvanza(){
+    this.params= 'action=listarVehiculosAvanza'
+    var url = this.serverUrl+ this.params;
+    return this.http.get(url).map(res => res.json());
+}
+
+ //LISTAR VEHICULOS DE CUATRO TABLAS, HIACE
+
+ listarVehiculosHiace(){
+    this.params= 'action=listarVehiculosHiace'
+    var url = this.serverUrl+ this.params;
+    return this.http.get(url).map(res => res.json());
+}
+
+ //LISTAR VEHICULOS DE CUATRO TABLAS, ODYSSEY
+
+ listarVehiculosOdyssey(){
+    this.params= 'action=listarVehiculosOdyssey'
+    var url = this.serverUrl+ this.params;
+    return this.http.get(url).map(res => res.json());
+}
+
+ //LISTAR VEHICULOS DE CUATRO TABLAS, SIENNA
+
+ listarVehiculosSienna(){
+    this.params= 'action=listarVehiculosSienna'
+    var url = this.serverUrl+ this.params;
+    return this.http.get(url).map(res => res.json());
+}
+
+ //LISTAR VEHICULOS DE CUATRO TABLAS, VEHICULOS, RENTA, CLIENTES Y USUARIOS ------------------------SIN ASIGNAR
 
  listarTodosLosVehiculosRentados(){
     this.params= 'action=listarTodosLosVehiculosRentados'
     var url = this.serverUrl+ this.params;
     return this.http.get(url).map(res => res.json());
 }
+
 
 //LISTAR VEHICULOS DE DOS TABLAS, VEHICULOS LIBRES
 

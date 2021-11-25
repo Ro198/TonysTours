@@ -22,6 +22,7 @@ export class VehiculoeditartresPage {
   datosVehiculo: { 
     marcaVehiculo?: string, 
     tipoVehiculo?: string,
+    categoria?: string,
     numeroPasajeros?: string,
     placas?: string,
     modelo?: string,
@@ -76,6 +77,7 @@ export class VehiculoeditartresPage {
 
     this.datosVehiculo.marcaVehiculo = this.datosV.marcaVehiculo;
     this.datosVehiculo.tipoVehiculo = this.datosV.tipoVehiculo;
+    this.datosVehiculo.categoria = this.datosV.categoria;
     this.datosVehiculo.numeroPasajeros = this.datosV.numeroPasajeros;
     this.datosVehiculo.placas = this.datosV.placas; 
     this.datosVehiculo.modelo = this.datosV.modelo;
@@ -130,6 +132,7 @@ export class VehiculoeditartresPage {
               console.log(this.datosV.idVehiculo);
               console.log(this.datosVehiculo.marcaVehiculo);
               console.log(this.datosVehiculo.tipoVehiculo);
+              console.log(this.datosVehiculo.categoria);
               console.log(this.datosVehiculo.numeroPasajeros);
               console.log(this.datosVehiculo.placas);
               console.log(this.datosVehiculo.modelo);
@@ -156,13 +159,14 @@ export class VehiculoeditartresPage {
               console.log(this.perfil.idUsuario);
 
             let loading =this.loadingCtrl.create({
-            content: "Modificando tus datos del vehiculo espere...",
+            content: "Modificando datos del vehiculo, espere...",
               });
               loading.present();
 
         this.VehiculoFotoService.editarVehiculoDatos(this.datosV.idVehiculo, 
                                                 this.datosVehiculo.marcaVehiculo, 
                                                 this.datosVehiculo.tipoVehiculo,
+                                                this.datosVehiculo.categoria,
                                                 this.datosVehiculo.numeroPasajeros, 
                                                 this.datosVehiculo.placas,
                                                 this.datosVehiculo.modelo, 
