@@ -1,81 +1,145 @@
 
-<ion-header>
 
-  <ion-navbar>
-    <ion-title>Detalles del vehiculo</ion-title>
-  </ion-navbar>
 
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
+    <ion-title>Datos del vehiculo</ion-title>
+    <br> 
+    <ion-grid style="text-align: center;">
+      <ion-row>  
+        <ion-col>
+            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+        </ion-col>
+        <ion-col>     
+          <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>
+          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Menu</p>
+      </ion-col>
+      </ion-row>
+    </ion-grid> 
+
+  </ion-toolbar> 
 </ion-header>
-
+ 
 
 <ion-content padding>
-
-  <div class="Foto">
-    <img src="{{datosR?.foto}}" id="Foto">
-  </div>
+     
+  <ion-card class="c1">
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="img/icon/car.png"/>      
+      </ion-avatar>
+      <h2 style="color: #4A6D68; font-size: 19px;"><strong>{{datosR.marcaVehiculo}} - {{datosR.tipoVehiculo}}</strong></h2>
+      <h3 style="color: #505A53;">Transmicion: <strong>{{datosR.transmicion}}</strong></h3>
+      <h3 style="color: #505A53;">Color: <strong>{{datosR.color}}</strong></h3>
+      <h4 style="color: #505A53;">Placas: <strong>{{datosR.placas}}</strong></h4>
+    </ion-item>
+  </ion-card> 
   
-  <ion-item class="center">
+  <div class="c2">
+    <ion-grid style="text-align: center;">
+      <ion-row> 
+        <ion-col> 
+          <ion-card class="tarjeta">
+            <ion-item>
+              <div style="text-align: -webkit-center;">
+                <p style="font-size: 10px; color: #505A53;">Modelo</p>
+                <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.modelo}}</strong></p>
+              </div> 
+            </ion-item>
+          </ion-card>
+        </ion-col>
+        <ion-col>     
+          <ion-card class="tarjeta">
+            <ion-item>
+              <div style="text-align: -webkit-center;">
+                <p style="font-size: 10px; color: #505A53;">Pasajeros</p>
+                <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.numeroPasajeros}}</strong></p>
+              </div> 
+            </ion-item>
+          </ion-card>
+        </ion-col>
+        <ion-col>     
+          <ion-card class="tarjeta">
+            <ion-item>
+              <div style="text-align: -webkit-center;">
+                <p style="font-size: 10px; color: #505A53;">Km</p>
+                <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.kilometrajeV}}</strong></p>
+              </div> 
+            </ion-item>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </div>
 
-  <h2>Datos del vehiculo</h2>
-      <ion-grid>
-        <ion-row>
-          <h2>Tipo de vehiculo:</h2><p id="tipoVehiculo"> {{datosR.tipoVehiculo}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Numero de pasajeros:</h2><p id="numeroPasajeros"> {{datosR.numeroPasajeros}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Placas:</h2><p id="placas"> {{datosR.placas}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Año: </h2><p id="modelo">{{datosR.modelo}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Numero de motor: </h2><p id="numeroMotor">{{datosR.numeroMotor}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Transmicion: </h2><p id="transmicion">{{datosR.transmicion}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Numero de serie: </h2><p id="numeroSerie">{{datosR.numeroSerie}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Color: </h2><p id="color">{{datosR.color}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Kilometraje: </h2><p id="kilometrajeV">{{datosR.kilometrajeV}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Cristales: </h2><p id="cristalesV">{{datosR.cristalesV}}</p>
-        </ion-row>
-        <ion-row>
-          <h2>Llantas: </h2><p id="llantasV">{{datosR.llantasV}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Tapiceria: </h2><p id="tapiceriaV">{{datosR.tapiceriaV}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Documentacion del vehiculo: </h2><p id="documentacionVehiculoV">{{datosR.documentacionVehiculoV}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Refaccion: </h2><p id="refaccionV">{{datosR.refaccionV}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Gato: </h2><p id="gatoV">{{datosR.gatoV}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Vehiculo en mantenimiento: </h2><p id="vehiculoMantenimiento">{{datosR.vehiculoMantenimiento}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>Vehiculo: </h2><p id="vehiculoRentado">{{datosR.autoRentado}}</p> 
-        </ion-row>
-        <ion-row>
-          <h2>notas: </h2><p id="notasV">{{datosR.notasV}}</p> 
-        </ion-row>
-      </ion-grid>
+  <div>
+    <ion-grid no-padding style="text-align: center;">
+      <ion-row>
+        <ion-col>     
+            <ion-item no-lines>
+              <div style="text-align: -webkit-center;">
+                <p style="font-size: 10px; color: #505A53;">Numero de motor</p>
+                <p style="font-size: 12px; color: #1BC7AF;"><strong>{{datosR.numeroMotor}}</strong></p>
+              </div> 
+            </ion-item>
+        </ion-col>
+        <ion-col>     
+            <ion-item no-lines>
+              <div style="text-align: -webkit-center;">
+                <p style="font-size: 10px; color: #505A53;">Numero de serie</p>
+                <p style="font-size: 12px; color: #1BC7AF;"><strong>{{datosR.numeroSerie}}</strong></p>
+              </div> 
+            </ion-item>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
 
-      <h2>Atendido por el ultimo usuario que fue: </h2><p id="nombreUsuario">{{datosR.nombreUsuario}}</p> 
+  <div class="c2">
+    <ion-grid style="text-align: center;">
+      <ion-row> 
+        <ion-col> 
+          <ion-card class="tarjeta">
+            <ion-item>
+              <div style="text-align: -webkit-center;">
+                <p style="font-size: 10px; color: #505A53;">Documentos</p>
+                <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.documentacionVehiculoV}}</strong></p>
+              </div> 
+            </ion-item>
+          </ion-card>
+        </ion-col>
+        <ion-col>     
+          <ion-card class="tarjeta">
+            <ion-item>
+              <div style="text-align: -webkit-center;">
+                <p style="font-size: 10px; color: #505A53;">Refaccion</p>
+                <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.refaccionV}}</strong></p>
+              </div> 
+            </ion-item>
+          </ion-card>
+        </ion-col>
+        <ion-col>     
+          <ion-card class="tarjeta">
+            <ion-item>
+              <div style="text-align: -webkit-center;">
+                <p style="font-size: 10px; color: #505A53;">Gato</p>
+                <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.gatoV}}</strong></p>
+              </div> 
+            </ion-item>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </div>
 
-</ion-item>
+  <ion-item no-lines>
+    <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/cristal.png"/> Cristales: <strong>{{datosR.cristalesV}}</strong></p>
+    <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/llanta.png"/> Llantas: <strong>{{datosR.llantasV}}</strong></p>
+    <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/car.png"/> Tapiceria: <strong>{{datosR.tapiceriaV}}</strong></p>
+  <ion-card-content>
+    <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/notas.png"/> Notas: <strong>{{datosR.notasV}}</strong></p>
+  </ion-card-content>
+  </ion-item>
 
 </ion-content>

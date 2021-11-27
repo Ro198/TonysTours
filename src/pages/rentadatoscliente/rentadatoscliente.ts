@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
+import { 
+  RentasmostrarPage,
+  HistorialPage
+} from "../index.paginas";
 
 @Component({
   selector: 'page-rentadatoscliente',
@@ -25,6 +29,14 @@ export class RentadatosclientePage {
     this.perfil = JSON.parse(this.datosUsuario )
     console.log(this.perfil);
     
+  }
+
+  regresar(){      
+    this.navCtrl.push(RentasmostrarPage);
+  }
+
+  historial(){      
+    this.navCtrl.push(HistorialPage);
   }
 
   ionViewDidLoad() {

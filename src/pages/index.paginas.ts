@@ -80,6 +80,7 @@ export { VehiculosrentadossiennaPage } from './vehiculosrentadossienna/vehiculos
 export { VehiculosrentadosavanzaPage } from './vehiculosrentadosavanza/vehiculosrentadosavanza';
 export { VehiculosrentadoshiacePage } from './vehiculosrentadoshiace/vehiculosrentadoshiace';
 export { VehiculosrentadosodysseyPage } from './vehiculosrentadosodyssey/vehiculosrentadosodyssey';
+export { RentabajaclientePage } from './rentabajacliente/rentabajacliente';
 
 
 

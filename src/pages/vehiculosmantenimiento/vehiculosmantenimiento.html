@@ -1,51 +1,62 @@
 
-<ion-header>
-
-  <ion-navbar>
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
     <ion-title>Vehiculos en mantenimiento</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-
-  <ion-searchbar cancelButtonText  
-    (ionInput)="getItems($event)" placeholder="Buscar vehiculo" 
-    style="background-color: rgba(0, 0, 0, 0.3); border-radius: 30px;">
+      <br>
+    <ion-grid style="text-align: center;">
+      <ion-row> 
+        <ion-col>
+            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>
+            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>
+        </ion-col>
+        <ion-col>     
+          <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>
+          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  
+  <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar vehiculo">
   </ion-searchbar>
+  
+  </ion-toolbar>
+</ion-header> 
+
+ 
+<ion-content padding>
 
   <ion-refresher (ionRefresh)="Refrescar($event)">
     <ion-refresher-content 
     refreshingSpinner="circles"
-    refreshingText="Actualizando..."> 
-    </ion-refresher-content>
+    refreshingText="Actualizando lista...">
+    </ion-refresher-content> 
   </ion-refresher>
 
-
   <ion-list *ngFor="let item of vehiculos; let i=index;">
-      <ion-item-sliding >
-          <ion-item>
-
-            <ion-avatar item-left>
-              <img src="{{item.foto}}">     
-            </ion-avatar>
-
-          <button translate ion-button icon-left clear small (click)="detalles($event,item)">
-                  <ion-icon name="paw" style="color: orangered;"></ion-icon>
-                  <h2 color="primary"> {{item.marcaVehiculo}} - {{item.tipoVehiculo}}</h2>
-                      
-          </button>
-          <h2>Placas: {{item.placas}}</h2>
-          <h2>Año: {{item.modelo}}</h2>
-          <h2 >Lo agrego: {{item.nombreUsuario}} </h2> 
-
-          </ion-item>
-
-      </ion-item-sliding>
+    <ion-card class="lista" (click)="detalles($event,item)">
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="{{item.foto}}">       
+        </ion-avatar>
+        <h3 style="color: #718d79;">Placas: <strong style="color: #505A53;">{{item.placas}}</strong></h3>
+        <h3 style="color: #505A53;">Pasajeros: <strong style="color: #1BC7AF;"> {{item.numeroPasajeros}}</strong></h3>
+        <h3 style="color: #718d79;">Color: <strong style="color: #505A53;">{{item.color}}</strong></h3>
+        <h3 style="color: #505A53;">Modelo: <strong style="color: #1BC7AF;"> {{item.modelo}}</strong></h3>
+      </ion-item>
+      <ion-grid style="text-align: center;">
+        <ion-row>  
+          <ion-col>   
+            <h2 style="color: #4A6D68;"><strong>{{item.marcaVehiculo}} - {{item.tipoVehiculo}}</strong></h2>     
+          </ion-col>
+          <ion-col>     
+            <h3 style="color: #718d79;"><strong style="color: #505A53;">{{item.kilometrajeV}}</strong> Km</h3>
+          </ion-col>
+        </ion-row>
+      </ion-grid> 
+      <h3 style="text-align: center; color: #718d79;">Daño en: <strong style="color: #1BC7AF;">{{item.motivoTaller}}</strong></h3> 
+      <h3 style="text-align: center; color: #718d79; opacity: 50%;">Enviado por: <strong style="color: #505A53;">{{item.nombreUsuario}}</strong></h3>
+    </ion-card>
   </ion-list>
 
-
-
-  
 </ion-content>
+

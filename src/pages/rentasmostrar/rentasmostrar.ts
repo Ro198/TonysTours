@@ -5,7 +5,12 @@ import {
   RentaeditarPage,
   RentabajaPage,
   RentadatosclientePage,
-  RentadatosvehiculoPage
+  RentadatosvehiculoPage,
+  VehiculosrentadoscarrosPage,
+  VehiculosrentadosavanzaPage,
+  VehiculosrentadosodysseyPage,
+  VehiculosrentadossiennaPage,
+  VehiculosrentadoshiacePage
 } from "../index.paginas";
 
 
@@ -33,6 +38,25 @@ export class RentasmostrarPage {
     this.perfil = JSON.parse(this.datosUsuario )
     console.log(this.perfil);
 
+  }
+
+  regresar(){
+    if(this.datosR.categoria == "Carros"){             
+      this.navCtrl.push(VehiculosrentadoscarrosPage);
+
+    }else if (this.datosR.categoria == "Avanza"){             
+      this.navCtrl.push(VehiculosrentadosavanzaPage);
+    
+    }else if (this.datosR.categoria == "Odyssey"){             
+      this.navCtrl.push(VehiculosrentadosodysseyPage);
+
+    }else if (this.datosR.categoria == "Sienna"){             
+      this.navCtrl.push(VehiculosrentadossiennaPage);
+
+    }else if (this.datosR.categoria == "Hiace"){             
+      this.navCtrl.push(VehiculosrentadoshiacePage);
+
+    }
   }
 
   enlace_editar_renta(){

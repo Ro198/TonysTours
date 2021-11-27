@@ -177,5 +177,10 @@ ClienteMesDiciembre(){
     return this.http.get(url).map(res => res.json());
 }
 
+editar_cliente_renta(idCliente, vehiculoRentado, idUsuario) {
+    this.params='action=editar_cliente_renta&idCliente='+idCliente+'&vehiculoRentado='+vehiculoRentado+'&idUsuario='+idUsuario
+    var url = this.serverUrl+ this.params;
+    return this.http.get(url).map(res => res.json());
+}
 
 }

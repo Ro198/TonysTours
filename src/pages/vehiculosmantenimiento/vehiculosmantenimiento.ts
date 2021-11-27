@@ -2,7 +2,10 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, LoadingController, ViewController, ModalController, AlertController } from 'ionic-angular';
 import { VehiculoService } from '../servicios/VehiculoServices';
 
-import { TallermostrarPage
+import { TallermostrarPage,
+  MenunivelunoPage,
+  MenuniveldosPage,
+  VehiculosPage
 } from "../index.paginas";
 
 @Component({
@@ -37,6 +40,18 @@ export class VehiculosmantenimientoPage {
     console.log(this.perfil);
 
 
+  }
+
+  regresar(){              
+    this.navCtrl.push(VehiculosPage);
+  }
+
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
   }
 
   dismiss() {

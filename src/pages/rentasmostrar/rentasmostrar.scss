@@ -1,57 +1,63 @@
 page-rentasmostrar {
-    .center{
-        margin-left: auto;
-       margin-right: auto;
-       display: block;
-    text-align: center;
    
-    }
-   
-    .version{
-      font-size: 1.2em;
-      color:white;
-      //text-decoration: underline;
-    }
+  .item-md ion-avatar ion-img, .item-md ion-avatar img{
+    width: 450px;
+    height: 255px;
+    border-radius: 0px;
+  }
 
-    .Foto {
-      text-align: center;
-    }
-   
-   .Imagen {
-     //padding: 20px 0;
-     //min-height: 200px;
-     text-align: center;
-   }
-   
-    .Imagen img {
-     max-width: 120px;
-        background-repeat: no-repeat;
-       background-position: 50%;
-       border-radius: 50%;
-   }
-   
-   .toolbar-title-ios {
-       font-size: 1.7rem;
-       font-weight: 600;
-       text-align: center;
-       color: #387ef5;
-     }
-     
-     .toolbar-title-md {
-       font-size: 1.7rem;
-       font-weight: 600;
-       text-align: center;
-       color: #387ef5;
-     }
-     
-     .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
-       color: #387ef5;
-     }
-   
-     .item-md {
-       color: orangered;
-     }
-     .item-ios {
-       color: orangered;
-     }
+  .item-md.item-block .item-inner {
+    padding-right: 0px;
+  }
+
+  .item-md{
+    padding-left: 0px;
+  }
+
+  .item-md ion-avatar[item-left], .item-md ion-thumbnail[item-left], .item-md ion-avatar[item-start], .item-md ion-thumbnail[item-start]{
+    margin: 0px 0px 0px 0px;
+  }
+
+
+  .grid {
+    padding: 0px;
+  }
+
+  .tarjeta{
+    border-radius: 10px;
+    margin: 30px 0 16px;
+    box-shadow: 8px 8px 12px #d1d1d1, -5px -5px 10px #FFFFFF;
+  }
+
+  .c1{
+    margin-top: -10%;
+  }
+
+  .btn {
+    text-align: -webkit-center;
+  }
+
+  ion-fab-list {
+    min-height: 1px;
+  }
+
+  .fab-in-list {
+  margin: 4px 0;
+  width: 80px;
+  height: 51px;
+  }
+
+  .fab ion-icon {
+  font-size: 3.5rem;
+  }
+
+  ion-fab[top] {
+    top: 40px;
+  }
+  
+  .card-content-md {
+    padding: 0px 0px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
 }

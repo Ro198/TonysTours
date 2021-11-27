@@ -20,13 +20,13 @@ webpackJsonp([0],[
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__menuniveldos_menuniveldos__ = __webpack_require__(284);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_6__menuniveldos_menuniveldos__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__usuarios_usuarios__ = __webpack_require__(285);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_1", function() { return __WEBPACK_IMPORTED_MODULE_7__usuarios_usuarios__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_2", function() { return __WEBPACK_IMPORTED_MODULE_7__usuarios_usuarios__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__usuarioagregar_usuarioagregar__ = __webpack_require__(286);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "W", function() { return __WEBPACK_IMPORTED_MODULE_8__usuarioagregar_usuarioagregar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "X", function() { return __WEBPACK_IMPORTED_MODULE_8__usuarioagregar_usuarioagregar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__usuarioeditar_usuarioeditar__ = __webpack_require__(287);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "X", function() { return __WEBPACK_IMPORTED_MODULE_9__usuarioeditar_usuarioeditar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Y", function() { return __WEBPACK_IMPORTED_MODULE_9__usuarioeditar_usuarioeditar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__usuariomostrar_usuariomostrar__ = __webpack_require__(288);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_0", function() { return __WEBPACK_IMPORTED_MODULE_10__usuariomostrar_usuariomostrar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_1", function() { return __WEBPACK_IMPORTED_MODULE_10__usuariomostrar_usuariomostrar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__clientesopciones_clientesopciones__ = __webpack_require__(289);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_11__clientesopciones_clientesopciones__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__historial_historial__ = __webpack_require__(290);
@@ -36,77 +36,77 @@ webpackJsonp([0],[
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__clientesnoactivos_clientesnoactivos__ = __webpack_require__(292);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_14__clientesnoactivos_clientesnoactivos__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__vehiculos_vehiculos__ = __webpack_require__(293);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_17", function() { return __WEBPACK_IMPORTED_MODULE_15__vehiculos_vehiculos__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_18", function() { return __WEBPACK_IMPORTED_MODULE_15__vehiculos_vehiculos__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__vehiculosdisponibles_vehiculosdisponibles__ = __webpack_require__(294);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_18", function() { return __WEBPACK_IMPORTED_MODULE_16__vehiculosdisponibles_vehiculosdisponibles__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_19", function() { return __WEBPACK_IMPORTED_MODULE_16__vehiculosdisponibles_vehiculosdisponibles__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__vehiculosrentados_vehiculosrentados__ = __webpack_require__(295);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_23", function() { return __WEBPACK_IMPORTED_MODULE_17__vehiculosrentados_vehiculosrentados__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_24", function() { return __WEBPACK_IMPORTED_MODULE_17__vehiculosrentados_vehiculosrentados__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__vehiculosmantenimiento_vehiculosmantenimiento__ = __webpack_require__(296);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_20", function() { return __WEBPACK_IMPORTED_MODULE_18__vehiculosmantenimiento_vehiculosmantenimiento__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_21", function() { return __WEBPACK_IMPORTED_MODULE_18__vehiculosmantenimiento_vehiculosmantenimiento__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__vehiculomostrar_vehiculomostrar__ = __webpack_require__(297);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_14", function() { return __WEBPACK_IMPORTED_MODULE_19__vehiculomostrar_vehiculomostrar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_15", function() { return __WEBPACK_IMPORTED_MODULE_19__vehiculomostrar_vehiculomostrar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__rentasmostrar_rentasmostrar__ = __webpack_require__(298);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "S", function() { return __WEBPACK_IMPORTED_MODULE_20__rentasmostrar_rentasmostrar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "T", function() { return __WEBPACK_IMPORTED_MODULE_20__rentasmostrar_rentasmostrar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__vehiculosopciones_vehiculosopciones__ = __webpack_require__(299);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_22", function() { return __WEBPACK_IMPORTED_MODULE_21__vehiculosopciones_vehiculosopciones__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_23", function() { return __WEBPACK_IMPORTED_MODULE_21__vehiculosopciones_vehiculosopciones__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__vehiculosocupados_vehiculosocupados__ = __webpack_require__(300);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_21", function() { return __WEBPACK_IMPORTED_MODULE_22__vehiculosocupados_vehiculosocupados__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_22", function() { return __WEBPACK_IMPORTED_MODULE_22__vehiculosocupados_vehiculosocupados__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__vehiculoslibres_vehiculoslibres__ = __webpack_require__(301);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_19", function() { return __WEBPACK_IMPORTED_MODULE_23__vehiculoslibres_vehiculoslibres__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_20", function() { return __WEBPACK_IMPORTED_MODULE_23__vehiculoslibres_vehiculoslibres__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__vehiculossinservicio_vehiculossinservicio__ = __webpack_require__(302);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_29", function() { return __WEBPACK_IMPORTED_MODULE_24__vehiculossinservicio_vehiculossinservicio__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_30", function() { return __WEBPACK_IMPORTED_MODULE_24__vehiculossinservicio_vehiculossinservicio__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__vehiculomostrarlibre_vehiculomostrarlibre__ = __webpack_require__(303);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_15", function() { return __WEBPACK_IMPORTED_MODULE_25__vehiculomostrarlibre_vehiculomostrarlibre__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_16", function() { return __WEBPACK_IMPORTED_MODULE_25__vehiculomostrarlibre_vehiculomostrarlibre__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__vehiculomostrarocupado_vehiculomostrarocupado__ = __webpack_require__(304);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_16", function() { return __WEBPACK_IMPORTED_MODULE_26__vehiculomostrarocupado_vehiculomostrarocupado__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_17", function() { return __WEBPACK_IMPORTED_MODULE_26__vehiculomostrarocupado_vehiculomostrarocupado__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__rentalistausuarios_rentalistausuarios__ = __webpack_require__(305);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Q", function() { return __WEBPACK_IMPORTED_MODULE_27__rentalistausuarios_rentalistausuarios__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "R", function() { return __WEBPACK_IMPORTED_MODULE_27__rentalistausuarios_rentalistausuarios__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__rentaagregar_rentaagregar__ = __webpack_require__(306);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return __WEBPACK_IMPORTED_MODULE_28__rentaagregar_rentaagregar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__vehiculoagregar_vehiculoagregar__ = __webpack_require__(307);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_2", function() { return __WEBPACK_IMPORTED_MODULE_29__vehiculoagregar_vehiculoagregar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_3", function() { return __WEBPACK_IMPORTED_MODULE_29__vehiculoagregar_vehiculoagregar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__vehiculoeditarrenta_vehiculoeditarrenta__ = __webpack_require__(308);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_9", function() { return __WEBPACK_IMPORTED_MODULE_30__vehiculoeditarrenta_vehiculoeditarrenta__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_10", function() { return __WEBPACK_IMPORTED_MODULE_30__vehiculoeditarrenta_vehiculoeditarrenta__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__vehiculoeditar_vehiculoeditar__ = __webpack_require__(309);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_4", function() { return __WEBPACK_IMPORTED_MODULE_31__vehiculoeditar_vehiculoeditar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_5", function() { return __WEBPACK_IMPORTED_MODULE_31__vehiculoeditar_vehiculoeditar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__vehiculoeditarenservicio_vehiculoeditarenservicio__ = __webpack_require__(310);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_6", function() { return __WEBPACK_IMPORTED_MODULE_32__vehiculoeditarenservicio_vehiculoeditarenservicio__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_7", function() { return __WEBPACK_IMPORTED_MODULE_32__vehiculoeditarenservicio_vehiculoeditarenservicio__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__vehiculoenviartaller_vehiculoenviartaller__ = __webpack_require__(311);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_13", function() { return __WEBPACK_IMPORTED_MODULE_33__vehiculoenviartaller_vehiculoenviartaller__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_14", function() { return __WEBPACK_IMPORTED_MODULE_33__vehiculoenviartaller_vehiculoenviartaller__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__vehiculoeditarsinservicio_vehiculoeditarsinservicio__ = __webpack_require__(312);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_11", function() { return __WEBPACK_IMPORTED_MODULE_34__vehiculoeditarsinservicio_vehiculoeditarsinservicio__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_12", function() { return __WEBPACK_IMPORTED_MODULE_34__vehiculoeditarsinservicio_vehiculoeditarsinservicio__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__vehiculoeditarfoto_vehiculoeditarfoto__ = __webpack_require__(313);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_8", function() { return __WEBPACK_IMPORTED_MODULE_35__vehiculoeditarfoto_vehiculoeditarfoto__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_9", function() { return __WEBPACK_IMPORTED_MODULE_35__vehiculoeditarfoto_vehiculoeditarfoto__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__vehiculoeditardos_vehiculoeditardos__ = __webpack_require__(314);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_5", function() { return __WEBPACK_IMPORTED_MODULE_36__vehiculoeditardos_vehiculoeditardos__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_6", function() { return __WEBPACK_IMPORTED_MODULE_36__vehiculoeditardos_vehiculoeditardos__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__vehiculoeditartres_vehiculoeditartres__ = __webpack_require__(315);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_12", function() { return __WEBPACK_IMPORTED_MODULE_37__vehiculoeditartres_vehiculoeditartres__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_13", function() { return __WEBPACK_IMPORTED_MODULE_37__vehiculoeditartres_vehiculoeditartres__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__vehiculoeditarserviciorenta_vehiculoeditarserviciorenta__ = __webpack_require__(316);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_10", function() { return __WEBPACK_IMPORTED_MODULE_38__vehiculoeditarserviciorenta_vehiculoeditarserviciorenta__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_11", function() { return __WEBPACK_IMPORTED_MODULE_38__vehiculoeditarserviciorenta_vehiculoeditarserviciorenta__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__vehiculoeditarenviara_vehiculoeditarenviara__ = __webpack_require__(317);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_7", function() { return __WEBPACK_IMPORTED_MODULE_39__vehiculoeditarenviara_vehiculoeditarenviara__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_8", function() { return __WEBPACK_IMPORTED_MODULE_39__vehiculoeditarenviara_vehiculoeditarenviara__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__rentaeditar_rentaeditar__ = __webpack_require__(318);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "O", function() { return __WEBPACK_IMPORTED_MODULE_40__rentaeditar_rentaeditar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "P", function() { return __WEBPACK_IMPORTED_MODULE_40__rentaeditar_rentaeditar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__rentabaja_rentabaja__ = __webpack_require__(319);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return __WEBPACK_IMPORTED_MODULE_41__rentabaja_rentabaja__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__rentabajaeliminar_rentabajaeliminar__ = __webpack_require__(320);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return __WEBPACK_IMPORTED_MODULE_42__rentabajaeliminar_rentabajaeliminar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "M", function() { return __WEBPACK_IMPORTED_MODULE_42__rentabajaeliminar_rentabajaeliminar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__rentadatoscliente_rentadatoscliente__ = __webpack_require__(321);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "M", function() { return __WEBPACK_IMPORTED_MODULE_43__rentadatoscliente_rentadatoscliente__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "N", function() { return __WEBPACK_IMPORTED_MODULE_43__rentadatoscliente_rentadatoscliente__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__rentadatosvehiculo_rentadatosvehiculo__ = __webpack_require__(322);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "N", function() { return __WEBPACK_IMPORTED_MODULE_44__rentadatosvehiculo_rentadatosvehiculo__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "O", function() { return __WEBPACK_IMPORTED_MODULE_44__rentadatosvehiculo_rentadatosvehiculo__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__tallermostrar_tallermostrar__ = __webpack_require__(323);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "U", function() { return __WEBPACK_IMPORTED_MODULE_45__tallermostrar_tallermostrar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "V", function() { return __WEBPACK_IMPORTED_MODULE_45__tallermostrar_tallermostrar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__tallereditar_tallereditar__ = __webpack_require__(324);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "T", function() { return __WEBPACK_IMPORTED_MODULE_46__tallereditar_tallereditar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "U", function() { return __WEBPACK_IMPORTED_MODULE_46__tallereditar_tallereditar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__tallervd_tallervd__ = __webpack_require__(325);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "V", function() { return __WEBPACK_IMPORTED_MODULE_47__tallervd_tallervd__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "W", function() { return __WEBPACK_IMPORTED_MODULE_47__tallervd_tallervd__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__clientemostrarhistorial_clientemostrarhistorial__ = __webpack_require__(326);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_48__clientemostrarhistorial_clientemostrarhistorial__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__usuariomiperfil_usuariomiperfil__ = __webpack_require__(327);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Y", function() { return __WEBPACK_IMPORTED_MODULE_49__usuariomiperfil_usuariomiperfil__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Z", function() { return __WEBPACK_IMPORTED_MODULE_49__usuariomiperfil_usuariomiperfil__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__usuariomiperfileditar_usuariomiperfileditar__ = __webpack_require__(328);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Z", function() { return __WEBPACK_IMPORTED_MODULE_50__usuariomiperfileditar_usuariomiperfileditar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_0", function() { return __WEBPACK_IMPORTED_MODULE_50__usuariomiperfileditar_usuariomiperfileditar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__clientesmes_clientesmes__ = __webpack_require__(329);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_51__clientesmes_clientesmes__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__aclienteenero_aclienteenero__ = __webpack_require__(330);
@@ -150,25 +150,28 @@ webpackJsonp([0],[
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__agendaeditar_agendaeditar__ = __webpack_require__(349);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_71__agendaeditar_agendaeditar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_72__rentaseditar_rentaseditar__ = __webpack_require__(350);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "R", function() { return __WEBPACK_IMPORTED_MODULE_72__rentaseditar_rentaseditar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "S", function() { return __WEBPACK_IMPORTED_MODULE_72__rentaseditar_rentaseditar__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__clienteactivomes_clienteactivomes__ = __webpack_require__(351);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_73__clienteactivomes_clienteactivomes__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__cbajaagendames_cbajaagendames__ = __webpack_require__(352);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_74__cbajaagendames_cbajaagendames__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_75__vehiculodatostaller_vehiculodatostaller__ = __webpack_require__(353);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_3", function() { return __WEBPACK_IMPORTED_MODULE_75__vehiculodatostaller_vehiculodatostaller__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_4", function() { return __WEBPACK_IMPORTED_MODULE_75__vehiculodatostaller_vehiculodatostaller__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_76__rentalistausuariorentado_rentalistausuariorentado__ = __webpack_require__(354);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "P", function() { return __WEBPACK_IMPORTED_MODULE_76__rentalistausuariorentado_rentalistausuariorentado__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Q", function() { return __WEBPACK_IMPORTED_MODULE_76__rentalistausuariorentado_rentalistausuariorentado__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_77__vehiculosrentadoscarros_vehiculosrentadoscarros__ = __webpack_require__(355);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_25", function() { return __WEBPACK_IMPORTED_MODULE_77__vehiculosrentadoscarros_vehiculosrentadoscarros__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_26", function() { return __WEBPACK_IMPORTED_MODULE_77__vehiculosrentadoscarros_vehiculosrentadoscarros__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_78__vehiculosrentadossienna_vehiculosrentadossienna__ = __webpack_require__(356);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_28", function() { return __WEBPACK_IMPORTED_MODULE_78__vehiculosrentadossienna_vehiculosrentadossienna__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_29", function() { return __WEBPACK_IMPORTED_MODULE_78__vehiculosrentadossienna_vehiculosrentadossienna__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_79__vehiculosrentadosavanza_vehiculosrentadosavanza__ = __webpack_require__(357);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_24", function() { return __WEBPACK_IMPORTED_MODULE_79__vehiculosrentadosavanza_vehiculosrentadosavanza__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_25", function() { return __WEBPACK_IMPORTED_MODULE_79__vehiculosrentadosavanza_vehiculosrentadosavanza__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_80__vehiculosrentadoshiace_vehiculosrentadoshiace__ = __webpack_require__(358);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_26", function() { return __WEBPACK_IMPORTED_MODULE_80__vehiculosrentadoshiace_vehiculosrentadoshiace__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_27", function() { return __WEBPACK_IMPORTED_MODULE_80__vehiculosrentadoshiace_vehiculosrentadoshiace__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_81__vehiculosrentadosodyssey_vehiculosrentadosodyssey__ = __webpack_require__(359);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_27", function() { return __WEBPACK_IMPORTED_MODULE_81__vehiculosrentadosodyssey_vehiculosrentadosodyssey__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_28", function() { return __WEBPACK_IMPORTED_MODULE_81__vehiculosrentadosodyssey_vehiculosrentadosodyssey__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_82__rentabajacliente_rentabajacliente__ = __webpack_require__(360);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return __WEBPACK_IMPORTED_MODULE_82__rentabajacliente_rentabajacliente__["a"]; });
+
 
 
 
@@ -408,6 +411,11 @@ var ClienteService = (function () {
         var url = this.serverUrl + this.params;
         return this.http.get(url).map(function (res) { return res.json(); });
     };
+    ClienteService.prototype.editar_cliente_renta = function (idCliente, vehiculoRentado, idUsuario) {
+        this.params = 'action=editar_cliente_renta&idCliente=' + idCliente + '&vehiculoRentado=' + vehiculoRentado + '&idUsuario=' + idUsuario;
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
     ClienteService = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]])
@@ -558,10 +566,9 @@ var VehiculoService = (function () {
     };
     VehiculoService = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]) === "function" && _a || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]])
     ], VehiculoService);
     return VehiculoService;
-    var _a;
 }());
 
 //# sourceMappingURL=VehiculoServices.js.map
@@ -1248,50 +1255,50 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["m" /* AcuerdoPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["E" /* MenunivelunoPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["D" /* MenuniveldosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_1" /* UsuariosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["W" /* UsuarioagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["X" /* UsuarioeditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_0" /* UsuariomostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_2" /* UsuariosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["X" /* UsuarioagregarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Y" /* UsuarioeditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_1" /* UsuariomostrarPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["x" /* ClientesopcionesPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["y" /* HistorialPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["u" /* ClientesactivosPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["w" /* ClientesnoactivosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_17" /* VehiculosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_18" /* VehiculosdisponiblesPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_23" /* VehiculosrentadosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_20" /* VehiculosmantenimientoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_14" /* VehiculomostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["S" /* RentasmostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_22" /* VehiculosopcionesPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_21" /* VehiculosocupadosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_19" /* VehiculoslibresPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_29" /* VehiculossinservicioPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_15" /* VehiculomostrarlibrePage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_16" /* VehiculomostrarocupadoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Q" /* RentalistausuariosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_18" /* VehiculosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_19" /* VehiculosdisponiblesPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_24" /* VehiculosrentadosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_21" /* VehiculosmantenimientoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_15" /* VehiculomostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["T" /* RentasmostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_23" /* VehiculosopcionesPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_22" /* VehiculosocupadosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_20" /* VehiculoslibresPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_30" /* VehiculossinservicioPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_16" /* VehiculomostrarlibrePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_17" /* VehiculomostrarocupadoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["R" /* RentalistausuariosPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["J" /* RentaagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_2" /* VehiculoagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_9" /* VehiculoeditarrentaPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_4" /* VehiculoeditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_6" /* VehiculoeditarenservicioPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_13" /* VehiculoenviartallerPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_11" /* VehiculoeditarsinservicioPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_8" /* VehiculoeditarfotoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_5" /* VehiculoeditardosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_12" /* VehiculoeditartresPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_10" /* VehiculoeditarserviciorentaPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_7" /* VehiculoeditarenviaraPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["O" /* RentaeditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_3" /* VehiculoagregarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_10" /* VehiculoeditarrentaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_5" /* VehiculoeditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_7" /* VehiculoeditarenservicioPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_14" /* VehiculoenviartallerPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_12" /* VehiculoeditarsinservicioPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_9" /* VehiculoeditarfotoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_6" /* VehiculoeditardosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_13" /* VehiculoeditartresPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_11" /* VehiculoeditarserviciorentaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_8" /* VehiculoeditarenviaraPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["P" /* RentaeditarPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["K" /* RentabajaPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["L" /* RentabajaeliminarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["M" /* RentadatosclientePage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["N" /* RentadatosvehiculoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["U" /* TallermostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["T" /* TallereditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["V" /* TallervdPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["M" /* RentabajaeliminarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["N" /* RentadatosclientePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["O" /* RentadatosvehiculoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["V" /* TallermostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["U" /* TallereditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["W" /* TallervdPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["t" /* ClientemostrarhistorialPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Y" /* UsuariomiperfilPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Z" /* UsuariomiperfileditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Z" /* UsuariomiperfilPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_0" /* UsuariomiperfileditarPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["v" /* ClientesmesPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["d" /* AclienteeneroPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["e" /* AclientefebreroPage */],
@@ -1313,16 +1320,17 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["A" /* HistorialagendaPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["B" /* HistorialclientePage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["n" /* AgendaeditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["R" /* RentaseditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["S" /* RentaseditarPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["p" /* ClienteactivomesPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["o" /* CbajaagendamesPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_3" /* VehiculodatostallerPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["P" /* RentalistausuariorentadoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_25" /* VehiculosrentadoscarrosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_24" /* VehiculosrentadosavanzaPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_26" /* VehiculosrentadoshiacePage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_27" /* VehiculosrentadosodysseyPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_28" /* VehiculosrentadossiennaPage */]
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_4" /* VehiculodatostallerPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Q" /* RentalistausuariorentadoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_26" /* VehiculosrentadoscarrosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_25" /* VehiculosrentadosavanzaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_27" /* VehiculosrentadoshiacePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_28" /* VehiculosrentadosodysseyPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_29" /* VehiculosrentadossiennaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["L" /* RentabajaclientePage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -1341,50 +1349,50 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["m" /* AcuerdoPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["E" /* MenunivelunoPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["D" /* MenuniveldosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_1" /* UsuariosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["W" /* UsuarioagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["X" /* UsuarioeditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_0" /* UsuariomostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_2" /* UsuariosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["X" /* UsuarioagregarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Y" /* UsuarioeditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_1" /* UsuariomostrarPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["x" /* ClientesopcionesPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["y" /* HistorialPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["u" /* ClientesactivosPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["w" /* ClientesnoactivosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_17" /* VehiculosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_18" /* VehiculosdisponiblesPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_23" /* VehiculosrentadosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_20" /* VehiculosmantenimientoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_14" /* VehiculomostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["S" /* RentasmostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_22" /* VehiculosopcionesPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_21" /* VehiculosocupadosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_19" /* VehiculoslibresPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_29" /* VehiculossinservicioPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_15" /* VehiculomostrarlibrePage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_16" /* VehiculomostrarocupadoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Q" /* RentalistausuariosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_18" /* VehiculosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_19" /* VehiculosdisponiblesPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_24" /* VehiculosrentadosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_21" /* VehiculosmantenimientoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_15" /* VehiculomostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["T" /* RentasmostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_23" /* VehiculosopcionesPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_22" /* VehiculosocupadosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_20" /* VehiculoslibresPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_30" /* VehiculossinservicioPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_16" /* VehiculomostrarlibrePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_17" /* VehiculomostrarocupadoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["R" /* RentalistausuariosPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["J" /* RentaagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_2" /* VehiculoagregarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_9" /* VehiculoeditarrentaPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_4" /* VehiculoeditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_6" /* VehiculoeditarenservicioPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_13" /* VehiculoenviartallerPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_11" /* VehiculoeditarsinservicioPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_8" /* VehiculoeditarfotoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_5" /* VehiculoeditardosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_12" /* VehiculoeditartresPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_10" /* VehiculoeditarserviciorentaPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_7" /* VehiculoeditarenviaraPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["O" /* RentaeditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_3" /* VehiculoagregarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_10" /* VehiculoeditarrentaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_5" /* VehiculoeditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_7" /* VehiculoeditarenservicioPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_14" /* VehiculoenviartallerPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_12" /* VehiculoeditarsinservicioPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_9" /* VehiculoeditarfotoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_6" /* VehiculoeditardosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_13" /* VehiculoeditartresPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_11" /* VehiculoeditarserviciorentaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_8" /* VehiculoeditarenviaraPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["P" /* RentaeditarPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["K" /* RentabajaPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["L" /* RentabajaeliminarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["M" /* RentadatosclientePage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["N" /* RentadatosvehiculoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["U" /* TallermostrarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["T" /* TallereditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["V" /* TallervdPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["M" /* RentabajaeliminarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["N" /* RentadatosclientePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["O" /* RentadatosvehiculoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["V" /* TallermostrarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["U" /* TallereditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["W" /* TallervdPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["t" /* ClientemostrarhistorialPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Y" /* UsuariomiperfilPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Z" /* UsuariomiperfileditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Z" /* UsuariomiperfilPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_0" /* UsuariomiperfileditarPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["v" /* ClientesmesPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["d" /* AclienteeneroPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["e" /* AclientefebreroPage */],
@@ -1406,16 +1414,17 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["A" /* HistorialagendaPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["B" /* HistorialclientePage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["n" /* AgendaeditarPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["R" /* RentaseditarPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["S" /* RentaseditarPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["p" /* ClienteactivomesPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["o" /* CbajaagendamesPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_3" /* VehiculodatostallerPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["P" /* RentalistausuariorentadoPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_25" /* VehiculosrentadoscarrosPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_24" /* VehiculosrentadosavanzaPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_26" /* VehiculosrentadoshiacePage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_27" /* VehiculosrentadosodysseyPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_28" /* VehiculosrentadossiennaPage */]
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_4" /* VehiculodatostallerPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Q" /* RentalistausuariorentadoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_26" /* VehiculosrentadoscarrosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_25" /* VehiculosrentadosavanzaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_27" /* VehiculosrentadoshiacePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_28" /* VehiculosrentadosodysseyPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_29" /* VehiculosrentadossiennaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["L" /* RentabajaclientePage */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
@@ -1743,7 +1752,7 @@ var ClientemostrarPage = (function () {
     };
     ClientemostrarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-clientemostrar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientemostrar\clientemostrar.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Detalles del cliente</ion-title>\n    <br> \n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 22%;" (click)="historial()" src="img/icon/historial.png"/>\n          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Historial</p>\n      </ion-col>\n      </ion-row>\n    </ion-grid> \n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n     \n  <br>\n  \n  <div class="S1">\n\n    <ion-card class="c1">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/user.png"/>      \n        </ion-avatar>\n        <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>\n        <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>\n        <h3 style="color: #505A53;">Licencia: <strong>{{datosC.licencia}} - {{datosC.fechaLicencia}}</strong></h3>\n        <h4 style="opacity: 50%;">{{datosC.telefono}}</h4>\n      </ion-item>\n    </ion-card>  \n\n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/cumple.png"/> Edad: <strong>{{datosC.edad}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/sex.png"/> Sexo: <strong>{{datosC.sexo}}</strong></p>\n  </ion-card-content>\n   \n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/ciudad.png"/> Ciudad: <strong>{{datosC.ciudad}}</strong></p>\n  </ion-card-content>\n  \n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/estado.png"/> Estado: <strong>{{datosC.estado}}</strong></p>\n  </ion-card-content> \n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/address.png"/> Dirección: <strong>{{datosC.direccion}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/colonia.png"/> Colonia: <strong>{{datosC.colonia}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/observaciones.png"/> Observaciones del cliente: <strong>{{datosC.observacionesCliente}}</strong></p>\n  </ion-card-content>\n\n  </div>\n\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientemostrar\clientemostrar.html"*/,
+            selector: 'page-clientemostrar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientemostrar\clientemostrar.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Detalles del cliente</ion-title>\n    <br> \n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 22%;" (click)="historial()" src="img/icon/historial.png"/>\n          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Historial</p>\n      </ion-col>\n      </ion-row>\n    </ion-grid> \n\n  </ion-toolbar>\n</ion-header>\n \n\n<ion-content padding>\n     \n  <br>\n  \n  <div class="S1">\n\n    <ion-card class="c1">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/user.png"/>      \n        </ion-avatar>\n        <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>\n        <h3 style="color: #505A53;">Cliente: {{datosC.tipoCliente}}</h3>\n        <h3 style="color: #505A53;">Licencia: <strong>{{datosC.licencia}} - {{datosC.fechaLicencia}}</strong></h3>\n        <h4 style="opacity: 50%;">{{datosC.telefono}}</h4>\n      </ion-item>\n    </ion-card>  \n\n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/cumple.png"/> Edad: <strong>{{datosC.edad}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/sex.png"/> Sexo: <strong>{{datosC.sexo}}</strong></p>\n  </ion-card-content>\n   \n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/ciudad.png"/> Ciudad: <strong>{{datosC.ciudad}}</strong></p>\n  </ion-card-content>\n  \n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/estado.png"/> Estado: <strong>{{datosC.estado}}</strong></p>\n  </ion-card-content> \n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/address.png"/> Dirección: <strong>{{datosC.direccion}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/colonia.png"/> Colonia: <strong>{{datosC.colonia}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/observaciones.png"/> Observaciones del cliente: <strong>{{datosC.observacionesCliente}}</strong></p>\n  </ion-card-content>\n\n  </div>\n\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\clientemostrar\clientemostrar.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
@@ -2187,10 +2196,10 @@ var MenunivelunoPage = (function () {
         console.log(this.perfil);
     }
     MenunivelunoPage.prototype.usuarios = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_1" /* UsuariosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_2" /* UsuariosPage */]);
     };
     MenunivelunoPage.prototype.miperfil = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["Y" /* UsuariomiperfilPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["Z" /* UsuariomiperfilPage */]);
     };
     MenunivelunoPage.prototype.mes = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["v" /* ClientesmesPage */]);
@@ -2218,7 +2227,7 @@ var MenunivelunoPage = (function () {
         confirm.present();
     };
     MenunivelunoPage.prototype.vehiculos = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_17" /* VehiculosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_18" /* VehiculosPage */]);
         //this.navCtrl.push(ClientesPage);
     };
     MenunivelunoPage.prototype.clientes = function () {
@@ -2297,10 +2306,10 @@ var MenuniveldosPage = (function () {
         confirm.present();
     };
     MenuniveldosPage.prototype.miperfil = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["Y" /* UsuariomiperfilPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["Z" /* UsuariomiperfilPage */]);
     };
     MenuniveldosPage.prototype.vehiculos = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_17" /* VehiculosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_18" /* VehiculosPage */]);
         //this.navCtrl.push(ClientesPage);
     };
     MenuniveldosPage.prototype.clientes = function () {
@@ -2407,10 +2416,10 @@ var UsuariosPage = (function () {
     };
     UsuariosPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('infoUsuario', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_0" /* UsuariomostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_1" /* UsuariomostrarPage */]);
     };
     UsuariosPage.prototype.enlace_agregar_usuario = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["W" /* UsuarioagregarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["X" /* UsuarioagregarPage */]);
     };
     UsuariosPage.prototype.regresar = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -2474,7 +2483,7 @@ var UsuarioagregarPage = (function () {
     }
     UsuarioagregarPage.prototype.regresar = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_1" /* UsuariosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_2" /* UsuariosPage */]);
         }
     };
     UsuarioagregarPage.prototype.menu = function () {
@@ -2603,7 +2612,7 @@ var UsuarioeditarPage = (function () {
     }
     UsuarioeditarPage.prototype.regresar = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_0" /* UsuariomostrarPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_1" /* UsuariomostrarPage */]);
         }
     };
     UsuarioeditarPage.prototype.menu = function () {
@@ -2637,7 +2646,7 @@ var UsuarioeditarPage = (function () {
                             {
                                 text: 'Aceptar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_1" /* UsuariosPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_2" /* UsuariosPage */]);
                                 }
                             }
                         ]
@@ -2723,11 +2732,11 @@ var UsuariomostrarPage = (function () {
     }
     UsuariomostrarPage.prototype.regresar = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_1" /* UsuariosPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_2" /* UsuariosPage */]);
         }
     };
     UsuariomostrarPage.prototype.enlace_editar_usuario = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["X" /* UsuarioeditarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["Y" /* UsuarioeditarPage */]);
     };
     //ELIMINAR USUARIO
     UsuariomostrarPage.prototype.eliminar = function (form) {
@@ -3270,13 +3279,13 @@ var VehiculosPage = (function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["y" /* HistorialPage */]);
     };
     VehiculosPage.prototype.vehiculosDisponibles = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_22" /* VehiculosopcionesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_23" /* VehiculosopcionesPage */]);
     };
     VehiculosPage.prototype.vehiculosRentados = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_23" /* VehiculosrentadosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_24" /* VehiculosrentadosPage */]);
     };
     VehiculosPage.prototype.vehiculosMantenimiento = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_20" /* VehiculosmantenimientoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_21" /* VehiculosmantenimientoPage */]);
     };
     VehiculosPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad VehiculosPage');
@@ -3363,7 +3372,7 @@ var VehiculosdisponiblesPage = (function () {
     };
     VehiculosdisponiblesPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosVehiculo', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_14" /* VehiculomostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_15" /* VehiculomostrarPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     VehiculosdisponiblesPage.prototype.Refrescar = function (refresher) {
@@ -3434,7 +3443,7 @@ var VehiculosrentadosPage = (function () {
         console.log(this.perfil);
     }
     VehiculosrentadosPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_17" /* VehiculosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_18" /* VehiculosPage */]);
     };
     VehiculosrentadosPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -3445,19 +3454,19 @@ var VehiculosrentadosPage = (function () {
         }
     };
     VehiculosrentadosPage.prototype.carros = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_25" /* VehiculosrentadoscarrosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_26" /* VehiculosrentadoscarrosPage */]);
     };
     VehiculosrentadosPage.prototype.avanza = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_24" /* VehiculosrentadosavanzaPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_25" /* VehiculosrentadosavanzaPage */]);
     };
     VehiculosrentadosPage.prototype.odyssey = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_27" /* VehiculosrentadosodysseyPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_28" /* VehiculosrentadosodysseyPage */]);
     };
     VehiculosrentadosPage.prototype.sienna = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_28" /* VehiculosrentadossiennaPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_29" /* VehiculosrentadossiennaPage */]);
     };
     VehiculosrentadosPage.prototype.hiace = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_26" /* VehiculosrentadoshiacePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_27" /* VehiculosrentadoshiacePage */]);
     };
     VehiculosrentadosPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad VehiculosrentadosPage');
@@ -3466,10 +3475,10 @@ var VehiculosrentadosPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-vehiculosrentados',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentados\vehiculosrentados.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Vehiculos rentados</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row> \n    </ion-grid> \n\n  </ion-toolbar>\n</ion-header>\n \n\n<ion-content padding>\n  \n  <ion-card class="tarjeta" (click)="carros()">\n    <div style="text-align: -webkit-center;">\n    <img style="width: 15%;" src="img/icon/car.png"/>\n    </div>\n    <ion-item style="text-align: center;">\n      <p style="font-size: 24px; color: #1BC7AF;"><strong>Carros</strong></p>\n      <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">5 pasajeros</p>\n    </ion-item>      \n  </ion-card>\n\n  <br>\n\n  <div class="c1">\n    <ion-grid style="text-align: center;">  \n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta" (click)="avanza()">\n            <div style="text-align: -webkit-center;">\n            <img style="width: 30%;" src="img/icon/car.png"/>\n            </div>\n            <ion-item style="text-align: center;">\n              <p style="font-size: 24px; color: #1BC7AF;"><strong>Avanza</strong></p>\n              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">7 Pasajeros</p>\n            </ion-item>      \n          </ion-card>\n        </ion-col>\n        <ion-col> \n          <ion-card class="tarjeta" (click)="odyssey()">\n            <div style="text-align: -webkit-center;">\n            <img style="width: 30%;" src="img/icon/vehiculo.png"/>\n            </div>\n            <ion-item style="text-align: center;">\n              <p style="font-size: 24px; color: #1BC7AF;"><strong>Odyssey</strong></p>\n              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">7 y 8 Pasajeros</p>\n            </ion-item>      \n          </ion-card>\n        </ion-col>  \n      </ion-row>\n    </ion-grid> \n  </div>\n\n  <br>\n\n  <div class="c1">\n    <ion-grid style="text-align: center;">  \n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta" (click)="sienna()">\n            <div style="text-align: -webkit-center;">\n            <img style="width: 30%;" src="img/icon/ocho.png"/>\n            </div>\n            <ion-item style="text-align: center;">\n              <p style="font-size: 24px; color: #1BC7AF;"><strong>Sienna</strong></p>\n              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">7 y 8 Pasajeros</p>\n            </ion-item>      \n          </ion-card>\n        </ion-col>\n        <ion-col> \n          <ion-card class="tarjeta" (click)="hiace()">\n            <div style="text-align: -webkit-center;">\n            <img style="width: 30%;" src="img/icon/catorce.png"/>\n            </div>\n            <ion-item style="text-align: center;">\n              <p style="font-size: 24px; color: #1BC7AF;"><strong>Hiace</strong></p>\n              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">14 pasajeros</p>\n            </ion-item>      \n          </ion-card>\n        </ion-col>  \n      </ion-row>\n    </ion-grid> \n  </div>\n\n</ion-content>\n `/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentados\vehiculosrentados.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
     ], VehiculosrentadosPage);
     return VehiculosrentadosPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=vehiculosrentados.js.map
@@ -3513,6 +3522,17 @@ var VehiculosmantenimientoPage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    VehiculosmantenimientoPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_18" /* VehiculosPage */]);
+    };
+    VehiculosmantenimientoPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
+        }
+    };
     VehiculosmantenimientoPage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
     };
@@ -3544,7 +3564,7 @@ var VehiculosmantenimientoPage = (function () {
     };
     VehiculosmantenimientoPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosVehiculo', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["U" /* TallermostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["V" /* TallermostrarPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     VehiculosmantenimientoPage.prototype.Refrescar = function (refresher) {
@@ -3570,17 +3590,12 @@ var VehiculosmantenimientoPage = (function () {
     };
     VehiculosmantenimientoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-vehiculosmantenimiento',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosmantenimiento\vehiculosmantenimiento.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Vehiculos en mantenimiento</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-searchbar cancelButtonText  \n    (ionInput)="getItems($event)" placeholder="Buscar vehiculo" \n    style="background-color: rgba(0, 0, 0, 0.3); border-radius: 30px;">\n  </ion-searchbar>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando..."> \n    </ion-refresher-content>\n  </ion-refresher>\n\n\n  <ion-list *ngFor="let item of vehiculos; let i=index;">\n      <ion-item-sliding >\n          <ion-item>\n\n            <ion-avatar item-left>\n              <img src="{{item.foto}}">     \n            </ion-avatar>\n\n          <button translate ion-button icon-left clear small (click)="detalles($event,item)">\n                  <ion-icon name="paw" style="color: orangered;"></ion-icon>\n                  <h2 color="primary"> {{item.marcaVehiculo}} - {{item.tipoVehiculo}}</h2>\n                      \n          </button>\n          <h2>Placas: {{item.placas}}</h2>\n          <h2>Año: {{item.modelo}}</h2>\n          <h2 >Lo agrego: {{item.nombreUsuario}} </h2> \n\n          </ion-item>\n\n      </ion-item-sliding>\n  </ion-list>\n\n\n\n  \n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosmantenimiento\vehiculosmantenimiento.html"*/,
+            selector: 'page-vehiculosmantenimiento',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosmantenimiento\vehiculosmantenimiento.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Vehiculos en mantenimiento</ion-title>\n      <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  \n  <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar vehiculo">\n  </ion-searchbar>\n  \n  </ion-toolbar>\n</ion-header> \n\n \n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando lista...">\n    </ion-refresher-content> \n  </ion-refresher>\n\n  <ion-list *ngFor="let item of vehiculos; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="{{item.foto}}">       \n        </ion-avatar>\n        <h3 style="color: #718d79;">Placas: <strong style="color: #505A53;">{{item.placas}}</strong></h3>\n        <h3 style="color: #505A53;">Pasajeros: <strong style="color: #1BC7AF;"> {{item.numeroPasajeros}}</strong></h3>\n        <h3 style="color: #718d79;">Color: <strong style="color: #505A53;">{{item.color}}</strong></h3>\n        <h3 style="color: #505A53;">Modelo: <strong style="color: #1BC7AF;"> {{item.modelo}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <h2 style="color: #4A6D68;"><strong>{{item.marcaVehiculo}} - {{item.tipoVehiculo}}</strong></h2>     \n          </ion-col>\n          <ion-col>     \n            <h3 style="color: #718d79;"><strong style="color: #505A53;">{{item.kilometrajeV}}</strong> Km</h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <h3 style="text-align: center; color: #718d79;">Daño en: <strong style="color: #1BC7AF;">{{item.motivoTaller}}</strong></h3> \n      <h3 style="text-align: center; color: #718d79; opacity: 50%;">Enviado por: <strong style="color: #505A53;">{{item.nombreUsuario}}</strong></h3>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosmantenimiento\vehiculosmantenimiento.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */],
-            __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]) === "function" && _g || Object])
     ], VehiculosmantenimientoPage);
     return VehiculosmantenimientoPage;
+    var _a, _b, _c, _d, _e, _f, _g;
 }());
 
 //# sourceMappingURL=vehiculosmantenimiento.js.map
@@ -3628,24 +3643,24 @@ var VehiculomostrarPage = (function () {
     VehiculomostrarPage.prototype.historial = function () {
     };
     VehiculomostrarPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_29" /* VehiculossinservicioPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_30" /* VehiculossinservicioPage */]);
     };
     VehiculomostrarPage.prototype.enlace_editar_vehiculoFoto = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_8" /* VehiculoeditarfotoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_9" /* VehiculoeditarfotoPage */]);
     };
     VehiculomostrarPage.prototype.enlace_editar_vehiculo = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_4" /* VehiculoeditarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_5" /* VehiculoeditarPage */]);
     };
     VehiculomostrarPage.prototype.enlace_Enservicio = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_6" /* VehiculoeditarenservicioPage */]);
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_7" /* VehiculoeditarenservicioPage */]);
         modal.present();
     };
     VehiculomostrarPage.prototype.enviar_taller = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_13" /* VehiculoenviartallerPage */]);
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_14" /* VehiculoenviartallerPage */]);
         modal.present();
     };
     VehiculomostrarPage.prototype.datos_taller = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_3" /* VehiculodatostallerPage */]);
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_4" /* VehiculodatostallerPage */]);
         modal.present();
     };
     VehiculomostrarPage.prototype.dismiss = function () {
@@ -3754,14 +3769,31 @@ var RentasmostrarPage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    RentasmostrarPage.prototype.regresar = function () {
+        if (this.datosR.categoria == "Carros") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_26" /* VehiculosrentadoscarrosPage */]);
+        }
+        else if (this.datosR.categoria == "Avanza") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_25" /* VehiculosrentadosavanzaPage */]);
+        }
+        else if (this.datosR.categoria == "Odyssey") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_28" /* VehiculosrentadosodysseyPage */]);
+        }
+        else if (this.datosR.categoria == "Sienna") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_29" /* VehiculosrentadossiennaPage */]);
+        }
+        else if (this.datosR.categoria == "Hiace") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_27" /* VehiculosrentadoshiacePage */]);
+        }
+    };
     RentasmostrarPage.prototype.enlace_editar_renta = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["O" /* RentaeditarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["P" /* RentaeditarPage */]);
     };
     RentasmostrarPage.prototype.enlace_Datos_Cliente = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["M" /* RentadatosclientePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["N" /* RentadatosclientePage */]);
     };
     RentasmostrarPage.prototype.enlace_Datos_Vehiculo = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["N" /* RentadatosvehiculoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["O" /* RentadatosvehiculoPage */]);
     };
     RentasmostrarPage.prototype.enlace_Dar_Baja = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["K" /* RentabajaPage */]);
@@ -3771,7 +3803,7 @@ var RentasmostrarPage = (function () {
     };
     RentasmostrarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-rentasmostrar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentasmostrar\rentasmostrar.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Detalles de la renta</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <div class="Foto">\n    <img src="{{datosR?.foto}}" id="Foto">\n  </div>\n\n  <ion-item class="center">\n\n    \n\n    <h1 id="nombre" color="primary"><ion-icon name="paw"  color="primary"></ion-icon> {{datosR.marcaVehiculo}}</h1>\n    <br>\n\n<h2>Datos de la renta</h2>\n      <ion-grid>\n        <ion-row>\n          <h2>Chofer:</h2><p id="chofer"> {{datosR.chofer}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Destino:</h2><p id="destino"> {{datosR.destino}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Fecha de salida:</h2><p id="fechaSalida"> {{datosR.fechaSalida}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Hora de salida:</h2><p id="horaSalida"> {{datosR.horaSalida}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Fecha de llegada:</h2><p id="fechaLlegada"> {{datosR.fechaLlegada}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Hora de llegada:</h2><p id="horaLlegada"> {{datosR.horaLlegada}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Kilometraje:</h2><p id="kilometrajeR"> {{datosR.kilometrajeR}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Cristales:</h2><p id="cristalesR"> {{datosR.cristalesR}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Llantas:</h2><p id="llantasR"> {{datosR.llantasR}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Tapiceria:</h2><p id="tapiceriaR"> {{datosR.tapiceriaR}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Documentacion del vehiculo:</h2><p id="documentacionVehiculoR"> {{datosR.documentacionVehiculoR}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Refaccion:</h2><p id="refaccionR"> {{datosR.refaccionR}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Gato:</h2><p id="gatoR"> {{datosR.gatoR}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Notas:</h2><p id="notasR"> {{datosR.notasR}}</p>\n        </ion-row>\n      </ion-grid>\n\n\n<h2>Datos del vehiculo</h2>\n      <ion-grid>\n        <ion-row>\n          <h2>Tipo de vehiculo:</h2><p id="tipoVehiculo"> {{datosR.tipoVehiculo}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Numero de pasajeros:</h2><p id="numeroPasajeros"> {{datosR.numeroPasajeros}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Placas:</h2><p id="placas"> {{datosR.placas}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Año: </h2><p id="modelo">{{datosR.modelo}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Numero de motor: </h2><p id="numeroMotor">{{datosR.numeroMotor}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Transmicion: </h2><p id="transmicion">{{datosR.transmicion}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Numero de serie: </h2><p id="numeroSerie">{{datosR.numeroSerie}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Color: </h2><p id="color">{{datosR.color}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Kilometraje: </h2><p id="kilometrajeV">{{datosR.kilometrajeV}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Cristales: </h2><p id="cristalesV">{{datosR.cristalesV}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Llantas: </h2><p id="llantasV">{{datosR.llantasV}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Tapiceria: </h2><p id="tapiceriaV">{{datosR.tapiceriaV}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Documentacion del vehiculo: </h2><p id="documentacionVehiculoV">{{datosR.documentacionVehiculoV}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Refaccion: </h2><p id="refaccionV">{{datosR.refaccionV}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Gato: </h2><p id="gatoV">{{datosR.gatoV}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Vehiculo en mantenimiento: </h2><p id="vehiculoMantenimiento">{{datosR.vehiculoMantenimiento}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Vehiculo: </h2><p id="vehiculoRentado">{{datosR.autoRentado}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>notas: </h2><p id="notasV">{{datosR.notasV}}</p> \n        </ion-row>\n      </ion-grid>\n\n<h2>Datos del cliente</h2>\n      <ion-grid>\n        <ion-row>\n          <h2>Cliente:</h2><p id="nombre"> {{datosR.nombre}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Cliente:</h2><p id="tipoCliente"> {{datosR.tipoCliente}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Vehiculo Rentado:</h2><p id="vehiculoRentado"> {{datosR.vehiculoRentado}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Edad: </h2><p id="edad">{{datosR.edad}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Telefono: </h2><p id="telefono">{{datosR.telefono}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Sexo: </h2><p id="sexo">{{datosR.sexo}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Direccion: </h2><p id="direccion">{{datosR.direccion}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Colonia: </h2><p id="colonia">{{datosR.colonia}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Ciudad: </h2><p id="ciudad">{{datosR.ciudad}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Estado: </h2><p id="estado">{{datosR.estado}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Licencia: </h2><p id="licencia">{{datosR.licencia}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Vigencia de la licencia: </h2><p id="fechaLicencia">{{datosR.fechaLicencia}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Observaciones del cliente: </h2><p id="observacionesCliente">{{datosR.observacionesCliente}}</p>\n       </ion-row>\n       <ion-row>\n         <h2>Observaciones del vehiculo: </h2><p id="observacionesVehiculo">{{datosR.observacionesVehiculo}}</p>\n       </ion-row>\n       <ion-row>\n         <h2>Vehiculos Rentados: </h2><p id="vehiculosRentados">{{datosR.vehiculosRentados}}</p>\n       </ion-row>\n       <ion-row>\n         <h2>Vehiculos Dañados: </h2><p id="vehiculosMalEstado">{{datosR.vehiculosMalEstado}}</p>\n       </ion-row>\n       <ion-row>\n         <h2>Notas: </h2><p id="notasC">{{datosR.notasC}}</p>\n       </ion-row>\n       <ion-row>\n         <h2>Cliente Activo: </h2><p id="clienteactivo">{{datosR.clienteactivo}}</p>\n       </ion-row>\n       <ion-row>\n         <h2>Notas del historial: </h2><p id="notashistorial">{{datosR.notashistorial}}</p>\n       </ion-row>   \n       <ion-row>\n         <h2>Fecha de alta del cliente: </h2><p id="fechaAltaCliente">{{datosR.fechaAltaCliente}}</p> \n       </ion-row> \n      </ion-grid>\n\n      <h2>Atendido por el ultimo usuario que fue: </h2><p id="nombreUsuario">{{datosR.nombreUsuario}}</p> \n\n    </ion-item>\n\n    <button ion-button color="primary" (click)="enlace_editar_renta()">\n      <ion-icon name="medkit"></ion-icon>\n      Editar \n    </button>\n\n    <button ion-button color="secondary" (click)="enlace_Datos_Cliente()">\n      <ion-icon name="medkit"></ion-icon>\n      Ver datos cliente\n    </button>\n\n    <button ion-button color="light" (click)="enlace_Datos_Vehiculo()">\n      <ion-icon name="medkit"></ion-icon>\n      Ver datos vehiculo\n    </button>\n\n    <button ion-button color="danger" (click)="enlace_Dar_Baja()">\n      <ion-icon name="medkit"></ion-icon>\n      Dar de baja\n    </button>\n    \n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentasmostrar\rentasmostrar.html"*/,
+            selector: 'page-rentasmostrar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentasmostrar\rentasmostrar.html"*/`\n<ion-content>\n\n  <br>\n  <br>\n\n  <ion-item>\n   <ion-avatar item-left>\n      <img src="{{datosR.foto}}">\n    </ion-avatar>\n  </ion-item>\n\n    <ion-grid style="text-align: center; margin-left: 20px;" >\n      <ion-row>  \n        <ion-col> \n            <ion-item no-lines>\n              <div>\n                <p style="font-size: 20px; color: #4A6D68;"><strong>{{datosR.marcaVehiculo}} - {{datosR.tipoVehiculo}}</strong></p>\n                <p style="font-size: 12px; color: #4A6D68;">Cliente: <strong>{{datosR.nombre}}</strong></p>\n                <p style="font-size: 12px; color: #718d79;">Licencia: <strong style="color: #505A53;">{{datosR.licencia}}</strong></p>\n                <p style="font-size: 12px; color: #718d79;">Telefono: <strong style="color: #505A53;">{{datosR.telefono}}</strong></p> \n              </div> \n            </ion-item>\n        </ion-col>\n        <ion-col style="margin-top: 9px;">\n          <ion-item no-lines>\n            <div>\n              <p style="font-size: 12px; color: #718d79;">Modelo: <strong style="color: #505A53;">{{datosR.modelo}}</strong></p>\n              <p style="font-size: 12px; color: #718d79;">Placas: <strong style="color: #505A53;">{{datosR.placas}}</strong></p> \n              <p style="font-size: 12px; color: #718d79;">Color: <strong style="color: #505A53;">{{datosR.color}}</strong></p>\n              <p style="font-size: 12px; color: #718d79;">Transmicion: <strong style="color: #505A53;">{{datosR.transmicion}}</strong></p> \n            </div> \n          </ion-item>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <div class="c1">\n      <ion-grid style="text-align: center;">\n        <ion-row> \n          <ion-col> \n            <ion-card class="tarjeta">\n              <ion-item>\n                <div style="text-align: -webkit-center;">\n                  <p style="font-size: 10px; color: #505A53;">Fecha de salida</p>\n                  <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.fechaSalida}}</strong></p>\n                </div> \n              </ion-item>\n            </ion-card>\n          </ion-col>\n          <ion-col>     \n            <ion-card class="tarjeta">\n              <ion-item>\n                <div style="text-align: -webkit-center;">\n                  <p style="font-size: 10px; color: #505A53;">Hora de salida</p>\n                  <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.horaSalida}}</strong></p>\n                </div> \n              </ion-item>\n            </ion-card>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n    </div>\n\n    <div>\n      <ion-grid no-padding style="text-align: center;">\n        <ion-row>\n          <ion-col>     \n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Destino</p>\n                <p style="font-size: 12px; color: #1BC7AF;"><strong>{{datosR.destino}}</strong></p>\n              </div> \n            </ion-item>\n        </ion-col>\n          <ion-col>     \n              <ion-item no-lines>\n                <div style="text-align: -webkit-center;">\n                  <p style="font-size: 10px; color: #505A53;">Km</p>\n                  <p style="font-size: 12px; color: #1BC7AF;"><strong>{{datosR.kilometrajeR}}</strong></p>\n                </div> \n              </ion-item>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </div>\n\n    <div>\n      <ion-grid no-padding style="text-align: center;">\n        <ion-row>\n          <ion-col>     \n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Documentacion</p>\n                <p style="font-size: 12px; color: #1BC7AF;"><strong>{{datosR.documentacionVehiculoR}}</strong></p>\n              </div> \n            </ion-item>\n        </ion-col>\n          <ion-col>     \n              <ion-item no-lines>\n                <div style="text-align: -webkit-center;">\n                  <p style="font-size: 10px; color: #505A53;">Refaccion</p>\n                  <p style="font-size: 12px; color: #1BC7AF;"><strong>{{datosR.refaccionR}}</strong></p>\n                </div> \n              </ion-item>\n          </ion-col>\n          <ion-col>     \n              <ion-item no-lines>\n                <div style="text-align: -webkit-center;">\n                  <p style="font-size: 10px; color: #505A53;">Gato</p>\n                  <p style="font-size: 12px; color: #1BC7AF;"><strong>{{datosR.gatoR}}</strong></p>\n                </div> \n              </ion-item>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </div>\n\n    <div class="c1">\n      <ion-grid style="text-align: center;">\n        <ion-row> \n          <ion-col> \n            <ion-card class="tarjeta">\n              <ion-item>\n                <div style="text-align: -webkit-center;">\n                  <p style="font-size: 10px; color: #505A53;">Fecha de Llegada</p>\n                  <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.fechaLlegada}}</strong></p>\n                </div> \n              </ion-item>\n            </ion-card>\n          </ion-col>\n          <ion-col>     \n            <ion-card class="tarjeta">\n              <ion-item>\n                <div style="text-align: -webkit-center;">\n                  <p style="font-size: 10px; color: #505A53;">Hora de Llegada</p>\n                  <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.horaLlegada}}</strong></p>\n                </div> \n              </ion-item>\n            </ion-card>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n    </div>\n\n    <ion-item no-lines style="margin-left: 10px;">\n      <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/cristal.png"/> Cristales: <strong>{{datosR.cristalesR}}</strong></p>\n      <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/llanta.png"/> Llantas: <strong>{{datosR.llantasR}}</strong></p>\n      <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/car.png"/> Tapiceria: <strong>{{datosR.tapiceriaR}}</strong></p>\n    <ion-card-content>\n      <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/notas.png"/> Notas: <strong>{{datosR.notasR}}</strong></p>\n    </ion-card-content>\n    </ion-item>\n\n    <p style="margin-top: 14px; text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{datosR.nombreUsuario}}</strong></p>\n\n  <ion-fab right top>\n    <button ion-fab ><ion-icon name="copy"></ion-icon></button>\n    <ion-fab-list side="bottom">\n      <img ion-fab style="border-radius: 50%;" src="img/datosC.png" (click)="enlace_Datos_Cliente()" />\n      <img ion-fab style="border-radius: 50%;" src="img/datosV.png" (click)="enlace_Datos_Vehiculo()" />  \n    </ion-fab-list>\n    <ion-fab-list side="left">\n      <p style="color: aliceblue;">Datos: Cliente y Vehiculo</p>\n    </ion-fab-list>\n  </ion-fab>\n\n\n</ion-content>\n\n<ion-footer no-border no-shadow color="primary-contrast">\n  <ion-grid style="text-align: center;">\n    <ion-row>  \n      <ion-col>\n          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n          <p (click)="regresar()" style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n      </ion-col>\n      <ion-col>     \n        <img style="width: 22%;" (click)="enlace_editar_renta()" src="img/icon/editvehiculo.png"/>\n        <p (click)="enlace_editar_renta()" style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Editar renta</p>\n      </ion-col>\n      <ion-col>   \n          <img style="width: 22%;" (click)="enlace_Dar_Baja()"  src="img/icon/basura.png"/>\n          <p (click)="enlace_Dar_Baja()" style="font-size: 14px; color: #C10000; margin-top: 0%;">Dar de baja</p>\n      </ion-col>\n    </ion-row>\n  </ion-grid> \n</ion-footer>\n \n\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentasmostrar\rentasmostrar.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
@@ -3811,16 +3843,16 @@ var VehiculosopcionesPage = (function () {
         console.log(this.perfil);
     }
     VehiculosopcionesPage.prototype.vehiculosSinServicio = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_29" /* VehiculossinservicioPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_30" /* VehiculossinservicioPage */]);
     };
     VehiculosopcionesPage.prototype.vehiculosLibres = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_19" /* VehiculoslibresPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_20" /* VehiculoslibresPage */]);
     };
     VehiculosopcionesPage.prototype.vehiculosOcupados = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_21" /* VehiculosocupadosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_22" /* VehiculosocupadosPage */]);
     };
     VehiculosopcionesPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_17" /* VehiculosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_18" /* VehiculosPage */]);
     };
     VehiculosopcionesPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -3885,7 +3917,7 @@ var VehiculosocupadosPage = (function () {
         console.log(this.perfil);
     }
     VehiculosocupadosPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_22" /* VehiculosopcionesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_23" /* VehiculosopcionesPage */]);
     };
     VehiculosocupadosPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -3936,7 +3968,7 @@ var VehiculosocupadosPage = (function () {
         }
         else if (item.renta == "SIN RENTAR") {
             window.localStorage.setItem('datosVehiculo', JSON.stringify(item));
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_16" /* VehiculomostrarocupadoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_17" /* VehiculomostrarocupadoPage */]);
         }
         else {
             var alert_2 = this.alertCtrl.create({
@@ -4016,7 +4048,7 @@ var VehiculoslibresPage = (function () {
         console.log(this.perfil);
     }
     VehiculoslibresPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_22" /* VehiculosopcionesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_23" /* VehiculosopcionesPage */]);
     };
     VehiculoslibresPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -4093,7 +4125,7 @@ var VehiculossinservicioPage = (function () {
         console.log(this.perfil);
     }
     VehiculossinservicioPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_22" /* VehiculosopcionesPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_23" /* VehiculosopcionesPage */]);
     };
     VehiculossinservicioPage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
@@ -4126,10 +4158,10 @@ var VehiculossinservicioPage = (function () {
     };
     VehiculossinservicioPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosVehiculo', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_14" /* VehiculomostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_15" /* VehiculomostrarPage */]);
     };
     VehiculossinservicioPage.prototype.enlace_agregar_vehiculo = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_2" /* VehiculoagregarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_3" /* VehiculoagregarPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     VehiculossinservicioPage.prototype.Refrescar = function (refresher) {
@@ -4155,7 +4187,7 @@ var VehiculossinservicioPage = (function () {
     };
     VehiculossinservicioPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-vehiculossinservicio',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculossinservicio\vehiculossinservicio.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Vehiculos fuera de servicio</ion-title>\n      <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="enlace_agregar_vehiculo()" src="img/icon/addvehiculo.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Agregar vehiculo</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  \n  <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar vehiculo">\n  </ion-searchbar>\n  \n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando lista...">\n    </ion-refresher-content> \n  </ion-refresher>\n\n  <ion-list *ngFor="let item of vehiculos; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="{{item.foto}}">       \n        </ion-avatar>\n        <h3 style="color: #718d79;">Placas: <strong style="color: #505A53;">{{item.placas}}</strong></h3>\n        <h3 style="color: #505A53;">Pasajeros: <strong style="color: #1BC7AF;"> {{item.numeroPasajeros}}</strong></h3>\n        <h3 style="color: #718d79;">Color: <strong style="color: #505A53;">{{item.color}}</strong></h3>\n        <h3 style="color: #505A53;">Modelo: <strong style="color: #1BC7AF;"> {{item.modelo}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <h2 style="color: #4A6D68;"><strong>{{item.marcaVehiculo}} - {{item.tipoVehiculo}}</strong></h2>   \n          </ion-col>\n          <ion-col>     \n            <h3 style="color: #718d79;"><strong style="color: #505A53;">{{item.kilometrajeV}}</strong> Km</h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <h3 style="text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{item.nombreUsuario}}</strong></h3>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculossinservicio\vehiculossinservicio.html"*/,
+            selector: 'page-vehiculossinservicio',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculossinservicio\vehiculossinservicio.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Vehiculos fuera de servicio</ion-title>\n      <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="enlace_agregar_vehiculo()" src="img/icon/addvehiculo.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Agregar vehiculo</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  \n  <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar vehiculo">\n  </ion-searchbar>\n  \n  </ion-toolbar>\n</ion-header> \n\n \n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando lista...">\n    </ion-refresher-content> \n  </ion-refresher>\n\n  <ion-list *ngFor="let item of vehiculos; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="{{item.foto}}">       \n        </ion-avatar>\n        <h3 style="color: #718d79;">Placas: <strong style="color: #505A53;">{{item.placas}}</strong></h3>\n        <h3 style="color: #505A53;">Pasajeros: <strong style="color: #1BC7AF;"> {{item.numeroPasajeros}}</strong></h3>\n        <h3 style="color: #718d79;">Color: <strong style="color: #505A53;">{{item.color}}</strong></h3>\n        <h3 style="color: #505A53;">Modelo: <strong style="color: #1BC7AF;"> {{item.modelo}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <h2 style="color: #4A6D68;"><strong>{{item.marcaVehiculo}} - {{item.tipoVehiculo}}</strong></h2>   \n          </ion-col>\n          <ion-col>     \n            <h3 style="color: #718d79;"><strong style="color: #505A53;">{{item.kilometrajeV}}</strong> Km</h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <h3 style="text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{item.nombreUsuario}}</strong></h3>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculossinservicio\vehiculossinservicio.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -4218,17 +4250,17 @@ var VehiculomostrarlibrePage = (function () {
         }
     };
     VehiculomostrarlibrePage.prototype.enlace_editar_vehiculoFoto = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_8" /* VehiculoeditarfotoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_9" /* VehiculoeditarfotoPage */]);
     };
     VehiculomostrarlibrePage.prototype.enlace_editar_vehiculo = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_5" /* VehiculoeditardosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_6" /* VehiculoeditardosPage */]);
     };
     VehiculomostrarlibrePage.prototype.enlace_Sinservicio = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_11" /* VehiculoeditarsinservicioPage */]);
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_12" /* VehiculoeditarsinservicioPage */]);
         modal.present();
     };
     VehiculomostrarlibrePage.prototype.enlace_rentar = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_10" /* VehiculoeditarserviciorentaPage */]);
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_11" /* VehiculoeditarserviciorentaPage */]);
         modal.present();
     };
     VehiculomostrarlibrePage.prototype.ionViewDidLoad = function () {
@@ -4282,19 +4314,19 @@ var VehiculomostrarocupadoPage = (function () {
         console.log(this.perfil);
     }
     VehiculomostrarocupadoPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_21" /* VehiculosocupadosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_22" /* VehiculosocupadosPage */]);
     };
     VehiculomostrarocupadoPage.prototype.enlace_editar_vehiculoFoto = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_8" /* VehiculoeditarfotoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_9" /* VehiculoeditarfotoPage */]);
     };
     VehiculomostrarocupadoPage.prototype.enlace_rentar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_9" /* VehiculoeditarrentaPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_10" /* VehiculoeditarrentaPage */]);
     };
     VehiculomostrarocupadoPage.prototype.enlace_editar_vehiculo = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_12" /* VehiculoeditartresPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_13" /* VehiculoeditartresPage */]);
     };
     VehiculomostrarocupadoPage.prototype.enlace_enviarA = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_7" /* VehiculoeditarenviaraPage */]);
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_8" /* VehiculoeditarenviaraPage */]);
         modal.present();
     };
     VehiculomostrarocupadoPage.prototype.ionViewDidLoad = function () {
@@ -4387,7 +4419,7 @@ var RentalistausuariosPage = (function () {
     };
     RentalistausuariosPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosRentaCliente', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["P" /* RentalistausuariorentadoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["Q" /* RentalistausuariorentadoPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     RentalistausuariosPage.prototype.Refrescar = function (refresher) {
@@ -4511,7 +4543,7 @@ var RentaagregarPage = (function () {
                             {
                                 text: 'Aceptar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_17" /* VehiculosPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_18" /* VehiculosPage */]);
                                     //this.dismiss()
                                 }
                             }
@@ -4547,7 +4579,7 @@ var RentaagregarPage = (function () {
     };
     RentaagregarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-rentaagregar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentaagregar\rentaagregar.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Agregar renta</ion-title>\n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n  <form #guardarForm="ngForm"> \n    \n    <ion-list>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/destino.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Destino* :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosRenta.destino" name="destino" #destino="ngModel" placeholder="Lugar"\n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/calendar.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Fecha de Salida* :</ion-label>\n        <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosRenta.fechaSalida" name="fechaSalida" #fechaSalida="ngModel" cancelText="Cancelar" doneText="Agregar" required></ion-datetime>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/reloj.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Hora de Salida* :</ion-label>\n        <ion-datetime displayFormat="h:mm a" [(ngModel)]="datosRenta.horaSalida" name="horaSalida" #horaSalida="ngModel" cancelText="Cancelar" doneText="Agregar" placeholder="Sin hora" required></ion-datetime>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/calendar.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Fecha de Llegada* :</ion-label>\n        <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosRenta.fechaLlegada" name="fechaLlegada" #fechaLlegada="ngModel" cancelText="Cancelar" doneText="Agregar" required></ion-datetime>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/reloj.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Hora de Llegada* :</ion-label>\n        <ion-datetime displayFormat="h:mm a" [(ngModel)]="datosRenta.horaLlegada" name="horaLlegada" #horaLlegada="ngModel" cancelText="Cancelar" doneText="Agregar" placeholder="Sin hora" required></ion-datetime>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/km.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Kilometraje* :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosRenta.kilometrajeR" name="kilometrajeR" #kilometrajeR="ngModel" placeholder="kilometraje" \n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/cristales.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Cristales :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosRenta.cristalesR" name="cristalesR" #cristalesR="ngModel" placeholder="cristales" ></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/llanta.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Llantas :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosRenta.llantasR" name="llantasR" #llantasR="ngModel" placeholder="llantas" ></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/car.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tapiceria :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosRenta.tapiceriaR" name="tapiceriaR" #tapiceriaR="ngModel" placeholder="tapiceria" ></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/not.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Documentación del vehiculo* :</ion-label>\n        <ion-select [(ngModel)]="datosRenta.documentacionVehiculoR" name="documentacionVehiculoR" #documentacionVehiculoR="ngModel" placeholder="documentacion" required> \n        <ion-option value="SI">SI</ion-option>\n        <ion-option value="NO">NO</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/refaccion.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Refacción* :</ion-label>\n        <ion-select [(ngModel)]="datosRenta.refaccionR" name="refaccionR" #refaccionR="ngModel" placeholder="refaccion" required> \n        <ion-option value="SI">SI</ion-option>\n        <ion-option value="NO">NO</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/gato.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Gato* :</ion-label>\n        <ion-select [(ngModel)]="datosRenta.gatoR" name="gatoR" #gatoR="ngModel" placeholder="gato" required> \n        <ion-option value="SI">SI</ion-option>\n        <ion-option value="NO">NO</ion-option>\n        </ion-select>\n      </ion-item> \n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/notasV.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Notas :</ion-label>\n        <ion-input type="text-area" [(ngModel)]="datosRenta.notasR" name="notasR" #notasR="ngModel" placeholder="notas" ></ion-input>\n      </ion-item>\n     </ion-list>\n     <br>\n\n     <button ion-button round block color="boton" type="submit" (click)="guardar(guardarForm)">Guardar</button>\n\n   \n   </form>\n\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentaagregar\rentaagregar.html"*/,
+            selector: 'page-rentaagregar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentaagregar\rentaagregar.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Agregar renta</ion-title>\n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n  <form #guardarForm="ngForm"> \n    \n    <ion-list>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/destino.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Destino* :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosRenta.destino" name="destino" #destino="ngModel" placeholder="Lugar"\n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/calendar.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Fecha de Salida* :</ion-label>\n        <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosRenta.fechaSalida" name="fechaSalida" #fechaSalida="ngModel" cancelText="Cancelar" doneText="Agregar" required></ion-datetime>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/reloj.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Hora de Salida* :</ion-label>\n        <ion-datetime displayFormat="h:mm a" [(ngModel)]="datosRenta.horaSalida" name="horaSalida" #horaSalida="ngModel" cancelText="Cancelar" doneText="Agregar" placeholder="Sin hora" required></ion-datetime>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/calendar.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Fecha de Llegada* :</ion-label>\n        <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosRenta.fechaLlegada" name="fechaLlegada" #fechaLlegada="ngModel" cancelText="Cancelar" doneText="Agregar" required></ion-datetime>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/reloj.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Hora de Llegada* :</ion-label>\n        <ion-datetime displayFormat="h:mm a" [(ngModel)]="datosRenta.horaLlegada" name="horaLlegada" #horaLlegada="ngModel" cancelText="Cancelar" doneText="Agregar" placeholder="Sin hora" required></ion-datetime>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/km.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Kilometraje* :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosRenta.kilometrajeR" name="kilometrajeR" #kilometrajeR="ngModel" placeholder="kilometraje" \n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/cristales.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Cristales :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosRenta.cristalesR" name="cristalesR" #cristalesR="ngModel" placeholder="cristales" ></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/llanta.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Llantas :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosRenta.llantasR" name="llantasR" #llantasR="ngModel" placeholder="llantas" ></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/car.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tapiceria :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosRenta.tapiceriaR" name="tapiceriaR" #tapiceriaR="ngModel" placeholder="tapiceria" ></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/not.png"/>       \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Documentación del vehiculo* :</ion-label>\n        <ion-select [(ngModel)]="datosRenta.documentacionVehiculoR" name="documentacionVehiculoR" #documentacionVehiculoR="ngModel" placeholder="documentacion" required> \n        <ion-option value="SI">SI</ion-option>\n        <ion-option value="NO">NO</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/refaccion.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Refacción* :</ion-label>\n        <ion-select [(ngModel)]="datosRenta.refaccionR" name="refaccionR" #refaccionR="ngModel" placeholder="refaccion" required> \n        <ion-option value="SI">SI</ion-option>\n        <ion-option value="NO">NO</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/gato.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Gato* :</ion-label>\n        <ion-select [(ngModel)]="datosRenta.gatoR" name="gatoR" #gatoR="ngModel" placeholder="gato" required> \n        <ion-option value="SI">SI</ion-option>\n        <ion-option value="NO">NO</ion-option>\n        </ion-select>\n      </ion-item> \n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/notasV.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Notas :</ion-label>\n        <ion-input type="text-area" [(ngModel)]="datosRenta.notasR" name="notasR" #notasR="ngModel" placeholder="notas" ></ion-input>\n      </ion-item>\n     </ion-list>\n     <br>\n\n     <button ion-button round block color="boton" type="submit" (click)="guardar(guardarForm)">Guardar</button>\n\n   \n   </form>\n\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentaagregar\rentaagregar.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -4622,7 +4654,7 @@ var VehiculoagregarPage = (function () {
         this.viewCtrl.dismiss();
     };
     VehiculoagregarPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__index_paginas__["_29" /* VehiculossinservicioPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__index_paginas__["_30" /* VehiculossinservicioPage */]);
     };
     VehiculoagregarPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -4684,7 +4716,7 @@ var VehiculoagregarPage = (function () {
                             {
                                 text: 'Aceptar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__index_paginas__["_22" /* VehiculosopcionesPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__index_paginas__["_23" /* VehiculosopcionesPage */]);
                                 }
                             }
                         ]
@@ -4839,10 +4871,10 @@ var VehiculoeditarrentaPage = (function () {
         console.log(this.datosV);
     }
     VehiculoeditarrentaPage.prototype.cliente = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["Q" /* RentalistausuariosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["R" /* RentalistausuariosPage */]);
     };
     VehiculoeditarrentaPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_16" /* VehiculomostrarocupadoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_17" /* VehiculomostrarocupadoPage */]);
     };
     VehiculoeditarrentaPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -4880,7 +4912,7 @@ var VehiculoeditarrentaPage = (function () {
                             {
                                 text: 'Continuar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["Q" /* RentalistausuariosPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["R" /* RentalistausuariosPage */]);
                                     _this.dismiss();
                                 }
                             }
@@ -4913,7 +4945,7 @@ var VehiculoeditarrentaPage = (function () {
     };
     VehiculoeditarrentaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-vehiculoeditarrenta',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoeditarrenta\vehiculoeditarrenta.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Listo para rentar</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n      </ion-col>\n      </ion-row>\n    </ion-grid> \n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n  \n  <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>\n  <ion-card-content style="text-align: justify;">\n    <p style="color: #505A53;">Una vez seleccionado este vehiculo para su renta, no podras escogerlo nuevamente, hasta que se halla dado de baja y pase a estar disponible una vez más. \n      Cuando pongas el vehiculo en modo de <strong>Vehiculo rentado</strong>, no podras regresar a hacer otras actividades hasta que hallas completado todos los datos.</p>\n  </ion-card-content>\n\n<form #editarForm="ngForm">\n  <ion-list>\n  <ion-item> \n    <ion-avatar item-left>\n      <img src="img/icon/car.png"/>      \n     </ion-avatar>\n    <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Vehiculo para rentar</ion-label>\n    <ion-select [(ngModel)]="editarVehiculoRenta.renta" name="renta" #renta="ngModel" cancelText="Cancelar" okText="Agregar" placeholder="SIN RENTAR" required> \n      <ion-option value="EN RENTA">VEHICULO RENTADO</ion-option>\n    </ion-select>\n  </ion-item>\n</ion-list>\n<br>\n  <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Enviar</button>\n</form>\n\n<button ion-button round block color="txteditar" type="submit" (click)="cliente()">cliente</button>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoeditarrenta\vehiculoeditarrenta.html"*/,
+            selector: 'page-vehiculoeditarrenta',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoeditarrenta\vehiculoeditarrenta.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Listo para rentar</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n      </ion-col>\n      </ion-row>\n    </ion-grid> \n  </ion-toolbar> \n</ion-header> \n\n\n<ion-content padding>\n  \n  <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>\n  <ion-card-content style="text-align: justify;">\n    <p style="color: #505A53;">Una vez seleccionado este vehiculo para su renta, no podras escogerlo nuevamente, hasta que se halla dado de baja y pase a estar disponible una vez más. \n      Cuando pongas el vehiculo en modo de <strong>Vehiculo rentado</strong>, no podras regresar a hacer otras actividades hasta que hallas completado todos los datos.</p>\n  </ion-card-content>\n\n<form #editarForm="ngForm">\n  <ion-list>\n  <ion-item> \n    <ion-avatar item-left>\n      <img src="img/icon/car.png"/>      \n     </ion-avatar>\n    <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Vehiculo para rentar</ion-label>\n    <ion-select [(ngModel)]="editarVehiculoRenta.renta" name="renta" #renta="ngModel" cancelText="Cancelar" okText="Agregar" placeholder="SIN RENTAR" required> \n      <ion-option value="EN RENTA">VEHICULO RENTADO</ion-option>\n    </ion-select>\n  </ion-item>\n</ion-list>\n<br>\n  <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Enviar</button>\n</form>\n\n<button ion-button round block color="txteditar" type="submit" (click)="cliente()">cliente</button>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoeditarrenta\vehiculoeditarrenta.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -4994,7 +5026,7 @@ var VehiculoeditarPage = (function () {
         this.datosVehiculo.idasTaller = "0";
     }
     VehiculoeditarPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_14" /* VehiculomostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_15" /* VehiculomostrarPage */]);
     };
     VehiculoeditarPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -5057,7 +5089,7 @@ var VehiculoeditarPage = (function () {
                             {
                                 text: 'Aceptar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_22" /* VehiculosopcionesPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_23" /* VehiculosopcionesPage */]);
                                 }
                             }
                         ]
@@ -5144,7 +5176,7 @@ var VehiculoeditarenservicioPage = (function () {
         console.log(this.datosV);
     }
     VehiculoeditarenservicioPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_14" /* VehiculomostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_15" /* VehiculomostrarPage */]);
     };
     VehiculoeditarenservicioPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -5272,7 +5304,7 @@ var VehiculoenviartallerPage = (function () {
         this.enviarVehiculoTaller.vehiculoMantenimiento = "EN MANTENIMIENTO";
     }
     VehiculoenviartallerPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_14" /* VehiculomostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_15" /* VehiculomostrarPage */]);
     };
     VehiculoenviartallerPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -5402,7 +5434,7 @@ var VehiculoeditarsinservicioPage = (function () {
         console.log(this.datosV);
     }
     VehiculoeditarsinservicioPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_15" /* VehiculomostrarlibrePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_16" /* VehiculomostrarlibrePage */]);
     };
     VehiculoeditarsinservicioPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -5536,13 +5568,13 @@ var VehiculoeditarfotoPage = (function () {
     }
     VehiculoeditarfotoPage.prototype.regresar = function () {
         if (this.datosV.autoRentado == "SIN SERVICIO") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__index_paginas__["_14" /* VehiculomostrarPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__index_paginas__["_15" /* VehiculomostrarPage */]);
         }
         else if (this.datosV.autoRentado == "EN SERVICIO") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__index_paginas__["_15" /* VehiculomostrarlibrePage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__index_paginas__["_16" /* VehiculomostrarlibrePage */]);
         }
         else if (this.datosV.autoRentado == "PARA LA RENTA") {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__index_paginas__["_16" /* VehiculomostrarocupadoPage */]);
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__index_paginas__["_17" /* VehiculomostrarocupadoPage */]);
         }
     };
     VehiculoeditarfotoPage.prototype.menu = function () {
@@ -5764,7 +5796,7 @@ var VehiculoeditardosPage = (function () {
         this.datosVehiculo.idasTaller = "0";
     }
     VehiculoeditardosPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_15" /* VehiculomostrarlibrePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_16" /* VehiculomostrarlibrePage */]);
     };
     VehiculoeditardosPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -5941,7 +5973,7 @@ var VehiculoeditartresPage = (function () {
         this.datosVehiculo.idasTaller = "0";
     }
     VehiculoeditartresPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_16" /* VehiculomostrarocupadoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_17" /* VehiculomostrarocupadoPage */]);
     };
     VehiculoeditartresPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -6092,7 +6124,7 @@ var VehiculoeditarserviciorentaPage = (function () {
         console.log(this.datosV);
     }
     VehiculoeditarserviciorentaPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_15" /* VehiculomostrarlibrePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_16" /* VehiculomostrarlibrePage */]);
     };
     VehiculoeditarserviciorentaPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -6217,7 +6249,7 @@ var VehiculoeditarenviaraPage = (function () {
         console.log(this.datosV);
     }
     VehiculoeditarenviaraPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_16" /* VehiculomostrarocupadoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_17" /* VehiculomostrarocupadoPage */]);
     };
     VehiculoeditarenviaraPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -6310,6 +6342,7 @@ var VehiculoeditarenviaraPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6319,6 +6352,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -6339,10 +6373,11 @@ var RentaeditarPage = (function () {
         this.datosUsuario = window.localStorage.getItem('dataUser');
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
-        this.datosEditarRenta.chofer = this.datosR.chofer;
         this.datosEditarRenta.destino = this.datosR.destino;
         this.datosEditarRenta.fechaSalida = this.datosR.fechaSalida;
+        this.datosEditarRenta.horaSalida = this.datosR.horaSalida;
         this.datosEditarRenta.fechaLlegada = this.datosR.fechaLlegada;
+        this.datosEditarRenta.horaLlegada = this.datosR.horaLlegada;
         this.datosEditarRenta.kilometrajeR = this.datosR.kilometrajeR;
         this.datosEditarRenta.cristalesR = this.datosR.cristalesR;
         this.datosEditarRenta.llantasR = this.datosR.llantasR;
@@ -6352,6 +6387,17 @@ var RentaeditarPage = (function () {
         this.datosEditarRenta.gatoR = this.datosR.gatoR;
         this.datosEditarRenta.notasR = this.datosR.notasR;
     }
+    RentaeditarPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["T" /* RentasmostrarPage */]);
+    };
+    RentaeditarPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
+        }
+    };
     RentaeditarPage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
     };
@@ -6361,10 +6407,11 @@ var RentaeditarPage = (function () {
         this.submitted = true;
         if (form.valid) {
             console.log(this.datosR.idRenta);
-            console.log(this.datosEditarRenta.chofer);
             console.log(this.datosEditarRenta.destino);
             console.log(this.datosEditarRenta.fechaSalida);
+            console.log(this.datosEditarRenta.horaSalida);
             console.log(this.datosEditarRenta.fechaLlegada);
+            console.log(this.datosEditarRenta.horaLlegada);
             console.log(this.datosEditarRenta.kilometrajeR);
             console.log(this.datosEditarRenta.cristalesR);
             console.log(this.datosEditarRenta.llantasR);
@@ -6377,10 +6424,10 @@ var RentaeditarPage = (function () {
             console.log(this.datosR.idCliente);
             console.log(this.perfil.idUsuario);
             var loading_1 = this.loadingCtrl.create({
-                content: "Modificando tu renta espere...",
+                content: "Modificando tu renta, espere...",
             });
             loading_1.present();
-            this.VehiculoService.editar_renta(this.datosR.idRenta, this.datosEditarRenta.chofer, this.datosEditarRenta.destino, this.datosEditarRenta.fechaSalida, this.datosEditarRenta.fechaLlegada, this.datosEditarRenta.kilometrajeR, this.datosEditarRenta.cristalesR, this.datosEditarRenta.llantasR, this.datosEditarRenta.tapiceriaR, this.datosEditarRenta.documentacionVehiculoR, this.datosEditarRenta.refaccionR, this.datosEditarRenta.gatoR, this.datosEditarRenta.notasR, this.datosR.idVehiculo, this.datosR.idCliente, this.perfil.idUsuario).subscribe(function (data) {
+            this.VehiculoService.editar_renta(this.datosR.idRenta, this.datosEditarRenta.destino, this.datosEditarRenta.fechaSalida, this.datosEditarRenta.horaSalida, this.datosEditarRenta.fechaLlegada, this.datosEditarRenta.horaLlegada, this.datosEditarRenta.kilometrajeR, this.datosEditarRenta.cristalesR, this.datosEditarRenta.llantasR, this.datosEditarRenta.tapiceriaR, this.datosEditarRenta.documentacionVehiculoR, this.datosEditarRenta.refaccionR, this.datosEditarRenta.gatoR, this.datosEditarRenta.notasR, this.datosR.idVehiculo, this.datosR.idCliente, this.perfil.idUsuario).subscribe(function (data) {
                 _this.userData = data;
                 console.log(data);
                 loading_1.dismiss();
@@ -6393,8 +6440,7 @@ var RentaeditarPage = (function () {
                             {
                                 text: 'Aceptar',
                                 handler: function () {
-                                    //this.navCtrl.setRoot(MenuPage)
-                                    _this.dismiss();
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_24" /* VehiculosrentadosPage */]);
                                 }
                             }
                         ]
@@ -6426,7 +6472,7 @@ var RentaeditarPage = (function () {
     };
     RentaeditarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-rentaeditar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentaeditar\rentaeditar.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Editar renta</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n\n  <form #editarForm="ngForm">\n\n  <ion-list>\n    <ion-item>\n      <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>\n      <ion-label stacked>Chofer</ion-label>\n      <ion-select [(ngModel)]="datosEditarRenta.chofer" name="chofer" #chofer="ngModel"> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>\n      <ion-label stacked>Destino:</ion-label>\n      <ion-input type="text" [(ngModel)]="datosEditarRenta.destino" name="destino" #destino="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-icon name="calendar" subtle large item-left color="primary"></ion-icon>\n      <ion-label stacked>Fecha de Salida:</ion-label>\n      <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosEditarRenta.fechaSalida" name="fechaSalida" #fechaSalida="ngModel"></ion-datetime>\n    </ion-item>\n    <ion-item>\n      <ion-icon name="calendar" subtle large item-left color="primary"></ion-icon>\n      <ion-label stacked>Fecha de llegada:</ion-label>\n      <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosEditarRenta.fechaLlegada" name="fechaLlegada" #fechaLlegada="ngModel"></ion-datetime>\n    </ion-item>\n    <ion-item>\n      <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>\n      <ion-label stacked>Kilometraje:</ion-label>\n      <ion-input type="number" [(ngModel)]="datosEditarRenta.kilometrajeR" name="kilometrajeR" #kilometrajeR="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>\n      <ion-label stacked>Cristales:</ion-label>\n      <ion-input type="number" [(ngModel)]="datosEditarRenta.cristalesR" name="cristalesR" #cristalesR="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>\n      <ion-label stacked>Llantas:</ion-label>\n      <ion-input type="number" [(ngModel)]="datosEditarRenta.llantasR" name="llantasR" #llantasR="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-icon name="logo-octocat" subtle large item-left color="primary"></ion-icon>\n      <ion-label stacked>Tapiceria:</ion-label>\n      <ion-input type="text" [(ngModel)]="datosEditarRenta.tapiceriaR" name="tapiceriaR" #tapiceriaR="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>\n      <ion-label stacked>Documentacion del vehiculo:</ion-label>\n      <ion-select [(ngModel)]="datosEditarRenta.documentacionVehiculoR" name="documentacionVehiculoR" #documentacionVehiculoR="ngModel"> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>\n      <ion-label stacked>Refaccion:</ion-label>\n      <ion-select [(ngModel)]="datosEditarRenta.refaccionR" name="refaccionR" #refaccionR="ngModel"> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>\n      <ion-label stacked>Gato</ion-label>\n      <ion-select [(ngModel)]="datosEditarRenta.gatoR" name="gatoR" #gatoR="ngModel"> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-icon name="create" subtle large item-left color="primary"></ion-icon>\n      <ion-label stacked>Notas:</ion-label>\n      <ion-textarea type="text-area" [(ngModel)]="datosEditarRenta.notasR" name="notasR" #notasR="ngModel"\n     required></ion-textarea>\n    </ion-item>\n\n   </ion-list>\n\n   <button ion-button round block color="secondary" type="submit" (click)="editar(editarForm)">Modificar</button>\n\n</form>\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentaeditar\rentaeditar.html"*/,
+            selector: 'page-rentaeditar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentaeditar\rentaeditar.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Editar renta</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row> \n    </ion-grid> \n\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n\n\n  <form #editarForm="ngForm">\n\n  <ion-list>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/destino.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Destino:</ion-label>\n      <ion-input type="text" [(ngModel)]="datosEditarRenta.destino" name="destino" #destino="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/calendar.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Fecha de Salida:</ion-label>\n      <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosEditarRenta.fechaSalida" name="fechaSalida" #fechaSalida="ngModel" cancelText="Cancelar" doneText="Agregar" required></ion-datetime>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/reloj.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Hora de Salida:</ion-label>\n      <ion-datetime displayFormat="h:mm a" [(ngModel)]="datosEditarRenta.horaSalida" name="horaSalida" #horaSalida="ngModel" cancelText="Cancelar" doneText="Agregar" required></ion-datetime>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/calendar.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Fecha de Llegada:</ion-label>\n      <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosEditarRenta.fechaLlegada" name="fechaLlegada" #fechaLlegada="ngModel" cancelText="Cancelar" doneText="Agregar" required></ion-datetime>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/reloj.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Hora de Llegada:</ion-label>\n      <ion-datetime displayFormat="h:mm a" [(ngModel)]="datosEditarRenta.horaLlegada" name="horaLlegada" #horaLlegada="ngModel" cancelText="Cancelar" doneText="Agregar" required></ion-datetime>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/km.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Kilometraje:</ion-label>\n      <ion-input type="text" [(ngModel)]="datosEditarRenta.kilometrajeR" name="kilometrajeR" #kilometrajeR="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/cristales.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Cristales:</ion-label>\n      <ion-input type="text" [(ngModel)]="datosEditarRenta.cristalesR" name="cristalesR" #cristalesR="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/llanta.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Llantas:</ion-label>\n      <ion-input type="text" [(ngModel)]="datosEditarRenta.llantasR" name="llantasR" #llantasR="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/car.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tapiceria :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosEditarRenta.tapiceriaR" name="tapiceriaR" #tapiceriaR="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/not.png"/>       \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Documentación del vehiculo:</ion-label>\n      <ion-select [(ngModel)]="datosEditarRenta.documentacionVehiculoR" name="documentacionVehiculoR" #documentacionVehiculoR="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/refaccion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Refacción:</ion-label>\n      <ion-select [(ngModel)]="datosEditarRenta.refaccionR" name="refaccionR" #refaccionR="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/gato.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Gato* :</ion-label>\n      <ion-select [(ngModel)]="datosEditarRenta.gatoR" name="gatoR" #gatoR="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item> \n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/notasV.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Notas :</ion-label>\n      <ion-input type="text-area" [(ngModel)]="datosEditarRenta.notasR" name="notasR" #notasR="ngModel"></ion-input>\n    </ion-item>\n   </ion-list>\n\n   <br>\n   <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Modificar</button>\n\n</form>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentaeditar\rentaeditar.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -6480,6 +6526,20 @@ var RentabajaPage = (function () {
         this.datosR = JSON.parse(this.BDRenta);
         console.log(this.datosR);
     }
+    RentabajaPage.prototype.cliente = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["L" /* RentabajaclientePage */]);
+    };
+    RentabajaPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["T" /* RentasmostrarPage */]);
+    };
+    RentabajaPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
+        }
+    };
     RentabajaPage.prototype.dismiss = function () {
         this.viewCtrl.dismiss();
     };
@@ -6508,7 +6568,7 @@ var RentabajaPage = (function () {
                             {
                                 text: 'Continuar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["L" /* RentabajaeliminarPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["L" /* RentabajaclientePage */]);
                                     //this.dismiss()
                                 }
                             }
@@ -6541,7 +6601,7 @@ var RentabajaPage = (function () {
     };
     RentabajaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-rentabaja',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentabaja\rentabaja.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Renta baja</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding> \n\n\n  <div style="text-align: center;">\n\n    <h2>¡AVISO!</h2>\n\n    <p>Antes de dar de baja esta renta verifica y registra los ultimos datos del vehiculo y de la renta en el historial del cliente\n    </p>\n    <br>\n      <P>¿Seguro que quieres dar de baja esta renta?</P>\n   \n    \n  </div>\n  \n<br> \n\n  <form #editarForm="ngForm">\n    \n    <ion-list>\n      <ion-item>\n        <ion-icon name="heart" subtle large item-left color="primary"></ion-icon>\n        <ion-label stacked>Vehiculo:</ion-label>\n        <ion-select [(ngModel)]="rentaBaja.renta" name="renta" #renta="ngModel" placeholder="EN RENTA" required> \n        <ion-option value="SIN RENTAR">SIN RENTAR</ion-option>\n        </ion-select>\n      </ion-item>\n    </ion-list>\n\n  <button ion-button round block color="secondary" type="submit" (click)="editar(editarForm)">ACEPTAR</button>\n\n</form> \n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentabaja\rentabaja.html"*/,
+            selector: 'page-rentabaja',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentabaja\rentabaja.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Dar de baja</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n          <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n      </ion-col>\n      </ion-row>\n    </ion-grid> \n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding> \n  <br>\n\n  <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>\n  <ion-card-content style="text-align: justify;">\n    <p style="color: #505A53;">Una vez dado de baja, este vehiculo volvera a estar disponible para su renta.</p>\n  </ion-card-content>\n\n<form #editarForm="ngForm">\n  <ion-list>\n  <ion-item> \n    <ion-avatar item-left>\n      <img src="img/icon/car.png"/>      \n     </ion-avatar>\n    <ion-label stacked style="font-size: 12px; color: #4A6D68;">¿Seguro que quieres dar de baja este vehiculo?</ion-label>\n    <ion-select [(ngModel)]="rentaBaja.renta" name="renta" #renta="ngModel" cancelText="Cancelar" okText="Agregar" placeholder="EN RENTA" required> \n      <ion-option value="SIN RENTAR">DAR DE BAJA</ion-option>\n    </ion-select>\n  </ion-item>\n</ion-list>\n<br>\n  <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Continuar</button>\n</form>\n\n<button ion-button round block color="txteditar" type="submit" (click)="cliente()">cliente</button>\n\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentabaja\rentabaja.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -6621,7 +6681,7 @@ var RentabajaeliminarPage = (function () {
                             {
                                 text: 'Aceptar',
                                 handler: function () {
-                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_17" /* VehiculosPage */]);
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_18" /* VehiculosPage */]);
                                 }
                             }
                         ]
@@ -6653,7 +6713,7 @@ var RentabajaeliminarPage = (function () {
     };
     RentabajaeliminarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-rentabajaeliminar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentabajaeliminar\rentabajaeliminar.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Eliminar la renta</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <div style="text-align: center;">\n\n    <h2>¡AVISO!</h2>\n\n    <p>Para que esta sea una baja completa, ahora elimina esta renta de la lista de vehiculos rentados\n    </p>\n    <br>\n\n  </div>\n  \n<br> \n\n<form #eliminarForm="ngForm">\n  <button ion-button round block color="danger" type="submit" (click)="eliminar(eliminarForm)" >Eliminar</button>\n </form>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentabajaeliminar\rentabajaeliminar.html"*/,
+            selector: 'page-rentabajaeliminar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentabajaeliminar\rentabajaeliminar.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Eliminar renta</ion-title>\n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n  <br>\n  <br>\n  <br>\n  <br>\n\n    <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>\n    <ion-card-content style="text-align: justify;">\n      <p style="color: #505A53;">Para finalizar, elimina esta renta de la lista de vehiculos rentados, para que la baja este completa.</p>\n    </ion-card-content>\n\n    <br>\n    <br>\n    <br>\n\n<form #eliminarForm="ngForm">\n  <button ion-button round block color="danger" type="submit" (click)="eliminar(eliminarForm)" >Eliminar</button>\n </form>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentabajaeliminar\rentabajaeliminar.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -6676,6 +6736,7 @@ var RentabajaeliminarPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RentadatosclientePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6685,6 +6746,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 var RentadatosclientePage = (function () {
@@ -6698,12 +6760,18 @@ var RentadatosclientePage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    RentadatosclientePage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["T" /* RentasmostrarPage */]);
+    };
+    RentadatosclientePage.prototype.historial = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["y" /* HistorialPage */]);
+    };
     RentadatosclientePage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad RentadatosclientePage');
     };
     RentadatosclientePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-rentadatoscliente',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentadatoscliente\rentadatoscliente.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Datos del cliente</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-item class="center">\n\n\n  <h2>Datos del cliente</h2>\n  <ion-grid>\n    <ion-row>\n      <h2>Cliente:</h2><p id="nombre"> {{datosR.nombre}}</p>\n    </ion-row>\n    <ion-row>\n      <h2>Cliente:</h2><p id="tipoCliente"> {{datosR.tipoCliente}}</p>\n    </ion-row>\n    <ion-row>\n      <h2>Vehiculo Rentado:</h2><p id="vehiculoRentado"> {{datosR.vehiculoRentado}}</p>\n    </ion-row>\n    <ion-row>\n      <h2>Edad: </h2><p id="edad">{{datosR.edad}}</p> \n    </ion-row>\n    <ion-row>\n      <h2>Telefono: </h2><p id="telefono">{{datosR.telefono}}</p>\n    </ion-row>\n    <ion-row>\n      <h2>Sexo: </h2><p id="sexo">{{datosR.sexo}}</p>\n    </ion-row>\n    <ion-row>\n      <h2>Direccion: </h2><p id="direccion">{{datosR.direccion}}</p> \n    </ion-row>\n    <ion-row>\n      <h2>Colonia: </h2><p id="colonia">{{datosR.colonia}}</p> \n    </ion-row>\n    <ion-row>\n      <h2>Ciudad: </h2><p id="ciudad">{{datosR.ciudad}}</p>\n    </ion-row>\n    <ion-row>\n      <h2>Estado: </h2><p id="estado">{{datosR.estado}}</p>\n    </ion-row>\n    <ion-row>\n      <h2>Licencia: </h2><p id="licencia">{{datosR.licencia}}</p> \n    </ion-row>\n    <ion-row>\n      <h2>Vigencia de la licencia: </h2><p id="fechaLicencia">{{datosR.fechaLicencia}}</p> \n    </ion-row>\n    <ion-row>\n      <h2>Observaciones del cliente: </h2><p id="observacionesCliente">{{datosR.observacionesCliente}}</p>\n   </ion-row>\n   <ion-row>\n     <h2>Observaciones del vehiculo: </h2><p id="observacionesVehiculo">{{datosR.observacionesVehiculo}}</p>\n   </ion-row>\n   <ion-row>\n     <h2>Vehiculos Rentados: </h2><p id="vehiculosRentados">{{datosR.vehiculosRentados}}</p>\n   </ion-row>\n   <ion-row>\n     <h2>Vehiculos Dañados: </h2><p id="vehiculosMalEstado">{{datosR.vehiculosMalEstado}}</p>\n   </ion-row>\n   <ion-row>\n     <h2>Notas: </h2><p id="notasC">{{datosR.notasC}}</p>\n   </ion-row>\n   <ion-row>\n     <h2>Cliente Activo: </h2><p id="clienteactivo">{{datosR.clienteactivo}}</p>\n   </ion-row>\n   <ion-row>\n     <h2>Notas del historial: </h2><p id="notashistorial">{{datosR.notashistorial}}</p>\n   </ion-row>   \n   <ion-row>\n     <h2>Fecha de alta del cliente: </h2><p id="fechaAltaCliente">{{datosR.fechaAltaCliente}}</p> \n   </ion-row> \n  </ion-grid>\n\n  <h2>Atendido por el ultimo usuario que fue: </h2><p id="nombreUsuario">{{datosR.nombreUsuario}}</p> \n\n</ion-item>\n\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentadatoscliente\rentadatoscliente.html"*/,
+            selector: 'page-rentadatoscliente',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentadatoscliente\rentadatoscliente.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Datos del cliente</ion-title>\n    <br> \n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 22%;" (click)="historial()" src="img/icon/historial.png"/>\n          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Historial</p>\n      </ion-col>\n      </ion-row>\n    </ion-grid> \n\n  </ion-toolbar>\n</ion-header>\n \n\n<ion-content padding>\n     \n  <br>\n  \n  <div class="S1">\n\n    <ion-card class="c1">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/user.png"/>      \n        </ion-avatar>\n        <h2 style="color: #4A6D68;"><strong>{{datosR.nombre}}</strong></h2>\n        <h3 style="color: #505A53;">Cliente {{datosR.tipoCliente}}</h3>\n        <h3 style="color: #505A53;">Licencia: <strong>{{datosR.licencia}} - {{datosR.fechaLicencia}}</strong></h3>\n        <h4 style="opacity: 50%;">{{datosR.telefono}}</h4>\n      </ion-item>\n    </ion-card>  \n\n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/cumple.png"/> Edad: <strong>{{datosR.edad}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/sex.png"/> Sexo: <strong>{{datosR.sexo}}</strong></p>\n  </ion-card-content>\n   \n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/ciudad.png"/> Ciudad: <strong>{{datosR.ciudad}}</strong></p>\n  </ion-card-content>\n  \n  <ion-card-content> \n    <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/estado.png"/> Estado: <strong>{{datosR.estado}}</strong></p>\n  </ion-card-content> \n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/address.png"/> Dirección: <strong>{{datosR.direccion}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/colonia.png"/> Colonia: <strong>{{datosR.colonia}}</strong></p>\n  </ion-card-content>\n\n  <ion-card-content> \n      <p style="font-size: 14px; color: #4A6D68;"><img style="width: 5%;" src="img/icon/observaciones.png"/> Observaciones del cliente: <strong>{{datosR.observacionesCliente}}</strong></p>\n  </ion-card-content>\n\n  </div>\n\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentadatoscliente\rentadatoscliente.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
@@ -6721,6 +6789,7 @@ var RentadatosclientePage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RentadatosvehiculoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6730,6 +6799,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 var RentadatosvehiculoPage = (function () {
@@ -6743,12 +6813,23 @@ var RentadatosvehiculoPage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    RentadatosvehiculoPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["T" /* RentasmostrarPage */]);
+    };
+    RentadatosvehiculoPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["E" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["D" /* MenuniveldosPage */]);
+        }
+    };
     RentadatosvehiculoPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad RentadatosvehiculoPage');
     };
     RentadatosvehiculoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-rentadatosvehiculo',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentadatosvehiculo\rentadatosvehiculo.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Detalles del vehiculo</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <div class="Foto">\n    <img src="{{datosR?.foto}}" id="Foto">\n  </div>\n  \n  <ion-item class="center">\n\n  <h2>Datos del vehiculo</h2>\n      <ion-grid>\n        <ion-row>\n          <h2>Tipo de vehiculo:</h2><p id="tipoVehiculo"> {{datosR.tipoVehiculo}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Numero de pasajeros:</h2><p id="numeroPasajeros"> {{datosR.numeroPasajeros}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Placas:</h2><p id="placas"> {{datosR.placas}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Año: </h2><p id="modelo">{{datosR.modelo}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Numero de motor: </h2><p id="numeroMotor">{{datosR.numeroMotor}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Transmicion: </h2><p id="transmicion">{{datosR.transmicion}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Numero de serie: </h2><p id="numeroSerie">{{datosR.numeroSerie}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Color: </h2><p id="color">{{datosR.color}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Kilometraje: </h2><p id="kilometrajeV">{{datosR.kilometrajeV}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Cristales: </h2><p id="cristalesV">{{datosR.cristalesV}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Llantas: </h2><p id="llantasV">{{datosR.llantasV}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Tapiceria: </h2><p id="tapiceriaV">{{datosR.tapiceriaV}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Documentacion del vehiculo: </h2><p id="documentacionVehiculoV">{{datosR.documentacionVehiculoV}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Refaccion: </h2><p id="refaccionV">{{datosR.refaccionV}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Gato: </h2><p id="gatoV">{{datosR.gatoV}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Vehiculo en mantenimiento: </h2><p id="vehiculoMantenimiento">{{datosR.vehiculoMantenimiento}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Vehiculo: </h2><p id="vehiculoRentado">{{datosR.autoRentado}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>notas: </h2><p id="notasV">{{datosR.notasV}}</p> \n        </ion-row>\n      </ion-grid>\n\n      <h2>Atendido por el ultimo usuario que fue: </h2><p id="nombreUsuario">{{datosR.nombreUsuario}}</p> \n\n</ion-item>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentadatosvehiculo\rentadatosvehiculo.html"*/,
+            selector: 'page-rentadatosvehiculo',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentadatosvehiculo\rentadatosvehiculo.html"*/`\n\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Datos del vehiculo</ion-title>\n    <br> \n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n          <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n          <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Menu</p>\n      </ion-col>\n      </ion-row>\n    </ion-grid> \n\n  </ion-toolbar> \n</ion-header>\n \n\n<ion-content padding>\n     \n  <ion-card class="c1">\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/car.png"/>      \n      </ion-avatar>\n      <h2 style="color: #4A6D68; font-size: 19px;"><strong>{{datosR.marcaVehiculo}} - {{datosR.tipoVehiculo}}</strong></h2>\n      <h3 style="color: #505A53;">Transmicion: <strong>{{datosR.transmicion}}</strong></h3>\n      <h3 style="color: #505A53;">Color: <strong>{{datosR.color}}</strong></h3>\n      <h4 style="color: #505A53;">Placas: <strong>{{datosR.placas}}</strong></h4>\n    </ion-item>\n  </ion-card> \n  \n  <div class="c2">\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta">\n            <ion-item>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Modelo</p>\n                <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.modelo}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta">\n            <ion-item>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Pasajeros</p>\n                <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.numeroPasajeros}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta">\n            <ion-item>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Km</p>\n                <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.kilometrajeV}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </div>\n\n  <div>\n    <ion-grid no-padding style="text-align: center;">\n      <ion-row>\n        <ion-col>     \n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Numero de motor</p>\n                <p style="font-size: 12px; color: #1BC7AF;"><strong>{{datosR.numeroMotor}}</strong></p>\n              </div> \n            </ion-item>\n        </ion-col>\n        <ion-col>     \n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Numero de serie</p>\n                <p style="font-size: 12px; color: #1BC7AF;"><strong>{{datosR.numeroSerie}}</strong></p>\n              </div> \n            </ion-item>\n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  </div>\n\n  <div class="c2">\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta">\n            <ion-item>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Documentos</p>\n                <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.documentacionVehiculoV}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta">\n            <ion-item>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Refaccion</p>\n                <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.refaccionV}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n        <ion-col>     \n          <ion-card class="tarjeta">\n            <ion-item>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Gato</p>\n                <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.gatoV}}</strong></p>\n              </div> \n            </ion-item>\n          </ion-card>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  </div>\n\n  <ion-item no-lines>\n    <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/cristal.png"/> Cristales: <strong>{{datosR.cristalesV}}</strong></p>\n    <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/llanta.png"/> Llantas: <strong>{{datosR.llantasV}}</strong></p>\n    <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/car.png"/> Tapiceria: <strong>{{datosR.tapiceriaV}}</strong></p>\n  <ion-card-content>\n    <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/notas.png"/> Notas: <strong>{{datosR.notasV}}</strong></p>\n  </ion-card-content>\n  </ion-item>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentadatosvehiculo\rentadatosvehiculo.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
@@ -6791,13 +6872,13 @@ var TallermostrarPage = (function () {
         console.log(this.datosV);
     }
     TallermostrarPage.prototype.enlace_editar_taller = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["T" /* TallereditarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["U" /* TallereditarPage */]);
     };
     TallermostrarPage.prototype.enlace_vd = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["V" /* TallervdPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["W" /* TallervdPage */]);
     };
     TallermostrarPage.prototype.enlace_editar_vehiculoFoto = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_8" /* VehiculoeditarfotoPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_9" /* VehiculoeditarfotoPage */]);
     };
     TallermostrarPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad TallermostrarPage');
@@ -7314,7 +7395,7 @@ var UsuariomiperfilPage = (function () {
         }
     };
     UsuariomiperfilPage.prototype.enlace_editar_usuario = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["Z" /* UsuariomiperfileditarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_0" /* UsuariomiperfileditarPage */]);
     };
     //CERRAR SESION
     UsuariomiperfilPage.prototype.logout = function () {
@@ -7398,7 +7479,7 @@ var UsuariomiperfileditarPage = (function () {
         this.datosBDUsuario.nivelUsuario = this.perfil.nivelUsuario;
     }
     UsuariomiperfileditarPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["Y" /* UsuariomiperfilPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["Z" /* UsuariomiperfilPage */]);
     };
     UsuariomiperfileditarPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -9084,7 +9165,7 @@ var PvehiculocincoPage = (function () {
         console.log(this.perfil);
     }
     PvehiculocincoPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_19" /* VehiculoslibresPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_20" /* VehiculoslibresPage */]);
     };
     PvehiculocincoPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -9125,7 +9206,7 @@ var PvehiculocincoPage = (function () {
     };
     PvehiculocincoPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosVehiculo', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_15" /* VehiculomostrarlibrePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_16" /* VehiculomostrarlibrePage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     PvehiculocincoPage.prototype.Refrescar = function (refresher) {
@@ -9206,7 +9287,7 @@ var PvehiculosietePage = (function () {
         console.log(this.perfil);
     }
     PvehiculosietePage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_19" /* VehiculoslibresPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_20" /* VehiculoslibresPage */]);
     };
     PvehiculosietePage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -9247,7 +9328,7 @@ var PvehiculosietePage = (function () {
     };
     PvehiculosietePage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosVehiculo', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_15" /* VehiculomostrarlibrePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_16" /* VehiculomostrarlibrePage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     PvehiculosietePage.prototype.Refrescar = function (refresher) {
@@ -9328,7 +9409,7 @@ var PvehiculoochoPage = (function () {
         console.log(this.perfil);
     }
     PvehiculoochoPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_19" /* VehiculoslibresPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_20" /* VehiculoslibresPage */]);
     };
     PvehiculoochoPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -9369,7 +9450,7 @@ var PvehiculoochoPage = (function () {
     };
     PvehiculoochoPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosVehiculo', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_15" /* VehiculomostrarlibrePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_16" /* VehiculomostrarlibrePage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     PvehiculoochoPage.prototype.Refrescar = function (refresher) {
@@ -9450,7 +9531,7 @@ var PvehiculocatorcePage = (function () {
         console.log(this.perfil);
     }
     PvehiculocatorcePage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_19" /* VehiculoslibresPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_20" /* VehiculoslibresPage */]);
     };
     PvehiculocatorcePage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -9491,7 +9572,7 @@ var PvehiculocatorcePage = (function () {
     };
     PvehiculocatorcePage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosVehiculo', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_15" /* VehiculomostrarlibrePage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_16" /* VehiculomostrarlibrePage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     PvehiculocatorcePage.prototype.Refrescar = function (refresher) {
@@ -10022,7 +10103,7 @@ var HistorialclientePage = (function () {
                             alert_6.present();
                         }
                         else if (_this.datosC.vehiculoRentado == "SIN VEHICULO") {
-                            _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["R" /* RentaseditarPage */]);
+                            _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["S" /* RentaseditarPage */]);
                         }
                         else {
                             var alert_7 = _this.alertCtrl.create({
@@ -10797,7 +10878,7 @@ var VehiculodatostallerPage = (function () {
         console.log(this.datosV);
     }
     VehiculodatostallerPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_14" /* VehiculomostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_15" /* VehiculomostrarPage */]);
     };
     VehiculodatostallerPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -11022,7 +11103,7 @@ var VehiculosrentadoscarrosPage = (function () {
         console.log(this.perfil);
     }
     VehiculosrentadoscarrosPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_23" /* VehiculosrentadosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_24" /* VehiculosrentadosPage */]);
     };
     VehiculosrentadoscarrosPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -11063,7 +11144,7 @@ var VehiculosrentadoscarrosPage = (function () {
     };
     VehiculosrentadoscarrosPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosRenta', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["S" /* RentasmostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["T" /* RentasmostrarPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     VehiculosrentadoscarrosPage.prototype.Refrescar = function (refresher) {
@@ -11089,12 +11170,17 @@ var VehiculosrentadoscarrosPage = (function () {
     };
     VehiculosrentadoscarrosPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-vehiculosrentadoscarros',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadoscarros\vehiculosrentadoscarros.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Carros</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row> \n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar vehiculo">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n \n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando lista...">\n    </ion-refresher-content> \n  </ion-refresher>\n\n  <ion-list *ngFor="let item of rentas; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="{{item.foto}}">       \n        </ion-avatar>\n        <h3 style="color: #718d79;">Placas: <strong style="color: #505A53;">{{item.placas}}</strong></h3>\n        <h3 style="color: #505A53;">Pasajeros: <strong style="color: #1BC7AF;"> {{item.numeroPasajeros}}</strong></h3>\n        <h3 style="color: #718d79;">Color: <strong style="color: #505A53;">{{item.color}}</strong></h3>\n        <h3 style="color: #505A53;">Modelo: <strong style="color: #1BC7AF;"> {{item.modelo}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <h2 style="color: #4A6D68;"><strong>{{item.marcaVehiculo}} - {{item.tipoVehiculo}}</strong></h2>   \n          </ion-col>\n          <ion-col>     \n            <h3 style="color: #718d79;"><strong style="color: #505A53;">{{item.kilometrajeV}}</strong> Km</h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <p style="color: #4A6D68;">Fecha de llegada: </p> <strong style="color: #1BC7AF;">{{item.fechaLlegada}}</strong>  \n          </ion-col>\n          <ion-col>     \n            <p style="color: #718d79;">Hora de llegada: </p> <strong style="color: #1BC7AF;">{{item.horaLlegada}}</strong>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <h3 style="text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{item.nombreUsuario}}</strong></h3>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadoscarros\vehiculosrentadoscarros.html"*/,
+            selector: 'page-vehiculosrentadoscarros',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadoscarros\vehiculosrentadoscarros.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Carros</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row> \n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar vehiculo">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n \n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando lista...">\n    </ion-refresher-content>  \n  </ion-refresher>\n\n  <ion-list *ngFor="let item of rentas; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="{{item.foto}}">       \n        </ion-avatar>\n        <h3 style="color: #718d79;">Placas: <strong style="color: #505A53;">{{item.placas}}</strong></h3>\n        <h3 style="color: #505A53;">Pasajeros: <strong style="color: #1BC7AF;"> {{item.numeroPasajeros}}</strong></h3>\n        <h3 style="color: #718d79;">Color: <strong style="color: #505A53;">{{item.color}}</strong></h3>\n        <h3 style="color: #505A53;">Modelo: <strong style="color: #1BC7AF;"> {{item.modelo}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <h2 style="color: #4A6D68;"><strong>{{item.marcaVehiculo}} - {{item.tipoVehiculo}}</strong></h2>   \n          </ion-col>\n          <ion-col>     \n            <h3 style="color: #718d79;"><strong style="color: #505A53;">{{item.kilometrajeV}}</strong> Km</h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <p style="color: #4A6D68;">Fecha de llegada: </p> <strong style="color: #1BC7AF;">{{item.fechaLlegada}}</strong>  \n          </ion-col>\n          <ion-col>     \n            <p style="color: #718d79;">Hora de llegada: </p> <strong style="color: #1BC7AF;">{{item.horaLlegada}}</strong>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <h3 style="text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{item.nombreUsuario}}</strong></h3>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadoscarros\vehiculosrentadoscarros.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]) === "function" && _g || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
     ], VehiculosrentadoscarrosPage);
     return VehiculosrentadoscarrosPage;
-    var _a, _b, _c, _d, _e, _f, _g;
 }());
 
 //# sourceMappingURL=vehiculosrentadoscarros.js.map
@@ -11139,7 +11225,7 @@ var VehiculosrentadossiennaPage = (function () {
         console.log(this.perfil);
     }
     VehiculosrentadossiennaPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_23" /* VehiculosrentadosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_24" /* VehiculosrentadosPage */]);
     };
     VehiculosrentadossiennaPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -11180,7 +11266,7 @@ var VehiculosrentadossiennaPage = (function () {
     };
     VehiculosrentadossiennaPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosRenta', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["S" /* RentasmostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["T" /* RentasmostrarPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     VehiculosrentadossiennaPage.prototype.Refrescar = function (refresher) {
@@ -11208,10 +11294,15 @@ var VehiculosrentadossiennaPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-vehiculosrentadossienna',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadossienna\vehiculosrentadossienna.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Sienna</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar vehiculo">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n \n \n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando lista...">\n    </ion-refresher-content> \n  </ion-refresher>\n\n  <ion-list *ngFor="let item of rentas; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="{{item.foto}}">       \n        </ion-avatar>\n        <h3 style="color: #718d79;">Placas: <strong style="color: #505A53;">{{item.placas}}</strong></h3>\n        <h3 style="color: #505A53;">Pasajeros: <strong style="color: #1BC7AF;"> {{item.numeroPasajeros}}</strong></h3>\n        <h3 style="color: #718d79;">Color: <strong style="color: #505A53;">{{item.color}}</strong></h3>\n        <h3 style="color: #505A53;">Modelo: <strong style="color: #1BC7AF;"> {{item.modelo}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <h2 style="color: #4A6D68;"><strong>{{item.marcaVehiculo}} - {{item.tipoVehiculo}}</strong></h2>   \n          </ion-col>\n          <ion-col>     \n            <h3 style="color: #718d79;"><strong style="color: #505A53;">{{item.kilometrajeV}}</strong> Km</h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <p style="color: #4A6D68;">Fecha de llegada: </p> <strong style="color: #1BC7AF;">{{item.fechaLlegada}}</strong>  \n          </ion-col>\n          <ion-col>     \n            <p style="color: #718d79;">Hora de llegada: </p> <strong style="color: #1BC7AF;">{{item.horaLlegada}}</strong>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <h3 style="text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{item.nombreUsuario}}</strong></h3>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadossienna\vehiculosrentadossienna.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]) === "function" && _g || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
     ], VehiculosrentadossiennaPage);
     return VehiculosrentadossiennaPage;
-    var _a, _b, _c, _d, _e, _f, _g;
 }());
 
 //# sourceMappingURL=vehiculosrentadossienna.js.map
@@ -11256,7 +11347,7 @@ var VehiculosrentadosavanzaPage = (function () {
         console.log(this.perfil);
     }
     VehiculosrentadosavanzaPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_23" /* VehiculosrentadosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_24" /* VehiculosrentadosPage */]);
     };
     VehiculosrentadosavanzaPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -11297,7 +11388,7 @@ var VehiculosrentadosavanzaPage = (function () {
     };
     VehiculosrentadosavanzaPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosRenta', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["S" /* RentasmostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["T" /* RentasmostrarPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     VehiculosrentadosavanzaPage.prototype.Refrescar = function (refresher) {
@@ -11325,10 +11416,15 @@ var VehiculosrentadosavanzaPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-vehiculosrentadosavanza',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadosavanza\vehiculosrentadosavanza.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Avanza</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar vehiculo">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n \n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando lista...">\n    </ion-refresher-content> \n  </ion-refresher>\n\n  <ion-list *ngFor="let item of rentas; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="{{item.foto}}">       \n        </ion-avatar>\n        <h3 style="color: #718d79;">Placas: <strong style="color: #505A53;">{{item.placas}}</strong></h3>\n        <h3 style="color: #505A53;">Pasajeros: <strong style="color: #1BC7AF;"> {{item.numeroPasajeros}}</strong></h3>\n        <h3 style="color: #718d79;">Color: <strong style="color: #505A53;">{{item.color}}</strong></h3>\n        <h3 style="color: #505A53;">Modelo: <strong style="color: #1BC7AF;"> {{item.modelo}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <h2 style="color: #4A6D68;"><strong>{{item.marcaVehiculo}} - {{item.tipoVehiculo}}</strong></h2>   \n          </ion-col>\n          <ion-col>     \n            <h3 style="color: #718d79;"><strong style="color: #505A53;">{{item.kilometrajeV}}</strong> Km</h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <p style="color: #4A6D68;">Fecha de llegada: </p> <strong style="color: #1BC7AF;">{{item.fechaLlegada}}</strong>  \n          </ion-col>\n          <ion-col>     \n            <p style="color: #718d79;">Hora de llegada: </p> <strong style="color: #1BC7AF;">{{item.horaLlegada}}</strong>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <h3 style="text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{item.nombreUsuario}}</strong></h3>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadosavanza\vehiculosrentadosavanza.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]) === "function" && _g || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
     ], VehiculosrentadosavanzaPage);
     return VehiculosrentadosavanzaPage;
-    var _a, _b, _c, _d, _e, _f, _g;
 }());
 
 //# sourceMappingURL=vehiculosrentadosavanza.js.map
@@ -11373,7 +11469,7 @@ var VehiculosrentadoshiacePage = (function () {
         console.log(this.perfil);
     }
     VehiculosrentadoshiacePage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_23" /* VehiculosrentadosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_24" /* VehiculosrentadosPage */]);
     };
     VehiculosrentadoshiacePage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -11414,7 +11510,7 @@ var VehiculosrentadoshiacePage = (function () {
     };
     VehiculosrentadoshiacePage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosRenta', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["S" /* RentasmostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["T" /* RentasmostrarPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     VehiculosrentadoshiacePage.prototype.Refrescar = function (refresher) {
@@ -11442,10 +11538,15 @@ var VehiculosrentadoshiacePage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-vehiculosrentadoshiace',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadoshiace\vehiculosrentadoshiace.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Hiace</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar vehiculo">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n \n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando lista...">\n    </ion-refresher-content> \n  </ion-refresher>\n\n  <ion-list *ngFor="let item of rentas; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="{{item.foto}}">       \n        </ion-avatar>\n        <h3 style="color: #718d79;">Placas: <strong style="color: #505A53;">{{item.placas}}</strong></h3>\n        <h3 style="color: #505A53;">Pasajeros: <strong style="color: #1BC7AF;"> {{item.numeroPasajeros}}</strong></h3>\n        <h3 style="color: #718d79;">Color: <strong style="color: #505A53;">{{item.color}}</strong></h3>\n        <h3 style="color: #505A53;">Modelo: <strong style="color: #1BC7AF;"> {{item.modelo}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <h2 style="color: #4A6D68;"><strong>{{item.marcaVehiculo}} - {{item.tipoVehiculo}}</strong></h2>   \n          </ion-col>\n          <ion-col>     \n            <h3 style="color: #718d79;"><strong style="color: #505A53;">{{item.kilometrajeV}}</strong> Km</h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <p style="color: #4A6D68;">Fecha de llegada: </p> <strong style="color: #1BC7AF;">{{item.fechaLlegada}}</strong>  \n          </ion-col>\n          <ion-col>     \n            <p style="color: #718d79;">Hora de llegada: </p> <strong style="color: #1BC7AF;">{{item.horaLlegada}}</strong>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <h3 style="text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{item.nombreUsuario}}</strong></h3>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadoshiace\vehiculosrentadoshiace.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]) === "function" && _g || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
     ], VehiculosrentadoshiacePage);
     return VehiculosrentadoshiacePage;
-    var _a, _b, _c, _d, _e, _f, _g;
 }());
 
 //# sourceMappingURL=vehiculosrentadoshiace.js.map
@@ -11490,7 +11591,7 @@ var VehiculosrentadosodysseyPage = (function () {
         console.log(this.perfil);
     }
     VehiculosrentadosodysseyPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_23" /* VehiculosrentadosPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_24" /* VehiculosrentadosPage */]);
     };
     VehiculosrentadosodysseyPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -11531,7 +11632,7 @@ var VehiculosrentadosodysseyPage = (function () {
     };
     VehiculosrentadosodysseyPage.prototype.detalles = function (event, item) {
         window.localStorage.setItem('datosRenta', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["S" /* RentasmostrarPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["T" /* RentasmostrarPage */]);
     };
     // PARA ACTUALIZAR LOS DATOS
     VehiculosrentadosodysseyPage.prototype.Refrescar = function (refresher) {
@@ -11559,13 +11660,131 @@ var VehiculosrentadosodysseyPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-vehiculosrentadosodyssey',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadosodyssey\vehiculosrentadosodyssey.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Odyssey</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar vehiculo">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n \n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando lista...">\n    </ion-refresher-content> \n  </ion-refresher>\n\n  <ion-list *ngFor="let item of rentas; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="{{item.foto}}">       \n        </ion-avatar>\n        <h3 style="color: #718d79;">Placas: <strong style="color: #505A53;">{{item.placas}}</strong></h3>\n        <h3 style="color: #505A53;">Pasajeros: <strong style="color: #1BC7AF;"> {{item.numeroPasajeros}}</strong></h3>\n        <h3 style="color: #718d79;">Color: <strong style="color: #505A53;">{{item.color}}</strong></h3>\n        <h3 style="color: #505A53;">Modelo: <strong style="color: #1BC7AF;"> {{item.modelo}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <h2 style="color: #4A6D68;"><strong>{{item.marcaVehiculo}} - {{item.tipoVehiculo}}</strong></h2>   \n          </ion-col>\n          <ion-col>     \n            <h3 style="color: #718d79;"><strong style="color: #505A53;">{{item.kilometrajeV}}</strong> Km</h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <p style="color: #4A6D68;">Fecha de llegada: </p> <strong style="color: #1BC7AF;">{{item.fechaLlegada}}</strong>  \n          </ion-col>\n          <ion-col>     \n            <p style="color: #718d79;">Hora de llegada: </p> <strong style="color: #1BC7AF;">{{item.horaLlegada}}</strong>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <h3 style="text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{item.nombreUsuario}}</strong></h3>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadosodyssey\vehiculosrentadosodyssey.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]) === "function" && _g || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
     ], VehiculosrentadosodysseyPage);
     return VehiculosrentadosodysseyPage;
-    var _a, _b, _c, _d, _e, _f, _g;
 }());
 
 //# sourceMappingURL=vehiculosrentadosodyssey.js.map
+
+/***/ }),
+/* 360 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RentabajaclientePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_ClienteServices__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var RentabajaclientePage = (function () {
+    function RentabajaclientePage(navCtrl, navParams, ClienteService, alertCtrl, loadingCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.alertCtrl = alertCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.rentaBajaCliente = {};
+        this.submitted = false;
+        this.disableSubmit = false;
+        this.ClienteService = ClienteService;
+        this.BDRenta = window.localStorage.getItem('datosRenta');
+        this.datosR = JSON.parse(this.BDRenta);
+        console.log(this.datosR);
+        this.datosUsuario = window.localStorage.getItem('dataUser');
+        this.perfil = JSON.parse(this.datosUsuario);
+        console.log(this.perfil);
+    }
+    RentabajaclientePage.prototype.editar = function (form) {
+        var _this = this;
+        this.submitted = true;
+        if (form.valid) {
+            console.log(this.datosR.idCliente);
+            console.log(this.rentaBajaCliente.vehiculoRentado);
+            console.log(this.perfil.idUsuario);
+            var loading_1 = this.loadingCtrl.create({
+                content: "Procesando peticion...",
+            });
+            loading_1.present();
+            this.ClienteService.editar_cliente_renta(this.datosR.idCliente, this.rentaBajaCliente.vehiculoRentado, this.perfil.idUsuario).subscribe(function (data) {
+                _this.userData = data;
+                console.log(data);
+                loading_1.dismiss();
+                if (_this.userData.estatus === "OK") {
+                    //console.log('Usuario registrado');
+                    var alert_1 = _this.alertCtrl.create({
+                        title: "¡OPERACION EXITOSA!",
+                        subTitle: "Tu cliente ahora esta sin vehiculo y esta nuevamente dispobible para una proxima renta",
+                        buttons: [
+                            {
+                                text: 'Continuar',
+                                handler: function () {
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["M" /* RentabajaeliminarPage */]);
+                                    //this.dismiss()
+                                }
+                            }
+                        ]
+                    });
+                    alert_1.present();
+                }
+                if (_this.userData.estatus === "ERROR") {
+                    var alert_2 = _this.alertCtrl.create({
+                        title: "¡ERROR!",
+                        subTitle: "No se pudo procesar tu peticion, intentalo nuevamente",
+                        buttons: ["Aceptar"]
+                    });
+                    alert_2.present();
+                }
+            }, function (err) {
+                //console.log(err);
+                loading_1.dismiss();
+                var alert = _this.alertCtrl.create({
+                    title: "Error de conexión",
+                    subTitle: "Ocurrio un problema para realizar la operación, intentalo más tarde",
+                    buttons: ["Aceptar"]
+                });
+                alert.present();
+            });
+        }
+    };
+    RentabajaclientePage.prototype.conti = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["M" /* RentabajaeliminarPage */]);
+    };
+    RentabajaclientePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad RentabajaclientePage');
+    };
+    RentabajaclientePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-rentabajacliente',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentabajacliente\rentabajacliente.html"*/`\n\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Cliente...</ion-title>\n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n \n  <br>\n  <br>\n  <br>\n\n    <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>\n    <ion-card-content style="text-align: justify;">\n      <p style="color: #505A53;">Ahora el cliente <strong>{{datosR.nombre}}</strong> debe pasar de: <strong>RENTANDO</strong> a <strong>SIN VEHICULO</strong>, para ser seleccionado en su proxima renta.</p>\n    </ion-card-content>\n\n  <form #editarForm="ngForm">\n    <ion-list>\n    <ion-item> \n      <ion-avatar item-left>\n        <img src="img/icon/activo.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 12px; color: #4A6D68;">Cliente RENTANDO a SIN VEHICULO</ion-label>\n      <ion-select [(ngModel)]="rentaBajaCliente.vehiculoRentado" name="vehiculoRentado" #vehiculoRentado="ngModel" cancelText="Cancelar" okText="Agregar" placeholder="RENTANDO" required> \n      <ion-option value="SIN VEHICULO">SIN VEHICULO</ion-option>\n      </ion-select>\n    </ion-item>\n  </ion-list>\n  <br>\n\n    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Continuar</button>\n</form>\n\n    <button ion-button round block color="txteditar" type="submit" (click)="conti()">conti</button>\n\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentabajacliente\rentabajacliente.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__servicios_ClienteServices__["a" /* ClienteService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
+    ], RentabajaclientePage);
+    return RentabajaclientePage;
+}());
+
+//# sourceMappingURL=rentabajacliente.js.map
 
 /***/ })
 ],[205]);

@@ -1,57 +1,56 @@
 page-rentadatosvehiculo {
-    .center{
-        margin-left: auto;
-       margin-right: auto;
-       display: block;
-    text-align: center;
-   
-    }
-   
-    .version{
-      font-size: 1.2em;
-      color:white;
-      //text-decoration: underline;
+    
+  .toolbar-title-md {
+    padding: 0 12px;
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .toolbar-md-sincolor .bar-button-clear-md, .toolbar-md-sincolor .bar-button-default-md, .toolbar-md-sincolor .bar-button-outline-md, .toolbar-md-sincolor .toolbar-title-md {
+      color: #10CF50;
+      padding: 3%;
+  }
+
+
+
+    .item-md ion-avatar ion-img, .item-md ion-avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 0px;
     }
 
-    .Foto {
-      text-align: center;
+    .item-md {
+        padding-left: 30px;
     }
-   
-   .Imagen {
-     //padding: 20px 0;
-     //min-height: 200px;
-     text-align: center;
-   }
-   
-    .Imagen img {
-     max-width: 120px;
-        background-repeat: no-repeat;
-       background-position: 50%;
-       border-radius: 50%;
-   }
-   
-   .toolbar-title-ios {
-       font-size: 1.7rem;
-       font-weight: 600;
-       text-align: center;
-       color: #387ef5;
-     }
-     
-     .toolbar-title-md {
-       font-size: 1.7rem;
-       font-weight: 600;
-       text-align: center;
-       color: #387ef5;
-     }
-     
-     .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
-       color: #387ef5;
-     }
-   
-     .item-md {
-       color: orangered;
-     }
-     .item-ios {
-       color: orangered;
-     }
+
+    .grid {
+        padding: 0px;
+    }
+
+    .col {
+        padding: 0px;
+    }
+
+    .c1{
+      border-radius: 10px;
+      margin: 30px 0 16px;
+      box-shadow: 8px 8px 12px #d1d1d1, -5px -5px 10px #FFFFFF;
+      margin-top: -1.5%;
+    }
+
+    .tarjeta{
+      border-radius: 10px;
+      margin: 30px 0 16px;
+      box-shadow: 8px 8px 12px #d1d1d1, -5px -5px 10px #FFFFFF;
+    }
+
+    .c2{
+      margin-top: -5%;
+    }
+    
+    .card-content-md {
+      padding: 0px 0px;
+      font-size: 1.4rem;
+      line-height: 1.5;
+    }
 }

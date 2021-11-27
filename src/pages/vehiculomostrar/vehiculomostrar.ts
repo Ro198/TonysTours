@@ -48,7 +48,7 @@ userData;
     
   }
  
-  historial(){
+  historial(){ 
 
   }
   

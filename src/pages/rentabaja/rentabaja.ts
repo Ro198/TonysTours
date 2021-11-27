@@ -2,7 +2,10 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, AlertController, ViewController, LoadingController } from 'ionic-angular';
 import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
 
-import { RentabajaeliminarPage
+import { RentabajaclientePage,
+  MenunivelunoPage,
+  MenuniveldosPage,
+  RentasmostrarPage
 } from "../index.paginas";
 
 @Component({
@@ -41,6 +44,22 @@ export class RentabajaPage {
     this.datosR = JSON.parse(this.BDRenta )
     console.log(this.datosR);
 
+  } 
+
+  cliente(){              
+    this.navCtrl.push(RentabajaclientePage);
+  }
+
+  regresar(){              
+    this.navCtrl.push(RentasmostrarPage);
+  }
+
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
   }
 
   dismiss() {  
@@ -81,7 +100,7 @@ this.VehiculoFotoService.editar_vehiculo_renta(this.datosR.idVehiculo,
                     {
                       text: 'Continuar',
                       handler: () => {
-                        this.navCtrl.setRoot(RentabajaeliminarPage)
+                        this.navCtrl.setRoot(RentabajaclientePage);
                         //this.dismiss()
                       }
                     }]

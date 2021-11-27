@@ -2,6 +2,13 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, LoadingController, AlertController, ViewController  } from 'ionic-angular';
 import { VehiculoService } from '../servicios/VehiculoServices';
 
+import { 
+  MenunivelunoPage,
+  MenuniveldosPage,
+  RentasmostrarPage,
+  VehiculosrentadosPage
+} from "../index.paginas";
+
 @Component({
   selector: 'page-rentaeditar',
   templateUrl: 'rentaeditar.html',
@@ -9,10 +16,11 @@ import { VehiculoService } from '../servicios/VehiculoServices';
 export class RentaeditarPage {
 
   datosEditarRenta: { 
-    chofer?: string, 
     destino?: string,
     fechaSalida?: string,
+    horaSalida?: string,
     fechaLlegada?: string,
+    horaLlegada?: string,
     kilometrajeR?: string,  
     cristalesR?: string,
     llantasR?: string,
@@ -52,10 +60,12 @@ export class RentaeditarPage {
     console.log(this.perfil);
 
  
-    this.datosEditarRenta.chofer = this.datosR.chofer;
+
     this.datosEditarRenta.destino = this.datosR.destino;
     this.datosEditarRenta.fechaSalida = this.datosR.fechaSalida; 
+    this.datosEditarRenta.horaSalida = this.datosR.horaSalida;
     this.datosEditarRenta.fechaLlegada = this.datosR.fechaLlegada;
+    this.datosEditarRenta.horaLlegada = this.datosR.horaLlegada;
     this.datosEditarRenta.kilometrajeR = this.datosR.kilometrajeR;  
     this.datosEditarRenta.cristalesR = this.datosR.cristalesR; 
     this.datosEditarRenta.llantasR = this.datosR.llantasR; 
@@ -65,6 +75,18 @@ export class RentaeditarPage {
     this.datosEditarRenta.gatoR = this.datosR.gatoR;
     this.datosEditarRenta.notasR = this.datosR.notasR;
 
+  }
+
+  regresar(){      
+    this.navCtrl.push(RentasmostrarPage);
+  }
+  
+  menu(){
+  if(this.perfil.nivelUsuario == "Administrador"){             
+    this.navCtrl.push(MenunivelunoPage);
+  }else if (this.perfil.nivelUsuario == "Estandar"){             
+    this.navCtrl.push(MenuniveldosPage);
+  }
   }
 
   dismiss() {
@@ -80,10 +102,11 @@ export class RentaeditarPage {
             if(form.valid) {
 
               console.log(this.datosR.idRenta);
-              console.log(this.datosEditarRenta.chofer);
               console.log(this.datosEditarRenta.destino);
               console.log(this.datosEditarRenta.fechaSalida);
+              console.log(this.datosEditarRenta.horaSalida);
               console.log(this.datosEditarRenta.fechaLlegada);
+              console.log(this.datosEditarRenta.horaLlegada);
               console.log(this.datosEditarRenta.kilometrajeR);
               console.log(this.datosEditarRenta.cristalesR);
               console.log(this.datosEditarRenta.llantasR);
@@ -97,15 +120,16 @@ export class RentaeditarPage {
               console.log(this.perfil.idUsuario);
 
             let loading =this.loadingCtrl.create({
-            content: "Modificando tu renta espere...",
+            content: "Modificando tu renta, espere...",
               });
               loading.present();
 
-              this.VehiculoService.editar_renta(this.datosR.idRenta, 
-                                                this.datosEditarRenta.chofer,
+              this.VehiculoService.editar_renta(this.datosR.idRenta,                                                
                                                 this.datosEditarRenta.destino, 
                                                 this.datosEditarRenta.fechaSalida,
+                                                this.datosEditarRenta.horaSalida,
                                                 this.datosEditarRenta.fechaLlegada,
+                                                this.datosEditarRenta.horaLlegada,
                                                 this.datosEditarRenta.kilometrajeR, 
                                                 this.datosEditarRenta.cristalesR, 
                                                 this.datosEditarRenta.llantasR,                                              
@@ -131,8 +155,7 @@ export class RentaeditarPage {
                     {
                       text: 'Aceptar',
                       handler: () => {
-                        //this.navCtrl.setRoot(MenuPage)
-                        this.dismiss()
+                        this.navCtrl.setRoot(VehiculosrentadosPage)
                       }
                     }]
                });

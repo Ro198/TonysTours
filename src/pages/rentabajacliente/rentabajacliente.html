@@ -1,0 +1,41 @@
+
+
+<ion-header translucent="true" no-border>
+  <ion-toolbar color="sincolor" style="text-align: center;">
+    <ion-title>Cliente...</ion-title>
+  </ion-toolbar>
+</ion-header> 
+
+
+<ion-content padding>
+ 
+  <br>
+  <br>
+  <br>
+
+    <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>
+    <ion-card-content style="text-align: justify;">
+      <p style="color: #505A53;">Ahora el cliente <strong>{{datosR.nombre}}</strong> debe pasar de: <strong>RENTANDO</strong> a <strong>SIN VEHICULO</strong>, para ser seleccionado en su proxima renta.</p>
+    </ion-card-content>
+
+  <form #editarForm="ngForm">
+    <ion-list>
+    <ion-item> 
+      <ion-avatar item-left>
+        <img src="img/icon/activo.png"/>      
+       </ion-avatar>
+      <ion-label stacked style="font-size: 12px; color: #4A6D68;">Cliente RENTANDO a SIN VEHICULO</ion-label>
+      <ion-select [(ngModel)]="rentaBajaCliente.vehiculoRentado" name="vehiculoRentado" #vehiculoRentado="ngModel" cancelText="Cancelar" okText="Agregar" placeholder="RENTANDO" required> 
+      <ion-option value="SIN VEHICULO">SIN VEHICULO</ion-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <br>
+
+    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Continuar</button>
+</form>
+
+    <button ion-button round block color="txteditar" type="submit" (click)="conti()">conti</button>
+
+
+</ion-content>

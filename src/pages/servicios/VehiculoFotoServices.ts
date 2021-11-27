@@ -146,7 +146,7 @@ editar_vehiculo_renta(idVehiculo, renta, idUsuario){
         "renta": renta,
         "idUsuario": idUsuario
      };
-
+ 
      console.log(JSON.stringify(body));
 
     let bodyJ = JSON.stringify(body);

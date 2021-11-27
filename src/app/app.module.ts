@@ -88,7 +88,8 @@ import {LoginPage,
   VehiculosrentadosavanzaPage,
   VehiculosrentadoshiacePage,
   VehiculosrentadosodysseyPage,
-  VehiculosrentadossiennaPage
+  VehiculosrentadossiennaPage,
+  RentabajaclientePage
 } from "../pages/index.paginas";
 
 import { LoginService } from '../pages/servicios/LoginServices';
@@ -185,7 +186,8 @@ import { Camera } from '@ionic-native/camera';
     VehiculosrentadosavanzaPage,
     VehiculosrentadoshiacePage,
     VehiculosrentadosodysseyPage,
-    VehiculosrentadossiennaPage
+    VehiculosrentadossiennaPage,
+    RentabajaclientePage
   ],
   imports: [
     BrowserModule,
@@ -276,7 +278,8 @@ import { Camera } from '@ionic-native/camera';
     VehiculosrentadosavanzaPage,
     VehiculosrentadoshiacePage,
     VehiculosrentadosodysseyPage,
-    VehiculosrentadossiennaPage
+    VehiculosrentadossiennaPage,
+    RentabajaclientePage
   ],
   providers: [
     StatusBar,

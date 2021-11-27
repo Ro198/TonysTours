@@ -54,7 +54,7 @@ webpackJsonp([0],[
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__vehiculoslibres_vehiculoslibres__ = __webpack_require__(301);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_19", function() { return __WEBPACK_IMPORTED_MODULE_23__vehiculoslibres_vehiculoslibres__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__vehiculossinservicio_vehiculossinservicio__ = __webpack_require__(302);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_24", function() { return __WEBPACK_IMPORTED_MODULE_24__vehiculossinservicio_vehiculossinservicio__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_29", function() { return __WEBPACK_IMPORTED_MODULE_24__vehiculossinservicio_vehiculossinservicio__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__vehiculomostrarlibre_vehiculomostrarlibre__ = __webpack_require__(303);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_15", function() { return __WEBPACK_IMPORTED_MODULE_25__vehiculomostrarlibre_vehiculomostrarlibre__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__vehiculomostrarocupado_vehiculomostrarocupado__ = __webpack_require__(304);
@@ -159,6 +159,21 @@ webpackJsonp([0],[
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_3", function() { return __WEBPACK_IMPORTED_MODULE_75__vehiculodatostaller_vehiculodatostaller__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_76__rentalistausuariorentado_rentalistausuariorentado__ = __webpack_require__(354);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "P", function() { return __WEBPACK_IMPORTED_MODULE_76__rentalistausuariorentado_rentalistausuariorentado__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_77__vehiculosrentadoscarros_vehiculosrentadoscarros__ = __webpack_require__(355);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_25", function() { return __WEBPACK_IMPORTED_MODULE_77__vehiculosrentadoscarros_vehiculosrentadoscarros__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_78__vehiculosrentadossienna_vehiculosrentadossienna__ = __webpack_require__(356);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_28", function() { return __WEBPACK_IMPORTED_MODULE_78__vehiculosrentadossienna_vehiculosrentadossienna__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_79__vehiculosrentadosavanza_vehiculosrentadosavanza__ = __webpack_require__(357);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_24", function() { return __WEBPACK_IMPORTED_MODULE_79__vehiculosrentadosavanza_vehiculosrentadosavanza__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_80__vehiculosrentadoshiace_vehiculosrentadoshiace__ = __webpack_require__(358);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_26", function() { return __WEBPACK_IMPORTED_MODULE_80__vehiculosrentadoshiace_vehiculosrentadoshiace__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_81__vehiculosrentadosodyssey_vehiculosrentadosodyssey__ = __webpack_require__(359);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_27", function() { return __WEBPACK_IMPORTED_MODULE_81__vehiculosrentadosodyssey_vehiculosrentadosodyssey__["a"]; });
+
+
+
+
+
 
 
 
@@ -407,8 +422,152 @@ var ClienteService = (function () {
 /* 10 */,
 /* 11 */,
 /* 12 */,
-/* 13 */,
-/* 14 */
+/* 13 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculoService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_URL__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var VehiculoService = (function () {
+    function VehiculoService(http) {
+        this.http = http;
+        this.http = http;
+        this.serverUrl = __WEBPACK_IMPORTED_MODULE_2__servicios_URL__["a" /* url */];
+    }
+    //LISTAR VEHICULOS DE DOS TABLAS, VEHICULOS Y USUARIOS 
+    VehiculoService.prototype.listarTodosLosVehiculos = function () {
+        this.params = 'action=listarTodosLosVehiculos';
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
+    //LISTAR VEHICULOS DE DOS TABLAS, VEHICULOS Y USUARIOS SIN MANTENIMIENTO 
+    VehiculoService.prototype.listarVehiculosSinMantenimiento = function () {
+        this.params = 'action=listarVehiculosSinMantenimiento';
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
+    //LISTAR VEHICULOS DE DOS TABLAS, VEHICULOS Y USUARIOS EN MANTENIMIENTO 
+    VehiculoService.prototype.listarVehiculosEnMantenimiento = function () {
+        this.params = 'action=listarVehiculosEnMantenimiento';
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
+    //LISTAR VEHICULOS DE CUATRO TABLAS, CARROS
+    VehiculoService.prototype.listarVehiculosCarros = function () {
+        this.params = 'action=listarVehiculosCarros';
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
+    //LISTAR VEHICULOS DE CUATRO TABLAS, AVANZA
+    VehiculoService.prototype.listarVehiculosAvanza = function () {
+        this.params = 'action=listarVehiculosAvanza';
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
+    //LISTAR VEHICULOS DE CUATRO TABLAS, HIACE
+    VehiculoService.prototype.listarVehiculosHiace = function () {
+        this.params = 'action=listarVehiculosHiace';
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
+    //LISTAR VEHICULOS DE CUATRO TABLAS, ODYSSEY
+    VehiculoService.prototype.listarVehiculosOdyssey = function () {
+        this.params = 'action=listarVehiculosOdyssey';
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
+    //LISTAR VEHICULOS DE CUATRO TABLAS, SIENNA
+    VehiculoService.prototype.listarVehiculosSienna = function () {
+        this.params = 'action=listarVehiculosSienna';
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
+    //LISTAR VEHICULOS DE CUATRO TABLAS, VEHICULOS, RENTA, CLIENTES Y USUARIOS ------------------------SIN ASIGNAR
+    VehiculoService.prototype.listarTodosLosVehiculosRentados = function () {
+        this.params = 'action=listarTodosLosVehiculosRentados';
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
+    //LISTAR VEHICULOS DE DOS TABLAS, VEHICULOS LIBRES
+    //listarVehiculosLibres(){
+    //this.params= 'action=listarVehiculosLibres'
+    //var url = this.serverUrl+ this.params;
+    //return this.http.get(url).map(res => res.json());
+    //}
+    //LISTAR VEHICULOS DE DOS TABLAS - POR NUMERO DE PASAJEROS/////////////
+    VehiculoService.prototype.listarVehiculosEnServicioCinco = function () {
+        this.params = 'action=listarVehiculosEnServicioCinco';
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
+    VehiculoService.prototype.listarVehiculosEnServicioSiete = function () {
+        this.params = 'action=listarVehiculosEnServicioSiete';
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
+    VehiculoService.prototype.listarVehiculosEnServicioOcho = function () {
+        this.params = 'action=listarVehiculosEnServicioOcho';
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
+    VehiculoService.prototype.listarVehiculosEnServicioCatorce = function () {
+        this.params = 'action=listarVehiculosEnServicioCatorce';
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
+    //LISTAR VEHICULOS DE DOS TABLAS, VEHICULOS OCUPADOS
+    VehiculoService.prototype.listarVehiculosOcupados = function () {
+        this.params = 'action=listarVehiculosOcupados';
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
+    ////////////////////////////////////////////////AGREGAR VEHICULO RENTA
+    VehiculoService.prototype.agregar_renta = function (destino, fechaSalida, horaSalida, fechaLlegada, horaLlegada, kilometrajeR, cristalesR, llantasR, tapiceriaR, documentacionVehiculoR, refaccionR, gatoR, notasR, idVehiculo, idCliente, idUsuario) {
+        this.params = 'action=agregar_renta&destino=' + destino + '&fechaSalida=' + fechaSalida + '&horaSalida=' + horaSalida + '&fechaLlegada=' + fechaLlegada + '&horaLlegada=' + horaLlegada + '&kilometrajeR=' + kilometrajeR + '&cristalesR=' + cristalesR + '&llantasR=' + llantasR + '&tapiceriaR=' + tapiceriaR + '&documentacionVehiculoR=' + documentacionVehiculoR + '&refaccionR=' + refaccionR + '&gatoR=' + gatoR + '&notasR=' + notasR + '&idVehiculo=' + idVehiculo + '&idCliente=' + idCliente + '&idUsuario=' + idUsuario;
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
+    //EDITAR VEHICULO RENTA
+    VehiculoService.prototype.editar_renta = function (idRenta, destino, fechaSalida, horaSalida, fechaLlegada, horaLlegada, kilometrajeR, cristalesR, llantasR, tapiceriaR, documentacionVehiculoR, refaccionR, gatoR, notasR, idVehiculo, idCliente, idUsuario) {
+        this.params = 'action=editar_renta&idRenta=' + idRenta + '&destino=' + destino + '&fechaSalida=' + fechaSalida + '&horaSalida=' + horaSalida + '&fechaLlegada=' + fechaLlegada + '&horaLlegada=' + horaLlegada + '&kilometrajeR=' + kilometrajeR + '&cristalesR=' + cristalesR + '&llantasR=' + llantasR + '&tapiceriaR=' + tapiceriaR + '&documentacionVehiculoR=' + documentacionVehiculoR + '&refaccionR=' + refaccionR + '&gatoR=' + gatoR + '&notasR=' + notasR + '&idVehiculo=' + idVehiculo + '&idCliente=' + idCliente + '&idUsuario=' + idUsuario;
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
+    //ELIMINAR VEHICULO RENTA
+    VehiculoService.prototype.eliminar_renta = function (idRenta) {
+        this.params = 'action=eliminar_renta&idRenta=' + idRenta;
+        var url = this.serverUrl + this.params;
+        return this.http.get(url).map(function (res) { return res.json(); });
+    };
+    VehiculoService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]])
+    ], VehiculoService);
+    return VehiculoService;
+}());
+
+//# sourceMappingURL=VehiculoServices.js.map
+
+/***/ }),
+/* 14 */,
+/* 15 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -438,11 +597,12 @@ var VehiculoFotoService = (function () {
         this.serverUrl = __WEBPACK_IMPORTED_MODULE_2__servicios_URL__["b" /* url2 */];
     }
     //AGREGAR VEHICULO
-    VehiculoFotoService.prototype.agregarVehiculo = function (marcaVehiculo, tipoVehiculo, numeroPasajeros, placas, modelo, numeroMotor, transmicion, numeroSerie, color, kilometrajeV, cristalesV, llantasV, tapiceriaV, documentacionVehiculoV, refaccionV, gatoV, vehiculoMantenimiento, autoRentado, renta, notasV, foto, motivoTaller, fechaEntrada, fechaSalidaT, notasT, idasTaller, idUsuario) {
+    VehiculoFotoService.prototype.agregarVehiculo = function (marcaVehiculo, tipoVehiculo, categoria, numeroPasajeros, placas, modelo, numeroMotor, transmicion, numeroSerie, color, kilometrajeV, cristalesV, llantasV, tapiceriaV, documentacionVehiculoV, refaccionV, gatoV, vehiculoMantenimiento, autoRentado, renta, notasV, foto, motivoTaller, fechaEntrada, fechaSalidaT, notasT, idasTaller, idUsuario) {
         var body = {
             "action": "agregarVehiculo",
             "marcaVehiculo": marcaVehiculo,
             "tipoVehiculo": tipoVehiculo,
+            "categoria": categoria,
             "numeroPasajeros": numeroPasajeros,
             "placas": placas,
             "modelo": modelo,
@@ -494,12 +654,13 @@ var VehiculoFotoService = (function () {
         return this.http.post(url, bodyJ, options).map(function (res) { return res.json(); });
     };
     //EDITAR VEHICULO DATOS
-    VehiculoFotoService.prototype.editarVehiculoDatos = function (idVehiculo, marcaVehiculo, tipoVehiculo, numeroPasajeros, placas, modelo, numeroMotor, transmicion, numeroSerie, color, kilometrajeV, cristalesV, llantasV, tapiceriaV, documentacionVehiculoV, refaccionV, gatoV, vehiculoMantenimiento, autoRentado, renta, notasV, motivoTaller, fechaEntrada, fechaSalidaT, notasT, idasTaller, idUsuario) {
+    VehiculoFotoService.prototype.editarVehiculoDatos = function (idVehiculo, marcaVehiculo, tipoVehiculo, categoria, numeroPasajeros, placas, modelo, numeroMotor, transmicion, numeroSerie, color, kilometrajeV, cristalesV, llantasV, tapiceriaV, documentacionVehiculoV, refaccionV, gatoV, vehiculoMantenimiento, autoRentado, renta, notasV, motivoTaller, fechaEntrada, fechaSalidaT, notasT, idasTaller, idUsuario) {
         var body = {
             "action": "editarVehiculoDatos",
             "idVehiculo": idVehiculo,
             "marcaVehiculo": marcaVehiculo,
             "tipoVehiculo": tipoVehiculo,
+            "categoria": categoria,
             "numeroPasajeros": numeroPasajeros,
             "placas": placas,
             "modelo": modelo,
@@ -610,121 +771,7 @@ var VehiculoFotoService = (function () {
 //# sourceMappingURL=VehiculoFotoServices.js.map
 
 /***/ }),
-/* 15 */,
-/* 16 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculoService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_URL__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-var VehiculoService = (function () {
-    function VehiculoService(http) {
-        this.http = http;
-        this.http = http;
-        this.serverUrl = __WEBPACK_IMPORTED_MODULE_2__servicios_URL__["a" /* url */];
-    }
-    //LISTAR VEHICULOS DE DOS TABLAS, VEHICULOS Y USUARIOS 
-    VehiculoService.prototype.listarTodosLosVehiculos = function () {
-        this.params = 'action=listarTodosLosVehiculos';
-        var url = this.serverUrl + this.params;
-        return this.http.get(url).map(function (res) { return res.json(); });
-    };
-    //LISTAR VEHICULOS DE DOS TABLAS, VEHICULOS Y USUARIOS SIN MANTENIMIENTO 
-    VehiculoService.prototype.listarVehiculosSinMantenimiento = function () {
-        this.params = 'action=listarVehiculosSinMantenimiento';
-        var url = this.serverUrl + this.params;
-        return this.http.get(url).map(function (res) { return res.json(); });
-    };
-    //LISTAR VEHICULOS DE DOS TABLAS, VEHICULOS Y USUARIOS EN MANTENIMIENTO 
-    VehiculoService.prototype.listarVehiculosEnMantenimiento = function () {
-        this.params = 'action=listarVehiculosEnMantenimiento';
-        var url = this.serverUrl + this.params;
-        return this.http.get(url).map(function (res) { return res.json(); });
-    };
-    //LISTAR VEHICULOS DE CUATRO TABLAS, VEHICULOS, RENTA, CLIENTES Y USUARIOS 
-    VehiculoService.prototype.listarTodosLosVehiculosRentados = function () {
-        this.params = 'action=listarTodosLosVehiculosRentados';
-        var url = this.serverUrl + this.params;
-        return this.http.get(url).map(function (res) { return res.json(); });
-    };
-    //LISTAR VEHICULOS DE DOS TABLAS, VEHICULOS LIBRES
-    //listarVehiculosLibres(){
-    //this.params= 'action=listarVehiculosLibres'
-    //var url = this.serverUrl+ this.params;
-    //return this.http.get(url).map(res => res.json());
-    //}
-    //LISTAR VEHICULOS DE DOS TABLAS - POR NUMERO DE PASAJEROS/////////////
-    VehiculoService.prototype.listarVehiculosEnServicioCinco = function () {
-        this.params = 'action=listarVehiculosEnServicioCinco';
-        var url = this.serverUrl + this.params;
-        return this.http.get(url).map(function (res) { return res.json(); });
-    };
-    VehiculoService.prototype.listarVehiculosEnServicioSiete = function () {
-        this.params = 'action=listarVehiculosEnServicioSiete';
-        var url = this.serverUrl + this.params;
-        return this.http.get(url).map(function (res) { return res.json(); });
-    };
-    VehiculoService.prototype.listarVehiculosEnServicioOcho = function () {
-        this.params = 'action=listarVehiculosEnServicioOcho';
-        var url = this.serverUrl + this.params;
-        return this.http.get(url).map(function (res) { return res.json(); });
-    };
-    VehiculoService.prototype.listarVehiculosEnServicioCatorce = function () {
-        this.params = 'action=listarVehiculosEnServicioCatorce';
-        var url = this.serverUrl + this.params;
-        return this.http.get(url).map(function (res) { return res.json(); });
-    };
-    //LISTAR VEHICULOS DE DOS TABLAS, VEHICULOS OCUPADOS
-    VehiculoService.prototype.listarVehiculosOcupados = function () {
-        this.params = 'action=listarVehiculosOcupados';
-        var url = this.serverUrl + this.params;
-        return this.http.get(url).map(function (res) { return res.json(); });
-    };
-    ////////////////////////////////////////////////AGREGAR VEHICULO RENTA
-    VehiculoService.prototype.agregar_renta = function (destino, fechaSalida, horaSalida, fechaLlegada, horaLlegada, kilometrajeR, cristalesR, llantasR, tapiceriaR, documentacionVehiculoR, refaccionR, gatoR, notasR, idVehiculo, idCliente, idUsuario) {
-        this.params = 'action=agregar_renta&destino=' + destino + '&fechaSalida=' + fechaSalida + '&horaSalida=' + horaSalida + '&fechaLlegada=' + fechaLlegada + '&horaLlegada=' + horaLlegada + '&kilometrajeR=' + kilometrajeR + '&cristalesR=' + cristalesR + '&llantasR=' + llantasR + '&tapiceriaR=' + tapiceriaR + '&documentacionVehiculoR=' + documentacionVehiculoR + '&refaccionR=' + refaccionR + '&gatoR=' + gatoR + '&notasR=' + notasR + '&idVehiculo=' + idVehiculo + '&idCliente=' + idCliente + '&idUsuario=' + idUsuario;
-        var url = this.serverUrl + this.params;
-        return this.http.get(url).map(function (res) { return res.json(); });
-    };
-    //EDITAR VEHICULO RENTA
-    VehiculoService.prototype.editar_renta = function (idRenta, destino, fechaSalida, horaSalida, fechaLlegada, horaLlegada, kilometrajeR, cristalesR, llantasR, tapiceriaR, documentacionVehiculoR, refaccionR, gatoR, notasR, idVehiculo, idCliente, idUsuario) {
-        this.params = 'action=editar_renta&idRenta=' + idRenta + '&destino=' + destino + '&fechaSalida=' + fechaSalida + '&horaSalida=' + horaSalida + '&fechaLlegada=' + fechaLlegada + '&horaLlegada=' + horaLlegada + '&kilometrajeR=' + kilometrajeR + '&cristalesR=' + cristalesR + '&llantasR=' + llantasR + '&tapiceriaR=' + tapiceriaR + '&documentacionVehiculoR=' + documentacionVehiculoR + '&refaccionR=' + refaccionR + '&gatoR=' + gatoR + '&notasR=' + notasR + '&idVehiculo=' + idVehiculo + '&idCliente=' + idCliente + '&idUsuario=' + idUsuario;
-        var url = this.serverUrl + this.params;
-        return this.http.get(url).map(function (res) { return res.json(); });
-    };
-    //ELIMINAR VEHICULO RENTA
-    VehiculoService.prototype.eliminar_renta = function (idRenta) {
-        this.params = 'action=eliminar_renta&idRenta=' + idRenta;
-        var url = this.serverUrl + this.params;
-        return this.http.get(url).map(function (res) { return res.json(); });
-    };
-    VehiculoService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]])
-    ], VehiculoService);
-    return VehiculoService;
-}());
-
-//# sourceMappingURL=VehiculoServices.js.map
-
-/***/ }),
+/* 16 */,
 /* 17 */,
 /* 18 */,
 /* 19 */,
@@ -751,9 +798,9 @@ var VehiculoService = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return url; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return url2; });
-var url = "http://54.80.1.115/TonyToursBD/API/?";
+var url = "http://192.168.0.7/TonyToursBD/API/?";
 //export var url = "http://34.229.103.166/TonyToursBD/API/?";
-var url2 = "http://54.80.1.115/TonyToursBD/API/foto.php";
+var url2 = "http://192.168.0.7/TonyToursBD/API/foto.php";
 //# sourceMappingURL=URL.js.map
 
 /***/ }),
@@ -1161,8 +1208,8 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_servicios_ClienteServices__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_servicios_UsuarioServices__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_servicios_HistorialServices__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_servicios_VehiculoServices__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_servicios_VehiculoFotoServices__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_servicios_VehiculoServices__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_servicios_VehiculoFotoServices__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_http__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_camera__ = __webpack_require__(108);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1217,7 +1264,7 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_22" /* VehiculosopcionesPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_21" /* VehiculosocupadosPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_19" /* VehiculoslibresPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_24" /* VehiculossinservicioPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_29" /* VehiculossinservicioPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_15" /* VehiculomostrarlibrePage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_16" /* VehiculomostrarocupadoPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Q" /* RentalistausuariosPage */],
@@ -1269,7 +1316,12 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["p" /* ClienteactivomesPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["o" /* CbajaagendamesPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_3" /* VehiculodatostallerPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["P" /* RentalistausuariorentadoPage */]
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["P" /* RentalistausuariorentadoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_25" /* VehiculosrentadoscarrosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_24" /* VehiculosrentadosavanzaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_26" /* VehiculosrentadoshiacePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_27" /* VehiculosrentadosodysseyPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_28" /* VehiculosrentadossiennaPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -1305,7 +1357,7 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_22" /* VehiculosopcionesPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_21" /* VehiculosocupadosPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_19" /* VehiculoslibresPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_24" /* VehiculossinservicioPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_29" /* VehiculossinservicioPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_15" /* VehiculomostrarlibrePage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_16" /* VehiculomostrarocupadoPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["Q" /* RentalistausuariosPage */],
@@ -1357,7 +1409,12 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["p" /* ClienteactivomesPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["o" /* CbajaagendamesPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_3" /* VehiculodatostallerPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["P" /* RentalistausuariorentadoPage */]
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["P" /* RentalistausuariorentadoPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_25" /* VehiculosrentadoscarrosPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_24" /* VehiculosrentadosavanzaPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_26" /* VehiculosrentadoshiacePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_27" /* VehiculosrentadosodysseyPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_index_paginas__["_28" /* VehiculosrentadossiennaPage */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
@@ -3243,7 +3300,7 @@ var VehiculosPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculosdisponiblesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -3354,8 +3411,7 @@ var VehiculosdisponiblesPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculosrentadosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3368,89 +3424,49 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
 var VehiculosrentadosPage = (function () {
-    function VehiculosrentadosPage(navCtrl, navParams, loadingCtrl, viewCtrl, VehiculoService, modalCtrl, alertCtrl) {
+    function VehiculosrentadosPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.loadingCtrl = loadingCtrl;
-        this.viewCtrl = viewCtrl;
-        this.modalCtrl = modalCtrl;
-        this.alertCtrl = alertCtrl;
-        this.rentas = [];
-        this.rentasLista = [];
-        this.VehiculoService = VehiculoService;
-        this.listar_rentas();
         this.datosUsuario = window.localStorage.getItem('dataUser');
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
-    VehiculosrentadosPage.prototype.dismiss = function () {
-        this.viewCtrl.dismiss();
+    VehiculosrentadosPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_17" /* VehiculosPage */]);
     };
-    VehiculosrentadosPage.prototype.listar_rentas = function () {
-        var _this = this;
-        this.loading = this.loadingCtrl.create({
-            content: "Cargando vehiculos...",
-        });
-        this.loading.present();
-        this.VehiculoService.listarTodosLosVehiculosRentados().subscribe(function (data) {
-            console.log(data);
-            _this.rentas = data;
-            _this.rentasLista = _this.rentas;
-            if (data.length != 0) {
-                _this.loading.dismiss();
-                console.log('Tienes vehiculos rentados');
-                // this.navCtrl.push(SlidePage);
-            }
-            if (data.length === 0) {
-                _this.loading.dismiss();
-                console.log('No hay vehiculos rentados');
-                //this.navCtrl.push(BienvenidaPage);
-            }
-        }, function (err) {
-            _this.loading.dismiss();
-            console.log(err);
-            //() =>  console.log('cargar equipos complete')
-        });
-    };
-    VehiculosrentadosPage.prototype.detalles = function (event, item) {
-        window.localStorage.setItem('datosRenta', JSON.stringify(item));
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["S" /* RentasmostrarPage */]);
-    };
-    // PARA ACTUALIZAR LOS DATOS
-    VehiculosrentadosPage.prototype.Refrescar = function (refresher) {
-        console.log('Comienzo de la operación asincrónica', refresher);
-        this.listar_rentas();
-        setTimeout(function () {
-            console.log('La operación asincrónica ha finalizado');
-            refresher.complete();
-        }, 2000);
-    };
-    // BARRA DE BUSCADOR
-    VehiculosrentadosPage.prototype.getItems = function (ev) {
-        this.rentas = this.rentasLista;
-        var val = ev.target.value;
-        if (val && val.trim() != '') {
-            this.rentas = this.rentas.filter(function (item) {
-                return (item.tipoVehiculo.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
-            });
+    VehiculosrentadosPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["E" /* MenunivelunoPage */]);
         }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["D" /* MenuniveldosPage */]);
+        }
+    };
+    VehiculosrentadosPage.prototype.carros = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_25" /* VehiculosrentadoscarrosPage */]);
+    };
+    VehiculosrentadosPage.prototype.avanza = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_24" /* VehiculosrentadosavanzaPage */]);
+    };
+    VehiculosrentadosPage.prototype.odyssey = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_27" /* VehiculosrentadosodysseyPage */]);
+    };
+    VehiculosrentadosPage.prototype.sienna = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_28" /* VehiculosrentadossiennaPage */]);
+    };
+    VehiculosrentadosPage.prototype.hiace = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_26" /* VehiculosrentadoshiacePage */]);
     };
     VehiculosrentadosPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad VehiculosrentadosPage');
     };
     VehiculosrentadosPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-vehiculosrentados',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentados\vehiculosrentados.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Vehiculos rentados</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-searchbar cancelButtonText  \n      (ionInput)="getItems($event)" placeholder="Buscar vehiculo" \n      style="background-color: rgba(0, 0, 0, 0.3); border-radius: 30px;">\n    </ion-searchbar>\n\n    <ion-refresher (ionRefresh)="Refrescar($event)">\n      <ion-refresher-content \n      refreshingSpinner="circles"\n      refreshingText="Actualizando..."> \n      </ion-refresher-content>\n    </ion-refresher>\n\n\n<ion-list *ngFor="let item of rentas; let i=index;">\n    <ion-item-sliding >\n    <ion-item>\n\n      <ion-avatar item-left>\n        <img src="{{item.foto}}">     \n      </ion-avatar>\n\n    <button translate ion-button icon-left clear small (click)="detalles($event,item)">\n            <ion-icon name="paw" style="color: orangered;"></ion-icon>\n            <h2 color="primary"> {{item.marcaVehiculo}} - {{item.tipoVehiculo}}</h2>\n                \n    </button>\n    <h2>Fecha de salida: {{item.fechaSalida}}</h2>\n    <h2>Cliente: {{item.nombre}}</h2>\n    <h2 >Lo agrego: {{item.nombreUsuario}} </h2> \n\n    </ion-item>\n\n    </ion-item-sliding>\n</ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentados\vehiculosrentados.html"*/,
+            selector: 'page-vehiculosrentados',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentados\vehiculosrentados.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Vehiculos rentados</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row> \n    </ion-grid> \n\n  </ion-toolbar>\n</ion-header>\n \n\n<ion-content padding>\n  \n  <ion-card class="tarjeta" (click)="carros()">\n    <div style="text-align: -webkit-center;">\n    <img style="width: 15%;" src="img/icon/car.png"/>\n    </div>\n    <ion-item style="text-align: center;">\n      <p style="font-size: 24px; color: #1BC7AF;"><strong>Carros</strong></p>\n      <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">5 pasajeros</p>\n    </ion-item>      \n  </ion-card>\n\n  <br>\n\n  <div class="c1">\n    <ion-grid style="text-align: center;">  \n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta" (click)="avanza()">\n            <div style="text-align: -webkit-center;">\n            <img style="width: 30%;" src="img/icon/car.png"/>\n            </div>\n            <ion-item style="text-align: center;">\n              <p style="font-size: 24px; color: #1BC7AF;"><strong>Avanza</strong></p>\n              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">7 Pasajeros</p>\n            </ion-item>      \n          </ion-card>\n        </ion-col>\n        <ion-col> \n          <ion-card class="tarjeta" (click)="odyssey()">\n            <div style="text-align: -webkit-center;">\n            <img style="width: 30%;" src="img/icon/vehiculo.png"/>\n            </div>\n            <ion-item style="text-align: center;">\n              <p style="font-size: 24px; color: #1BC7AF;"><strong>Odyssey</strong></p>\n              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">7 y 8 Pasajeros</p>\n            </ion-item>      \n          </ion-card>\n        </ion-col>  \n      </ion-row>\n    </ion-grid> \n  </div>\n\n  <br>\n\n  <div class="c1">\n    <ion-grid style="text-align: center;">  \n      <ion-row> \n        <ion-col> \n          <ion-card class="tarjeta" (click)="sienna()">\n            <div style="text-align: -webkit-center;">\n            <img style="width: 30%;" src="img/icon/ocho.png"/>\n            </div>\n            <ion-item style="text-align: center;">\n              <p style="font-size: 24px; color: #1BC7AF;"><strong>Sienna</strong></p>\n              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">7 y 8 Pasajeros</p>\n            </ion-item>      \n          </ion-card>\n        </ion-col>\n        <ion-col> \n          <ion-card class="tarjeta" (click)="hiace()">\n            <div style="text-align: -webkit-center;">\n            <img style="width: 30%;" src="img/icon/catorce.png"/>\n            </div>\n            <ion-item style="text-align: center;">\n              <p style="font-size: 24px; color: #1BC7AF;"><strong>Hiace</strong></p>\n              <p style="font-size: 16px; opacity: 50%; margin-top: 0%;">14 pasajeros</p>\n            </ion-item>      \n          </ion-card>\n        </ion-col>  \n      </ion-row>\n    </ion-grid> \n  </div>\n\n</ion-content>\n `/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentados\vehiculosrentados.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */],
-            __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
     ], VehiculosrentadosPage);
     return VehiculosrentadosPage;
 }());
@@ -3465,7 +3481,7 @@ var VehiculosrentadosPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculosmantenimientoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -3576,7 +3592,7 @@ var VehiculosmantenimientoPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculomostrarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -3611,7 +3627,7 @@ var VehiculomostrarPage = (function () {
     VehiculomostrarPage.prototype.historial = function () {
     };
     VehiculomostrarPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_24" /* VehiculossinservicioPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_29" /* VehiculossinservicioPage */]);
     };
     VehiculomostrarPage.prototype.enlace_editar_vehiculoFoto = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_8" /* VehiculoeditarfotoPage */]);
@@ -3737,6 +3753,23 @@ var RentasmostrarPage = (function () {
         this.perfil = JSON.parse(this.datosUsuario);
         console.log(this.perfil);
     }
+    RentasmostrarPage.prototype.regresar = function () {
+        if (this.datosR.categoria == "Carros") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_25" /* VehiculosrentadoscarrosPage */]);
+        }
+        else if (this.datosR.categoria == "Avanza") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_24" /* VehiculosrentadosavanzaPage */]);
+        }
+        else if (this.datosR.categoria == "Odyssey") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_27" /* VehiculosrentadosodysseyPage */]);
+        }
+        else if (this.datosR.categoria == "Sienna") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_28" /* VehiculosrentadossiennaPage */]);
+        }
+        else if (this.datosR.categoria == "Hiace") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_26" /* VehiculosrentadoshiacePage */]);
+        }
+    };
     RentasmostrarPage.prototype.enlace_editar_renta = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["O" /* RentaeditarPage */]);
     };
@@ -3754,7 +3787,7 @@ var RentasmostrarPage = (function () {
     };
     RentasmostrarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-rentasmostrar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentasmostrar\rentasmostrar.html"*/`\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Detalles de la renta</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <div class="Foto">\n    <img src="{{datosR?.foto}}" id="Foto">\n  </div>\n\n  <ion-item class="center">\n\n    \n\n    <h1 id="nombre" color="primary"><ion-icon name="paw"  color="primary"></ion-icon> {{datosR.marcaVehiculo}}</h1>\n    <br>\n\n<h2>Datos de la renta</h2>\n      <ion-grid>\n        <ion-row>\n          <h2>Chofer:</h2><p id="chofer"> {{datosR.chofer}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Destino:</h2><p id="destino"> {{datosR.destino}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Fecha de salida:</h2><p id="fechaSalida"> {{datosR.fechaSalida}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Hora de salida:</h2><p id="horaSalida"> {{datosR.horaSalida}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Fecha de llegada:</h2><p id="fechaLlegada"> {{datosR.fechaLlegada}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Hora de llegada:</h2><p id="horaLlegada"> {{datosR.horaLlegada}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Kilometraje:</h2><p id="kilometrajeR"> {{datosR.kilometrajeR}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Cristales:</h2><p id="cristalesR"> {{datosR.cristalesR}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Llantas:</h2><p id="llantasR"> {{datosR.llantasR}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Tapiceria:</h2><p id="tapiceriaR"> {{datosR.tapiceriaR}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Documentacion del vehiculo:</h2><p id="documentacionVehiculoR"> {{datosR.documentacionVehiculoR}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Refaccion:</h2><p id="refaccionR"> {{datosR.refaccionR}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Gato:</h2><p id="gatoR"> {{datosR.gatoR}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Notas:</h2><p id="notasR"> {{datosR.notasR}}</p>\n        </ion-row>\n      </ion-grid>\n\n\n<h2>Datos del vehiculo</h2>\n      <ion-grid>\n        <ion-row>\n          <h2>Tipo de vehiculo:</h2><p id="tipoVehiculo"> {{datosR.tipoVehiculo}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Numero de pasajeros:</h2><p id="numeroPasajeros"> {{datosR.numeroPasajeros}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Placas:</h2><p id="placas"> {{datosR.placas}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Año: </h2><p id="modelo">{{datosR.modelo}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Numero de motor: </h2><p id="numeroMotor">{{datosR.numeroMotor}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Transmicion: </h2><p id="transmicion">{{datosR.transmicion}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Numero de serie: </h2><p id="numeroSerie">{{datosR.numeroSerie}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Color: </h2><p id="color">{{datosR.color}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Kilometraje: </h2><p id="kilometrajeV">{{datosR.kilometrajeV}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Cristales: </h2><p id="cristalesV">{{datosR.cristalesV}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Llantas: </h2><p id="llantasV">{{datosR.llantasV}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Tapiceria: </h2><p id="tapiceriaV">{{datosR.tapiceriaV}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Documentacion del vehiculo: </h2><p id="documentacionVehiculoV">{{datosR.documentacionVehiculoV}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Refaccion: </h2><p id="refaccionV">{{datosR.refaccionV}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Gato: </h2><p id="gatoV">{{datosR.gatoV}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Vehiculo en mantenimiento: </h2><p id="vehiculoMantenimiento">{{datosR.vehiculoMantenimiento}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Vehiculo: </h2><p id="vehiculoRentado">{{datosR.autoRentado}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>notas: </h2><p id="notasV">{{datosR.notasV}}</p> \n        </ion-row>\n      </ion-grid>\n\n<h2>Datos del cliente</h2>\n      <ion-grid>\n        <ion-row>\n          <h2>Cliente:</h2><p id="nombre"> {{datosR.nombre}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Cliente:</h2><p id="tipoCliente"> {{datosR.tipoCliente}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Vehiculo Rentado:</h2><p id="vehiculoRentado"> {{datosR.vehiculoRentado}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Edad: </h2><p id="edad">{{datosR.edad}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Telefono: </h2><p id="telefono">{{datosR.telefono}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Sexo: </h2><p id="sexo">{{datosR.sexo}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Direccion: </h2><p id="direccion">{{datosR.direccion}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Colonia: </h2><p id="colonia">{{datosR.colonia}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Ciudad: </h2><p id="ciudad">{{datosR.ciudad}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Estado: </h2><p id="estado">{{datosR.estado}}</p>\n        </ion-row>\n        <ion-row>\n          <h2>Licencia: </h2><p id="licencia">{{datosR.licencia}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Vigencia de la licencia: </h2><p id="fechaLicencia">{{datosR.fechaLicencia}}</p> \n        </ion-row>\n        <ion-row>\n          <h2>Observaciones del cliente: </h2><p id="observacionesCliente">{{datosR.observacionesCliente}}</p>\n       </ion-row>\n       <ion-row>\n         <h2>Observaciones del vehiculo: </h2><p id="observacionesVehiculo">{{datosR.observacionesVehiculo}}</p>\n       </ion-row>\n       <ion-row>\n         <h2>Vehiculos Rentados: </h2><p id="vehiculosRentados">{{datosR.vehiculosRentados}}</p>\n       </ion-row>\n       <ion-row>\n         <h2>Vehiculos Dañados: </h2><p id="vehiculosMalEstado">{{datosR.vehiculosMalEstado}}</p>\n       </ion-row>\n       <ion-row>\n         <h2>Notas: </h2><p id="notasC">{{datosR.notasC}}</p>\n       </ion-row>\n       <ion-row>\n         <h2>Cliente Activo: </h2><p id="clienteactivo">{{datosR.clienteactivo}}</p>\n       </ion-row>\n       <ion-row>\n         <h2>Notas del historial: </h2><p id="notashistorial">{{datosR.notashistorial}}</p>\n       </ion-row>   \n       <ion-row>\n         <h2>Fecha de alta del cliente: </h2><p id="fechaAltaCliente">{{datosR.fechaAltaCliente}}</p> \n       </ion-row> \n      </ion-grid>\n\n      <h2>Atendido por el ultimo usuario que fue: </h2><p id="nombreUsuario">{{datosR.nombreUsuario}}</p> \n\n    </ion-item>\n\n    <button ion-button color="primary" (click)="enlace_editar_renta()">\n      <ion-icon name="medkit"></ion-icon>\n      Editar \n    </button>\n\n    <button ion-button color="secondary" (click)="enlace_Datos_Cliente()">\n      <ion-icon name="medkit"></ion-icon>\n      Ver datos cliente\n    </button>\n\n    <button ion-button color="light" (click)="enlace_Datos_Vehiculo()">\n      <ion-icon name="medkit"></ion-icon>\n      Ver datos vehiculo\n    </button>\n\n    <button ion-button color="danger" (click)="enlace_Dar_Baja()">\n      <ion-icon name="medkit"></ion-icon>\n      Dar de baja\n    </button>\n    \n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentasmostrar\rentasmostrar.html"*/,
+            selector: 'page-rentasmostrar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentasmostrar\rentasmostrar.html"*/`\n<ion-content>\n\n  <br>\n  <br>\n\n  <ion-item>\n   <ion-avatar item-left>\n      <img src="{{datosR.foto}}">\n    </ion-avatar>\n  </ion-item>\n\n    <ion-grid style="text-align: center; margin-left: 25px;" >\n      <ion-row>  \n        <ion-col> \n            <ion-item no-lines>\n              <div>\n                <p style="font-size: 20px; color: #4A6D68;"><strong>{{datosR.marcaVehiculo}} - {{datosR.tipoVehiculo}}</strong></p>\n                <p style="font-size: 12px; color: #718d79;">Modelo: <strong style="color: #505A53;">{{datosR.modelo}}</strong></p>\n                <p style="font-size: 12px; color: #718d79;">Placas: <strong style="color: #505A53;">{{datosR.placas}}</strong></p> \n              </div> \n            </ion-item>\n        </ion-col>\n        <ion-col>\n          <ion-item no-lines>\n            <div>\n              <p style="font-size: 14px; color: #4A6D68;">Cliente: <strong>{{datosR.nombre}}</strong></p>\n              <p style="font-size: 12px; color: #718d79;">Licencia: <strong style="color: #505A53;">{{datosR.licencia}}</strong></p>\n              <p style="font-size: 12px; color: #718d79;">Telefono: <strong style="color: #505A53;">{{datosR.telefono}}</strong></p> \n            </div> \n          </ion-item>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <div class="c1">\n      <ion-grid style="text-align: center;">\n        <ion-row> \n          <ion-col> \n            <ion-card class="tarjeta">\n              <ion-item>\n                <div style="text-align: -webkit-center;">\n                  <p style="font-size: 10px; color: #505A53;">Fecha de salida</p>\n                  <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.fechaSalida}}</strong></p>\n                </div> \n              </ion-item>\n            </ion-card>\n          </ion-col>\n          <ion-col>     \n            <ion-card class="tarjeta">\n              <ion-item>\n                <div style="text-align: -webkit-center;">\n                  <p style="font-size: 10px; color: #505A53;">Hora de salida</p>\n                  <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.horaSalida}}</strong></p>\n                </div> \n              </ion-item>\n            </ion-card>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n    </div>\n\n    <div>\n      <ion-grid no-padding style="text-align: center;">\n        <ion-row>\n          <ion-col>     \n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Destino</p>\n                <p style="font-size: 12px; color: #1BC7AF;"><strong>{{datosR.destino}}</strong></p>\n              </div> \n            </ion-item>\n        </ion-col>\n          <ion-col>     \n              <ion-item no-lines>\n                <div style="text-align: -webkit-center;">\n                  <p style="font-size: 10px; color: #505A53;">Km</p>\n                  <p style="font-size: 12px; color: #1BC7AF;"><strong>{{datosR.kilometrajeR}}</strong></p>\n                </div> \n              </ion-item>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </div>\n\n    <div>\n      <ion-grid no-padding style="text-align: center;">\n        <ion-row>\n          <ion-col>     \n            <ion-item no-lines>\n              <div style="text-align: -webkit-center;">\n                <p style="font-size: 10px; color: #505A53;">Documentacion</p>\n                <p style="font-size: 12px; color: #1BC7AF;"><strong>{{datosR.documentacionVehiculoR}}</strong></p>\n              </div> \n            </ion-item>\n        </ion-col>\n          <ion-col>     \n              <ion-item no-lines>\n                <div style="text-align: -webkit-center;">\n                  <p style="font-size: 10px; color: #505A53;">Refaccion</p>\n                  <p style="font-size: 12px; color: #1BC7AF;"><strong>{{datosR.refaccionR}}</strong></p>\n                </div> \n              </ion-item>\n          </ion-col>\n          <ion-col>     \n              <ion-item no-lines>\n                <div style="text-align: -webkit-center;">\n                  <p style="font-size: 10px; color: #505A53;">Gato</p>\n                  <p style="font-size: 12px; color: #1BC7AF;"><strong>{{datosR.gatoR}}</strong></p>\n                </div> \n              </ion-item>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </div>\n\n    <div class="c1">\n      <ion-grid style="text-align: center;">\n        <ion-row> \n          <ion-col> \n            <ion-card class="tarjeta">\n              <ion-item>\n                <div style="text-align: -webkit-center;">\n                  <p style="font-size: 10px; color: #505A53;">Fecha de Llegada</p>\n                  <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.fechaLlegada}}</strong></p>\n                </div> \n              </ion-item>\n            </ion-card>\n          </ion-col>\n          <ion-col>     \n            <ion-card class="tarjeta">\n              <ion-item>\n                <div style="text-align: -webkit-center;">\n                  <p style="font-size: 10px; color: #505A53;">Hora de Llegada</p>\n                  <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosR.horaLlegada}}</strong></p>\n                </div> \n              </ion-item>\n            </ion-card>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n    </div>\n\n    <ion-item no-lines>\n      <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/cristal.png"/> Cristales: <strong>{{datosR.cristalesR}}</strong></p>\n      <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/llanta.png"/> Llantas: <strong>{{datosR.llantasR}}</strong></p>\n      <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/car.png"/> Tapiceria: <strong>{{datosR.tapiceriaR}}</strong></p>\n    <ion-card-content>\n      <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/notas.png"/> Notas: <strong>{{datosR.notasR}}</strong></p>\n    </ion-card-content>\n    </ion-item>\n\n    <p style="margin-top: 14px; text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{datosR.nombreUsuario}}</strong></p>\n\n \n  <ion-fab left top>\n    <button ion-fab ><ion-icon name="build"></ion-icon></button>\n    <ion-fab-list side="top">\n      <img ion-fab style="border-radius: 50%;" src="img/vtaller.png" (click)="enlace_Datos_Vehiculo()" />     \n    </ion-fab-list>\n    <ion-fab-list side="right">\n      <p style="color: aliceblue;">Datos del vehiculo</p>\n    </ion-fab-list>\n  </ion-fab>\n\n  \n  <ion-fab right top>\n    <button ion-fab ><ion-icon name="arrow-forward"></ion-icon></button>\n    <ion-fab-list side="bottom">\n      <img ion-fab style="border-radius: 50%;" src="img/disponiblesv.png" (click)="enlace_Datos_Cliente()" />\n    </ion-fab-list>\n    <ion-fab-list side="left">\n      <p style="color: aliceblue;">Datos del cliente</p>\n    </ion-fab-list>\n  </ion-fab>\n\n\n</ion-content>\n\n<ion-footer no-border no-shadow color="primary-contrast">\n  <ion-grid style="text-align: center;">\n    <ion-row>  \n      <ion-col>\n          <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n          <p (click)="regresar()" style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n      </ion-col>\n      <ion-col>     \n        <img style="width: 22%;" (click)="enlace_editar_renta()" src="img/icon/editvehiculo.png"/>\n        <p (click)="enlace_editar_renta()" style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Editar datos</p>\n      </ion-col>\n      <ion-col>   \n          <img style="width: 22%;" (click)="enlace_Dar_Baja()"  src="img/icon/basura.png"/>\n          <p (click)="enlace_Dar_Baja()" style="font-size: 14px; color: #C10000; margin-top: 0%;">Dar de baja</p>\n      </ion-col>\n    </ion-row>\n  </ion-grid> \n</ion-footer>\n\n\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\rentasmostrar\rentasmostrar.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
@@ -3794,7 +3827,7 @@ var VehiculosopcionesPage = (function () {
         console.log(this.perfil);
     }
     VehiculosopcionesPage.prototype.vehiculosSinServicio = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_24" /* VehiculossinservicioPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_29" /* VehiculossinservicioPage */]);
     };
     VehiculosopcionesPage.prototype.vehiculosLibres = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__index_paginas__["_19" /* VehiculoslibresPage */]);
@@ -3836,7 +3869,7 @@ var VehiculosopcionesPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculosocupadosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -4044,7 +4077,7 @@ var VehiculoslibresPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculossinservicioPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -4138,7 +4171,7 @@ var VehiculossinservicioPage = (function () {
     };
     VehiculossinservicioPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-vehiculossinservicio',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculossinservicio\vehiculossinservicio.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Vehiculos fuera de servicio</ion-title>\n      <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="enlace_agregar_vehiculo()" src="img/icon/addvehiculo.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Agregar vehiculo</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  \n  <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar vehiculo">\n  </ion-searchbar>\n  \n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando lista...">\n    </ion-refresher-content>\n  </ion-refresher>\n\n  <ion-list *ngFor="let item of vehiculos; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="{{item.foto}}">       \n        </ion-avatar>\n        <h3 style="color: #718d79;">Placas: <strong style="color: #505A53;">{{item.placas}}</strong></h3>\n        <h3 style="color: #505A53;">Pasajeros: <strong style="color: #1BC7AF;"> {{item.numeroPasajeros}}</strong></h3>\n        <h3 style="color: #718d79;">Color: <strong style="color: #505A53;">{{item.color}}</strong></h3>\n        <h3 style="color: #505A53;">Modelo: <strong style="color: #1BC7AF;"> {{item.modelo}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <h2 style="color: #4A6D68;"><strong>{{item.marcaVehiculo}} - {{item.tipoVehiculo}}</strong></h2>   \n          </ion-col>\n          <ion-col>     \n            <h3 style="color: #718d79;"><strong style="color: #505A53;">{{item.kilometrajeV}}</strong> Km</h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <h3 style="text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{item.nombreUsuario}}</strong></h3>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculossinservicio\vehiculossinservicio.html"*/,
+            selector: 'page-vehiculossinservicio',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculossinservicio\vehiculossinservicio.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Vehiculos fuera de servicio</ion-title>\n      <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="enlace_agregar_vehiculo()" src="img/icon/addvehiculo.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Agregar vehiculo</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n  \n  <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar vehiculo">\n  </ion-searchbar>\n  \n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando lista...">\n    </ion-refresher-content> \n  </ion-refresher>\n\n  <ion-list *ngFor="let item of vehiculos; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="{{item.foto}}">       \n        </ion-avatar>\n        <h3 style="color: #718d79;">Placas: <strong style="color: #505A53;">{{item.placas}}</strong></h3>\n        <h3 style="color: #505A53;">Pasajeros: <strong style="color: #1BC7AF;"> {{item.numeroPasajeros}}</strong></h3>\n        <h3 style="color: #718d79;">Color: <strong style="color: #505A53;">{{item.color}}</strong></h3>\n        <h3 style="color: #505A53;">Modelo: <strong style="color: #1BC7AF;"> {{item.modelo}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <h2 style="color: #4A6D68;"><strong>{{item.marcaVehiculo}} - {{item.tipoVehiculo}}</strong></h2>   \n          </ion-col>\n          <ion-col>     \n            <h3 style="color: #718d79;"><strong style="color: #505A53;">{{item.kilometrajeV}}</strong> Km</h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <h3 style="text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{item.nombreUsuario}}</strong></h3>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculossinservicio\vehiculossinservicio.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -4419,7 +4452,7 @@ var RentalistausuariosPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RentaagregarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -4553,7 +4586,7 @@ var RentaagregarPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculoagregarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_camera__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -4589,7 +4622,7 @@ var VehiculoagregarPage = (function () {
         this.datosVehiculo.vehiculoMantenimiento = "SIN MANTENIMIENTO";
         this.datosVehiculo.autoRentado = "SIN SERVICIO";
         this.datosVehiculo.renta = "SIN RENTAR";
-        this.datosVehiculo.motivoTaller = " ";
+        this.datosVehiculo.motivoTaller = "Sin motivo";
         this.datosVehiculo.fechaEntrada = " ";
         this.datosVehiculo.fechaSalidaT = " ";
         this.datosVehiculo.notasT = " ";
@@ -4605,7 +4638,7 @@ var VehiculoagregarPage = (function () {
         this.viewCtrl.dismiss();
     };
     VehiculoagregarPage.prototype.regresar = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__index_paginas__["_24" /* VehiculossinservicioPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__index_paginas__["_29" /* VehiculossinservicioPage */]);
     };
     VehiculoagregarPage.prototype.menu = function () {
         if (this.perfil.nivelUsuario == "Administrador") {
@@ -4622,6 +4655,7 @@ var VehiculoagregarPage = (function () {
         if (form.valid) {
             console.log(this.datosVehiculo.marcaVehiculo);
             console.log(this.datosVehiculo.tipoVehiculo);
+            console.log(this.datosVehiculo.categoria);
             console.log(this.datosVehiculo.numeroPasajeros);
             console.log(this.datosVehiculo.placas);
             console.log(this.datosVehiculo.modelo);
@@ -4652,7 +4686,7 @@ var VehiculoagregarPage = (function () {
             });
             loading_1.present();
             this.imagen = window.localStorage.getItem('foto');
-            this.VehiculoFotoService.agregarVehiculo(this.datosVehiculo.marcaVehiculo, this.datosVehiculo.tipoVehiculo, this.datosVehiculo.numeroPasajeros, this.datosVehiculo.placas, this.datosVehiculo.modelo, this.datosVehiculo.numeroMotor, this.datosVehiculo.transmicion, this.datosVehiculo.numeroSerie, this.datosVehiculo.color, this.datosVehiculo.kilometrajeV, this.datosVehiculo.cristalesV, this.datosVehiculo.llantasV, this.datosVehiculo.tapiceriaV, this.datosVehiculo.documentacionVehiculoV, this.datosVehiculo.refaccionV, this.datosVehiculo.gatoV, this.datosVehiculo.vehiculoMantenimiento, this.datosVehiculo.autoRentado, this.datosVehiculo.renta, this.datosVehiculo.notasV, this.imagen, this.datosVehiculo.motivoTaller, this.datosVehiculo.fechaEntrada, this.datosVehiculo.fechaSalidaT, this.datosVehiculo.notasT, this.datosVehiculo.idasTaller, this.perfil.idUsuario).subscribe(function (data) {
+            this.VehiculoFotoService.agregarVehiculo(this.datosVehiculo.marcaVehiculo, this.datosVehiculo.tipoVehiculo, this.datosVehiculo.categoria, this.datosVehiculo.numeroPasajeros, this.datosVehiculo.placas, this.datosVehiculo.modelo, this.datosVehiculo.numeroMotor, this.datosVehiculo.transmicion, this.datosVehiculo.numeroSerie, this.datosVehiculo.color, this.datosVehiculo.kilometrajeV, this.datosVehiculo.cristalesV, this.datosVehiculo.llantasV, this.datosVehiculo.tapiceriaV, this.datosVehiculo.documentacionVehiculoV, this.datosVehiculo.refaccionV, this.datosVehiculo.gatoV, this.datosVehiculo.vehiculoMantenimiento, this.datosVehiculo.autoRentado, this.datosVehiculo.renta, this.datosVehiculo.notasV, this.imagen, this.datosVehiculo.motivoTaller, this.datosVehiculo.fechaEntrada, this.datosVehiculo.fechaSalidaT, this.datosVehiculo.notasT, this.datosVehiculo.idasTaller, this.perfil.idUsuario).subscribe(function (data) {
                 _this.userData = data;
                 console.log(data);
                 // window.localStorage.setItem('dataMascota', JSON.stringify(data));
@@ -4666,8 +4700,7 @@ var VehiculoagregarPage = (function () {
                             {
                                 text: 'Aceptar',
                                 handler: function () {
-                                    //this.navCtrl.push(Milista);
-                                    _this.dismiss();
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__index_paginas__["_22" /* VehiculosopcionesPage */]);
                                 }
                             }
                         ]
@@ -4764,7 +4797,7 @@ var VehiculoagregarPage = (function () {
     };
     VehiculoagregarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-vehiculoagregar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoagregar\vehiculoagregar.html"*/` \n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Agregar vehiculo</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n \n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n  <form #guardarForm="ngForm">\n\n    <div class="Imagen" >\n      <img  src="{{datosVehiculo?.foto}}" id="Imagen" [src]="captureDataUrl" *ngIf="captureDataUrl">\n    </div>\n\n    <div style="text-align:center;">\n     <img src="img/logo.png" (click)="upload()">\n      <div >Agrega una foto</div>\n    </div>    \n    \n    <ion-list>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/marca.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Marca* :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.marcaVehiculo" name="marcaVehiculo" #marcaVehiculo="ngModel" placeholder="marca del vehiculo" \n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/tipo.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo* :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.tipoVehiculo" name="tipoVehiculo" #tipoVehiculo="ngModel" placeholder="tipo de vehiculo" \n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/pasajeros.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Numero de pasajeros* :</ion-label>\n        <ion-select [(ngModel)]="datosVehiculo.numeroPasajeros" name="numeroPasajeros" #numeroPasajeros="ngModel" placeholder="asientos" required> \n        <ion-option value="5">5</ion-option>\n        <ion-option value="7">7</ion-option>\n        <ion-option value="8">8</ion-option>\n        <ion-option value="14">14</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/placas.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Placas* :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.placas" name="placas" #placas="ngModel" placeholder="placas del vehiculo" \n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/modelo.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Modelo* :</ion-label>\n        <ion-input type="number" [(ngModel)]="datosVehiculo.modelo" name="modelo" #modelo="ngModel" placeholder="año del vehiculo" \n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/motor.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de motor :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.numeroMotor" name="numeroMotor" #numeroMotor="ngModel" placeholder="numero de motor" ></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/serial.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de serie :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.numeroSerie" name="numeroSerie" #numeroSerie="ngModel" placeholder="numero de serie" ></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/transmicion.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Transmición* :</ion-label>\n        <ion-select [(ngModel)]="datosVehiculo.transmicion" name="transmicion" #transmicion="ngModel" placeholder="estandar, automatico" required> \n        <ion-option value="Estandar">Estandar</ion-option>\n        <ion-option value="Automatico">Automatico</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/color.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Color* :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.color" name="color" #color="ngModel" placeholder="color del vehiculo" \n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/km.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Kilometraje* :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.kilometrajeV" name="kilometrajeV" #kilometrajeV="ngModel" placeholder="kilometraje" \n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/cristales.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Cristales :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.cristalesV" name="cristalesV" #cristalesV="ngModel" placeholder="cristales" ></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/llanta.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Llantas :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.llantasV" name="llantasV" #llantasV="ngModel" placeholder="llantas" ></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/car.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tapiceria :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.tapiceriaV" name="tapiceriaV" #tapiceriaV="ngModel" placeholder="tapiceria" ></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/not.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Documentación del vehiculo* :</ion-label>\n        <ion-select [(ngModel)]="datosVehiculo.documentacionVehiculoV" name="documentacionVehiculoV" #documentacionVehiculoV="ngModel" placeholder="documentacion" required> \n        <ion-option value="SI">SI</ion-option>\n        <ion-option value="NO">NO</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/refaccion.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Refacción* :</ion-label>\n        <ion-select [(ngModel)]="datosVehiculo.refaccionV" name="refaccionV" #refaccionV="ngModel" placeholder="refaccion" required> \n        <ion-option value="SI">SI</ion-option>\n        <ion-option value="NO">NO</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/gato.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Gato* :</ion-label>\n        <ion-select [(ngModel)]="datosVehiculo.gatoV" name="gatoV" #gatoV="ngModel" placeholder="gato" required> \n        <ion-option value="SI">SI</ion-option>\n        <ion-option value="NO">NO</ion-option>\n        </ion-select>\n      </ion-item> \n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/notasV.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Notas :</ion-label>\n        <ion-input type="text-area" [(ngModel)]="datosVehiculo.notasV" name="notasV" #notasV="ngModel" placeholder="notas" ></ion-input>\n      </ion-item>\n     </ion-list>\n     <br>\n\n     <button ion-button round block color="boton" type="submit" (click)="guardar(guardarForm)">Guardar</button>\n   \n   </form>\n\n   \n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoagregar\vehiculoagregar.html"*/,
+            selector: 'page-vehiculoagregar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoagregar\vehiculoagregar.html"*/` \n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Agregar vehiculo</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n \n  </ion-toolbar>\n</ion-header> \n\n\n<ion-content padding>\n\n  <form #guardarForm="ngForm">\n\n    <div class="Imagen" >\n      <img  src="{{datosVehiculo?.foto}}" id="Imagen" [src]="captureDataUrl" *ngIf="captureDataUrl">\n    </div>\n\n    <div style="text-align:center;">\n     <img src="img/logo.png" (click)="upload()">\n      <div >Agrega una foto</div>\n    </div>    \n    \n    <ion-list>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/marca.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Marca* :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.marcaVehiculo" name="marcaVehiculo" #marcaVehiculo="ngModel" placeholder="marca del vehiculo" \n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/tipo.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo* :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.tipoVehiculo" name="tipoVehiculo" #tipoVehiculo="ngModel" placeholder="tipo de vehiculo" \n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/categoria.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Categoria* :</ion-label>\n        <ion-select [(ngModel)]="datosVehiculo.categoria" name="categoria" #categoria="ngModel" placeholder="categoria" required> \n        <ion-option value="Carros">Carros</ion-option>\n        <ion-option value="Avanza">Avanza</ion-option>\n        <ion-option value="Odyssey">Odyssey</ion-option>\n        <ion-option value="Sienna">Sienna</ion-option>\n        <ion-option value="Hiace">Hiace</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/pasajeros.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Numero de pasajeros* :</ion-label>\n        <ion-select [(ngModel)]="datosVehiculo.numeroPasajeros" name="numeroPasajeros" #numeroPasajeros="ngModel" placeholder="asientos" required> \n        <ion-option value="5">5</ion-option>\n        <ion-option value="7">7</ion-option>\n        <ion-option value="8">8</ion-option>\n        <ion-option value="14">14</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/placas.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Placas* :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.placas" name="placas" #placas="ngModel" placeholder="placas del vehiculo" \n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/modelo.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Modelo* :</ion-label>\n        <ion-input type="number" [(ngModel)]="datosVehiculo.modelo" name="modelo" #modelo="ngModel" placeholder="año del vehiculo" \n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/motor.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de motor :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.numeroMotor" name="numeroMotor" #numeroMotor="ngModel" placeholder="numero de motor" ></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/serial.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de serie :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.numeroSerie" name="numeroSerie" #numeroSerie="ngModel" placeholder="numero de serie" ></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/transmicion.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Transmición* :</ion-label>\n        <ion-select [(ngModel)]="datosVehiculo.transmicion" name="transmicion" #transmicion="ngModel" placeholder="estandar, automatico" required> \n        <ion-option value="Estandar">Estandar</ion-option>\n        <ion-option value="Automatico">Automatico</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/color.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Color* :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.color" name="color" #color="ngModel" placeholder="color del vehiculo" \n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/km.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Kilometraje* :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.kilometrajeV" name="kilometrajeV" #kilometrajeV="ngModel" placeholder="kilometraje" \n         required></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/cristales.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Cristales :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.cristalesV" name="cristalesV" #cristalesV="ngModel" placeholder="cristales" ></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/llanta.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Llantas :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.llantasV" name="llantasV" #llantasV="ngModel" placeholder="llantas" ></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/car.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tapiceria :</ion-label>\n        <ion-input type="text" [(ngModel)]="datosVehiculo.tapiceriaV" name="tapiceriaV" #tapiceriaV="ngModel" placeholder="tapiceria" ></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/not.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Documentación del vehiculo* :</ion-label>\n        <ion-select [(ngModel)]="datosVehiculo.documentacionVehiculoV" name="documentacionVehiculoV" #documentacionVehiculoV="ngModel" placeholder="documentacion" required> \n        <ion-option value="SI">SI</ion-option>\n        <ion-option value="NO">NO</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/refaccion.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Refacción* :</ion-label>\n        <ion-select [(ngModel)]="datosVehiculo.refaccionV" name="refaccionV" #refaccionV="ngModel" placeholder="refaccion" required> \n        <ion-option value="SI">SI</ion-option>\n        <ion-option value="NO">NO</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/gato.png"/>      \n        </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Gato* :</ion-label>\n        <ion-select [(ngModel)]="datosVehiculo.gatoV" name="gatoV" #gatoV="ngModel" placeholder="gato" required> \n        <ion-option value="SI">SI</ion-option>\n        <ion-option value="NO">NO</ion-option>\n        </ion-select>\n      </ion-item> \n      <ion-item>\n        <ion-avatar item-left>\n          <img src="img/icon/notasV.png"/>      \n         </ion-avatar>\n        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Notas :</ion-label>\n        <ion-input type="text-area" [(ngModel)]="datosVehiculo.notasV" name="notasV" #notasV="ngModel" placeholder="notas" ></ion-input>\n      </ion-item>\n     </ion-list>\n     <br>\n\n     <button ion-button round block color="boton" type="submit" (click)="guardar(guardarForm)">Guardar</button>\n   \n   </form>\n\n   \n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoagregar\vehiculoagregar.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -4789,7 +4822,7 @@ var VehiculoagregarPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculoeditarrentaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -4918,7 +4951,7 @@ var VehiculoeditarrentaPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculoeditarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -4951,6 +4984,7 @@ var VehiculoeditarPage = (function () {
         console.log(this.perfil);
         this.datosVehiculo.marcaVehiculo = this.datosV.marcaVehiculo;
         this.datosVehiculo.tipoVehiculo = this.datosV.tipoVehiculo;
+        this.datosVehiculo.categoria = this.datosV.categoria;
         this.datosVehiculo.numeroPasajeros = this.datosV.numeroPasajeros;
         this.datosVehiculo.placas = this.datosV.placas;
         this.datosVehiculo.modelo = this.datosV.modelo;
@@ -4997,6 +5031,7 @@ var VehiculoeditarPage = (function () {
             console.log(this.datosV.idVehiculo);
             console.log(this.datosVehiculo.marcaVehiculo);
             console.log(this.datosVehiculo.tipoVehiculo);
+            console.log(this.datosVehiculo.categoria);
             console.log(this.datosVehiculo.numeroPasajeros);
             console.log(this.datosVehiculo.placas);
             console.log(this.datosVehiculo.modelo);
@@ -5025,7 +5060,7 @@ var VehiculoeditarPage = (function () {
                 content: "Modificando datos del vehiculo, espere...",
             });
             loading_1.present();
-            this.VehiculoFotoService.editarVehiculoDatos(this.datosV.idVehiculo, this.datosVehiculo.marcaVehiculo, this.datosVehiculo.tipoVehiculo, this.datosVehiculo.numeroPasajeros, this.datosVehiculo.placas, this.datosVehiculo.modelo, this.datosVehiculo.numeroMotor, this.datosVehiculo.transmicion, this.datosVehiculo.numeroSerie, this.datosVehiculo.color, this.datosVehiculo.kilometrajeV, this.datosVehiculo.cristalesV, this.datosVehiculo.llantasV, this.datosVehiculo.tapiceriaV, this.datosVehiculo.documentacionVehiculoV, this.datosVehiculo.refaccionV, this.datosVehiculo.gatoV, this.datosVehiculo.vehiculoMantenimiento, this.datosVehiculo.autoRentado, this.datosVehiculo.renta, this.datosVehiculo.notasV, this.datosVehiculo.motivoTaller, this.datosVehiculo.fechaEntrada, this.datosVehiculo.fechaSalidaT, this.datosVehiculo.notasT, this.datosVehiculo.idasTaller, this.perfil.idUsuario).subscribe(function (data) {
+            this.VehiculoFotoService.editarVehiculoDatos(this.datosV.idVehiculo, this.datosVehiculo.marcaVehiculo, this.datosVehiculo.tipoVehiculo, this.datosVehiculo.categoria, this.datosVehiculo.numeroPasajeros, this.datosVehiculo.placas, this.datosVehiculo.modelo, this.datosVehiculo.numeroMotor, this.datosVehiculo.transmicion, this.datosVehiculo.numeroSerie, this.datosVehiculo.color, this.datosVehiculo.kilometrajeV, this.datosVehiculo.cristalesV, this.datosVehiculo.llantasV, this.datosVehiculo.tapiceriaV, this.datosVehiculo.documentacionVehiculoV, this.datosVehiculo.refaccionV, this.datosVehiculo.gatoV, this.datosVehiculo.vehiculoMantenimiento, this.datosVehiculo.autoRentado, this.datosVehiculo.renta, this.datosVehiculo.notasV, this.datosVehiculo.motivoTaller, this.datosVehiculo.fechaEntrada, this.datosVehiculo.fechaSalidaT, this.datosVehiculo.notasT, this.datosVehiculo.idasTaller, this.perfil.idUsuario).subscribe(function (data) {
                 _this.userData = data;
                 console.log(data);
                 loading_1.dismiss();
@@ -5038,8 +5073,7 @@ var VehiculoeditarPage = (function () {
                             {
                                 text: 'Aceptar',
                                 handler: function () {
-                                    //this.navCtrl.setRoot(MenuPage)
-                                    _this.dismiss();
+                                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_22" /* VehiculosopcionesPage */]);
                                 }
                             }
                         ]
@@ -5071,7 +5105,7 @@ var VehiculoeditarPage = (function () {
     };
     VehiculoeditarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-vehiculoeditar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoeditar\vehiculoeditar.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Editar vehiculo</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n \n  </ion-toolbar>\n</ion-header> \n \n\n<ion-content padding>\n\n  <form #editarForm="ngForm">\n\n  <ion-list>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/marca.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Marca* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.marcaVehiculo" name="marcaVehiculo" #marcaVehiculo="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/tipo.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.tipoVehiculo" name="tipoVehiculo" #tipoVehiculo="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/pasajeros.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Numero de pasajeros* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.numeroPasajeros" name="numeroPasajeros" #numeroPasajeros="ngModel" required> \n      <ion-option value="5">5</ion-option>\n      <ion-option value="7">7</ion-option>\n      <ion-option value="8">8</ion-option>\n      <ion-option value="14">14</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/placas.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Placas* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.placas" name="placas" #placas="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/modelo.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Modelo* :</ion-label>\n      <ion-input type="number" [(ngModel)]="datosVehiculo.modelo" name="modelo" #modelo="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/motor.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de motor :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.numeroMotor" name="numeroMotor" #numeroMotor="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/serial.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de serie :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.numeroSerie" name="numeroSerie" #numeroSerie="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/transmicion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Transmición* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.transmicion" name="transmicion" #transmicion="ngModel" required> \n      <ion-option value="Estandar">Estandar</ion-option>\n      <ion-option value="Automatico">Automatico</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/color.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Color* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.color" name="color" #color="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/km.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Kilometraje* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.kilometrajeV" name="kilometrajeV" #kilometrajeV="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/cristales.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Cristales :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.cristalesV" name="cristalesV" #cristalesV="ngModel" ></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/llanta.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Llantas :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.llantasV" name="llantasV" #llantasV="ngModel" ></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/car.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tapiceria :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.tapiceriaV" name="tapiceriaV" #tapiceriaV="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/transmicion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Documentación del vehiculo* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.documentacionVehiculoV" name="documentacionVehiculoV" #documentacionVehiculoV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/refaccion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Refacción* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.refaccionV" name="refaccionV" #refaccionV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/gato.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Gato* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.gatoV" name="refgatoVaccionV" #gatoV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item> \n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/notasV.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Notas :</ion-label>\n      <ion-input type="text-area" [(ngModel)]="datosVehiculo.notasV" name="notasV" #notasV="ngModel" ></ion-input>\n    </ion-item>\n  </ion-list>\n  <br>\n</form>\n\n<button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Modificar</button>\n\n</ion-content>\n  `/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoeditar\vehiculoeditar.html"*/,
+            selector: 'page-vehiculoeditar',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoeditar\vehiculoeditar.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Editar vehiculo</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n \n  </ion-toolbar>\n</ion-header> \n \n\n<ion-content padding>\n\n  <form #editarForm="ngForm">\n\n  <ion-list>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/marca.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Marca* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.marcaVehiculo" name="marcaVehiculo" #marcaVehiculo="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/tipo.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.tipoVehiculo" name="tipoVehiculo" #tipoVehiculo="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/categoria.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Categoria* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.categoria" name="categoria" #categoria="ngModel" required> \n      <ion-option value="Carros">Carros</ion-option>\n      <ion-option value="Avanza">Avanza</ion-option>\n      <ion-option value="Odyssey">Odyssey</ion-option>\n      <ion-option value="Sienna">Sienna</ion-option>\n      <ion-option value="Hiace">Hiace</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/pasajeros.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Numero de pasajeros* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.numeroPasajeros" name="numeroPasajeros" #numeroPasajeros="ngModel" required> \n      <ion-option value="5">5</ion-option>\n      <ion-option value="7">7</ion-option>\n      <ion-option value="8">8</ion-option>\n      <ion-option value="14">14</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/placas.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Placas* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.placas" name="placas" #placas="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/modelo.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Modelo* :</ion-label>\n      <ion-input type="number" [(ngModel)]="datosVehiculo.modelo" name="modelo" #modelo="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/motor.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de motor :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.numeroMotor" name="numeroMotor" #numeroMotor="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/serial.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de serie :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.numeroSerie" name="numeroSerie" #numeroSerie="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/transmicion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Transmición* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.transmicion" name="transmicion" #transmicion="ngModel" required> \n      <ion-option value="Estandar">Estandar</ion-option>\n      <ion-option value="Automatico">Automatico</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/color.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Color* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.color" name="color" #color="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/km.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Kilometraje* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.kilometrajeV" name="kilometrajeV" #kilometrajeV="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/cristales.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Cristales :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.cristalesV" name="cristalesV" #cristalesV="ngModel" ></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/llanta.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Llantas :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.llantasV" name="llantasV" #llantasV="ngModel" ></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/car.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tapiceria :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.tapiceriaV" name="tapiceriaV" #tapiceriaV="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/transmicion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Documentación del vehiculo* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.documentacionVehiculoV" name="documentacionVehiculoV" #documentacionVehiculoV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/refaccion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Refacción* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.refaccionV" name="refaccionV" #refaccionV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/gato.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Gato* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.gatoV" name="refgatoVaccionV" #gatoV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item> \n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/notasV.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Notas :</ion-label>\n      <ion-input type="text-area" [(ngModel)]="datosVehiculo.notasV" name="notasV" #notasV="ngModel" ></ion-input>\n    </ion-item>\n  </ion-list>\n  <br>\n</form>\n\n<button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Modificar</button>\n\n</ion-content>\n  `/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoeditar\vehiculoeditar.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -5093,7 +5127,7 @@ var VehiculoeditarPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculoeditarenservicioPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -5218,7 +5252,7 @@ var VehiculoeditarenservicioPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculoenviartallerPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -5351,7 +5385,7 @@ var VehiculoenviartallerPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculoeditarsinservicioPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -5476,7 +5510,7 @@ var VehiculoeditarsinservicioPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculoeditarfotoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_camera__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -5687,7 +5721,7 @@ var VehiculoeditarfotoPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculoeditardosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -5720,6 +5754,7 @@ var VehiculoeditardosPage = (function () {
         console.log(this.perfil);
         this.datosVehiculo.marcaVehiculo = this.datosV.marcaVehiculo;
         this.datosVehiculo.tipoVehiculo = this.datosV.tipoVehiculo;
+        this.datosVehiculo.categoria = this.datosV.categoria;
         this.datosVehiculo.numeroPasajeros = this.datosV.numeroPasajeros;
         this.datosVehiculo.placas = this.datosV.placas;
         this.datosVehiculo.modelo = this.datosV.modelo;
@@ -5766,6 +5801,7 @@ var VehiculoeditardosPage = (function () {
             console.log(this.datosV.idVehiculo);
             console.log(this.datosVehiculo.marcaVehiculo);
             console.log(this.datosVehiculo.tipoVehiculo);
+            console.log(this.datosVehiculo.categoria);
             console.log(this.datosVehiculo.numeroPasajeros);
             console.log(this.datosVehiculo.placas);
             console.log(this.datosVehiculo.modelo);
@@ -5791,10 +5827,10 @@ var VehiculoeditardosPage = (function () {
             console.log(this.datosVehiculo.idasTaller);
             console.log(this.perfil.idUsuario);
             var loading_1 = this.loadingCtrl.create({
-                content: "Modificando tus datos del vehiculo espere...",
+                content: "Modificando datos del vehiculo, espere...",
             });
             loading_1.present();
-            this.VehiculoFotoService.editarVehiculoDatos(this.datosV.idVehiculo, this.datosVehiculo.marcaVehiculo, this.datosVehiculo.tipoVehiculo, this.datosVehiculo.numeroPasajeros, this.datosVehiculo.placas, this.datosVehiculo.modelo, this.datosVehiculo.numeroMotor, this.datosVehiculo.transmicion, this.datosVehiculo.numeroSerie, this.datosVehiculo.color, this.datosVehiculo.kilometrajeV, this.datosVehiculo.cristalesV, this.datosVehiculo.llantasV, this.datosVehiculo.tapiceriaV, this.datosVehiculo.documentacionVehiculoV, this.datosVehiculo.refaccionV, this.datosVehiculo.gatoV, this.datosVehiculo.vehiculoMantenimiento, this.datosVehiculo.autoRentado, this.datosVehiculo.renta, this.datosVehiculo.notasV, this.datosVehiculo.motivoTaller, this.datosVehiculo.fechaEntrada, this.datosVehiculo.fechaSalidaT, this.datosVehiculo.notasT, this.datosVehiculo.idasTaller, this.perfil.idUsuario).subscribe(function (data) {
+            this.VehiculoFotoService.editarVehiculoDatos(this.datosV.idVehiculo, this.datosVehiculo.marcaVehiculo, this.datosVehiculo.tipoVehiculo, this.datosVehiculo.categoria, this.datosVehiculo.numeroPasajeros, this.datosVehiculo.placas, this.datosVehiculo.modelo, this.datosVehiculo.numeroMotor, this.datosVehiculo.transmicion, this.datosVehiculo.numeroSerie, this.datosVehiculo.color, this.datosVehiculo.kilometrajeV, this.datosVehiculo.cristalesV, this.datosVehiculo.llantasV, this.datosVehiculo.tapiceriaV, this.datosVehiculo.documentacionVehiculoV, this.datosVehiculo.refaccionV, this.datosVehiculo.gatoV, this.datosVehiculo.vehiculoMantenimiento, this.datosVehiculo.autoRentado, this.datosVehiculo.renta, this.datosVehiculo.notasV, this.datosVehiculo.motivoTaller, this.datosVehiculo.fechaEntrada, this.datosVehiculo.fechaSalidaT, this.datosVehiculo.notasT, this.datosVehiculo.idasTaller, this.perfil.idUsuario).subscribe(function (data) {
                 _this.userData = data;
                 console.log(data);
                 loading_1.dismiss();
@@ -5840,7 +5876,7 @@ var VehiculoeditardosPage = (function () {
     };
     VehiculoeditardosPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-vehiculoeditardos',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoeditardos\vehiculoeditardos.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Editar vehiculo</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n \n  </ion-toolbar>\n</ion-header> \n \n\n<ion-content padding>\n\n  <form #editarForm="ngForm">\n\n  <ion-list>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/marca.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Marca* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.marcaVehiculo" name="marcaVehiculo" #marcaVehiculo="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/tipo.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.tipoVehiculo" name="tipoVehiculo" #tipoVehiculo="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/pasajeros.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Numero de pasajeros* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.numeroPasajeros" name="numeroPasajeros" #numeroPasajeros="ngModel" required> \n      <ion-option value="5">5</ion-option>\n      <ion-option value="7">7</ion-option>\n      <ion-option value="8">8</ion-option>\n      <ion-option value="14">14</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/placas.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Placas* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.placas" name="placas" #placas="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/modelo.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Modelo* :</ion-label>\n      <ion-input type="number" [(ngModel)]="datosVehiculo.modelo" name="modelo" #modelo="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/motor.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de motor :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.numeroMotor" name="numeroMotor" #numeroMotor="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/serial.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de serie :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.numeroSerie" name="numeroSerie" #numeroSerie="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/transmicion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Transmición* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.transmicion" name="transmicion" #transmicion="ngModel" required> \n      <ion-option value="Estandar">Estandar</ion-option>\n      <ion-option value="Automatico">Automatico</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/color.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Color* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.color" name="color" #color="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/km.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Kilometraje* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.kilometrajeV" name="kilometrajeV" #kilometrajeV="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/cristales.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Cristales :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.cristalesV" name="cristalesV" #cristalesV="ngModel" ></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/llanta.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Llantas :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.llantasV" name="llantasV" #llantasV="ngModel" ></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/car.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tapiceria :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.tapiceriaV" name="tapiceriaV" #tapiceriaV="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/transmicion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Documentación del vehiculo* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.documentacionVehiculoV" name="documentacionVehiculoV" #documentacionVehiculoV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/refaccion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Refacción* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.refaccionV" name="refaccionV" #refaccionV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/gato.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Gato* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.gatoV" name="refgatoVaccionV" #gatoV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item> \n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/notasV.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Notas :</ion-label>\n      <ion-input type="text-area" [(ngModel)]="datosVehiculo.notasV" name="notasV" #notasV="ngModel" ></ion-input>\n    </ion-item>\n  </ion-list>\n  <br>\n</form>\n\n<button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Modificar</button>\n\n</ion-content>\n  \n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoeditardos\vehiculoeditardos.html"*/,
+            selector: 'page-vehiculoeditardos',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoeditardos\vehiculoeditardos.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Editar vehiculo</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n \n  </ion-toolbar>\n</ion-header> \n \n\n<ion-content padding>\n\n  <form #editarForm="ngForm">\n\n  <ion-list>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/marca.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Marca* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.marcaVehiculo" name="marcaVehiculo" #marcaVehiculo="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/tipo.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.tipoVehiculo" name="tipoVehiculo" #tipoVehiculo="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/categoria.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Categoria* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.categoria" name="categoria" #categoria="ngModel" required> \n      <ion-option value="Carros">Carros</ion-option>\n      <ion-option value="Avanza">Avanza</ion-option>\n      <ion-option value="Odyssey">Odyssey</ion-option>\n      <ion-option value="Sienna">Sienna</ion-option> \n      <ion-option value="Hiace">Hiace</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/pasajeros.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Numero de pasajeros* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.numeroPasajeros" name="numeroPasajeros" #numeroPasajeros="ngModel" required> \n      <ion-option value="5">5</ion-option>\n      <ion-option value="7">7</ion-option>\n      <ion-option value="8">8</ion-option>\n      <ion-option value="14">14</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/placas.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Placas* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.placas" name="placas" #placas="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/modelo.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Modelo* :</ion-label>\n      <ion-input type="number" [(ngModel)]="datosVehiculo.modelo" name="modelo" #modelo="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/motor.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de motor :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.numeroMotor" name="numeroMotor" #numeroMotor="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/serial.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de serie :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.numeroSerie" name="numeroSerie" #numeroSerie="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/transmicion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Transmición* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.transmicion" name="transmicion" #transmicion="ngModel" required> \n      <ion-option value="Estandar">Estandar</ion-option>\n      <ion-option value="Automatico">Automatico</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/color.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Color* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.color" name="color" #color="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/km.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Kilometraje* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.kilometrajeV" name="kilometrajeV" #kilometrajeV="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/cristales.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Cristales :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.cristalesV" name="cristalesV" #cristalesV="ngModel" ></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/llanta.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Llantas :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.llantasV" name="llantasV" #llantasV="ngModel" ></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/car.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tapiceria :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.tapiceriaV" name="tapiceriaV" #tapiceriaV="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/transmicion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Documentación del vehiculo* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.documentacionVehiculoV" name="documentacionVehiculoV" #documentacionVehiculoV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/refaccion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Refacción* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.refaccionV" name="refaccionV" #refaccionV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/gato.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Gato* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.gatoV" name="refgatoVaccionV" #gatoV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item> \n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/notasV.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Notas :</ion-label>\n      <ion-input type="text-area" [(ngModel)]="datosVehiculo.notasV" name="notasV" #notasV="ngModel" ></ion-input>\n    </ion-item>\n  </ion-list>\n  <br>\n</form>\n\n<button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Modificar</button>\n\n</ion-content>\n  \n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoeditardos\vehiculoeditardos.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -5862,7 +5898,7 @@ var VehiculoeditardosPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculoeditartresPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -5895,6 +5931,7 @@ var VehiculoeditartresPage = (function () {
         console.log(this.perfil);
         this.datosVehiculo.marcaVehiculo = this.datosV.marcaVehiculo;
         this.datosVehiculo.tipoVehiculo = this.datosV.tipoVehiculo;
+        this.datosVehiculo.categoria = this.datosV.categoria;
         this.datosVehiculo.numeroPasajeros = this.datosV.numeroPasajeros;
         this.datosVehiculo.placas = this.datosV.placas;
         this.datosVehiculo.modelo = this.datosV.modelo;
@@ -5941,6 +5978,7 @@ var VehiculoeditartresPage = (function () {
             console.log(this.datosV.idVehiculo);
             console.log(this.datosVehiculo.marcaVehiculo);
             console.log(this.datosVehiculo.tipoVehiculo);
+            console.log(this.datosVehiculo.categoria);
             console.log(this.datosVehiculo.numeroPasajeros);
             console.log(this.datosVehiculo.placas);
             console.log(this.datosVehiculo.modelo);
@@ -5966,10 +6004,10 @@ var VehiculoeditartresPage = (function () {
             console.log(this.datosVehiculo.idasTaller);
             console.log(this.perfil.idUsuario);
             var loading_1 = this.loadingCtrl.create({
-                content: "Modificando tus datos del vehiculo espere...",
+                content: "Modificando datos del vehiculo, espere...",
             });
             loading_1.present();
-            this.VehiculoFotoService.editarVehiculoDatos(this.datosV.idVehiculo, this.datosVehiculo.marcaVehiculo, this.datosVehiculo.tipoVehiculo, this.datosVehiculo.numeroPasajeros, this.datosVehiculo.placas, this.datosVehiculo.modelo, this.datosVehiculo.numeroMotor, this.datosVehiculo.transmicion, this.datosVehiculo.numeroSerie, this.datosVehiculo.color, this.datosVehiculo.kilometrajeV, this.datosVehiculo.cristalesV, this.datosVehiculo.llantasV, this.datosVehiculo.tapiceriaV, this.datosVehiculo.documentacionVehiculoV, this.datosVehiculo.refaccionV, this.datosVehiculo.gatoV, this.datosVehiculo.vehiculoMantenimiento, this.datosVehiculo.autoRentado, this.datosVehiculo.renta, this.datosVehiculo.notasV, this.datosVehiculo.motivoTaller, this.datosVehiculo.fechaEntrada, this.datosVehiculo.fechaSalidaT, this.datosVehiculo.notasT, this.datosVehiculo.idasTaller, this.perfil.idUsuario).subscribe(function (data) {
+            this.VehiculoFotoService.editarVehiculoDatos(this.datosV.idVehiculo, this.datosVehiculo.marcaVehiculo, this.datosVehiculo.tipoVehiculo, this.datosVehiculo.categoria, this.datosVehiculo.numeroPasajeros, this.datosVehiculo.placas, this.datosVehiculo.modelo, this.datosVehiculo.numeroMotor, this.datosVehiculo.transmicion, this.datosVehiculo.numeroSerie, this.datosVehiculo.color, this.datosVehiculo.kilometrajeV, this.datosVehiculo.cristalesV, this.datosVehiculo.llantasV, this.datosVehiculo.tapiceriaV, this.datosVehiculo.documentacionVehiculoV, this.datosVehiculo.refaccionV, this.datosVehiculo.gatoV, this.datosVehiculo.vehiculoMantenimiento, this.datosVehiculo.autoRentado, this.datosVehiculo.renta, this.datosVehiculo.notasV, this.datosVehiculo.motivoTaller, this.datosVehiculo.fechaEntrada, this.datosVehiculo.fechaSalidaT, this.datosVehiculo.notasT, this.datosVehiculo.idasTaller, this.perfil.idUsuario).subscribe(function (data) {
                 _this.userData = data;
                 console.log(data);
                 loading_1.dismiss();
@@ -6015,7 +6053,7 @@ var VehiculoeditartresPage = (function () {
     };
     VehiculoeditartresPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-vehiculoeditartres',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoeditartres\vehiculoeditartres.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Editar vehiculo</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n \n  </ion-toolbar>\n</ion-header> \n \n\n<ion-content padding>\n\n  <form #editarForm="ngForm">\n\n  <ion-list>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/marca.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Marca* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.marcaVehiculo" name="marcaVehiculo" #marcaVehiculo="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/tipo.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.tipoVehiculo" name="tipoVehiculo" #tipoVehiculo="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/pasajeros.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Numero de pasajeros* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.numeroPasajeros" name="numeroPasajeros" #numeroPasajeros="ngModel" required> \n      <ion-option value="5">5</ion-option>\n      <ion-option value="7">7</ion-option>\n      <ion-option value="8">8</ion-option>\n      <ion-option value="14">14</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/placas.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Placas* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.placas" name="placas" #placas="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/modelo.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Modelo* :</ion-label>\n      <ion-input type="number" [(ngModel)]="datosVehiculo.modelo" name="modelo" #modelo="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/motor.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de motor :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.numeroMotor" name="numeroMotor" #numeroMotor="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/serial.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de serie :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.numeroSerie" name="numeroSerie" #numeroSerie="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/transmicion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Transmición* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.transmicion" name="transmicion" #transmicion="ngModel" required> \n      <ion-option value="Estandar">Estandar</ion-option>\n      <ion-option value="Automatico">Automatico</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/color.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Color* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.color" name="color" #color="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/km.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Kilometraje* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.kilometrajeV" name="kilometrajeV" #kilometrajeV="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/cristales.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Cristales :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.cristalesV" name="cristalesV" #cristalesV="ngModel" ></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/llanta.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Llantas :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.llantasV" name="llantasV" #llantasV="ngModel" ></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/car.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tapiceria :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.tapiceriaV" name="tapiceriaV" #tapiceriaV="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/transmicion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Documentación del vehiculo* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.documentacionVehiculoV" name="documentacionVehiculoV" #documentacionVehiculoV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/refaccion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Refacción* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.refaccionV" name="refaccionV" #refaccionV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/gato.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Gato* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.gatoV" name="refgatoVaccionV" #gatoV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item> \n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/notasV.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Notas :</ion-label>\n      <ion-input type="text-area" [(ngModel)]="datosVehiculo.notasV" name="notasV" #notasV="ngModel" ></ion-input>\n    </ion-item>\n  </ion-list>\n  <br>\n</form>\n\n<button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Modificar</button>\n\n</ion-content>\n  \n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoeditartres\vehiculoeditartres.html"*/,
+            selector: 'page-vehiculoeditartres',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoeditartres\vehiculoeditartres.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Editar vehiculo</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row> \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n \n  </ion-toolbar>\n</ion-header> \n \n\n<ion-content padding>\n\n  <form #editarForm="ngForm">\n\n  <ion-list>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/marca.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Marca* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.marcaVehiculo" name="marcaVehiculo" #marcaVehiculo="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/tipo.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.tipoVehiculo" name="tipoVehiculo" #tipoVehiculo="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/categoria.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Categoria* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.categoria" name="categoria" #categoria="ngModel" required> \n      <ion-option value="Carros">Carros</ion-option>\n      <ion-option value="Avanza">Avanza</ion-option>\n      <ion-option value="Odyssey">Odyssey</ion-option>\n      <ion-option value="Sienna">Sienna</ion-option>\n      <ion-option value="Hiace">Hiace</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/pasajeros.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Numero de pasajeros* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.numeroPasajeros" name="numeroPasajeros" #numeroPasajeros="ngModel" required> \n      <ion-option value="5">5</ion-option>\n      <ion-option value="7">7</ion-option>\n      <ion-option value="8">8</ion-option>\n      <ion-option value="14">14</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/placas.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Placas* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.placas" name="placas" #placas="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/modelo.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Modelo* :</ion-label>\n      <ion-input type="number" [(ngModel)]="datosVehiculo.modelo" name="modelo" #modelo="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/motor.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de motor :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.numeroMotor" name="numeroMotor" #numeroMotor="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/serial.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Número de serie :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.numeroSerie" name="numeroSerie" #numeroSerie="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/transmicion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Transmición* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.transmicion" name="transmicion" #transmicion="ngModel" required> \n      <ion-option value="Estandar">Estandar</ion-option>\n      <ion-option value="Automatico">Automatico</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/color.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Color* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.color" name="color" #color="ngModel" \n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/km.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Kilometraje* :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.kilometrajeV" name="kilometrajeV" #kilometrajeV="ngModel"\n       required></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/cristales.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Cristales :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.cristalesV" name="cristalesV" #cristalesV="ngModel" ></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/llanta.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Llantas :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.llantasV" name="llantasV" #llantasV="ngModel" ></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/car.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tapiceria :</ion-label>\n      <ion-input type="text" [(ngModel)]="datosVehiculo.tapiceriaV" name="tapiceriaV" #tapiceriaV="ngModel"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/transmicion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Documentación del vehiculo* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.documentacionVehiculoV" name="documentacionVehiculoV" #documentacionVehiculoV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/refaccion.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Refacción* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.refaccionV" name="refaccionV" #refaccionV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/gato.png"/>      \n      </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Gato* :</ion-label>\n      <ion-select [(ngModel)]="datosVehiculo.gatoV" name="refgatoVaccionV" #gatoV="ngModel" required> \n      <ion-option value="SI">SI</ion-option>\n      <ion-option value="NO">NO</ion-option>\n      </ion-select>\n    </ion-item> \n    <ion-item>\n      <ion-avatar item-left>\n        <img src="img/icon/notasV.png"/>      \n       </ion-avatar>\n      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Notas :</ion-label>\n      <ion-input type="text-area" [(ngModel)]="datosVehiculo.notasV" name="notasV" #notasV="ngModel" ></ion-input>\n    </ion-item>\n  </ion-list>\n  <br>\n</form>\n\n<button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Modificar</button>\n\n</ion-content>\n  \n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculoeditartres\vehiculoeditartres.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -6037,7 +6075,7 @@ var VehiculoeditartresPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculoeditarserviciorentaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -6162,7 +6200,7 @@ var VehiculoeditarserviciorentaPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculoeditarenviaraPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -6287,7 +6325,7 @@ var VehiculoeditarenviaraPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RentaeditarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6426,7 +6464,7 @@ var RentaeditarPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RentabajaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -6541,7 +6579,7 @@ var RentabajaPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RentabajaeliminarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -6800,7 +6838,7 @@ var TallermostrarPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TallereditarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(15);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6962,7 +7000,7 @@ var TallereditarPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TallervdPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoFotoServices__ = __webpack_require__(15);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -9030,7 +9068,7 @@ var AclientediciembrePage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PvehiculocincoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -9152,7 +9190,7 @@ var PvehiculocincoPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PvehiculosietePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -9274,7 +9312,7 @@ var PvehiculosietePage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PvehiculoochoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -9396,7 +9434,7 @@ var PvehiculoochoPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PvehiculocatorcePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -10959,6 +10997,616 @@ var RentalistausuariorentadoPage = (function () {
 }());
 
 //# sourceMappingURL=rentalistausuariorentado.js.map
+
+/***/ }),
+/* 355 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculosrentadoscarrosPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var VehiculosrentadoscarrosPage = (function () {
+    function VehiculosrentadoscarrosPage(navCtrl, navParams, loadingCtrl, viewCtrl, VehiculoService, modalCtrl, alertCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.loadingCtrl = loadingCtrl;
+        this.viewCtrl = viewCtrl;
+        this.modalCtrl = modalCtrl;
+        this.alertCtrl = alertCtrl;
+        this.rentas = [];
+        this.rentasLista = [];
+        this.VehiculoService = VehiculoService;
+        this.listar_rentas();
+        this.datosUsuario = window.localStorage.getItem('dataUser');
+        this.perfil = JSON.parse(this.datosUsuario);
+        console.log(this.perfil);
+    }
+    VehiculosrentadoscarrosPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_23" /* VehiculosrentadosPage */]);
+    };
+    VehiculosrentadoscarrosPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
+        }
+    };
+    VehiculosrentadoscarrosPage.prototype.dismiss = function () {
+        this.viewCtrl.dismiss();
+    };
+    VehiculosrentadoscarrosPage.prototype.listar_rentas = function () {
+        var _this = this;
+        this.loading = this.loadingCtrl.create({
+            content: "Cargando vehiculos...",
+        });
+        this.loading.present();
+        this.VehiculoService.listarVehiculosCarros().subscribe(function (data) {
+            console.log(data);
+            _this.rentas = data;
+            _this.rentasLista = _this.rentas;
+            if (data.length != 0) {
+                _this.loading.dismiss();
+                console.log('Tienes vehiculos rentados');
+                // this.navCtrl.push(SlidePage);
+            }
+            if (data.length === 0) {
+                _this.loading.dismiss();
+                console.log('No hay vehiculos rentados');
+                //this.navCtrl.push(BienvenidaPage);
+            }
+        }, function (err) {
+            _this.loading.dismiss();
+            console.log(err);
+            //() =>  console.log('cargar equipos complete')
+        });
+    };
+    VehiculosrentadoscarrosPage.prototype.detalles = function (event, item) {
+        window.localStorage.setItem('datosRenta', JSON.stringify(item));
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["S" /* RentasmostrarPage */]);
+    };
+    // PARA ACTUALIZAR LOS DATOS
+    VehiculosrentadoscarrosPage.prototype.Refrescar = function (refresher) {
+        console.log('Comienzo de la operación asincrónica', refresher);
+        this.listar_rentas();
+        setTimeout(function () {
+            console.log('La operación asincrónica ha finalizado');
+            refresher.complete();
+        }, 2000);
+    };
+    // BARRA DE BUSCADOR
+    VehiculosrentadoscarrosPage.prototype.getItems = function (ev) {
+        this.rentas = this.rentasLista;
+        var val = ev.target.value;
+        if (val && val.trim() != '') {
+            this.rentas = this.rentas.filter(function (item) {
+                return (item.tipoVehiculo.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
+            });
+        }
+    };
+    VehiculosrentadoscarrosPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad VehiculosrentadoscarrosPage');
+    };
+    VehiculosrentadoscarrosPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-vehiculosrentadoscarros',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadoscarros\vehiculosrentadoscarros.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Carros</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row> \n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar vehiculo">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n \n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando lista...">\n    </ion-refresher-content> \n  </ion-refresher>\n\n  <ion-list *ngFor="let item of rentas; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="{{item.foto}}">       \n        </ion-avatar>\n        <h3 style="color: #718d79;">Placas: <strong style="color: #505A53;">{{item.placas}}</strong></h3>\n        <h3 style="color: #505A53;">Pasajeros: <strong style="color: #1BC7AF;"> {{item.numeroPasajeros}}</strong></h3>\n        <h3 style="color: #718d79;">Color: <strong style="color: #505A53;">{{item.color}}</strong></h3>\n        <h3 style="color: #505A53;">Modelo: <strong style="color: #1BC7AF;"> {{item.modelo}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <h2 style="color: #4A6D68;"><strong>{{item.marcaVehiculo}} - {{item.tipoVehiculo}}</strong></h2>   \n          </ion-col>\n          <ion-col>     \n            <h3 style="color: #718d79;"><strong style="color: #505A53;">{{item.kilometrajeV}}</strong> Km</h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <p style="color: #4A6D68;">Fecha de llegada: </p> <strong style="color: #1BC7AF;">{{item.fechaLlegada}}</strong>  \n          </ion-col>\n          <ion-col>     \n            <p style="color: #718d79;">Hora de llegada: </p> <strong style="color: #1BC7AF;">{{item.horaLlegada}}</strong>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <h3 style="text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{item.nombreUsuario}}</strong></h3>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadoscarros\vehiculosrentadoscarros.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+    ], VehiculosrentadoscarrosPage);
+    return VehiculosrentadoscarrosPage;
+}());
+
+//# sourceMappingURL=vehiculosrentadoscarros.js.map
+
+/***/ }),
+/* 356 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculosrentadossiennaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var VehiculosrentadossiennaPage = (function () {
+    function VehiculosrentadossiennaPage(navCtrl, navParams, loadingCtrl, viewCtrl, VehiculoService, modalCtrl, alertCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.loadingCtrl = loadingCtrl;
+        this.viewCtrl = viewCtrl;
+        this.modalCtrl = modalCtrl;
+        this.alertCtrl = alertCtrl;
+        this.rentas = [];
+        this.rentasLista = [];
+        this.VehiculoService = VehiculoService;
+        this.listar_rentas();
+        this.datosUsuario = window.localStorage.getItem('dataUser');
+        this.perfil = JSON.parse(this.datosUsuario);
+        console.log(this.perfil);
+    }
+    VehiculosrentadossiennaPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_23" /* VehiculosrentadosPage */]);
+    };
+    VehiculosrentadossiennaPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
+        }
+    };
+    VehiculosrentadossiennaPage.prototype.dismiss = function () {
+        this.viewCtrl.dismiss();
+    };
+    VehiculosrentadossiennaPage.prototype.listar_rentas = function () {
+        var _this = this;
+        this.loading = this.loadingCtrl.create({
+            content: "Cargando vehiculos...",
+        });
+        this.loading.present();
+        this.VehiculoService.listarVehiculosSienna().subscribe(function (data) {
+            console.log(data);
+            _this.rentas = data;
+            _this.rentasLista = _this.rentas;
+            if (data.length != 0) {
+                _this.loading.dismiss();
+                console.log('Tienes vehiculos rentados');
+                // this.navCtrl.push(SlidePage);
+            }
+            if (data.length === 0) {
+                _this.loading.dismiss();
+                console.log('No hay vehiculos rentados');
+                //this.navCtrl.push(BienvenidaPage);
+            }
+        }, function (err) {
+            _this.loading.dismiss();
+            console.log(err);
+            //() =>  console.log('cargar equipos complete')
+        });
+    };
+    VehiculosrentadossiennaPage.prototype.detalles = function (event, item) {
+        window.localStorage.setItem('datosRenta', JSON.stringify(item));
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["S" /* RentasmostrarPage */]);
+    };
+    // PARA ACTUALIZAR LOS DATOS
+    VehiculosrentadossiennaPage.prototype.Refrescar = function (refresher) {
+        console.log('Comienzo de la operación asincrónica', refresher);
+        this.listar_rentas();
+        setTimeout(function () {
+            console.log('La operación asincrónica ha finalizado');
+            refresher.complete();
+        }, 2000);
+    };
+    // BARRA DE BUSCADOR
+    VehiculosrentadossiennaPage.prototype.getItems = function (ev) {
+        this.rentas = this.rentasLista;
+        var val = ev.target.value;
+        if (val && val.trim() != '') {
+            this.rentas = this.rentas.filter(function (item) {
+                return (item.tipoVehiculo.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
+            });
+        }
+    };
+    VehiculosrentadossiennaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad VehiculosrentadossiennaPage');
+    };
+    VehiculosrentadossiennaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-vehiculosrentadossienna',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadossienna\vehiculosrentadossienna.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Sienna</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar vehiculo">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n \n \n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando lista...">\n    </ion-refresher-content> \n  </ion-refresher>\n\n  <ion-list *ngFor="let item of rentas; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="{{item.foto}}">       \n        </ion-avatar>\n        <h3 style="color: #718d79;">Placas: <strong style="color: #505A53;">{{item.placas}}</strong></h3>\n        <h3 style="color: #505A53;">Pasajeros: <strong style="color: #1BC7AF;"> {{item.numeroPasajeros}}</strong></h3>\n        <h3 style="color: #718d79;">Color: <strong style="color: #505A53;">{{item.color}}</strong></h3>\n        <h3 style="color: #505A53;">Modelo: <strong style="color: #1BC7AF;"> {{item.modelo}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <h2 style="color: #4A6D68;"><strong>{{item.marcaVehiculo}} - {{item.tipoVehiculo}}</strong></h2>   \n          </ion-col>\n          <ion-col>     \n            <h3 style="color: #718d79;"><strong style="color: #505A53;">{{item.kilometrajeV}}</strong> Km</h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <p style="color: #4A6D68;">Fecha de llegada: </p> <strong style="color: #1BC7AF;">{{item.fechaLlegada}}</strong>  \n          </ion-col>\n          <ion-col>     \n            <p style="color: #718d79;">Hora de llegada: </p> <strong style="color: #1BC7AF;">{{item.horaLlegada}}</strong>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <h3 style="text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{item.nombreUsuario}}</strong></h3>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadossienna\vehiculosrentadossienna.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+    ], VehiculosrentadossiennaPage);
+    return VehiculosrentadossiennaPage;
+}());
+
+//# sourceMappingURL=vehiculosrentadossienna.js.map
+
+/***/ }),
+/* 357 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculosrentadosavanzaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var VehiculosrentadosavanzaPage = (function () {
+    function VehiculosrentadosavanzaPage(navCtrl, navParams, loadingCtrl, viewCtrl, VehiculoService, modalCtrl, alertCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.loadingCtrl = loadingCtrl;
+        this.viewCtrl = viewCtrl;
+        this.modalCtrl = modalCtrl;
+        this.alertCtrl = alertCtrl;
+        this.rentas = [];
+        this.rentasLista = [];
+        this.VehiculoService = VehiculoService;
+        this.listar_rentas();
+        this.datosUsuario = window.localStorage.getItem('dataUser');
+        this.perfil = JSON.parse(this.datosUsuario);
+        console.log(this.perfil);
+    }
+    VehiculosrentadosavanzaPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_23" /* VehiculosrentadosPage */]);
+    };
+    VehiculosrentadosavanzaPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
+        }
+    };
+    VehiculosrentadosavanzaPage.prototype.dismiss = function () {
+        this.viewCtrl.dismiss();
+    };
+    VehiculosrentadosavanzaPage.prototype.listar_rentas = function () {
+        var _this = this;
+        this.loading = this.loadingCtrl.create({
+            content: "Cargando vehiculos...",
+        });
+        this.loading.present();
+        this.VehiculoService.listarVehiculosAvanza().subscribe(function (data) {
+            console.log(data);
+            _this.rentas = data;
+            _this.rentasLista = _this.rentas;
+            if (data.length != 0) {
+                _this.loading.dismiss();
+                console.log('Tienes vehiculos rentados');
+                // this.navCtrl.push(SlidePage);
+            }
+            if (data.length === 0) {
+                _this.loading.dismiss();
+                console.log('No hay vehiculos rentados');
+                //this.navCtrl.push(BienvenidaPage);
+            }
+        }, function (err) {
+            _this.loading.dismiss();
+            console.log(err);
+            //() =>  console.log('cargar equipos complete')
+        });
+    };
+    VehiculosrentadosavanzaPage.prototype.detalles = function (event, item) {
+        window.localStorage.setItem('datosRenta', JSON.stringify(item));
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["S" /* RentasmostrarPage */]);
+    };
+    // PARA ACTUALIZAR LOS DATOS
+    VehiculosrentadosavanzaPage.prototype.Refrescar = function (refresher) {
+        console.log('Comienzo de la operación asincrónica', refresher);
+        this.listar_rentas();
+        setTimeout(function () {
+            console.log('La operación asincrónica ha finalizado');
+            refresher.complete();
+        }, 2000);
+    };
+    // BARRA DE BUSCADOR
+    VehiculosrentadosavanzaPage.prototype.getItems = function (ev) {
+        this.rentas = this.rentasLista;
+        var val = ev.target.value;
+        if (val && val.trim() != '') {
+            this.rentas = this.rentas.filter(function (item) {
+                return (item.tipoVehiculo.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
+            });
+        }
+    };
+    VehiculosrentadosavanzaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad VehiculosrentadosavanzaPage');
+    };
+    VehiculosrentadosavanzaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-vehiculosrentadosavanza',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadosavanza\vehiculosrentadosavanza.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Avanza</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar vehiculo">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n \n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando lista...">\n    </ion-refresher-content> \n  </ion-refresher>\n\n  <ion-list *ngFor="let item of rentas; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="{{item.foto}}">       \n        </ion-avatar>\n        <h3 style="color: #718d79;">Placas: <strong style="color: #505A53;">{{item.placas}}</strong></h3>\n        <h3 style="color: #505A53;">Pasajeros: <strong style="color: #1BC7AF;"> {{item.numeroPasajeros}}</strong></h3>\n        <h3 style="color: #718d79;">Color: <strong style="color: #505A53;">{{item.color}}</strong></h3>\n        <h3 style="color: #505A53;">Modelo: <strong style="color: #1BC7AF;"> {{item.modelo}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <h2 style="color: #4A6D68;"><strong>{{item.marcaVehiculo}} - {{item.tipoVehiculo}}</strong></h2>   \n          </ion-col>\n          <ion-col>     \n            <h3 style="color: #718d79;"><strong style="color: #505A53;">{{item.kilometrajeV}}</strong> Km</h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <p style="color: #4A6D68;">Fecha de llegada: </p> <strong style="color: #1BC7AF;">{{item.fechaLlegada}}</strong>  \n          </ion-col>\n          <ion-col>     \n            <p style="color: #718d79;">Hora de llegada: </p> <strong style="color: #1BC7AF;">{{item.horaLlegada}}</strong>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <h3 style="text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{item.nombreUsuario}}</strong></h3>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadosavanza\vehiculosrentadosavanza.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+    ], VehiculosrentadosavanzaPage);
+    return VehiculosrentadosavanzaPage;
+}());
+
+//# sourceMappingURL=vehiculosrentadosavanza.js.map
+
+/***/ }),
+/* 358 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculosrentadoshiacePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var VehiculosrentadoshiacePage = (function () {
+    function VehiculosrentadoshiacePage(navCtrl, navParams, loadingCtrl, viewCtrl, VehiculoService, modalCtrl, alertCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.loadingCtrl = loadingCtrl;
+        this.viewCtrl = viewCtrl;
+        this.modalCtrl = modalCtrl;
+        this.alertCtrl = alertCtrl;
+        this.rentas = [];
+        this.rentasLista = [];
+        this.VehiculoService = VehiculoService;
+        this.listar_rentas();
+        this.datosUsuario = window.localStorage.getItem('dataUser');
+        this.perfil = JSON.parse(this.datosUsuario);
+        console.log(this.perfil);
+    }
+    VehiculosrentadoshiacePage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_23" /* VehiculosrentadosPage */]);
+    };
+    VehiculosrentadoshiacePage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
+        }
+    };
+    VehiculosrentadoshiacePage.prototype.dismiss = function () {
+        this.viewCtrl.dismiss();
+    };
+    VehiculosrentadoshiacePage.prototype.listar_rentas = function () {
+        var _this = this;
+        this.loading = this.loadingCtrl.create({
+            content: "Cargando vehiculos...",
+        });
+        this.loading.present();
+        this.VehiculoService.listarVehiculosHiace().subscribe(function (data) {
+            console.log(data);
+            _this.rentas = data;
+            _this.rentasLista = _this.rentas;
+            if (data.length != 0) {
+                _this.loading.dismiss();
+                console.log('Tienes vehiculos rentados');
+                // this.navCtrl.push(SlidePage);
+            }
+            if (data.length === 0) {
+                _this.loading.dismiss();
+                console.log('No hay vehiculos rentados');
+                //this.navCtrl.push(BienvenidaPage);
+            }
+        }, function (err) {
+            _this.loading.dismiss();
+            console.log(err);
+            //() =>  console.log('cargar equipos complete')
+        });
+    };
+    VehiculosrentadoshiacePage.prototype.detalles = function (event, item) {
+        window.localStorage.setItem('datosRenta', JSON.stringify(item));
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["S" /* RentasmostrarPage */]);
+    };
+    // PARA ACTUALIZAR LOS DATOS
+    VehiculosrentadoshiacePage.prototype.Refrescar = function (refresher) {
+        console.log('Comienzo de la operación asincrónica', refresher);
+        this.listar_rentas();
+        setTimeout(function () {
+            console.log('La operación asincrónica ha finalizado');
+            refresher.complete();
+        }, 2000);
+    };
+    // BARRA DE BUSCADOR
+    VehiculosrentadoshiacePage.prototype.getItems = function (ev) {
+        this.rentas = this.rentasLista;
+        var val = ev.target.value;
+        if (val && val.trim() != '') {
+            this.rentas = this.rentas.filter(function (item) {
+                return (item.tipoVehiculo.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
+            });
+        }
+    };
+    VehiculosrentadoshiacePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad VehiculosrentadoshiacePage');
+    };
+    VehiculosrentadoshiacePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-vehiculosrentadoshiace',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadoshiace\vehiculosrentadoshiace.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Hiace</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar vehiculo">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n \n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando lista...">\n    </ion-refresher-content> \n  </ion-refresher>\n\n  <ion-list *ngFor="let item of rentas; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="{{item.foto}}">       \n        </ion-avatar>\n        <h3 style="color: #718d79;">Placas: <strong style="color: #505A53;">{{item.placas}}</strong></h3>\n        <h3 style="color: #505A53;">Pasajeros: <strong style="color: #1BC7AF;"> {{item.numeroPasajeros}}</strong></h3>\n        <h3 style="color: #718d79;">Color: <strong style="color: #505A53;">{{item.color}}</strong></h3>\n        <h3 style="color: #505A53;">Modelo: <strong style="color: #1BC7AF;"> {{item.modelo}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <h2 style="color: #4A6D68;"><strong>{{item.marcaVehiculo}} - {{item.tipoVehiculo}}</strong></h2>   \n          </ion-col>\n          <ion-col>     \n            <h3 style="color: #718d79;"><strong style="color: #505A53;">{{item.kilometrajeV}}</strong> Km</h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <p style="color: #4A6D68;">Fecha de llegada: </p> <strong style="color: #1BC7AF;">{{item.fechaLlegada}}</strong>  \n          </ion-col>\n          <ion-col>     \n            <p style="color: #718d79;">Hora de llegada: </p> <strong style="color: #1BC7AF;">{{item.horaLlegada}}</strong>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <h3 style="text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{item.nombreUsuario}}</strong></h3>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadoshiace\vehiculosrentadoshiace.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+    ], VehiculosrentadoshiacePage);
+    return VehiculosrentadoshiacePage;
+}());
+
+//# sourceMappingURL=vehiculosrentadoshiace.js.map
+
+/***/ }),
+/* 359 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VehiculosrentadosodysseyPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_paginas__ = __webpack_require__(2);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var VehiculosrentadosodysseyPage = (function () {
+    function VehiculosrentadosodysseyPage(navCtrl, navParams, loadingCtrl, viewCtrl, VehiculoService, modalCtrl, alertCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.loadingCtrl = loadingCtrl;
+        this.viewCtrl = viewCtrl;
+        this.modalCtrl = modalCtrl;
+        this.alertCtrl = alertCtrl;
+        this.rentas = [];
+        this.rentasLista = [];
+        this.VehiculoService = VehiculoService;
+        this.listar_rentas();
+        this.datosUsuario = window.localStorage.getItem('dataUser');
+        this.perfil = JSON.parse(this.datosUsuario);
+        console.log(this.perfil);
+    }
+    VehiculosrentadosodysseyPage.prototype.regresar = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["_23" /* VehiculosrentadosPage */]);
+    };
+    VehiculosrentadosodysseyPage.prototype.menu = function () {
+        if (this.perfil.nivelUsuario == "Administrador") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["E" /* MenunivelunoPage */]);
+        }
+        else if (this.perfil.nivelUsuario == "Estandar") {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["D" /* MenuniveldosPage */]);
+        }
+    };
+    VehiculosrentadosodysseyPage.prototype.dismiss = function () {
+        this.viewCtrl.dismiss();
+    };
+    VehiculosrentadosodysseyPage.prototype.listar_rentas = function () {
+        var _this = this;
+        this.loading = this.loadingCtrl.create({
+            content: "Cargando vehiculos...",
+        });
+        this.loading.present();
+        this.VehiculoService.listarVehiculosOdyssey().subscribe(function (data) {
+            console.log(data);
+            _this.rentas = data;
+            _this.rentasLista = _this.rentas;
+            if (data.length != 0) {
+                _this.loading.dismiss();
+                console.log('Tienes vehiculos rentados');
+                // this.navCtrl.push(SlidePage);
+            }
+            if (data.length === 0) {
+                _this.loading.dismiss();
+                console.log('No hay vehiculos rentados');
+                //this.navCtrl.push(BienvenidaPage);
+            }
+        }, function (err) {
+            _this.loading.dismiss();
+            console.log(err);
+            //() =>  console.log('cargar equipos complete')
+        });
+    };
+    VehiculosrentadosodysseyPage.prototype.detalles = function (event, item) {
+        window.localStorage.setItem('datosRenta', JSON.stringify(item));
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__index_paginas__["S" /* RentasmostrarPage */]);
+    };
+    // PARA ACTUALIZAR LOS DATOS
+    VehiculosrentadosodysseyPage.prototype.Refrescar = function (refresher) {
+        console.log('Comienzo de la operación asincrónica', refresher);
+        this.listar_rentas();
+        setTimeout(function () {
+            console.log('La operación asincrónica ha finalizado');
+            refresher.complete();
+        }, 2000);
+    };
+    // BARRA DE BUSCADOR
+    VehiculosrentadosodysseyPage.prototype.getItems = function (ev) {
+        this.rentas = this.rentasLista;
+        var val = ev.target.value;
+        if (val && val.trim() != '') {
+            this.rentas = this.rentas.filter(function (item) {
+                return (item.tipoVehiculo.toString().toLowerCase().indexOf(val.toLowerCase()) == "");
+            });
+        }
+    };
+    VehiculosrentadosodysseyPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad VehiculosrentadosodysseyPage');
+    };
+    VehiculosrentadosodysseyPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-vehiculosrentadosodyssey',template:/*ion-inline-start:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadosodyssey\vehiculosrentadosodyssey.html"*/`\n<ion-header translucent="true" no-border>\n  <ion-toolbar color="sincolor" style="text-align: center;">\n    <ion-title>Odyssey</ion-title>\n    <br>\n    <ion-grid style="text-align: center;">\n      <ion-row>  \n        <ion-col>\n            <img style="width: 22%;" (click)="regresar()" src="img/icon/left-arrow.png"/>\n            <p style="font-size: 14px; opacity: 50%; margin-top: 0%;">regresar</p>\n        </ion-col>\n        <ion-col>     \n            <img style="width: 22%;" (click)="menu()" src="img/icon/menu.png"/>\n            <p style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Ir al menu</p>\n        </ion-col>\n      </ion-row>\n    </ion-grid> \n\n    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar vehiculo">\n    </ion-searchbar>\n\n  </ion-toolbar>\n</ion-header>\n \n\n<ion-content padding>\n\n  <ion-refresher (ionRefresh)="Refrescar($event)">\n    <ion-refresher-content \n    refreshingSpinner="circles"\n    refreshingText="Actualizando lista...">\n    </ion-refresher-content> \n  </ion-refresher>\n\n  <ion-list *ngFor="let item of rentas; let i=index;">\n    <ion-card class="lista" (click)="detalles($event,item)">\n      <ion-item>\n        <ion-avatar item-left>\n          <img src="{{item.foto}}">       \n        </ion-avatar>\n        <h3 style="color: #718d79;">Placas: <strong style="color: #505A53;">{{item.placas}}</strong></h3>\n        <h3 style="color: #505A53;">Pasajeros: <strong style="color: #1BC7AF;"> {{item.numeroPasajeros}}</strong></h3>\n        <h3 style="color: #718d79;">Color: <strong style="color: #505A53;">{{item.color}}</strong></h3>\n        <h3 style="color: #505A53;">Modelo: <strong style="color: #1BC7AF;"> {{item.modelo}}</strong></h3>\n      </ion-item>\n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <h2 style="color: #4A6D68;"><strong>{{item.marcaVehiculo}} - {{item.tipoVehiculo}}</strong></h2>   \n          </ion-col>\n          <ion-col>     \n            <h3 style="color: #718d79;"><strong style="color: #505A53;">{{item.kilometrajeV}}</strong> Km</h3>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <ion-grid style="text-align: center;">\n        <ion-row>  \n          <ion-col>   \n            <p style="color: #4A6D68;">Fecha de llegada: </p> <strong style="color: #1BC7AF;">{{item.fechaLlegada}}</strong>  \n          </ion-col>\n          <ion-col>     \n            <p style="color: #718d79;">Hora de llegada: </p> <strong style="color: #1BC7AF;">{{item.horaLlegada}}</strong>\n          </ion-col>\n        </ion-row>\n      </ion-grid> \n      <h3 style="text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{item.nombreUsuario}}</strong></h3>\n    </ion-card>\n  </ion-list>\n\n</ion-content>\n`/*ion-inline-end:"C:\Users\Rodrigo\Documents\ionic v3\turismo\tonystours\src\pages\vehiculosrentadosodyssey\vehiculosrentadosodyssey.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_2__servicios_VehiculoServices__["a" /* VehiculoService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+    ], VehiculosrentadosodysseyPage);
+    return VehiculosrentadosodysseyPage;
+}());
+
+//# sourceMappingURL=vehiculosrentadosodyssey.js.map
 
 /***/ })
 ],[205]);
