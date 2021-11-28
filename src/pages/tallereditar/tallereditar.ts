@@ -6,6 +6,12 @@ import {  NavController,
   ViewController} from 'ionic-angular';
 import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
 
+import { 
+  VehiculosmantenimientoPage,
+  MenunivelunoPage,
+  MenuniveldosPage,
+  TallermostrarPage
+} from "../index.paginas";
 
 @Component({
   selector: 'page-tallereditar',
@@ -16,13 +22,14 @@ export class TallereditarPage {
   datosVehiculo: { 
     marcaVehiculo?: string, 
     tipoVehiculo?: string,
+    categoria?: string,
     numeroPasajeros?: string,
     placas?: string,
     modelo?: string,
     numeroMotor?: string,
     transmicion?: string,
     numeroSerie?: string,
-    color?: string,
+    color?: string, 
     kilometrajeV?: string,
     cristalesV?: string,
     llantasV?: string,
@@ -70,6 +77,7 @@ export class TallereditarPage {
 
     this.datosVehiculo.marcaVehiculo = this.datosV.marcaVehiculo;
     this.datosVehiculo.tipoVehiculo = this.datosV.tipoVehiculo;
+    this.datosVehiculo.categoria = this.datosV.categoria;
     this.datosVehiculo.numeroPasajeros = this.datosV.numeroPasajeros;
     this.datosVehiculo.placas = this.datosV.placas; 
     this.datosVehiculo.modelo = this.datosV.modelo;
@@ -96,6 +104,18 @@ export class TallereditarPage {
     
   }
 
+  regresar(){             
+    this.navCtrl.push(TallermostrarPage);
+  }
+  
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+    this.navCtrl.setRoot(MenunivelunoPage);
+    }else if(this.perfil.nivelUsuario == "Estandar"){             
+    this.navCtrl.setRoot(MenuniveldosPage);
+    }
+  }
+
   dismiss() {
     this.viewCtrl.dismiss();
   } 
@@ -111,6 +131,7 @@ export class TallereditarPage {
               console.log(this.datosV.idVehiculo);
               console.log(this.datosVehiculo.marcaVehiculo);
               console.log(this.datosVehiculo.tipoVehiculo);
+              console.log(this.datosVehiculo.categoria);
               console.log(this.datosVehiculo.numeroPasajeros);
               console.log(this.datosVehiculo.placas);
               console.log(this.datosVehiculo.modelo);
@@ -137,13 +158,14 @@ export class TallereditarPage {
               console.log(this.perfil.idUsuario);
 
             let loading =this.loadingCtrl.create({
-            content: "Modificando tus datos del vehiculo espere...",
+            content: "Modificando datos, espere...",
               });
               loading.present();
 
    this.VehiculoFotoService.editarVehiculoDatos(this.datosV.idVehiculo, 
                                                 this.datosVehiculo.marcaVehiculo, 
                                                 this.datosVehiculo.tipoVehiculo,
+                                                this.datosVehiculo.categoria,
                                                 this.datosVehiculo.numeroPasajeros,  
                                                 this.datosVehiculo.placas,
                                                 this.datosVehiculo.modelo, 
@@ -182,8 +204,8 @@ export class TallereditarPage {
                     {
                       text: 'Aceptar',
                       handler: () => {
-                        //this.navCtrl.setRoot(MenuPage)
-                        this.dismiss()
+                        this.navCtrl.setRoot(VehiculosmantenimientoPage)
+            
                       }
                     }]
                });

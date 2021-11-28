@@ -2,6 +2,12 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, AlertController, ViewController, LoadingController } from 'ionic-angular';
 import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
 
+import { 
+  MenunivelunoPage,
+  MenuniveldosPage,
+  TallermostrarPage
+} from "../index.paginas";
+
 @Component({
   selector: 'page-tallervd',
   templateUrl: 'tallervd.html',
@@ -43,7 +49,7 @@ export class TallervdPage {
     this.datosV = JSON.parse(this.BDVehiculo )
     console.log(this.datosV);
 
-    
+    this.enviarVehiculoTaller.vehiculoMantenimiento = "SIN MANTENIMIENTO";
     this.enviarVehiculoTaller.motivoTaller = this.datosV.motivoTaller;
     this.enviarVehiculoTaller.fechaEntrada = this.datosV.fechaEntrada;
     this.enviarVehiculoTaller.notasT = this.datosV.notasT;
@@ -51,6 +57,18 @@ export class TallervdPage {
 
   dismiss() {  
     this.viewCtrl.dismiss();
+  }
+
+  regresar(){              
+    this.navCtrl.push(TallermostrarPage);
+  }
+
+  menu(){
+    if(this.perfil.nivelUsuario == "Administrador"){             
+      this.navCtrl.push(MenunivelunoPage);
+    }else if (this.perfil.nivelUsuario == "Estandar"){             
+      this.navCtrl.push(MenuniveldosPage);
+    }
   }
 
   //ENVIAR VEHICULO A DISPONIBLES
@@ -92,7 +110,7 @@ this.VehiculoFotoService.enviar_vehiculo_taller(this.datosV.idVehiculo,
                 //console.log('Usuario registrado');
                 let alert = this.alertCtrl.create({
                 title: "¡OPERACION EXITOSA!",
-                subTitle:"Ahora tu vehiculo esta fuera del taller",
+                subTitle:"Ahora tu vehiculo puede ser utilizado una vez más",
                 buttons: [
                     {
                       text: 'Continuar',

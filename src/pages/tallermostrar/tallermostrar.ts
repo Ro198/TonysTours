@@ -4,7 +4,8 @@ import { NavController, NavParams } from 'ionic-angular';
 
 import { TallereditarPage,
          TallervdPage,
-         VehiculoeditarfotoPage
+         VehiculoeditarfotoPage,
+         VehiculosmantenimientoPage
 } from "../index.paginas";
 
 @Component({
@@ -29,6 +30,10 @@ export class TallermostrarPage {
     this.BDVehiculo  = window.localStorage.getItem('datosVehiculo')
     this.datosV = JSON.parse(this.BDVehiculo )
     console.log(this.datosV);
+  }
+
+  regresar(){     
+      this.navCtrl.push(VehiculosmantenimientoPage);
   }
 
   enlace_editar_taller(){

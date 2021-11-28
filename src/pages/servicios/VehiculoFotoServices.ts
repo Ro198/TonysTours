@@ -32,7 +32,7 @@ export class VehiculoFotoService {
         "numeroMotor": numeroMotor,
         "transmicion": transmicion,
         "numeroSerie": numeroSerie,
-        "color": color,
+        "color": color, 
         "kilometrajeV": kilometrajeV,
         "cristalesV": cristalesV,
         "llantasV": llantasV,
