@@ -4,10 +4,7 @@
   <ion-toolbar color="sincolor" style="text-align: center;">
     <ion-title>Activar cliente</ion-title>
   </ion-toolbar>
-</ion-header> 
-
-
-<ion-content padding>
+  <br>
 
   <ion-grid style="text-align: center;">
     <ion-row> 
@@ -28,13 +25,18 @@
       <p style="color: #505A53;">Al elegir la opción de <strong>CLIENTE ACTIVO</strong>, el cliente <strong>{{datosC.nombre}}</strong> pasara a la lista de "Clientes Activos" con el fin de usar sus datos para la renta de algún vehiculo.</p>
     </ion-card-content>
 
+</ion-header> 
+
+
+<ion-content padding>
+
   <form #editarForm="ngForm">
     <ion-list>
     <ion-item> 
       <ion-avatar item-left>
         <img src="img/icon/activo.png"/>      
        </ion-avatar>
-      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Cliente activo</ion-label>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Enviar a...</ion-label>
       <ion-select [(ngModel)]="editarCliente.clienteactivo" name="clienteactivo" #clienteactivo="ngModel" cancelText="Cancelar" okText="Agregar" required> 
       <ion-option value="ACTIVO">ACTIVO</ion-option>
       <ion-option value="NO ACTIVO">NO ACTIVO</ion-option>
@@ -43,7 +45,7 @@
     </ion-item>
   </ion-list>
   <br>
-    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Enviar solicitud</button>
+    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Enviar cliente ahora</button>
   </form>
 
 

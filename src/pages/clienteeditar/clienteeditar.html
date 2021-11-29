@@ -19,7 +19,6 @@
   </ion-toolbar>
 </ion-header>
 
-
 <ion-content padding>
 
   <form #editarForm="ngForm">
@@ -30,7 +29,7 @@
         <ion-avatar item-left>
           <img src="img/icon/usuario.png"/>      
          </ion-avatar>
-        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Nombre del cliente* :</ion-label>
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Nombre del cliente:</ion-label>
         <ion-input type="text" [(ngModel)]="editarCliente.nombre" name="nombre" #nombre="ngModel"
          required></ion-input>
       </ion-item>
@@ -38,7 +37,7 @@
         <ion-avatar item-left>
           <img src="img/icon/sex.png"/>      
         </ion-avatar>
-        <ion-label stacked stacked style="font-size: 1.8rem; color: #4A6D68;">Sexo* :</ion-label>
+        <ion-label stacked stacked style="font-size: 1.8rem; color: #4A6D68;">Sexo:</ion-label>
         <ion-select [(ngModel)]="editarCliente.sexo" name="sexo" #sexo="ngModel" cancelText="Cancelar" okText="Agregar" required> 
         <ion-option value="Masculino">Masculino</ion-option>
         <ion-option value="Femenino">Femenino</ion-option>
@@ -48,7 +47,7 @@
         <ion-avatar item-left>
           <img src="img/icon/cumple.png"/>      
         </ion-avatar>
-        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Edad* :</ion-label>
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Edad:</ion-label>
         <ion-input type="number" [(ngModel)]="editarCliente.edad" name="edad" #edad="ngModel"
          required></ion-input>
       </ion-item>
@@ -56,7 +55,7 @@
         <ion-avatar item-left>
           <img src="img/icon/address.png"/>      
         </ion-avatar>
-        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Direccion* :</ion-label>
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Direccion:</ion-label>
         <ion-input type="text" [(ngModel)]="editarCliente.direccion" name="direccion" #direccion="ngModel"
        required></ion-input>
       </ion-item>
@@ -64,7 +63,7 @@
         <ion-avatar item-left>
           <img src="img/icon/colonia.png"/>      
         </ion-avatar>
-        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Colonia* :</ion-label>
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Colonia:</ion-label>
         <ion-input type="text" [(ngModel)]="editarCliente.colonia" name="colonia" #colonia="ngModel"
        required></ion-input>
       </ion-item>
@@ -79,7 +78,7 @@
         <ion-avatar item-left>
           <img src="img/icon/ciudad.png"/>      
         </ion-avatar>
-        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Ciudad* :</ion-label>
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Ciudad:</ion-label>
         <ion-input type="text" [(ngModel)]="editarCliente.ciudad" name="ciudad" #ciudad="ngModel"
        required></ion-input>
       </ion-item>
@@ -87,7 +86,7 @@
         <ion-avatar item-left>
           <img src="img/icon/estado.png"/>      
         </ion-avatar>
-        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Estado* :</ion-label>
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Estado:</ion-label>
         <ion-input type="text" [(ngModel)]="editarCliente.estado" name="estado" #estado="ngModel"
        required></ion-input>
       </ion-item>
@@ -106,7 +105,7 @@
         <ion-avatar item-left>
           <img src="img/icon/licencia.png"/>      
         </ion-avatar>
-        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Licencia* :</ion-label>
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Licencia:</ion-label>
         <ion-select [(ngModel)]="editarCliente.licencia" name="licencia" #licencia="ngModel" cancelText="Cancelar" okText="Agregar" required> 
         <ion-option value="Vigente">Vigente</ion-option>
         <ion-option value="No vigente">No vigente</ion-option>
@@ -116,7 +115,7 @@
         <ion-avatar item-left>
           <img src="img/icon/calendar.png"/>      
         </ion-avatar>
-        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Fecha de la licencia* :</ion-label>
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Fecha de la licencia:</ion-label>
         <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="editarCliente.fechaLicencia" name="fechaLicencia" #fechaLicencia="ngModel" required></ion-datetime>
       </ion-item>
     </ion-list>
@@ -127,7 +126,7 @@
           <ion-avatar item-left>
             <img src="img/icon/tipocliente.png"/>      
           </ion-avatar>
-          <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo de cliente* :</ion-label>
+          <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tipo de cliente:</ion-label>
           <ion-select [(ngModel)]="editarCliente.tipoCliente" name="tipoCliente" #tipoCliente="ngModel" cancelText="Cancelar" okText="Agregar" required> 
           <ion-option value="Nuevo">Nuevo</ion-option>
           <ion-option value="Recurrente">Recurrente</ion-option>
@@ -143,7 +142,7 @@
     </ion-list>
     <br>
 
-  <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Modificar</button>
+  <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Guardar cambios</button>
 
 </form>
 

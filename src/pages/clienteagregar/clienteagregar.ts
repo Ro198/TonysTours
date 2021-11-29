@@ -127,7 +127,7 @@ export class ClienteagregarPage {
 
 
             let loading =this.loadingCtrl.create({
-            content: "Guardando cliente espere...",
+            content: "Guardando cliente, espere...",
              });
             loading.present();
    

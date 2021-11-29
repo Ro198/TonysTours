@@ -1,69 +1,80 @@
 
 <ion-content padding>
   <br>
-  <div class="logo" style="text-align: center;">
-    <img src="img/M1.png" style="width:96%;">
-  </div> 
-
-  <ion-grid style="text-align: center;">
-    <ion-row>
-      <ion-col>     
-          <button class="bordered" fill="solid" ion-button icon-only (click)="miperfil()" color="verde-limon">
-            <ion-icon name="person"></ion-icon> 
-          </button>
-          <p style="font-size: 10px;">Mi perfil</p>
+  
+  <ion-grid style="text-align: center;"> 
+    <ion-row> 
+      <ion-col> 
+        <div class="logo" style="text-align: left;">
+          <img src="img/logoOf.png" style="width:80%;">
+        </div> 
       </ion-col>
       <ion-col>     
-        <button class="bordered" fill="solid" ion-button icon-only (click)="logout()" color="rojo">
-           <ion-icon name="close-circle"></ion-icon>
-        </button>
-        <p style="font-size: 10px;">Cerrar sesión</p>
-    </ion-col>
-    </ion-row>
-  </ion-grid>
+        <div style="text-align: center;">
+          <p style="padding: 0 0px; font-size: 10px; color: #505A53; margin-top: 24%; margin-right: 0%;">Bienvenid@ <br> 
+            <strong style="font-size: 16px; color: #1BC7AF;">{{perfil.nombreUsuario}}</strong> <br> 
+            <strong style="font-size: 12px; color: #505A53;">{{perfil.nivelUsuario}}</strong> </p>
+        </div> 
+      </ion-col>
+    </ion-row> 
+  </ion-grid> 
+
+  <div class="c1">
+    <ion-grid style="text-align: center;">  
+      <ion-row> 
+        <ion-col>     
+          <ion-card class="tarjeta" (click)="miperfil()">
+            <ion-item>
+              <ion-avatar item-center>
+                <div style="text-align: -webkit-center;">
+                <img src="img/icon/usuario.png"/>   
+                </div>   
+               </ion-avatar>
+            </ion-item>
+            <p style="font-size: 8px; color: #1BC7AF;">Mi perfil</p>
+          </ion-card>
+        </ion-col>
+        <ion-col>     
+          <ion-card class="tarjeta" (click)="mes()">
+            <ion-item>
+              <ion-avatar item-center>
+                <div style="text-align: -webkit-center;">
+                <img src="img/icon/calendar.png"/>   
+                </div>   
+               </ion-avatar>
+            </ion-item>
+            <p style="font-size: 8px; color: #1BC7AF;">Agenda</p>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid> 
+  </div>
+
 
   <ion-slides pager>
     <ion-slide>
-      <h4 class="slide-title" color="primary">Vehiculos</h4>
-      <img src="img/M3.png" class="slide-image" (click)="vehiculos()"
-        style="border-radius: 50px;" />
-        <p>Mis vehiculos</p>
-      </ion-slide>
+      <h4 class="slide-title" style="color: #505A53;">Mis Vehiculos</h4>
+      <img src="img/vehiculo.gif" class="slide-image" (click)="vehiculos()"
+        style="border-radius: 30px;" />
+        <p style="color: #505A53;">Movimientos de vehiculos</p>
+      </ion-slide> 
     <ion-slide>
-      <h4 class="slide-title" color="primary">Clientes</h4>
-      <img src="img/M4.png" class="slide-image" (click)="clientes()"
-        style="border-radius: 50px;" />
-        <p>Mis clientes</p>
+      <h4 class="slide-title" style="color: #505A53;">Mis Clientes</h4>
+      <img src="img/clientes.png" class="slide-image" (click)="clientes()"
+        style="border-radius: 30px;" />
+        <p style="color: #505A53;">Movimientos de clientes</p>
     </ion-slide>
     <ion-slide>
-      <h4 class="slide-title" color="primary">Historial</h4>
-      <img src="img/M5.png" class="slide-image" (click)="clientesHistorial()"
-      style="border-radius: 50px;" />
-      <p>Historial de clientes</p>
+      <h4 class="slide-title" style="color: #505A53;">Historial</h4>
+      <img src="img/historial.png" class="slide-image" (click)="clientesHistorial()"
+      style="border-radius: 30px;" />
+      <p style="color: #505A53;">Historial de clientes</p>
     </ion-slide>
   </ion-slides>
 
-  <div class="redes">
-    <ion-grid style="text-align: center; margin-top: -4%;">
-      <ion-row>
-        <ion-col>
-          <img src="img/facebookk.png"
-            onclick="window.open('https://www.facebook.com/tonystours.lp','_system','location=yes')">
-        </ion-col>
-        <ion-col>
-          <img src="img/twitter.png"
-            onclick="window.open('https://twitter.com/grandpetmx?lang=es','_system','location=yes')">
-        </ion-col>
-        <ion-col>
-          <img src="img/instagram.png"
-            onclick="window.open('https://www.instagram.com/grandpet_oficial/?hl=es-la','_system','location=yes')">
-        </ion-col>
-      </ion-row>
-    </ion-grid>
-  </div>
 
   <ion-footer no-border no-shadow color="primary-contrast">
       <div style="text-align: center;">
-        <img src="img/M2.png" style="width:100%;">
+        <img src="img/pye.png" style="width:100%;">
       </div> 
   </ion-footer>

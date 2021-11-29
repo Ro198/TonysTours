@@ -141,7 +141,7 @@ enlace_editar_cliente()
                 
                 if(this.datosC.clienteactivo == "ACTIVO"){
                   let alert = this.alertCtrl.create({
-                    title: '¡Atencion!',
+                    title: '¡Opción bloqueada!',
                     subTitle: 'Mientras que el cliente este ACTIVO, no se puede Reagendar.',
                     buttons: ['DE ACUERDO']
                   });
@@ -150,8 +150,8 @@ enlace_editar_cliente()
                 
                 else if(this.datosC.vehiculoRentado == "RENTANDO"){
                   let alert = this.alertCtrl.create({
-                    title: '¡Atencion!',
-                    subTitle: 'No se puede editar mientras que el cliente este RENTANDO',
+                    title: '¡Opción bloqueada!',
+                    subTitle: 'No se puede editar, mientras que el cliente este RENTANDO un vehiculo.',
                     buttons: ['DE ACUERDO']
                   });
                   alert.present();
@@ -181,8 +181,8 @@ enlace_editar_cliente()
           
           if(this.datosC.vehiculoRentado == "RENTANDO"){
             let alert = this.alertCtrl.create({
-              title: '¡Atencion!',
-              subTitle: 'No se puede editar mientras que el cliente este rentando',
+              title: '¡Opción bloqueada!',
+              subTitle: 'No se puede editar, mientras que el cliente este RENTANDO un vehiculo.',
               buttons: ['DE ACUERDO']
             });
             alert.present();

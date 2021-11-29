@@ -127,7 +127,7 @@ export class HistorialactivarPage {
               console.log(this.perfil.idUsuario);
 
             let loading =this.loadingCtrl.create({
-            content: "Enviando solicitud espere...",
+            content: "Transfiriendo cliente, espere...",
               });
               loading.present();
 
@@ -164,7 +164,7 @@ export class HistorialactivarPage {
                 //console.log('Usuario registrado');
                 let alert = this.alertCtrl.create({
                 title: "¡EXITO!",
-                subTitle:"Tu solicitud fue aprobada",
+                subTitle:"Tu cliente fue transferido correctamente",
                 buttons: [
                     {
                       text: 'Aceptar',

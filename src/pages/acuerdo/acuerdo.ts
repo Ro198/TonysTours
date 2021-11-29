@@ -36,12 +36,11 @@ InicioSesionNivel(){
 
     if(this.perfil.nivelUsuario == "Administrador"){
 
-        let alert = this.alertCtrl.create({
-          title: '¡Usuario nivel 1!',
-          subTitle: 'Puedes interactuar con todas las funciones',
-          buttons: ['CONTINUAR']
-          });
-          alert.present();
+    //   let alert = this.alertCtrl.create({
+    //    subTitle: 'Puedes interactuar con todas las funciones',
+    //     buttons: ['CONTINUAR']
+    //     });
+    //    alert.present();
                                 
           console.log(this.perfil);
           window.localStorage.setItem('datosCliente', JSON.stringify(this.perfil));
@@ -49,12 +48,12 @@ InicioSesionNivel(){
     }
     else if(this.perfil.nivelUsuario == "Estandar"){
 
-        let alert = this.alertCtrl.create({
-          title: '¡Usuario nivel 2!',
-          subTitle: 'Puedes interactuar con funciones limitadas',
-          buttons: ['CONTINUAR']
-          });
-          alert.present();
+    //    let alert = this.alertCtrl.create({
+    //      title: '¡Usuario nivel 2!',
+    //      subTitle: 'Puedes interactuar con funciones limitadas',
+    //      buttons: ['CONTINUAR']
+    //      });
+    //      alert.present();
                                             
           console.log(this.perfil);
           window.localStorage.setItem('datosCliente', JSON.stringify(this.perfil));

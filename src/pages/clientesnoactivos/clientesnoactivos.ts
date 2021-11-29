@@ -60,7 +60,7 @@ menu(){
   listar_clientes()
   {
          this.loading =this.loadingCtrl.create({
-           content: "Cargando clientes activos...",
+           content: "Cargando clientes no activos...",
             });
              this.loading.present();
 

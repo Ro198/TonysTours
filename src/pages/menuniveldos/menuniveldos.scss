@@ -64,5 +64,22 @@ page-menuniveldos {
   top: 5px;
   }
 
+  .tarjeta{
+    border-radius: 10px;
+    margin: 30px 0 16px;
+    box-shadow: 8px 8px 12px #d1d1d1, -5px -5px 10px #FFFFFF;
+  }
+     
+  .c1{
+    margin-top: -10%;
+  }
+
+  .item-md ion-avatar ion-img, .item-md ion-avatar img{
+    width: 40px; 
+    height: 40px;
+    border-radius: 0px;
+    text-align: center;
+}
+
    
 }

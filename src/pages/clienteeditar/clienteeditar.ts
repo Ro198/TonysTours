@@ -33,6 +33,7 @@ export class ClienteeditarPage {
     vehiculosMalEstado?: string,
     mes?: string,
     dia?: string,
+    hora?: string,
     anticipo?: string,
     clienteactivo?: string,
     notashistorial?: string
@@ -70,7 +71,7 @@ export class ClienteeditarPage {
     this.editarCliente.sexo = this.datosC.sexo;
     this.editarCliente.edad = this.datosC.edad; 
     this.editarCliente.direccion = this.datosC.direccion;
-    this.editarCliente.colonia = this.datosC.colonia;  
+    this.editarCliente.colonia = this.datosC.colonia;   
     this.editarCliente.telefono = this.datosC.telefono; 
     this.editarCliente.ciudad = this.datosC.ciudad; 
     this.editarCliente.estado = this.datosC.estado;
@@ -84,6 +85,7 @@ export class ClienteeditarPage {
     this.editarCliente.vehiculosMalEstado = this.datosC.vehiculosMalEstado;
     this.editarCliente.mes = this.datosC.mes;
     this.editarCliente.dia = this.datosC.dia;
+    this.editarCliente.hora = this.datosC.hora;
     this.editarCliente.anticipo = this.datosC.anticipo;
     this.editarCliente.clienteactivo = this.datosC.clienteactivo;
     this.editarCliente.notashistorial = this.datosC.notashistorial;
@@ -134,13 +136,14 @@ if(this.perfil.nivelUsuario == "Administrador"){
               console.log(this.editarCliente.vehiculosMalEstado);
               console.log(this.editarCliente.mes);
               console.log(this.editarCliente.dia);
+              console.log(this.editarCliente.hora);
               console.log(this.editarCliente.anticipo);
               console.log(this.editarCliente.clienteactivo);
               console.log(this.editarCliente.notashistorial);
               console.log(this.perfil.idUsuario);
 
             let loading =this.loadingCtrl.create({
-            content: "Modificando los datos espere...",
+            content: "Modificando agenda, espere...",
               });
               loading.present();
 
@@ -163,6 +166,7 @@ if(this.perfil.nivelUsuario == "Administrador"){
                                                this.editarCliente.vehiculosMalEstado,
                                                this.editarCliente.mes,
                                                this.editarCliente.dia,
+                                               this.editarCliente.hora,
                                                this.editarCliente.anticipo,
                                                this.editarCliente.clienteactivo,
                                                this.editarCliente.notashistorial,

@@ -4,11 +4,6 @@
   <ion-toolbar color="sincolor" style="text-align: center;">
     <ion-title>Detalles del cliente</ion-title>
   </ion-toolbar>
-</ion-header> 
-
-
-<ion-content >
-
   <ion-grid style="text-align: center;">
     <ion-row> 
       <ion-col>
@@ -25,7 +20,11 @@
       </ion-col>
     </ion-row>
   </ion-grid> 
- 
+</ion-header> 
+
+
+<ion-content >
+
   <ion-card class="c1">
     <ion-item>
       <ion-avatar item-left>
@@ -33,7 +32,7 @@
       </ion-avatar>
       <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>
       <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>
-      <h3 style="color: #505A53;">Licencia: <strong>{{datosC.licencia}} - {{datosC.fechaLicencia}}</strong></h3>
+      <h3 style="color: #505A53;">Licencia: <strong>{{datosC.licencia}}</strong> - <strong style="color: #1BC7AF;">{{datosC.fechaLicencia}}</strong></h3>
       <h4 style="opacity: 50%;">{{datosC.telefono}}</h4>
     </ion-item>
   </ion-card>  
@@ -114,10 +113,10 @@
       <ion-col>     
         <ion-card class="tarjeta">
           <p style="font-size: 10px; color: #505A53;">¿Trae vehiculo?</p>
-          <ion-chip *ngIf="datosC.vehiculoRentado === 'RENTANDO'" color="boton">
+          <ion-chip *ngIf="datosC.vehiculoRentado === 'RENTANDO'" color="rojo">
             <ion-label style="margin: 0 10px;">RENTANDO</ion-label>
           </ion-chip>
-          <ion-chip *ngIf="datosC.vehiculoRentado === 'SIN VEHICULO'" color="rojo">
+          <ion-chip *ngIf="datosC.vehiculoRentado === 'SIN VEHICULO'" color="boton">
             <ion-label style="margin: 0 10px;">SIN VEHICULO</ion-label>
           </ion-chip>
         </ion-card>
@@ -125,7 +124,7 @@
       <ion-col>     
         <ion-card class="tarjeta">
           <ion-item>
-            <div>
+            <div style="text-align: center;">
               <p style="font-size: 10px; color: #505A53;">Cliente activo</p>
               <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosC.clienteactivo}}</strong></p>
             </div> 

@@ -4,11 +4,7 @@
   <ion-toolbar color="sincolor" style="text-align: center;">
     <ion-title>Editar rentas</ion-title>
   </ion-toolbar>
-</ion-header> 
-
-
-<ion-content padding>
-
+  <br>
   <ion-grid style="text-align: center;">
     <ion-row> 
       <ion-col>
@@ -28,8 +24,12 @@
     <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>
   </ion-item>
 
+</ion-header> 
+
+
+<ion-content padding>
+
   <form #editarForm="ngForm">
-    
     
     <ion-list>
       <h5 style="color: #505A53;">Numero de rentas</h5>
@@ -55,14 +55,8 @@
     </ion-list>
     <br>
 
-    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Modificar</button> 
+    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Guardar cambios</button> 
 
 </form>
-
-
-
-
-
-
 
 </ion-content>

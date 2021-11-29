@@ -15,17 +15,18 @@
       </ion-col>
       </ion-row>
     </ion-grid> 
-  </ion-toolbar>
-</ion-header> 
-
-
-<ion-content padding>
-
+    
     <ion-item style="text-align: -webkit-center;" no-lines>
       <img style="width: 15%;" src="img/icon/user.png"/>
       <h2 style="color: #4A6D68;"><strong>{{datosC.nombre}}</strong></h2>
       <h3 style="color: #505A53;">Cliente {{datosC.tipoCliente}}</h3>
     </ion-item>
+
+  </ion-toolbar>
+</ion-header> 
+
+
+<ion-content padding>
 
 
 
@@ -118,7 +119,7 @@
     </ion-list>
     <br>
 
-    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Modificar</button> 
+    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Guardar cambios</button> 
 
 </form>
 

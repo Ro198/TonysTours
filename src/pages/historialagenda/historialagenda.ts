@@ -129,7 +129,7 @@ export class HistorialagendaPage {
               console.log(this.perfil.idUsuario);
 
             let loading =this.loadingCtrl.create({
-            content: "Agregando espere...",
+            content: "Agendando, espere...",
               });
               loading.present();
 

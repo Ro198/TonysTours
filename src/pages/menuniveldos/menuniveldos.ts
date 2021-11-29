@@ -5,7 +5,8 @@ import { LoginPage,
          ClientesopcionesPage,
          HistorialPage,
          VehiculosPage,
-         UsuariomiperfilPage
+         UsuariomiperfilPage,
+         ClientesmesPage
 } from "../index.paginas";
 
 @Component({
@@ -13,7 +14,7 @@ import { LoginPage,
   templateUrl: 'menuniveldos.html',
 })
 export class MenuniveldosPage {
-
+ 
   datosUsuario;
   perfil;
 
@@ -49,6 +50,12 @@ export class MenuniveldosPage {
       ]
     });
     confirm.present();
+  }
+
+  mes(){
+
+    this.navCtrl.push(ClientesmesPage);
+
   }
 
   miperfil(){
