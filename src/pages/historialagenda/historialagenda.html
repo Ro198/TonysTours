@@ -117,11 +117,11 @@
         <ion-avatar item-left>
           <img src="img/icon/vehiculo.png"/>      
          </ion-avatar>
-        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Nombre del vehiculo:</ion-label>
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Posible vehiculo a rentar:</ion-label>
         <ion-input type="text-area" [(ngModel)]="editarCliente.observacionesVehiculo" name="observacionesVehiculo" #observacionesVehiculo="ngModel"
        required></ion-input> 
       </ion-item>
-    </ion-list>
+    </ion-list> 
     <br>
 
     <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Agendar ahora</button>

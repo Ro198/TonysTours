@@ -173,7 +173,7 @@ export class RentalistausuariorentadoPage {
                 subTitle:"Tu dato ha sido cambiado",
                 buttons: [
                     {
-                      text: 'Aceptar',
+                      text: 'Continuar',
                       handler: () => {
                         this.navCtrl.setRoot(RentaagregarPage)
                         //this.dismiss()

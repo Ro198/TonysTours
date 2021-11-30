@@ -202,7 +202,7 @@ export class TallereditarPage {
                 subTitle:"Los datos fueron modificados",
                 buttons: [
                     {
-                      text: 'Aceptar',
+                      text: 'DE ACUERDO',
                       handler: () => {
                         this.navCtrl.setRoot(VehiculosmantenimientoPage)
             

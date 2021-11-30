@@ -28,7 +28,7 @@ export class VehiculoeditarfotoPage {
 
   uploadFile: any;
   options: Object = {
-      url2: 'http://52.206.247.152/TonyToursBD/API/foto.php'
+      url2: 'http://54.152.163.147/TonyToursBD/API/foto.php'
   };   
 
   captureDataUrl: string;
@@ -130,7 +130,7 @@ export class VehiculoeditarfotoPage {
                 subTitle:"Tu imagen se cambio correctamente",
                 buttons: [
                     {
-                      text: 'Aceptar',
+                      text: 'DE ACUERDO',
                       handler: () => {
                         this.navCtrl.setRoot(VehiculosopcionesPage);
                       }

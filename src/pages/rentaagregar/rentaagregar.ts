@@ -131,7 +131,7 @@ export class RentaagregarPage {
                   subTitle:"Tu renta fue registrada correctamente",
                   buttons: [
                     {
-                      text: 'Aceptar',
+                      text: 'DE ACUERDO',
                       handler: () => {
                         this.navCtrl.setRoot(VehiculosPage);
                       //this.dismiss()

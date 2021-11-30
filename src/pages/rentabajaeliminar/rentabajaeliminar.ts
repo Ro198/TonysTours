@@ -77,7 +77,7 @@ export class RentabajaeliminarPage {
                     subTitle:"Tu renta ha sido eliminada",
                     buttons: [
           {
-            text: 'Aceptar',
+            text: 'DE ACUERDO',
             handler: () => {
               this.navCtrl.setRoot(VehiculosPage)
           

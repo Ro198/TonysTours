@@ -8,7 +8,8 @@ import { VehiculoeditarPage,
          VehiculoenviartallerPage,
          VehiculoeditarfotoPage,
          VehiculossinservicioPage,
-         VehiculodatostallerPage
+         VehiculodatostallerPage,
+         VehiculosopcionesPage
 } from "../index.paginas";
 
 
@@ -118,10 +119,10 @@ userData;
                     subTitle:"Tu vehiculo ha sido eliminado",
                     buttons: [
           {
-            text: 'Aceptar',
+            text: 'DE ACUERDO',
             handler: () => {
-
-              this.dismiss()
+ 
+              this.navCtrl.setRoot(VehiculosopcionesPage);
             }
           }]
                 }); 

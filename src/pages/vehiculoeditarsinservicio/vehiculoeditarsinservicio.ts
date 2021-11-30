@@ -92,7 +92,7 @@ this.VehiculoFotoService.editar_vehiculo_Servicios(this.datosV.idVehiculo,
                 //console.log('Usuario registrado');
                 let alert = this.alertCtrl.create({
                 title: "¡OPERACION EXITOSA!",
-                subTitle:"Ahora tu vehiculo esta sin servicio",
+                subTitle:"Vehiculo fuera de servicio",
                 buttons: [
                     {
                       text: 'Continuar',
