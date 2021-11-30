@@ -24,16 +24,17 @@
 
   <form #guardarForm="ngForm">
 
-    <div class="Imagen" >
-      <img  src="{{datosVehiculo?.foto}}" id="Imagen" [src]="captureDataUrl" *ngIf="captureDataUrl">
+    <div class="Imagen" style="text-align:center;" *ngIf="captureDataUrl == null" (click)="upload()">
+     <img src="img/icon/camara.png">
+      <div >Agrega una foto o imagen</div>
+    </div>    
+
+    <div (click)="upload()" *ngIf="captureDataUrl != null">
+      <img  src="{{datosVehiculo?.foto}}" id="Imagen" [src]="captureDataUrl" >
     </div>
 
-    <div style="text-align:center;">
-     <img src="img/logo.png" (click)="upload()">
-      <div >Agrega una foto</div>
-    </div>    
     
-    <ion-list>
+    <ion-list style="margin-top: 10px;">
       <ion-item>
         <ion-avatar item-left>
           <img src="img/icon/marca.png"/>      
@@ -55,7 +56,7 @@
           <img src="img/icon/categoria.png"/>      
         </ion-avatar>
         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Categoria* :</ion-label>
-        <ion-select [(ngModel)]="datosVehiculo.categoria" name="categoria" #categoria="ngModel" placeholder="categoria" required> 
+        <ion-select [(ngModel)]="datosVehiculo.categoria" name="categoria" #categoria="ngModel" placeholder="categoria" cancelText="Cancelar" okText="Agregar" required> 
         <ion-option value="Carros">Carros</ion-option>
         <ion-option value="Avanza">Avanza</ion-option>
         <ion-option value="Odyssey">Odyssey</ion-option>
@@ -68,7 +69,7 @@
           <img src="img/icon/pasajeros.png"/>      
         </ion-avatar>
         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Numero de pasajeros* :</ion-label>
-        <ion-select [(ngModel)]="datosVehiculo.numeroPasajeros" name="numeroPasajeros" #numeroPasajeros="ngModel" placeholder="asientos" required> 
+        <ion-select [(ngModel)]="datosVehiculo.numeroPasajeros" name="numeroPasajeros" #numeroPasajeros="ngModel" placeholder="asientos" cancelText="Cancelar" okText="Agregar" required> 
         <ion-option value="5">5</ion-option>
         <ion-option value="7">7</ion-option>
         <ion-option value="8">8</ion-option>
@@ -110,7 +111,7 @@
           <img src="img/icon/transmicion.png"/>      
         </ion-avatar>
         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Transmición* :</ion-label>
-        <ion-select [(ngModel)]="datosVehiculo.transmicion" name="transmicion" #transmicion="ngModel" placeholder="estandar, automatico" required> 
+        <ion-select [(ngModel)]="datosVehiculo.transmicion" name="transmicion" #transmicion="ngModel" placeholder="estandar, automatico" cancelText="Cancelar" okText="Agregar" required> 
         <ion-option value="Estandar">Estandar</ion-option>
         <ion-option value="Automatico">Automatico</ion-option>
         </ion-select>
@@ -156,8 +157,8 @@
         <ion-avatar item-left>
           <img src="img/icon/not.png"/>      
         </ion-avatar>
-        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Documentación del vehiculo* :</ion-label>
-        <ion-select [(ngModel)]="datosVehiculo.documentacionVehiculoV" name="documentacionVehiculoV" #documentacionVehiculoV="ngModel" placeholder="documentacion" required> 
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Documentación* :</ion-label>
+        <ion-select [(ngModel)]="datosVehiculo.documentacionVehiculoV" name="documentacionVehiculoV" #documentacionVehiculoV="ngModel" placeholder="documentacion" cancelText="Cancelar" okText="Agregar" required> 
         <ion-option value="SI">SI</ion-option>
         <ion-option value="NO">NO</ion-option>
         </ion-select>
@@ -167,7 +168,7 @@
           <img src="img/icon/refaccion.png"/>      
         </ion-avatar>
         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Refacción* :</ion-label>
-        <ion-select [(ngModel)]="datosVehiculo.refaccionV" name="refaccionV" #refaccionV="ngModel" placeholder="refaccion" required> 
+        <ion-select [(ngModel)]="datosVehiculo.refaccionV" name="refaccionV" #refaccionV="ngModel" placeholder="refaccion" cancelText="Cancelar" okText="Agregar" required> 
         <ion-option value="SI">SI</ion-option>
         <ion-option value="NO">NO</ion-option>
         </ion-select>
@@ -177,7 +178,7 @@
           <img src="img/icon/gato.png"/>      
         </ion-avatar>
         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Gato* :</ion-label>
-        <ion-select [(ngModel)]="datosVehiculo.gatoV" name="gatoV" #gatoV="ngModel" placeholder="gato" required> 
+        <ion-select [(ngModel)]="datosVehiculo.gatoV" name="gatoV" #gatoV="ngModel" placeholder="gato" cancelText="Cancelar" okText="Agregar" required> 
         <ion-option value="SI">SI</ion-option>
         <ion-option value="NO">NO</ion-option>
         </ion-select>

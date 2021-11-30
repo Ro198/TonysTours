@@ -47,9 +47,9 @@ export class VehiculoeditarrentaPage {
 
   }
 
-  cliente(){              
-    this.navCtrl.push(RentalistausuariosPage);
-  }
+ // cliente(){              
+ //   this.navCtrl.push(RentalistausuariosPage);
+ // }
 
   regresar(){              
     this.navCtrl.push(VehiculomostrarocupadoPage);

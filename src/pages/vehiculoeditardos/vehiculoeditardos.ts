@@ -9,7 +9,8 @@ import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
 import { 
   VehiculomostrarlibrePage,
   MenunivelunoPage,
-  MenuniveldosPage
+  MenuniveldosPage,
+  VehiculoslibresPage
 } from "../index.paginas";
 
 @Component({
@@ -204,8 +205,7 @@ export class VehiculoeditardosPage {
                     {
                       text: 'Aceptar',
                       handler: () => {
-                        //this.navCtrl.setRoot(MenuPage)
-                        this.dismiss()
+                        this.navCtrl.setRoot(VehiculoslibresPage);
                       }
                     }]
                });

@@ -1,7 +1,7 @@
 
 <ion-content>
 
-  <br>
+  <br> 
   <br>
  
   <ion-item>
@@ -18,7 +18,7 @@
                 <p style="font-size: 20px; color: #4A6D68;"><strong>{{datosV.marcaVehiculo}} - {{datosV.tipoVehiculo}}</strong></p>
                 <p style="font-size: 12px; color: #4A6D68;">Transmicion: <strong>{{datosV.transmicion}}</strong></p>
                 <p style="font-size: 12px; color: #718d79;">Color: <strong style="color: #505A53;">{{datosV.color}}</strong></p>
-                <p style="font-size: 12px; color: #718d79;">Placas: <strong style="color: #505A53;">{{datosV.placas}}</strong></p> 
+                <p style="font-size: 12px; color: #718d79;">Placas: <strong style="color: #1BC7AF;">{{datosV.placas}}</strong></p> 
               </div> 
             </ion-item>
         </ion-col>
@@ -35,7 +35,7 @@
       </ion-row>
     </ion-grid> 
 
-    <h3 style="text-align: center; font-size: 22px; color: #4A6D68;">Datos del taller</h3>
+    <h3 style="text-align: center; font-size: 22px; color: #4A6D68; margin-top: -5px;">Datos del taller</h3>
     <br>
 
     <div class="c1">
@@ -46,7 +46,7 @@
               <ion-item>
                 <div style="text-align: -webkit-center;">
                   <p style="font-size: 10px; color: #505A53;">Fecha de entrada</p>
-                  <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosV.fechaEntrada}}</strong></p>
+                  <p style="font-size: 16px; color: #1BC7AF;">{{datosV.fechaEntrada}}</p>
                 </div> 
               </ion-item>
             </ion-card>
@@ -56,7 +56,7 @@
               <ion-item>
                 <div style="text-align: -webkit-center;">
                   <p style="font-size: 10px; color: #505A53;">Motivo</p>
-                  <p style="font-size: 16px; color: #1BC7AF;"><strong>{{datosV.motivoTaller}}</strong></p>
+                  <p style="font-size: 16px; color: #1BC7AF;">{{datosV.motivoTaller}}</p>
                 </div> 
               </ion-item>
             </ion-card>
@@ -65,11 +65,9 @@
       </ion-grid> 
     </div>
 
-    <ion-item no-lines style="margin-left: 10px;">
-    <ion-card-content>
+    <ion-card-content style="margin-left: 10px;">
       <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/notas.png"/> Observaciones: <strong>{{datosV.notasT}}</strong></p>
     </ion-card-content>
-    </ion-item>
 
 
     <p style="margin-top: 14px; text-align: center; color: #718d79; opacity: 50%;">Enviado por: <strong style="color: #505A53;">{{datosV.nombreUsuario}}</strong></p>
@@ -88,7 +86,7 @@
         <p (click)="enlace_editar_taller()" style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Editar datos</p>
       </ion-col>
       <ion-col>   
-          <img style="width: 22%;" (click)="enlace_vd()"  src="img/icon/salir.png"/>
+          <img style="width: 22%;" (click)="enlace_vd()"  src="img/icon/salirT.png"/>
           <p (click)="enlace_vd()" style="font-size: 14px; color: #C10000; margin-top: 0%;">Salir del taller</p>
       </ion-col>
     </ion-row>

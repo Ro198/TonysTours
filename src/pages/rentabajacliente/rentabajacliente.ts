@@ -111,9 +111,10 @@ this.ClienteService.editar_cliente_renta(this.datosR.idCliente,
             );
           }
 }
-conti(){
-  this.navCtrl.push(RentabajaeliminarPage);
-}
+
+//conti(){
+//  this.navCtrl.push(RentabajaeliminarPage);
+//}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad RentabajaclientePage');

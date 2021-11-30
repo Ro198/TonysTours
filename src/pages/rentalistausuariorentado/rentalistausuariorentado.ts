@@ -95,9 +95,9 @@ export class RentalistausuariorentadoPage {
     
   }
 
-  renta(){              
-    this.navCtrl.push(RentaagregarPage);
-  }
+//  renta(){              
+//    this.navCtrl.push(RentaagregarPage);
+// }
 
   //RENTA CLIENTE
 
@@ -133,7 +133,7 @@ export class RentalistausuariorentadoPage {
               console.log(this.perfil.idUsuario);
 
             let loading =this.loadingCtrl.create({
-            content: "Enviando solicitud espere...",
+            content: "Cambiando dato, espere...",
               });
               loading.present();
 
@@ -170,7 +170,7 @@ export class RentalistausuariorentadoPage {
                 //console.log('Usuario registrado');
                 let alert = this.alertCtrl.create({
                 title: "¡EXITO!",
-                subTitle:"Tu solicitud fue aprobada",
+                subTitle:"Tu dato ha sido cambiado",
                 buttons: [
                     {
                       text: 'Aceptar',

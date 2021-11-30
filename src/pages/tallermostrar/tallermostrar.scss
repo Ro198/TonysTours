@@ -5,6 +5,10 @@ page-tallermostrar {
     border-radius: 0px;
   }
 
+  .item-md ion-avatar[item-left], .item-md ion-thumbnail[item-left], .item-md ion-avatar[item-start], .item-md ion-thumbnail[item-start]{
+    margin: 0px 0px 0px 0px;
+  }
+
   .item-md.item-block .item-inner {
     padding-right: 0px;
   }
@@ -12,11 +16,6 @@ page-tallermostrar {
   .item-md{
     padding-left: 0px;
   }
-
-  .item-md ion-avatar[item-left], .item-md ion-thumbnail[item-left], .item-md ion-avatar[item-start], .item-md ion-thumbnail[item-start]{
-    margin: 0px 0px 0px 0px;
-  }
-
 
   .grid {
     padding: 0px;
@@ -41,8 +40,6 @@ page-tallermostrar {
   }
   
   .card-content-md {
-    padding: 0px 0px;
-    font-size: 1.4rem;
-    line-height: 1.5;
-  }
+    padding: 0px 9px;
+}
 }

@@ -1,21 +1,21 @@
 
 <ion-header translucent="true" no-border>
   <ion-toolbar color="sincolor" style="text-align: center;">
-    <ion-title>Cliente...</ion-title>
+    <ion-title>Cliente rentando</ion-title>
+    <br>
+
+    <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Ya casi terminas!</strong></h1>
+    <ion-card-content style="text-align: justify;">
+      <p style="color: #505A53;">Al seleccionar la opción de <strong>RENTANDO</strong>, el cliente <strong>{{datosC.nombre}}</strong> pasara a modo de RENTA, esto quiere decir que el cliente estara rentando un vehiculo.</p>
+    </ion-card-content>
+
   </ion-toolbar>
 </ion-header> 
 
 
-<ion-content padding>
+<ion-content padding> 
 
   <br>
-  <br>
-  <br>
-
-  <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>
-  <ion-card-content style="text-align: justify;">
-    <p style="color: #505A53;">Al elegir la opción de <strong>RENTANDO</strong>, el cliente <strong>{{datosC.nombre}}</strong> pasara a modo de RENTA, esto quiere decir que el cliente estara rentando un vehiculo.</p>
-  </ion-card-content>
 
 <form #editarForm="ngForm">
   <ion-list>
@@ -23,17 +23,17 @@
     <ion-avatar item-left>
       <img src="img/icon/activo.png"/>      
      </ion-avatar>
-    <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Cliente...</ion-label>
-    <ion-select [(ngModel)]="editarCliente.vehiculoRentado" name="vehiculoRentado" #vehiculoRentado="ngModel" cancelText="Cancelar" okText="Agregar" required> 
+    <ion-label stacked style="font-size: 12px; color: #4A6D68;">Selecciona la opción correspondiente</ion-label>
+    <ion-select [(ngModel)]="editarCliente.vehiculoRentado" name="vehiculoRentado" #vehiculoRentado="ngModel" cancelText="Cancelar" okText="Agregar" placeholder="SIN VEHICULO" required> 
     <ion-option value="RENTANDO">RENTANDO</ion-option>
     </ion-select>
   </ion-item>
 </ion-list>
 <br>
+<br>
+
   <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Continuar</button>
 </form>
-
-<button ion-button round block color="txteditar" type="submit" (click)="renta()">renta</button>
 
 
 </ion-content>

@@ -46,9 +46,9 @@ export class RentabajaPage {
 
   } 
 
-  cliente(){              
-    this.navCtrl.push(RentabajaclientePage);
-  }
+  //cliente(){              
+  //  this.navCtrl.push(RentabajaclientePage);
+  //}
 
   regresar(){              
     this.navCtrl.push(RentasmostrarPage);

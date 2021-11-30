@@ -5,7 +5,8 @@ import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
 import { 
   VehiculomostrarlibrePage,
   MenunivelunoPage,
-  MenuniveldosPage
+  MenuniveldosPage,
+  VehiculosopcionesPage
 } from "../index.paginas";
 
 @Component({
@@ -75,7 +76,7 @@ export class VehiculoeditarsinservicioPage {
               console.log(this.perfil.idUsuario);
 
             let loading =this.loadingCtrl.create({
-            content: "Procesando peticion...",
+            content: "Procesando tu peticion...",
               });
               loading.present();
 
@@ -96,7 +97,7 @@ this.VehiculoFotoService.editar_vehiculo_Servicios(this.datosV.idVehiculo,
                     {
                       text: 'Continuar',
                       handler: () => {
-                        this.dismiss()
+                        this.navCtrl.setRoot(VehiculosopcionesPage);
                       }
                     }]
                });

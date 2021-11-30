@@ -15,7 +15,8 @@ import {
   MenunivelunoPage,
   MenuniveldosPage,
   VehiculomostrarlibrePage,
-  VehiculomostrarocupadoPage
+  VehiculomostrarocupadoPage,
+  VehiculosopcionesPage
 } from "../index.paginas";
 
 
@@ -108,7 +109,7 @@ export class VehiculoeditarfotoPage {
               console.log(this.perfil.idUsuario);
 
             let loading =this.loadingCtrl.create({
-            content: "Modificando tu foto espere...",
+            content: "Cambiando la imagen, espere...",
               });
               loading.present();
 
@@ -126,13 +127,12 @@ export class VehiculoeditarfotoPage {
                 //console.log('Usuario registrado');
                 let alert = this.alertCtrl.create({
                 title: "¡OPERACION EXITOSA!",
-                subTitle:"Tu foto fue modificada correctamente",
+                subTitle:"Tu imagen se cambio correctamente",
                 buttons: [
                     {
                       text: 'Aceptar',
                       handler: () => {
-                        //this.navCtrl.setRoot(MenuPage)
-                        this.dismiss()
+                        this.navCtrl.setRoot(VehiculosopcionesPage);
                       }
                     }]
                });
@@ -143,7 +143,7 @@ export class VehiculoeditarfotoPage {
 
               let alert = this.alertCtrl.create({
                 title: "¡ERROR!",
-                subTitle:"No se pudo modificar tu foto, intentalo nuevamente",
+                subTitle:"No se pudo cambiar tu imagen, intentalo nuevamente",
                 buttons: ["Aceptar"]
             });
 

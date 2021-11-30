@@ -63,6 +63,11 @@ export class RentaagregarPage {
     this.datosC = JSON.parse(this.BDCliente)
     console.log(this.datosC);
 
+    this.datosRenta.cristalesR = " ";
+    this.datosRenta.llantasR = " ";
+    this.datosRenta.tapiceriaR = " ";
+    this.datosRenta.notasR = " ";
+
 
   }
 
@@ -93,7 +98,7 @@ export class RentaagregarPage {
 
 
             let loading =this.loadingCtrl.create({
-            content: "Guardando renta espere...", 
+            content: "Guardando renta, espere...", 
              });
             loading.present();
    

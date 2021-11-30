@@ -4,8 +4,8 @@
   <br>
   <br>
  
-  <ion-item>
-   <ion-avatar item-left>
+  <ion-item> 
+   <ion-avatar item-left> 
       <img src="{{datosR.foto}}">
     </ion-avatar>
   </ion-item>
@@ -18,15 +18,15 @@
                 <p style="font-size: 20px; color: #4A6D68;"><strong>{{datosR.marcaVehiculo}} - {{datosR.tipoVehiculo}}</strong></p>
                 <p style="font-size: 12px; color: #4A6D68;">Cliente: <strong>{{datosR.nombre}}</strong></p>
                 <p style="font-size: 12px; color: #718d79;">Licencia: <strong style="color: #505A53;">{{datosR.licencia}}</strong></p>
-                <p style="font-size: 12px; color: #718d79;">Telefono: <strong style="color: #505A53;">{{datosR.telefono}}</strong></p> 
+                <p style="font-size: 12px; color: #718d79;">Telefono: <strong style="color: #1BC7AF;">{{datosR.telefono}}</strong></p> 
               </div> 
             </ion-item>
         </ion-col>
         <ion-col style="margin-top: 9px;">
           <ion-item no-lines>
             <div>
-              <p style="font-size: 12px; color: #718d79;">Modelo: <strong style="color: #505A53;">{{datosR.modelo}}</strong></p>
-              <p style="font-size: 12px; color: #718d79;">Placas: <strong style="color: #505A53;">{{datosR.placas}}</strong></p> 
+              <p style="font-size: 12px; color: #718d79;">Modelo: <strong style="color: #1BC7AF;">{{datosR.modelo}}</strong></p>
+              <p style="font-size: 12px; color: #718d79;">Placas: <strong style="color: #1BC7AF;">{{datosR.placas}}</strong></p> 
               <p style="font-size: 12px; color: #718d79;">Color: <strong style="color: #505A53;">{{datosR.color}}</strong></p>
               <p style="font-size: 12px; color: #718d79;">Transmicion: <strong style="color: #505A53;">{{datosR.transmicion}}</strong></p> 
             </div> 
@@ -147,18 +147,18 @@
       <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/cristal.png"/> Cristales: <strong>{{datosR.cristalesR}}</strong></p>
       <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/llanta.png"/> Llantas: <strong>{{datosR.llantasR}}</strong></p>
       <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/car.png"/> Tapiceria: <strong>{{datosR.tapiceriaR}}</strong></p>
-    <ion-card-content>
+    </ion-item>
+    <ion-card-content style="margin-left: 10px;">
       <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/notas.png"/> Notas: <strong>{{datosR.notasR}}</strong></p>
     </ion-card-content>
-    </ion-item>
 
     <p style="margin-top: 14px; text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{datosR.nombreUsuario}}</strong></p>
 
   <ion-fab right top>
     <button ion-fab ><ion-icon name="copy"></ion-icon></button>
     <ion-fab-list side="bottom">
-      <img ion-fab style="border-radius: 50%;" src="img/datosC.png" (click)="enlace_Datos_Cliente()" />
-      <img ion-fab style="border-radius: 50%;" src="img/datosV.png" (click)="enlace_Datos_Vehiculo()" />  
+      <img ion-fab style="border-radius: 50%;" src="img/datosCli.png" (click)="enlace_Datos_Cliente()" />
+      <img ion-fab style="border-radius: 50%;" src="img/datosVeh.png" (click)="enlace_Datos_Vehiculo()" />  
     </ion-fab-list>
     <ion-fab-list side="left">
       <p style="color: aliceblue;">Datos: Cliente y Vehiculo</p>
@@ -180,7 +180,7 @@
         <p (click)="enlace_editar_renta()" style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Editar renta</p>
       </ion-col>
       <ion-col>   
-          <img style="width: 22%;" (click)="enlace_Dar_Baja()"  src="img/icon/basura.png"/>
+          <img style="width: 22%;" (click)="enlace_Dar_Baja()"  src="img/icon/baja.png"/>
           <p (click)="enlace_Dar_Baja()" style="font-size: 14px; color: #C10000; margin-top: 0%;">Dar de baja</p>
       </ion-col>
     </ion-row>

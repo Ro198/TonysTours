@@ -9,7 +9,8 @@ import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
 import { 
   VehiculomostrarocupadoPage,
   MenunivelunoPage,
-  MenuniveldosPage
+  MenuniveldosPage,
+  VehiculosopcionesPage
 } from "../index.paginas";
 
 
@@ -205,8 +206,7 @@ export class VehiculoeditartresPage {
                     {
                       text: 'Aceptar',
                       handler: () => {
-                        //this.navCtrl.setRoot(MenuPage)
-                        this.dismiss()
+                        this.navCtrl.setRoot(VehiculosopcionesPage);
                       }
                     }]
                });

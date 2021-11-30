@@ -16,16 +16,18 @@
       </ion-col>
       </ion-row>
     </ion-grid> 
+
+    <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>
+    <ion-card-content style="text-align: justify;">
+      <p style="color: #505A53;">Este vehiculo se enviara a la lista de <strong>Vehiculos fueras de servicio</strong>, una vez hecho el cambio, puedes devolverlo o asignarlo a otra lista de vehiculos.</p>
+    </ion-card-content>
+
+    
   </ion-toolbar>
 </ion-header> 
 
 
 <ion-content padding>
-
-  <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>
-  <ion-card-content style="text-align: justify;">
-    <p style="color: #505A53;">Este vehiculo se enviara a la lista de <strong>Vehiculos fueras de servicio</strong>, una vez hecho el cambio, puedes devolverlo o asignarlo a otra lista de vehiculos.</p>
-  </ion-card-content>
 
 <form #editarForm="ngForm">
   <ion-list>
@@ -33,7 +35,7 @@
     <ion-avatar item-left>
       <img src="img/icon/car.png"/>      
      </ion-avatar>
-    <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Enviar a fuera de servicio</ion-label>
+    <ion-label stacked style="font-size: 12px; color: #4A6D68;">Selecciona la opción correspondiente</ion-label>
     <ion-select [(ngModel)]="editarVehiculoSinServicio.autoRentado" name="autoRentado" #autoRentado="ngModel" cancelText="Cancelar" okText="Agregar" placeholder="DISPONIBLES" required> 
       <ion-option value="SIN SERVICIO">FUERA DE SERVICIO</ion-option>
     </ion-select>

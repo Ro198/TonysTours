@@ -46,7 +46,7 @@ datosV;
     this.navCtrl.push(VehiculoeditarfotoPage)
   }
 
-  enlace_rentar(){
+  enlace_rentar(){ 
     
     this.navCtrl.push(VehiculoeditarrentaPage)
  
@@ -54,7 +54,7 @@ datosV;
   }
 
   enlace_editar_vehiculo(){ 
-    this.navCtrl.push(VehiculoeditartresPage)
+    this.navCtrl.push(VehiculoeditartresPage) 
   }
 
 

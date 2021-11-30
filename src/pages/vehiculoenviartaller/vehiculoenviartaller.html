@@ -16,18 +16,18 @@
       </ion-col>
       </ion-row>
     </ion-grid> 
+
+    <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>
+    <ion-card-content style="text-align: justify;">
+      <p style="color: #505A53;">Completa los datos siguientes, para enviar este vehiculo al <strong>Taller</strong>, ya sea por causas de mantenimiento o daños al mismo.</p>
+    </ion-card-content>
+  
+    
   </ion-toolbar>
 </ion-header> 
 
 
 <ion-content padding>
-
-  <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>
-  <ion-card-content style="text-align: justify;">
-    <p style="color: #505A53;">Este vehiculo se enviara al <strong>Taller</strong>, por causas de mantenimiento o daños al mismo.</p>
-  </ion-card-content>
-  
-<br>  
 
   <form #editarForm="ngForm">
     
@@ -37,7 +37,7 @@
           <img src="img/icon/motor.png"/>      
          </ion-avatar>
          <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">¿Cúal es el motivo?</ion-label>
-        <ion-select [(ngModel)]="enviarVehiculoTaller.motivoTaller" name="motivoTaller" #motivoTaller="ngModel" placeholder="motivo" required> 
+        <ion-select [(ngModel)]="enviarVehiculoTaller.motivoTaller" name="motivoTaller" #motivoTaller="ngModel" placeholder="motivo" cancelText="Cancelar" okText="Agregar" required> 
         <ion-option value="Afinacion">Afinacion</ion-option>
         <ion-option value="Golpe">Golpe</ion-option>
         <ion-option value="Sistema electrico">Sistema electrico</ion-option>

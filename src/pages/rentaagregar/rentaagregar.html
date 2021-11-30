@@ -24,7 +24,7 @@
           <img src="img/icon/calendar.png"/>      
         </ion-avatar>
         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Fecha de Salida* :</ion-label>
-        <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosRenta.fechaSalida" name="fechaSalida" #fechaSalida="ngModel" cancelText="Cancelar" doneText="Agregar" required></ion-datetime>
+        <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosRenta.fechaSalida" name="fechaSalida" #fechaSalida="ngModel" cancelText="Cancelar" doneText="Agregar" placeholder="2022-01-01" required></ion-datetime>
       </ion-item>
       <ion-item>
         <ion-avatar item-left>
@@ -38,7 +38,7 @@
           <img src="img/icon/calendar.png"/>      
         </ion-avatar>
         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Fecha de Llegada* :</ion-label>
-        <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosRenta.fechaLlegada" name="fechaLlegada" #fechaLlegada="ngModel" cancelText="Cancelar" doneText="Agregar" required></ion-datetime>
+        <ion-datetime monthValues="1,2,3,4,5,6,7,8,9,10,11,12" yearValues="2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030" displayFormat="YYYY-MM-DD" [(ngModel)]="datosRenta.fechaLlegada" name="fechaLlegada" #fechaLlegada="ngModel" cancelText="Cancelar" doneText="Agregar" placeholder="2022-01-01" required></ion-datetime>
       </ion-item>
       <ion-item>
         <ion-avatar item-left>
@@ -80,8 +80,8 @@
         <ion-avatar item-left>
           <img src="img/icon/not.png"/>       
         </ion-avatar>
-        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Documentación del vehiculo* :</ion-label>
-        <ion-select [(ngModel)]="datosRenta.documentacionVehiculoR" name="documentacionVehiculoR" #documentacionVehiculoR="ngModel" placeholder="documentacion" required> 
+        <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Documentación* :</ion-label>
+        <ion-select [(ngModel)]="datosRenta.documentacionVehiculoR" name="documentacionVehiculoR" #documentacionVehiculoR="ngModel" placeholder="documentacion" cancelText="Cancelar" okText="Agregar" required> 
         <ion-option value="SI">SI</ion-option>
         <ion-option value="NO">NO</ion-option>
         </ion-select>
@@ -91,7 +91,7 @@
           <img src="img/icon/refaccion.png"/>      
         </ion-avatar>
         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Refacción* :</ion-label>
-        <ion-select [(ngModel)]="datosRenta.refaccionR" name="refaccionR" #refaccionR="ngModel" placeholder="refaccion" required> 
+        <ion-select [(ngModel)]="datosRenta.refaccionR" name="refaccionR" #refaccionR="ngModel" placeholder="refaccion" cancelText="Cancelar" okText="Agregar" required> 
         <ion-option value="SI">SI</ion-option>
         <ion-option value="NO">NO</ion-option>
         </ion-select>
@@ -101,7 +101,7 @@
           <img src="img/icon/gato.png"/>      
         </ion-avatar>
         <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Gato* :</ion-label>
-        <ion-select [(ngModel)]="datosRenta.gatoR" name="gatoR" #gatoR="ngModel" placeholder="gato" required> 
+        <ion-select [(ngModel)]="datosRenta.gatoR" name="gatoR" #gatoR="ngModel" placeholder="gato" cancelText="Cancelar" okText="Agregar" required> 
         <ion-option value="SI">SI</ion-option>
         <ion-option value="NO">NO</ion-option>
         </ion-select>

@@ -1,8 +1,19 @@
 page-vehiculomostrarlibre {
-    .Foto {
-      text-align: center;
-      width: 100%;
-    }
+      
+  .item-md ion-avatar ion-img, .item-md ion-avatar img{
+    width: 450px;
+    height: 255px;
+    border-radius: 0px;
+  }
+  .item-md ion-avatar[item-left], .item-md ion-thumbnail[item-left], .item-md ion-avatar[item-start], .item-md ion-thumbnail[item-start]{
+    margin: 0px 0px 0px 0px;
+  }
+  .item-md.item-block .item-inner {
+    padding-right: 0px;
+  }
+  .item-md{
+    padding-left: 0px;
+  }
 
     .grid {
       padding: 0px;
@@ -37,12 +48,11 @@ page-vehiculomostrarlibre {
     }
 
     ion-fab[top] {
-      top: 165px;
+      top: 215px;
     }
-    
+   
     .card-content-md {
-      padding: 0px 0px;
-      font-size: 1.4rem;
-      line-height: 1.5;
+      padding: 0px 9px;
+
     }
 }

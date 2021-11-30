@@ -2,29 +2,36 @@
 
   <br>
   <br>
-    <div class="Foto">
-      <img src="{{datosV?.foto}}" id="Foto">
-    </div>
 
-    <ion-grid style="text-align: center;">
-      <ion-row>  
-        <ion-col> 
-            <ion-item no-lines>
-              <div>
-                <p style="font-size: 20px; color: #4A6D68;"><strong>{{datosV.marcaVehiculo}} - {{datosV.tipoVehiculo}}</strong></p>
-                <p style="font-size: 12px; color: #718d79;">Transmición: <strong style="color: #505A53;">{{datosV.transmicion}}</strong></p>
-                <p style="font-size: 12px; color: #718d79;">Color: <strong style="color: #505A53;">{{datosV.color}}</strong></p>   
-                <p style="font-size: 12px; color: #718d79;">Placas: <strong style="color: #505A53;">{{datosV.placas}}</strong></p> 
-              </div> 
-            </ion-item>
-        </ion-col>
-        <ion-col>
-          <p style="font-size: 12px; color: #718d79;">Documentación: <strong style="color: #505A53;">{{datosV.documentacionVehiculoV}}</strong></p>
-          <p style="font-size: 12px; color: #718d79;">Refacción: <strong style="color: #505A53;">{{datosV.refaccionV}}</strong></p>
-          <p style="font-size: 12px; color: #718d79;">Gato: <strong style="color: #505A53;">{{datosV.gatoV}}</strong></p>
-        </ion-col>
-      </ion-row>
-    </ion-grid> 
+  <ion-item>
+    <ion-avatar item-left>
+       <img src="{{datosV.foto}}">
+     </ion-avatar>
+   </ion-item>
+
+   <ion-grid style="text-align: center; margin-left: 20px;">
+    <ion-row>  
+      <ion-col> 
+          <ion-item no-lines>
+            <div>
+              <p style="font-size: 20px; color: #4A6D68;"><strong>{{datosV.marcaVehiculo}} - {{datosV.tipoVehiculo}}</strong></p>
+              <p style="font-size: 12px; color: #718d79;">Transmición: <strong style="color: #505A53;">{{datosV.transmicion}}</strong></p>
+              <p style="font-size: 12px; color: #718d79;">Color: <strong style="color: #505A53;">{{datosV.color}}</strong></p>   
+              <p style="font-size: 12px; color: #718d79;">Placas: <strong style="color: #1BC7AF;">{{datosV.placas}}</strong></p> 
+            </div> 
+          </ion-item>
+      </ion-col>
+      <ion-col style="margin-top: 9px;">
+        <ion-item no-lines>
+          <div>
+        <p style="font-size: 12px; color: #718d79;">Documentación: <strong style="color: #505A53;">{{datosV.documentacionVehiculoV}}</strong></p>
+        <p style="font-size: 12px; color: #718d79;">Refacción: <strong style="color: #505A53;">{{datosV.refaccionV}}</strong></p>
+        <p style="font-size: 12px; color: #718d79;">Gato: <strong style="color: #505A53;">{{datosV.gatoV}}</strong></p>
+          </div> 
+       </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid> 
 
 
     <div class="c1">
@@ -87,14 +94,14 @@
       </ion-grid>
     </div>
 
-    <ion-item no-lines>
+    <ion-item no-lines style="margin-left: 10px;">
       <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/cristal.png"/> Cristales: <strong>{{datosV.cristalesV}}</strong></p>
       <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/llanta.png"/> Llantas: <strong>{{datosV.llantasV}}</strong></p>
       <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/car.png"/> Tapiceria: <strong>{{datosV.tapiceriaV}}</strong></p>
-    <ion-card-content>
+    </ion-item>
+    <ion-card-content style="margin-left: 10px;">
       <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/notas.png"/> Notas: <strong>{{datosV.notasV}}</strong></p>
     </ion-card-content>
-    </ion-item>
 
     <p style="margin-top: 14px; text-align: center; color: #718d79; opacity: 50%;">Atendido por: <strong style="color: #505A53;">{{datosV.nombreUsuario}}</strong></p>
 
@@ -135,7 +142,7 @@
         <p (click)="enlace_editar_vehiculo()" style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Editar datos</p>
       </ion-col>
       <ion-col>     
-        <img style="width: 22%;" (click)="enlace_editar_vehiculoFoto()" src="img/icon/camera.png"/>
+        <img style="width: 22%;" (click)="enlace_editar_vehiculoFoto()" src="img/icon/camara.png"/>
         <p (click)="enlace_editar_vehiculoFoto()" style="font-size: 14px; color: #1BC7AF; margin-top: 0%;">Editar foto</p>
       </ion-col>
     </ion-row>

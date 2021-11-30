@@ -11,12 +11,16 @@ page-vehiculoeditarfoto {
           padding: 3%;
       }
 
-    img {
-        width: 20%;
-        border: 0;
-    }
+      .Imagen img {
+        max-width: 100px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        border-radius: 0%;
+        }
 
-    .Foto {
-        text-align: center;
-      }
+        .button-md { 
+            height: 5.6rem;
+            font-size: 1.9rem;
+        }
+
 }

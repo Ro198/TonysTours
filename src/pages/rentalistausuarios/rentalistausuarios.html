@@ -3,7 +3,7 @@
   <ion-toolbar color="sincolor" style="text-align: center;">
     <ion-title>Elije un cliente</ion-title>
 
-    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por nombre del cliente">
+    <ion-searchbar padding cancelButtonText (ionInput)="getItems($event)" placeholder="Buscar por nombre">
     </ion-searchbar>
 
   </ion-toolbar>
@@ -23,13 +23,13 @@
 
   <ion-list *ngFor="let item of clientes; let i=index;">
     <ion-card class="lista" (click)="detalles($event,item)">
-      <ion-item>
+      <ion-item> 
         <ion-avatar item-left>
           <img src="img/icon/usuario.png"/>      
         </ion-avatar>
         <h2 style="color: #4A6D68;"><strong>{{item.nombre}}</strong></h2> 
-        <h3 style="color: #505A53;">Tipo de cliente: {{item.tipoCliente}}</h3>
-        <h4 style="opacity: 50%;">Atendido por: {{item.nombreUsuario}}</h4>
+        <h3 style="color: #505A53;">Tipo de cliente: <strong>{{item.tipoCliente}}</strong></h3>
+        <h4 style="opacity: 50%;">Atendido por: <strong>{{item.nombreUsuario}}</strong></h4>
       </ion-item>
       <ion-grid style="text-align: center;">
         <ion-row> 
@@ -42,7 +42,7 @@
             </ion-chip>
           </ion-col>
           <ion-col>     
-            <h3 style="color: #505A53;">Licencia: <strong>{{item.licencia}} <br> {{item.fechaLicencia}}</strong></h3>
+            <h3 style="color: #505A53;">Licencia: <strong>{{item.licencia}}</strong> <br> <strong style="color: #1BC7AF;">{{item.fechaLicencia}}</strong></h3>
           </ion-col>
         </ion-row>
       </ion-grid> 

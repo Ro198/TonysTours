@@ -21,28 +21,30 @@
 
 <ion-content padding>
 
-  <div class="Foto">
+  <h5 style="text-align: center; color: #4A6D68;">Imagen actual</h5>
+  <div style="text-align:center;" >
     <img src="{{datosV?.foto}}" id="Foto">
   </div>
 
+  <br>
+
   <form #editarForm="ngForm">
 
-    <div class="Imagen">
-      <img  src="{{datosVehiculoFoto?.foto}}" id="Imagen" [src]="captureDataUrl" *ngIf="captureDataUrl">
-    </div>
-  
-    <button ion-button icon-left clear small (click)="upload()" style="margin-left: 78px;" >
-      <div >Agrega una foto</div>
-    </button>
+    <h5 style="text-align: center; color: #4A6D68;">Imagen Nueva</h5>
 
-    <button ion-button round block color="secondary" type="submit" (click)="editar(editarForm)">Modificar</button>
+    <div class="Imagen" style="text-align:center;" *ngIf="captureDataUrl == null" (click)="upload()">
+      <img src="img/icon/camara.png">
+       <div >Agrega una nueva foto o imagen</div>
+     </div>    
+ 
+     <div (click)="upload()" *ngIf="captureDataUrl != null">
+       <img  src="{{datosVehiculoFoto?.foto}}" id="Imagen" [src]="captureDataUrl" >
+     </div>
+
+<br>
+
+    <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Guardar cambios</button>
 
 </form>
-
-
-
-
-
-
 
 </ion-content>

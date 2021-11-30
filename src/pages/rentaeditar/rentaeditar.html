@@ -89,7 +89,7 @@
       <ion-avatar item-left>
         <img src="img/icon/car.png"/>      
        </ion-avatar>
-      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tapiceria :</ion-label>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Tapiceria:</ion-label>
       <ion-input type="text" [(ngModel)]="datosEditarRenta.tapiceriaR" name="tapiceriaR" #tapiceriaR="ngModel"></ion-input>
     </ion-item>
     <ion-item>
@@ -97,7 +97,7 @@
         <img src="img/icon/not.png"/>       
       </ion-avatar>
       <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Documentación del vehiculo:</ion-label>
-      <ion-select [(ngModel)]="datosEditarRenta.documentacionVehiculoR" name="documentacionVehiculoR" #documentacionVehiculoR="ngModel" required> 
+      <ion-select [(ngModel)]="datosEditarRenta.documentacionVehiculoR" name="documentacionVehiculoR" #documentacionVehiculoR="ngModel" cancelText="Cancelar" okText="Agregar" required> 
       <ion-option value="SI">SI</ion-option>
       <ion-option value="NO">NO</ion-option>
       </ion-select>
@@ -107,7 +107,7 @@
         <img src="img/icon/refaccion.png"/>      
       </ion-avatar>
       <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Refacción:</ion-label>
-      <ion-select [(ngModel)]="datosEditarRenta.refaccionR" name="refaccionR" #refaccionR="ngModel" required> 
+      <ion-select [(ngModel)]="datosEditarRenta.refaccionR" name="refaccionR" #refaccionR="ngModel" cancelText="Cancelar" okText="Agregar" required> 
       <ion-option value="SI">SI</ion-option>
       <ion-option value="NO">NO</ion-option>
       </ion-select>
@@ -116,8 +116,8 @@
       <ion-avatar item-left>
         <img src="img/icon/gato.png"/>      
       </ion-avatar>
-      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Gato* :</ion-label>
-      <ion-select [(ngModel)]="datosEditarRenta.gatoR" name="gatoR" #gatoR="ngModel" required> 
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Gato:</ion-label>
+      <ion-select [(ngModel)]="datosEditarRenta.gatoR" name="gatoR" #gatoR="ngModel" cancelText="Cancelar" okText="Agregar" required> 
       <ion-option value="SI">SI</ion-option>
       <ion-option value="NO">NO</ion-option>
       </ion-select>
@@ -126,13 +126,13 @@
       <ion-avatar item-left>
         <img src="img/icon/notasV.png"/>      
        </ion-avatar>
-      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Notas :</ion-label>
+      <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Notas:</ion-label>
       <ion-input type="text-area" [(ngModel)]="datosEditarRenta.notasR" name="notasR" #notasR="ngModel"></ion-input>
     </ion-item>
    </ion-list>
 
    <br>
-   <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Modificar</button>
+   <button ion-button round block color="txteditar" type="submit" (click)="editar(editarForm)">Guardar cambios</button>
 
 </form>
 

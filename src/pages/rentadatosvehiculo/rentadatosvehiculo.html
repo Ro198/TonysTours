@@ -32,7 +32,7 @@
       <h2 style="color: #4A6D68; font-size: 19px;"><strong>{{datosR.marcaVehiculo}} - {{datosR.tipoVehiculo}}</strong></h2>
       <h3 style="color: #505A53;">Transmicion: <strong>{{datosR.transmicion}}</strong></h3>
       <h3 style="color: #505A53;">Color: <strong>{{datosR.color}}</strong></h3>
-      <h4 style="color: #505A53;">Placas: <strong>{{datosR.placas}}</strong></h4>
+      <h4 style="color: #505A53;">Placas: <strong style="color: #1BC7AF;">{{datosR.placas}}</strong></h4>
     </ion-item>
   </ion-card> 
   
@@ -137,9 +137,10 @@
     <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/cristal.png"/> Cristales: <strong>{{datosR.cristalesV}}</strong></p>
     <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/llanta.png"/> Llantas: <strong>{{datosR.llantasV}}</strong></p>
     <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/car.png"/> Tapiceria: <strong>{{datosR.tapiceriaV}}</strong></p>
-  <ion-card-content>
+  </ion-item>
+
+  <ion-card-content style="margin-left: 10px;">
     <p style="font-size: 14px; color: #505A53;"><img style="width: 5%;" src="img/icon/notas.png"/> Notas: <strong>{{datosR.notasV}}</strong></p>
   </ion-card-content>
-  </ion-item>
 
 </ion-content>

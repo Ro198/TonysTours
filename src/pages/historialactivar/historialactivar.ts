@@ -75,7 +75,7 @@ export class HistorialactivarPage {
     this.editarCliente.colonia = this.datosC.colonia;  
     this.editarCliente.telefono = this.datosC.telefono; 
     this.editarCliente.ciudad = this.datosC.ciudad; 
-    this.editarCliente.estado = this.datosC.estado;
+    this.editarCliente.estado = this.datosC.estado; 
     this.editarCliente.licencia = this.datosC.licencia; 
     this.editarCliente.fechaLicencia = this.datosC.fechaLicencia; 
     this.editarCliente.observacionesCliente = this.datosC.observacionesCliente;

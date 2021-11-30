@@ -15,23 +15,24 @@
       </ion-col>
       </ion-row>
     </ion-grid> 
+
+    <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>
+    <ion-card-content style="text-align: center;">
+      <p style="color: #505A53;">Para poder enviar al cliente <strong>{{datosC.nombre}}</strong> a la lista de "Clientes Activos", primeramente tienes que darlo de baja de la agenda.</p>
+    
+      <p style="color: #505A53;">¿Seguro que quieres quitar al cliente <strong>{{datosC.nombre}}</strong>  de la lista de agendados?</p>
+    </ion-card-content>
+
   </ion-toolbar>
 </ion-header> 
 
 
 <ion-content padding>
 
-  <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>
-  <ion-card-content style="text-align: center;">
-    <p style="color: #505A53;">Para poder enviar al cliente <strong>{{datosC.nombre}}</strong> a la lista de "Clientes Activos", primeramente tienes que darlo de baja de la agenda.</p>
-  
-    <p style="color: #505A53;">¿Seguro que quieres quitar al cliente <strong>{{datosC.nombre}}</strong>  de la lista de agendados?</p>
-  </ion-card-content>
-
 <br>
+
   <form #quitarForm="ngForm">
     <button ion-button round block color="txteditar" type="submit" (click)="quitar(quitarForm)">Quitar</button>
   </form>
-
 
 </ion-content>

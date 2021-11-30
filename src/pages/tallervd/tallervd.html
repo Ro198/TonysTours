@@ -16,6 +16,13 @@
       </ion-col>
       </ion-row>
     </ion-grid> 
+
+    <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>
+    <ion-card-content style="text-align: justify;">
+      <p style="color: #505A53;">Cuando este vehiculo salga del taller, se enviara devuelta a vehiculos fuera de servicio para ser utilizado nuevamente.</p>
+    </ion-card-content>
+
+    
   </ion-toolbar>
 </ion-header> 
 
@@ -23,17 +30,10 @@
 <ion-content padding>
 
 
-  <h1 style=" text-align: center; color: #4A6D68;"><strong>¡Aviso!</strong></h1>
-  <ion-card-content style="text-align: justify;">
-    <p style="color: #505A53;">Cuando des de alta este vehiculo del taller, se enviara devuelta a vehiculos fuera de servicio para ser utilizado nuevamente.</p>
-  </ion-card-content>
-
-
-
-
   <form #editarForm="ngForm">
     
   <ion-list>
+    <h5 style="color: #505A53;">Completa los datos para darlo de alta.</h5>  
     <ion-item>
       <ion-avatar item-left>
         <img src="img/icon/calendar.png"/>      
@@ -46,7 +46,7 @@
         <img src="img/icon/talleridas.png"/>      
        </ion-avatar>
       <ion-label stacked style="font-size: 1.8rem; color: #4A6D68;">Idas al taller:</ion-label>
-      <ion-input type="number" [(ngModel)]="enviarVehiculoTaller.idasTaller" name="idasTaller" #idasTaller="ngModel" placeholder="Registra las idas al taller"
+      <ion-input type="number" [(ngModel)]="enviarVehiculoTaller.idasTaller" name="idasTaller" #idasTaller="ngModel" placeholder="0"
        required></ion-input>
     </ion-item>
   </ion-list>

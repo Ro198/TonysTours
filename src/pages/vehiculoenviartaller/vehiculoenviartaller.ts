@@ -5,7 +5,8 @@ import { VehiculoFotoService } from '../servicios/VehiculoFotoServices';
 import { 
   VehiculomostrarPage,
   MenunivelunoPage,
-  MenuniveldosPage
+  MenuniveldosPage,
+  VehiculosPage
 } from "../index.paginas";
 
 @Component({
@@ -115,7 +116,7 @@ this.VehiculoFotoService.enviar_vehiculo_taller(this.datosV.idVehiculo,
                     {
                       text: 'Continuar',
                       handler: () => {
-                        this.dismiss()
+                        this.navCtrl.setRoot(VehiculosPage);
                       }
                     }]
                });

@@ -110,8 +110,8 @@ export class VehiculosocupadosPage {
     if(item.renta == "EN RENTA"){
 
       let alert = this.alertCtrl.create({
-        title: '¡Atencion!',
-        subTitle: 'Este vehiculo esta siendo rentado.',
+        title: '¡Vehiculo bloqueado!',
+        subTitle: 'Este vehiculo esta siendo rentado por un cliente.',
         buttons: ['DE ACUERDO']
       });
       alert.present();
